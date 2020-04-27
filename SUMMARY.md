@@ -1,8 +1,15 @@
 # Table of contents
 
-* [This is the first page](README.md)
+* [Introduction](README.md)
 
-## Contracts
+## Tutorials <a id="asdf"></a>
+
+* [Creating a Prize Pool](asdf/creating-a-prize-pool.md)
+
+## Contract API <a id="contracts"></a>
 
 * [Overview](contracts/overview.md)
+* [PrizePoolFactory](contracts/prizepoolfactory.md)
+* [TicketPool](contracts/ticketpool.md)
+* [InterestPool](contracts/interestpool.md)
 
