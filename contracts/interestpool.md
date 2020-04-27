@@ -1,3 +1,7 @@
+---
+description: Pool deposits and allocate interest
+---
+
 # InterestPool
 
 InterestPools allow users to pool their assets together and deposit them into a Compound Money Market.  Users will always control their principal, but the InterestPool allocator is able to allocate the accrued interest to addresses.
