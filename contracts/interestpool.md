@@ -4,7 +4,7 @@ InterestPools allow users to pool their assets together and deposit them into a 
 
 ## Setup
 
-InterestPools are created using the InterestPoolFactory.  The factory instantiates a minimal proxy to the current implementation.
+InterestPools are created using the InterestPoolFactory.  The factory instantiates a minimal proxy to the current implementation.  The current implementation is not upgradeable, so the contract will not change once deployed.
 
 ```javascript
 function initialize (
