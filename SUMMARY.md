@@ -9,7 +9,9 @@
 ## Contract API <a id="contracts"></a>
 
 * [Overview](contracts/overview.md)
+* [Deployed Networks](contracts/deployed-networks.md)
 * [PrizePoolFactory](contracts/prizepoolfactory.md)
 * [TicketPool](contracts/ticketpool.md)
 * [InterestPool](contracts/interestpool.md)
+* [ControlledToken](contracts/controlledtoken.md)
 

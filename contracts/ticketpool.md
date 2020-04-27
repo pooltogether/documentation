@@ -1,6 +1,6 @@
 # TicketPool
 
-TicketPools wrap InterestPools so that the accrued interest can be awarded as a prize.
+TicketPools wrap InterestPools and award the accrued interest as a prize.
 
 ## Setup
 
