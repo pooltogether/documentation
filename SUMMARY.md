@@ -9,7 +9,6 @@
 ## Contract API <a id="contracts"></a>
 
 * [Overview](contracts/overview.md)
-* [Networks](contracts/deployed-networks.md)
 * [Prize Pool](contracts/prize-pool/README.md)
   * [Builder](contracts/prize-pool/prize-pool-builder.md)
   * [Ticket](contracts/prize-pool/ticket.md)
