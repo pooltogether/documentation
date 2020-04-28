@@ -2,9 +2,9 @@
 
 * [Introduction](README.md)
 
-## Tutorials <a id="asdf"></a>
+## Tutorials
 
-* [Creating a Prize Pool](asdf/prizepoolfactory.md)
+* [Creating a Prize Pool](tutorials/prizepoolfactory.md)
 
 ## Contract API <a id="contracts"></a>
 
