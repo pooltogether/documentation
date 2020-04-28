@@ -10,9 +10,9 @@
 
 * [Overview](contracts/overview.md)
 * [Networks](contracts/deployed-networks.md)
-* [PrizePoolFactory](contracts/prizepoolfactory.md)
+* [PrizePoolBuilder](contracts/prizepoolfactory.md)
 * [Ticket](contracts/ticket.md)
-* [TicketPool](contracts/ticketpool.md)
+* [PrizePool](contracts/prize-pool.md)
 * [InterestPool](contracts/interestpool.md)
 * [ControlledToken](contracts/controlledtoken.md)
 

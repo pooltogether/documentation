@@ -1,4 +1,4 @@
-# PrizePoolFactory
+# PrizePoolBuilder
 
-The PrizePoolFactory allows users to create new Ticket Pools
+The PrizePoolBuidler allows users to create new Prize Pools
 
