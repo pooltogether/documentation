@@ -4,13 +4,12 @@
 
 ## Tutorials <a id="asdf"></a>
 
-* [Creating a Prize Pool](asdf/creating-a-prize-pool.md)
+* [Creating a Prize Pool](asdf/prizepoolfactory.md)
 
 ## Contract API <a id="contracts"></a>
 
 * [Overview](contracts/overview.md)
 * [Networks](contracts/deployed-networks.md)
-* [PrizePoolBuilder](contracts/prizepoolfactory.md)
 * [Ticket](contracts/ticket.md)
 * [PrizePool](contracts/prize-pool.md)
 * [InterestPool](contracts/interestpool.md)
