@@ -4,7 +4,7 @@
 
 ## Tutorials
 
-* [Creating a Prize Pool](tutorials/prizepoolfactory.md)
+* [Creating a Prize Pool](tutorials/creating-a-prize-pool.md)
 
 ## Contract API <a id="contracts"></a>
 
