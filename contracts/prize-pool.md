@@ -2,7 +2,41 @@
 
 PrizePools award the accrued interest on deposits as prizes.
 
-## Setup
+## Creating Tickets
 
-A PrizePool is created using the PrizePoolFactory.
+Users can purchase tickets using the **mintTickets** function:
+
+```javascript
+function mintTickets(uint256 tickets) external
+```
+
+Tickets will be minted at a rate of 1:1 to the underlying asset, so minted 10 tickets will require 10 of the asset.  This function should be pre-approved to spend **tickets** amount of the underlying asset.
+
+## Redeeming Tickets
+
+Tickets can be redeemed for the underlying asset in two ways: either losslessly through a timelock, or instantly by paying a fee that goes toward the prize.
+
+### Lossless Redemption
+
+Tickets can be redeemed without any additional fees by timelocking the funds.  The withdrawal amount will be available after the next prize.
+
+To start a withdrawal timelock a user may call:
+
+```javascript
+function redeemTicketsWithTimelock(uint256 tickets) external returns (uint256)
+```
+
+The **tickets** represents the number of tickets to redeem and the function will return the timestamp after which the funds will be available to sweep into the user's wallet.
+
+### Instant Redemption
+
+If a user would like their tickets right away, they may pay a fee to the prize.  This fee is calculated based on the previous prize and is designed to prevent people from gaming the system.
+
+To withdraw instantly:
+
+```javascript
+function redeemTicketsInstantly(uint256 tickets) external returns (uint256)
+```
+
+The **tickets** represents how many tickets will be redeemed.  The amount transferred to the user, less the fee, is the value returned from the function.
 

@@ -14,4 +14,5 @@
 * [PrizePool](contracts/prize-pool.md)
 * [InterestPool](contracts/interestpool.md)
 * [ControlledToken](contracts/controlledtoken.md)
+* [SingleRandomWinnerPrizeStrategy](contracts/singlerandomwinnerprizestrategy.md)
 
