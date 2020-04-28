@@ -2,7 +2,7 @@
 
 The Ticket contract is an ERC20-compatible token that allows users to be selected by a token index.
 
-In addition to the standard ERC20 functions, a user can be selected using the function:
+To select a user by token index, use the function:
 
 ```javascript
 function draw(uint256 randomNumber) public view returns (address)
