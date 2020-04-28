@@ -68,5 +68,15 @@ function lockedBalanceAvailableAt(address user) external view returns (uint256)
 
 The timestamp after which the funds will be available is returned.
 
+## Awarding Prizes
 
+The PrizeStrategy that was configured when the PrizePool was created is the only address that is able to award prizes.
+
+To award prizes, the PrizeStrategy calls:
+
+```javascript
+function award(address winner, uint256 amount) external onlyPrizeStrategy
+```
+
+The function will award **amount** of tickets to the address **winner**.
 
