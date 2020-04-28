@@ -10,10 +10,11 @@
 
 * [Overview](contracts/overview.md)
 * [Networks](contracts/deployed-networks.md)
-* [Prize Pool Builder](contracts/prize-pool-builder.md)
-* [Ticket](contracts/ticket.md)
-* [Prize Pool](contracts/prize-pool.md)
-* [Interest Pool](contracts/interestpool.md)
-* [Controlled Token](contracts/controlledtoken.md)
-* [Single Random Winner Prize Strategy](contracts/singlerandomwinnerprizestrategy.md)
+* [Prize Pool](contracts/prize-pool/README.md)
+  * [Builder](contracts/prize-pool/prize-pool-builder.md)
+  * [Ticket](contracts/prize-pool/ticket.md)
+* [Prize Strategy](contracts/prize-strategy/README.md)
+  * [Single Random Winner](contracts/prize-strategy/singlerandomwinnerprizestrategy.md)
+* [Interest Pool](contracts/interestpool/README.md)
+  * [Controlled Token](contracts/interestpool/controlledtoken.md)
 

@@ -1,6 +1,6 @@
 # Prize Pool
 
-PrizePools award the accrued interest on deposits as prizes.
+PrizePools award the accrued interest on deposits as prizes.  The prizes are distributed according to the configured [Prize Strategy](../prize-strategy/).
 
 ## Buying Tickets
 

@@ -1,6 +1,6 @@
 # Ticket
 
-The Ticket contract is an ERC20 token that additionally allows users to be selected by a token index.
+The Ticket contract is a [ControlledToken](../interestpool/controlledtoken.md) that additionally allows users to be selected by a token index.  It is compatible with the ERC20 token interface.
 
 To select a user by token index, use the function:
 
