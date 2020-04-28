@@ -1,6 +1,6 @@
 # Ticket
 
-The Ticket contract is an ERC20-compatible token that allows users to be selected by a token index.
+The Ticket contract is an ERC20 token that additionally allows users to be selected by a token index.
 
 To select a user by token index, use the function:
 
