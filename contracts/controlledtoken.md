@@ -1,4 +1,4 @@
-# ControlledToken
+# Controlled Token
 
 A ControlledToken is an [ERC20](https://eips.ethereum.org/EIPS/eip-20) token that allows a controller to mint and burn tokens.
 

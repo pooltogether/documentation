@@ -1,4 +1,4 @@
-# PrizePool
+# Prize Pool
 
 PrizePools award the accrued interest on deposits as prizes.
 
