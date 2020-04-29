@@ -1,10 +1,6 @@
----
-description: This is an overview
----
-
 # Overview
 
-The core PoolTogether protocol consists of Interest Pools, Prize Pools, and Prize Strategies.
+The core PoolTogether protocol consists of Interest Pools, Prize Pools, and Prize Strategies.  The code can be found on [Github](https://github.com/pooltogether/pooltogether-contracts).
 
 ### Interest Pools
 
@@ -16,10 +12,12 @@ The core PoolTogether protocol consists of Interest Pools, Prize Pools, and Priz
 
 ### Prize Strategies
 
-Prize Strategies govern how, when and to whom Prize Pools award prizes.
+[Prize Strategies](prize-strategy/) govern how, when and to whom Prize Pools award prizes.
 
 ## Conventions
 
 * "Builder" contracts construct many contracts at once.
 * "Factory" contracts cheaply create instances of their respective contract using minimal proxies.
+
+
 
