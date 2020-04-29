@@ -6,6 +6,8 @@ A Prize Strategy governs the operation of Prize Pools.  The strategy determines:
 * The timelock duration
 * How, when, and to whom prizes are awarded
 
+## Interface
+
 
 
 
