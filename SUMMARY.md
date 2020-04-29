@@ -9,9 +9,7 @@
 ## Contract API <a id="contracts"></a>
 
 * [Overview](contracts/overview.md)
-* [Builders](contracts/builders/README.md)
-  * [Single Random Winner Builder](contracts/builders/single-random-winner-builder.md)
-  * [Prize Pool Builder](contracts/builders/prize-pool-builder.md)
+* [Builders](contracts/builders.md)
 * [Prize Pool](contracts/prize-pool/README.md)
   * [Prize Pool Factory](contracts/prize-pool/prize-pool-factory.md)
 * [Prize Strategy](contracts/prize-strategy/README.md)
