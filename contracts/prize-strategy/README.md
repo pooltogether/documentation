@@ -34,7 +34,7 @@ The strategy will be passed the user and the amount of tickets and be expected t
 
 ## Prize Strategy Privileges
 
-Only the Prize Strategy is able to award prizes on its associated [Prize Pool](../prize-pool/).   See awarding prizes
+Only the Prize Strategy is able to award prizes on its associated [Prize Pool](../prize-pool/).   See [Awarding Prizes](../prize-pool/#awarding-prizes).
 
 
 
