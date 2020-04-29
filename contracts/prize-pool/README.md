@@ -1,6 +1,6 @@
 # Prize Pool
 
-PrizePools award the accrued interest on deposits as prizes.  The prizes are distributed according to the configured [Prize Strategy](../prize-strategy/).  Uninitialized Prize Pools can be cheaply created using the [Prize Pool Factory](prize-pool-factory.md).
+Prize Pools award the accrued interest on deposits as prizes.  The prizes are distributed according to the configured [Prize Strategy](../prize-strategy/).  Uninitialized Prize Pools can be cheaply created using the [Prize Pool Factory](prize-pool-factory.md).
 
 ## Buying Tickets
 
@@ -70,9 +70,9 @@ The timestamp after which the funds will be available is returned.
 
 ## Awarding Prizes
 
-The PrizeStrategy that was configured when the PrizePool was created is the only address that is able to award prizes.
+The Prize Strategy that was configured when the Prize Pool was created is the only address that is able to award prizes.
 
-To award prizes, the PrizeStrategy calls:
+To award prizes, the Prize Strategy can call:
 
 ```javascript
 function award(address winner, uint256 amount) external onlyPrizeStrategy
