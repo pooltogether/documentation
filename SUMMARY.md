@@ -9,11 +9,14 @@
 ## Contract API <a id="contracts"></a>
 
 * [Overview](contracts/overview.md)
+* [Builders](contracts/builders/README.md)
+  * [Single Random Winner Builder](contracts/builders/single-random-winner-builder.md)
+  * [Prize Pool Builder](contracts/builders/prize-pool-builder.md)
 * [Prize Pool](contracts/prize-pool/README.md)
-  * [Builder](contracts/prize-pool/prize-pool-builder.md)
-  * [Ticket](contracts/prize-pool/ticket.md)
+  * [Prize Pool Factory](contracts/prize-pool/prize-pool-factory.md)
 * [Prize Strategy](contracts/prize-strategy/README.md)
   * [Single Random Winner](contracts/prize-strategy/singlerandomwinnerprizestrategy.md)
-* [Interest Pool](contracts/interestpool/README.md)
-  * [Controlled Token](contracts/interestpool/controlledtoken.md)
+* [Interest Pool](contracts/interestpool.md)
+* [Ticket](contracts/ticket.md)
+* [Controlled Token](contracts/controlledtoken.md)
 

@@ -1,6 +1,6 @@
 # Prize Pool
 
-PrizePools award the accrued interest on deposits as prizes.  The prizes are distributed according to the configured [Prize Strategy](../prize-strategy/).
+PrizePools award the accrued interest on deposits as prizes.  The prizes are distributed according to the configured [Prize Strategy](../prize-strategy/).  Uninitialized Prize Pools can be cheaply created using the [Prize Pool Factory](prize-pool-factory.md).
 
 ## Buying Tickets
 

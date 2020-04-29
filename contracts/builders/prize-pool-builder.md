@@ -1,6 +1,10 @@
-# Builder
+---
+description: Constructs a complete Prize Pool system
+---
 
-Users can create a Prize Pool using the Prize Pool Builder.  They must supply their own Prize Strategy.
+# Prize Pool Builder
+
+Users can create a new Prize Pool using the Prize Pool Builder.  They must supply their own Prize Strategy.
 
 ## Creating a Prize Pool
 

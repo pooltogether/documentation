@@ -1,10 +1,12 @@
 # Prize Strategy
 
-A Prize Pool's Prize Strategy determines:
+A Prize Strategy governs the operation of Prize Pools.  The strategy determines:
 
 * The fairness fee
 * The timelock duration
-* How prizes are awarded
+* How, when, and to whom prizes are awarded
+
+
 
 
 
