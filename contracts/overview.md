@@ -12,11 +12,11 @@ The core PoolTogether protocol consists of Interest Pools, Prize Pools, and Priz
 
 ### Prize Pools
 
-Prize Pools wrap Interest Pools with game mechanics.  Users deposits funds in exchange for [Tickets](ticket.md), which places them in an eligibility structure in addition to accounting for their collateral.   The [Prize Strategy](prize-strategy/) for the Pool determines how, when and to whom the prizes go to.
+[Prize Pools](prize-pool/) wrap Interest Pools with game mechanics.  Users deposits funds in exchange for [Tickets](ticket.md), which places them in an eligibility structure in addition to accounting for their collateral.   The [Prize Strategy](prize-strategy/) for the Pool determines how, when and to whom the prizes go to.
 
-### Builders
+### Prize Strategies
 
-
+Prize Strategies govern how, when and to whom Prize Pools award prizes.
 
 ## Conventions
 
