@@ -4,7 +4,9 @@ description: Pool deposits and allocate interest
 
 # Interest Pool
 
-InterestPools allow users to pool their assets together and deposit them into a Compound Money Market.  Users will always control their principal, but the InterestPool allocator is able to allocate the accrued interest to addresses.
+Interest Pools allow users to pool their assets together and deposit them into a Compound Money Market.  Users will always control their principal, but the Interest Pool allocator controls the accrued interest on deposits.
+
+A Prize Pool acts as the allocator for an Interest Pool.  Users can deposit directly into the Interest Pool to provide "sponsorship", or they can buy tickets from the Prize Pool.  The Prize Pool deposits the ticket deposits into the Interest Pool.
 
 ## Setup
 
