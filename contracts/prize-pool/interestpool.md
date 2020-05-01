@@ -10,7 +10,7 @@ A Prize Pool acts as the allocator for an Interest Pool.  Users can deposit dire
 
 ## Setup
 
-InterestPools are created using the InterestPoolFactory.  The factory instantiates a minimal proxy to the current implementation.  The current implementation is not upgradeable, so the contract will not change once deployed.
+Interest Pools are created using the Interest Pool Factory.  The factory instantiates a minimal proxy to the current implementation.  The current implementation is not upgradeable, so the contract will not change once deployed.
 
 ```javascript
 function initialize (
@@ -20,7 +20,7 @@ function initialize (
 ) external;
 ```
 
-Called after an InterestPool is created, this function will bind the pool to the given CTokenInterface \(Compound cToken address\) and controlled token. 
+Called after an Interest Pool is created, this function will bind the pool to the given CTokenInterface \(Compound cToken address\) and controlled token. 
 
 The [ControlledToken](controlledtoken.md) will be used to represent a claim on the underlying collateral.  I.e. if a user deposits Dai into the interest pool, they will be minted collateral tokens so that they may redeem them at any time.  The ControlledToken's controller is required to be this InterestPool.
 
