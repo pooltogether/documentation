@@ -16,7 +16,7 @@ PoolTogether is currently deployed to the following networks:
 
 | Contract Name | Address |
 | :--- | :--- |
-| [SingleRandomWinnerPrizePoolBuilder](contracts/builders.md#single-random-winner-prize-pool-builder) | [0x8D5a7e6a1C3bD572D8c518927a817300600de4FF](https://kovan.etherscan.io/address/0x8D5a7e6a1C3bD572D8c518927a817300600de4FF) |
+| [SingleRandomWinnerPrizePoolBuilder](contracts/builders.md#single-random-winner-prize-pool-builder) | [0x3ea5e0536Fd7751Fc2D4DD641afA0032F1720064](https://kovan.etherscan.io/address/0x3ea5e0536Fd7751Fc2D4DD641afA0032F1720064) |
 | [PrizePoolBuilder](contracts/builders.md#prize-pool-builder) | [0xE997122D560686073086d77cfb13d0F71980ef1A](https://kovan.etherscan.io/address/0xE997122D560686073086d77cfb13d0F71980ef1A) |
 | [InterestPoolFactory](contracts/prize-pool/interestpool.md) | [0x8e780e37F05fC6B6e45125dCdB8aa65dEa59ce98](https://kovan.etherscan.io/address/0x8e780e37F05fC6B6e45125dCdB8aa65dEa59ce98) |
 | [PrizePoolFactory](contracts/prize-pool/) | [0xE34D964B424a5fD0EF19fF7960925d590Ac83Da1](https://kovan.etherscan.io/address/0xE34D964B424a5fD0EF19fF7960925d590Ac83Da1) |

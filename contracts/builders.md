@@ -2,7 +2,7 @@
 description: Easily create preconfigured Prize Pools
 ---
 
-# Builders
+# Prize Pool Builders
 
 Builders allow users to create new Prize Pools in a single transaction.
 
