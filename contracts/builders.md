@@ -23,14 +23,36 @@ function createPrizePool(
 ) public returns (PrizePool)
 ```
 
-The function takes:
+| Function Parameter | Description |
+| :--- | :--- |
+| cToken | The Compound cToken to use for yield and to determine the underlying asset |
+| \_prizeStrategy | The prize strategy address |
+| \_collateralName | The name to use for the sponsorship token ERC20 |
+| \_collateralSymbol | The symbol to use for the sponsorship token ERC20 |
+| ticketName | The name to use for the ticket ERC20 |
+| ticketSymbol | The symbol to use for the ticket ERC20 |
 
-* cToken: The Compound cToken to use for yield and to determine the underlying asset
-* \_prizeStrategy: The prize strategy to use
-* collateralName: The token name for the sponsorship token
-* collateralSymbol: The token symbol for the sponsorship token
-* ticketName: The token name for tickets
-* ticketSymbol: The token symbol for tickets
+This function will emit the event:
+
+```javascript
+event PrizePoolCreated(
+    address indexed creator,
+    address indexed prizePool,
+    address indexed prizeStrategy,
+    address interestPool,
+    address collateral,
+    address ticket
+);
+```
+
+| Event Parameter | Description |
+| :--- | :--- |
+| creator | The address that called the contract |
+| prizePool | The address of the Prize Pool |
+| prizeStrategy | The address of the Prize Strategy |
+| interestPool | The address of the Interest Pool |
+| collateral | The address of the sponsorship token ERC20 |
+| ticket | The address of the ticket token ERC20 |
 
 ## Single Random Winner Prize Pool Builder
 
@@ -49,12 +71,28 @@ function createSingleRandomWinnerPrizePool(
 ) external returns (SingleRandomWinnerPrizeStrategy)
 ```
 
-The function takes:
+| Function Parameter | Description |
+| :--- | :--- |
+| cToken | The address of the Compound cToken to use |
+| prizePeriodInSeconds | The prize period to use for the Single Random Winner prize strategy |
+| \_collateralName | The name to use for the sponsorship token ERC20 |
+| \_collateralSymbol | The symbol to use for the sponsorship token ERC20 |
+| ticketName | The name to use for the ticket ERC20 |
+| ticketSymbol | The symbol to use for the ticket ERC20 |
 
-* cToken: The Compound cToken to use
-* prizePeriodInSeconds: The interval over which prizes should be awarded.
-* collateralName: The token name for the sponsorship token
-* collateralSymbol: The token symbol for the sponsorship token
-* ticketName: The token name for tickets
-* ticketSymbol: The token symbol for tickets
+This function will emit the event:
+
+```javascript
+event SingleRandomWinnerPrizePoolCreated(
+    address indexed creator,
+    address indexed prizePool,
+    address indexed singleRandomWinnerPrizeStrategy
+);
+```
+
+| Event Parameter | Description |
+| :--- | :--- |
+| creator | The address that called this contract |
+| prizePool | The address of the Prize Pool created |
+| singleRandomWinnerPrizeStrategy | The address of the Single Random Winner prize strategy |
 
