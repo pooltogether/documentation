@@ -145,6 +145,44 @@ function completeAward() external
 * Disburse the prize
 * Start the new prize
 
+## Reporting
+
+### Current Prize
+
+To retrieve amount of accrued prize interest so far you may call:
+
+```javascript
+function currentPrize() external view returns (uint256)
+```
+
+### Estimating Prize
+
+To estimate what the prize will be you can call:
+
+```javascript
+function estimatePrize() external view returns (uint256)
+```
+
+### Time
+
+To retrieve when the current prize started:
+
+```javascript
+function currentPrizeStartedAt() external view returns (uint256)
+```
+
+To retrieve when the prize will end:
+
+```javascript
+function prizePeriodEndAt() external view returns (uint256)
+```
+
+To retrieve the remaining time:
+
+```javascript
+function remainingSecondsToPrize() external view returns (uint256)
+```
+
 ## Miscellaneous
 
 | Function | Description |
