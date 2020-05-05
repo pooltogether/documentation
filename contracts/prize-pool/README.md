@@ -8,7 +8,7 @@ Prize Pools allow users to pool their assets together and award the accrued inte
 
 * Prize Pools are created using the [Prize Pool Builder](../builders.md)
 * Prize distribution is determined by the [Prize Strategy](../prize-strategy.md) configured at pool creation
-* Interest accrues by keeping deposits in a Compound Interest Pool
+* Interest accrues on the underlying assets by supplying them to Compound
 
 There are two types of membership in a Prize Pool; users may hold tickets or sponsorship.  Ticket tokens  represent both the underlying collateral and chances to win.  Sponsorship tokens represent the underlying collateral, but cannot win.
 
