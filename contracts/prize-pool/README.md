@@ -4,23 +4,43 @@ Prize Pools award the accrued interest on deposits as prizes.  The prizes are di
 
 ## Buying Tickets
 
-Users can purchase tickets using the **mintTickets** function:
+Users can purchase tickets using the **mintTickets** function. Tickets will be minted at a ratio of 1:1 to the underlying asset, so minted 10 tickets will require 10 of the asset.  This function should be pre-approved to transfer the underlying asset on behalf of the sender, as in the ERC20 spec.
 
 ```javascript
-function mintTickets(uint256 tickets) external
+function mintTickets(uint256 amount) external
 ```
 
-Tickets will be minted at a rate of 1:1 to the underlying asset, so minted 10 tickets will require 10 of the asset.  This function should be pre-approved to spend **tickets** amount of the underlying asset.
+| Parameter | Description |
+| :--- | :--- |
+| amount | The amount of the underlying asset the user wishes to deposit.  The Prize Pool contract should have been pre-approved by the caller to transfer the underlying ERC20 tokens. |
+
+Alternatively, a ticket can be purchased for someone else.  The sender must still supply the underlying tokens as the deposit:
+
+```javascript
+function mintTicketsTo(address to, uint256 amount) external
+```
+
+Minting fires the event:
+
+```javascript
+event TicketsMinted(address indexed from, address indexed to, uint256 amount);
+```
+
+| Event Data | Description |
+| :--- | :--- |
+| from | The address that triggered and paid for the mint |
+| to | The address that received the tickets |
+| amount | The amount of both the underlying asset that was transferred and the tickets that were minted. |
 
 ## Redeeming Tickets
 
-Tickets can be redeemed for the underlying asset in two ways: either losslessly through a timelock, or instantly by paying a fee that goes toward the prize.
+Tickets can be redeemed for the underlying asset in two ways: either by waiting for a time lock to expire, or instantly by paying a fee that goes toward the prize.
 
 ### Lossless Redemption
 
-Tickets can be redeemed without any additional fees by timelocking the funds.  The withdrawal amount will be available after the next prize.
+Tickets can be redeemed without any additional fees by time-locking the funds.  The withdrawal amount will be available after the next prize.
 
-To start a withdrawal timelock a user may call:
+To start a withdrawal time lock a user may call:
 
 ```javascript
 function redeemTicketsWithTimelock(uint256 tickets) external returns (uint256)
@@ -28,13 +48,31 @@ function redeemTicketsWithTimelock(uint256 tickets) external returns (uint256)
 
 The **tickets** represents the number of tickets to redeem and the function will return the timestamp after which the funds will be available to sweep into the user's wallet.
 
+The timestamp at which funds will be unlocked can be calculated using:
+
+```javascript
+function calculateUnlockTimestamp(address sender, uint256 tickets) external view
+```
+
 When enough time has passed the funds may be swept by anyone into the user's wallet:
 
 ```javascript
 function sweepTimelockFunds(address[] calldata users) external returns (uint256)
 ```
 
-The function accepts an array of addresses and will attempt to sweep the timelocked funds for each one.
+The function accepts an array of addresses and will attempt to sweep the time-locked funds for each one.
+
+The time-locked balance for a user can be retrieved using:
+
+```javascript
+function lockedBalanceOf(address user) external view returns (uint256)
+```
+
+The timestamp at which the time-locked balance will be available can be retrieved using:
+
+```javascript
+function lockedBalanceAvailableAt(address user) external view returns (uint256)
+```
 
 ### Instant Redemption
 
@@ -46,37 +84,62 @@ To withdraw instantly:
 function redeemTicketsInstantly(uint256 tickets) external returns (uint256)
 ```
 
-The **tickets** represents how many tickets will be redeemed.  The amount transferred to the user, less the fee, is the value returned from the function.
+The **tickets** parameter determines how many tickets will be redeemed.  The amount transferred to the user, less the fee, is the value returned from the function.
 
-## Timelocked Withdrawals
-
-When a user has a timelocked withdrawal, their funds will be available after a certain time.
-
-To find out their timelocked balance a user can call:
+The exit fee can be calculated using:
 
 ```javascript
-function lockedBalanceOf(address user) external view returns (uint256)
+function calculateExitFee(address sender, uint256 tickets) external view returns (uint256)
 ```
 
-The timelocked balance of the user will be returned.
+## Sponsoring
 
-To find out when a user is able to withdraw their funds:
+A user may sponsor the pool by contributing interest to the prize without being eligible to win.
+
+A user's sponsorship is tokenized as Sponsorship Tokens.  Sponsorship tokens are minted at a ratio of 1:1 to the underlying asset.  To deposit the asset as sponsorship a user may call:
 
 ```javascript
-function lockedBalanceAvailableAt(address user) external view returns (uint256)
+function mintSponsorship(uint256 tickets) external
 ```
 
-The timestamp after which the funds will be available is returned.
+To redeem their sponsorship a user calls:
+
+```javascript
+ function redeemSponsorship(uint256 tickets) external
+```
 
 ## Awarding Prizes
 
-The Prize Strategy that was configured when the Prize Pool was created is the only address that is able to award prizes.
+Prizes are awarded in two phases.  The first phase locks the Pool and requests a random number from the Random Number Generation service.  The second phase retrieves the random number, award the prize, and unlocks the pool.
 
-To award prizes, the Prize Strategy can call:
+The first phase of the award process begins by calling:
 
 ```javascript
-function award(address winner, uint256 amount) external onlyPrizeStrategy
+function startAward() external
 ```
 
-The function will award **amount** of tickets to the address **winner**.
+**startAward\(\)** will:
+
+* Lock the pool: minting and redemption not allowed.
+* Request a random number from the RNG service
+
+Once the random number is available, a user can call:
+
+```javascript
+function completeAward() external
+```
+
+**completeAward\(\)** will:
+
+* Unlock the pool
+* Disburse the prize
+* Start the new prize
+
+## Miscellaneous
+
+| Function | Description |
+| :--- | :--- |
+| function interestPool\(\) returns \(address\) | Returns the address of the interest pool that the Prize Pool is bound to. |
+| function sponsorship\(\) returns \(address\) | Returns the address of the sponsorship token. |
+| function ticket\(\) returns \(address\) | Returns the address of the ticket token. |
 
