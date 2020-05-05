@@ -1,12 +1,10 @@
+---
+description: Customize how the prize is awarded
+---
+
 # Prize Strategy
 
-A Prize Strategy governs the operation of [Prize Pools](../prize-pool/).  The strategy determines:
-
-* The instant withdrawal fairness fee
-* The lossless withdrawal timelock duration
-* How, when, and to whom prizes are awarded
-
-When a Prize Pool is constructed it is configured with a Prize Strategy.  The Prize Pool requires the Prize Strategy to implement a interface in order to be supported.
+A Prize Strategy handles prize distribution for [Prize Pools](../prize-pool/).  When a Prize Pool is constructed it is configured with a Prize Strategy.
 
 ## Prize Strategy Interface
 

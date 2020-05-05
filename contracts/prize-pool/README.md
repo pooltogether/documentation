@@ -1,6 +1,17 @@
+---
+description: Award accrued interest as a prize periodically
+---
+
 # Prize Pool
 
-Prize Pools award the accrued interest on deposits as prizes.  The prizes are distributed according to the configured [Prize Strategy](../prize-strategy/).  Uninitialized Prize Pools can be cheaply created using the [Prize Pool Factory](prize-pool-factory.md).
+Prize Pools allow users to pool their assets together and have the accrued interest awarded periodically as a prize.
+
+* Prize Pools are created using the [Prize Pool Builder](../builders.md)
+* Prize distribution is determined by the [Prize Strategy](../prize-strategy/) configured at pool creation
+
+There are two types of membership in a Prize Pool; users may hold tickets or sponsorship.  Ticket tokens  represent both the underlying collateral and chances to win.  Sponsorship tokens represent the underlying collateral, but cannot win.
+
+A user may mint tickets by depositing the underlying.
 
 ## Buying Tickets
 

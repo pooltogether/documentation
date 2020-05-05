@@ -16,21 +16,21 @@ Users can create a new single random winner prize pool using:
 function createSingleRandomWinnerPrizePool(
     CTokenInterface cToken,
     uint256 prizePeriodInSeconds,
-    string calldata _collateralName,
-    string calldata _collateralSymbol,
-    string calldata _ticketName,
-    string calldata _ticketSymbol
+    string calldata ticketName,
+    string calldata ticketSymbol,
+    string calldata sponsorshipName,
+    string calldata sponsorshipSymbol
 ) external returns (SingleRandomWinnerPrizeStrategy)
 ```
 
 | Function Parameter | Description |
 | :--- | :--- |
 | cToken | The address of the Compound cToken to use |
-| prizePeriodInSeconds | The prize period to use for the Single Random Winner prize strategy |
-| \_collateralName | The name to use for the sponsorship token ERC20 |
-| \_collateralSymbol | The symbol to use for the sponsorship token ERC20 |
+| prizePeriodInSeconds | The prize period to use |
 | ticketName | The name to use for the ticket ERC20 |
 | ticketSymbol | The symbol to use for the ticket ERC20 |
+| sponsorshipName | The name to use for the sponsorship token ERC20 |
+| sponsorshipSymbol | The symbol to use for the sponsorship token ERC20 |
 
 This function will emit the event:
 

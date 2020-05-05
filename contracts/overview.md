@@ -8,16 +8,11 @@ The core PoolTogether protocol consists of Prize Pools, Prize Strategies and Pri
 
 ### Prize Strategies
 
-[Prize Strategies](prize-strategy/) govern how, when and to whom Prize Pools award prizes.
+[Prize Strategies](prize-strategy/) distribute prizes.
 
 ### Prize Pool Builders
 
 Prize Pool Builders allow users to easily create preconfigured Prize Pools.  There is a builder to create Single Randomly Selected Winner Prize Pools, and one to create Prize Pools with a custom prize strategy.
-
-## Conventions
-
-* "Builder" contracts construct many contracts at once.
-* "Factory" contracts cheaply create instances of their respective contract using minimal proxies.
 
 
 

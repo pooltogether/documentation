@@ -26,5 +26,5 @@ contract PrizePool {
 }
 ```
 
-The Prize Pool must be initialized with the [Ticket](ticket.md) token, an [Interest Pool](interestpool.md), and a [Prize Strategy](../prize-strategy/).  The ticket token's controller must be the newly created Prize Pool.
+The Prize Pool must be initialized with the [Ticket](ticket.md) token, an [Interest Pool](), and a [Prize Strategy](../prize-strategy/).  The ticket token's controller must be the newly created Prize Pool.
 
