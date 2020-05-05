@@ -8,7 +8,7 @@ Builders allow users to create new Prize Pools in a single transaction.
 
 ## Single Random Winner Prize Pool Builder
 
-This builder creates a new [Prize Pool](prize-pool/) that uses a [Single Random Winner](prize-strategy/singlerandomwinnerprizestrategy.md) prize strategy.  This strategy awards the prize periodically to a randomly selected winner.
+This builder creates a new [Prize Pool](prize-pool.md) that uses a [Single Random Winner](prize-strategy/singlerandomwinnerprizestrategy.md) prize strategy.  This strategy awards the prize periodically to a randomly selected winner.
 
 Users can create a new single random winner prize pool using:
 
