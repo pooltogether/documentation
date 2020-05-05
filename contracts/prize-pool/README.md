@@ -4,7 +4,7 @@ description: Pool deposits and award accrued interest periodically as a prize
 
 # Prize Pool
 
-Prize Pools allow users to pool their assets together and have the accrued interest awarded periodically as a prize.
+Prize Pools allow users to pool their assets together and award the accrued interest periodically as a prize.
 
 * Prize Pools are created using the [Prize Pool Builder](../builders.md)
 * Prize distribution is determined by the [Prize Strategy](../prize-strategy.md) configured at pool creation
