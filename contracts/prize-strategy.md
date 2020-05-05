@@ -4,7 +4,7 @@ description: Customize how a Prize Pool distributes prizes
 
 # Prize Strategy
 
-A Prize Strategy handles prize distribution for [Prize Pools](../prize-pool.md).  When a Prize Pool is constructed it is configured with a Prize Strategy.
+A Prize Strategy handles prize distribution for [Prize Pools](prize-pool/).  When a Prize Pool is constructed it is configured with a Prize Strategy.
 
 ## Prize Strategy Interface
 
@@ -32,7 +32,7 @@ The strategy will be passed the user and the amount of tickets and be expected t
 
 ## Prize Strategy Privileges
 
-Only the Prize Strategy is able to award prizes on its associated [Prize Pool](../prize-pool.md).   See [Awarding Prizes](../prize-pool.md#awarding-prizes).
+Only the Prize Strategy is able to award prizes on its associated [Prize Pool](prize-pool/).   See [Awarding Prizes](prize-pool/#awarding-prizes).
 
 
 

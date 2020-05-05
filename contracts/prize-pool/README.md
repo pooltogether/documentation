@@ -6,13 +6,11 @@ description: Pool deposits and award accrued interest periodically as a prize
 
 Prize Pools allow users to pool their assets together and have the accrued interest awarded periodically as a prize.
 
-* Prize Pools are created using the [Prize Pool Builder](builders.md)
-* Prize distribution is determined by the [Prize Strategy](prize-strategy/) configured at pool creation
+* Prize Pools are created using the [Prize Pool Builder](../builders.md)
+* Prize distribution is determined by the [Prize Strategy](../prize-strategy.md) configured at pool creation
 * Interest accrues by keeping deposits in a Compound Interest Pool
 
 There are two types of membership in a Prize Pool; users may hold tickets or sponsorship.  Ticket tokens  represent both the underlying collateral and chances to win.  Sponsorship tokens represent the underlying collateral, but cannot win.
-
-A user may mint tickets by depositing the underlying.
 
 ## Buying Tickets
 
@@ -151,7 +149,6 @@ function completeAward() external
 
 | Function | Description |
 | :--- | :--- |
-| function interestPool\(\) returns \(address\) | Returns the address of the interest pool that the Prize Pool is bound to. |
-| function sponsorship\(\) returns \(address\) | Returns the address of the sponsorship token. |
-| function ticket\(\) returns \(address\) | Returns the address of the ticket token. |
+| function sponsorship\(\) returns \([ERC20](https://eips.ethereum.org/EIPS/eip-20)\) | Returns the address of the sponsorship token. |
+| function ticket\(\) returns \([Ticket](ticket.md)\) | Returns the address of the ticket token. |
 

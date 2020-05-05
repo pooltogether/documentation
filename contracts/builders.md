@@ -4,11 +4,11 @@ description: Easily create preconfigured Prize Pools
 
 # Prize Pool Builders
 
-Builders allow users to create new Prize Pools in a single transaction.
+Builders allow users to create preconfigured Prize Pools.  Users may provide their own Prize Strategy, or use the Single Random Winner strategy.
 
 ## Single Random Winner Prize Pool Builder
 
-This builder creates a new [Prize Pool](prize-pool.md) that uses a [Single Random Winner](prize-strategy/singlerandomwinnerprizestrategy.md) prize strategy.  This strategy awards the prize periodically to a randomly selected winner.
+This builder creates a new [Prize Pool](prize-pool/) that uses a [Single Random Winner]() prize strategy.  This strategy awards the prize periodically to a randomly selected winner.
 
 Users can create a new single random winner prize pool using:
 
@@ -55,24 +55,25 @@ The Prize Pool Builder is the core Builder of the system.  It allows users to cr
 Users can create new prize pools using the function:
 
 ```javascript
-function createPrizePool(
+function createPeriodicPrizePool(
     CTokenInterface cToken,
-    PrizeStrategyInterface _prizeStrategy,
-    string memory _collateralName,
-    string memory _collateralSymbol,
-    string memory _ticketName,
-    string memory _ticketSymbol
+    PrizeStrategyInterface prizeStrategy,
+    uint256 prizePeriodSeconds,
+    string memory ticketName,
+    string memory ticketSymbol,
+    string memory sponsorshipName,
+    string memory sponsorshipSymbol
 ) public returns (PrizePool)
 ```
 
 | Function Parameter | Description |
 | :--- | :--- |
-| cToken | The Compound cToken to use for yield and to determine the underlying asset |
-| \_prizeStrategy | The prize strategy address |
-| \_collateralName | The name to use for the sponsorship token ERC20 |
-| \_collateralSymbol | The symbol to use for the sponsorship token ERC20 |
+| cToken | The Compound cToken to use for yield.  The underlying asset for the Prize Pool will be the underlying asset for the cToken. |
+| prizeStrategy | The address of the prize strategy contract. |
 | ticketName | The name to use for the ticket ERC20 |
 | ticketSymbol | The symbol to use for the ticket ERC20 |
+| sponsorshipName | The name to use for the sponsorship ERC20 |
+| sponsorshipSymbol | The symbol to use for the sponsorship ERC20 |
 
 This function will emit the event:
 
@@ -80,10 +81,10 @@ This function will emit the event:
 event PrizePoolCreated(
     address indexed creator,
     address indexed prizePool,
-    address indexed prizeStrategy,
     address interestPool,
-    address collateral,
-    address ticket
+    address ticket,
+    address prizeStrategy,
+    uint256 prizePeriodSeconds
 );
 ```
 
@@ -91,10 +92,10 @@ event PrizePoolCreated(
 | :--- | :--- |
 | creator | The address that called the contract |
 | prizePool | The address of the Prize Pool |
-| prizeStrategy | The address of the Prize Strategy |
-| interestPool | The address of the Interest Pool |
-| collateral | The address of the sponsorship token ERC20 |
+| interestPool | The address of the Compound Interest Pool |
 | ticket | The address of the ticket token ERC20 |
+| prizeStrategy | The address of the Prize Strategy |
+| prizePeriodSeconds | The prize period in seconds. |
 
 
 
