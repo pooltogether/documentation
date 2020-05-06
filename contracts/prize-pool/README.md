@@ -13,21 +13,13 @@ Prize Pools allow users to pool their assets together and award the accrued inte
 3. Accrued interest is awarded as prizes
 4. The accrued interest starts to build again...
 
-Prize Pools run autonomously, 
+Users may also "sponsor" the pool by minting sponsorship tokens.  Sponsorship tokens allow a user to contribute to the prize without being eligible to win.
 
-* Compound cToken to use to generate yield
-* Prize Strategy that determines how prizes are distributed
-* Prize period 
+Prize Pools are created using [Prize Pool Builders](../builders.md). When a Prize Pool is created it is configured with:
 
-
-
-
-
-* Prize Pools are created using the [Prize Pool Builder](../builders.md)
-* Prize distribution is determined by the [Prize Strategy](../prize-strategy.md) configured at pool creation
-* Interest accrues on the underlying assets by supplying them to Compound
-
-There are two types of membership in a Prize Pool; users may hold tickets or sponsorship.  Ticket tokens  represent both the underlying collateral and chances to win.  Sponsorship tokens represent the underlying collateral, but cannot win.
+* The [Compound cToken](https://compound.finance/docs/ctokens) to use to generate yield
+* The period of the prize in seconds; i.e. the frequency at which prizes can be awarded.
+* A [Prize Strategy](../prize-strategy.md) that determines how prizes are distributed
 
 ## Buying Tickets
 
