@@ -2,7 +2,7 @@
 description: Easily create preconfigured Prize Pools
 ---
 
-# Prize Pool Builders
+# 🛠 Prize Pool Builders
 
 Builders allow users to create preconfigured Prize Pools.  Users may provide their own Prize Strategy, or use the Single Random Winner strategy.
 

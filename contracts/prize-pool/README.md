@@ -2,7 +2,7 @@
 description: Pool deposits and award accrued interest periodically as a prize
 ---
 
-# Prize Pool
+# 🏆 Prize Pool
 
 ## Introduction
 
