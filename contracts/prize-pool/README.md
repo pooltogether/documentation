@@ -4,7 +4,24 @@ description: Pool deposits and award accrued interest periodically as a prize
 
 # Prize Pool
 
+## Introduction
+
 Prize Pools allow users to pool their assets together and award the accrued interest periodically as a prize.
+
+1. Users deposit into the Prize Pool and receive Tickets in exchange.
+2. Deposits are placed into Compound and interest accrues
+3. Accrued interest is awarded as prizes
+4. The accrued interest starts to build again...
+
+Prize Pools run autonomously, 
+
+* Compound cToken to use to generate yield
+* Prize Strategy that determines how prizes are distributed
+* Prize period 
+
+
+
+
 
 * Prize Pools are created using the [Prize Pool Builder](../builders.md)
 * Prize distribution is determined by the [Prize Strategy](../prize-strategy.md) configured at pool creation

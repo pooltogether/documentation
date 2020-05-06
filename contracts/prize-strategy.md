@@ -4,7 +4,9 @@ description: Customize how a Prize Pool distributes prizes
 
 # Prize Strategy
 
-A Prize Strategy handles prize distribution for [Prize Pools](prize-pool/).  When a Prize Pool is constructed it is configured with a Prize Strategy.
+A Prize Strategy handles prize distribution for a [Prize Pool](prize-pool/).  When a Prize Pool is constructed it is configured with a Prize Strategy.
+
+
 
 ## Prize Strategy Interface
 
