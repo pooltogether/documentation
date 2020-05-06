@@ -53,19 +53,19 @@ event TicketsMinted(address indexed from, address indexed to, uint256 amount);
 
 ## Redeeming Tickets
 
-Tickets can be redeemed for the underlying asset in two ways: either by waiting for a time lock to expire, or instantly by paying a fee that goes toward the prize.
+Tickets can be redeemed for the underlying asset in two ways: losslessly by triggering a transaction that completes at the end of the prize period, or instantly by paying an early exit contribution to the prize.
 
 ### Lossless Redemption
 
-Tickets can be redeemed without any additional fees by time-locking the funds.  The withdrawal amount will be available after the next prize.
+Tickets can be redeemed without any fees by time-locking the funds.  The withdrawal amount will be available at the conclusion of the current prize period.
 
-To start a withdrawal time lock a user may call:
+To start a lossless withdrawal a user may call:
 
 ```javascript
 function redeemTicketsWithTimelock(uint256 tickets) external returns (uint256)
 ```
 
-The **tickets** represents the number of tickets to redeem and the function will return the timestamp after which the funds will be available to sweep into the user's wallet.
+The **tickets** represents the number of tickets to redeem and the function will return the timestamp after which the funds will be available to sweep into the user's wallet. The timestamp will correspond to the end of the prize period the users has initiated the withdrawal in.
 
 The timestamp at which funds will be unlocked can be calculated using:
 
@@ -73,7 +73,7 @@ The timestamp at which funds will be unlocked can be calculated using:
 function calculateUnlockTimestamp(address sender, uint256 tickets) external view
 ```
 
-When enough time has passed the funds may be swept by anyone into the user's wallet:
+When the current prize period has completed the funds may be swept by anyone into the user's wallet:
 
 ```javascript
 function sweepTimelockFunds(address[] calldata users) external returns (uint256)
@@ -95,7 +95,7 @@ function lockedBalanceAvailableAt(address user) external view returns (uint256)
 
 ### Instant Redemption
 
-If a user would like their tickets right away, they may pay a fee to the prize.  This fee is calculated based on the previous prize and is designed to prevent people from gaming the system.
+If a user would like their tickets right away, they may pay an early exit contribution to the prize.  This contribution is calculated based on the previous prize and is designed to prevent people from gaming the system by depositing right before a prize, having a chance to win, and withdrawing right after.
 
 To withdraw instantly:
 
