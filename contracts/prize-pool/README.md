@@ -154,6 +154,18 @@ function completeAward() external
 * Disburse the prize
 * Start the new prize
 
+Both startAward\(\) and completeAward\(\) have functions to check whether they can be called:
+
+```javascript
+function canStartAward() external view returns (bool);
+```
+
+and
+
+```javascript
+function canCompleteAward() external view returns (bool);
+```
+
 ## Reporting
 
 ### Current Prize
