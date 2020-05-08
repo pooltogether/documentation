@@ -81,16 +81,18 @@ function sweepTimelockFunds(address[] calldata users) external returns (uint256)
 
 The function accepts an array of addresses and will attempt to sweep the time-locked funds for each one.
 
-The time-locked balance for a user can be retrieved using:
+The time-locked funds are tracked using the "Timelock" token.  The ERC20 token address can be retrieved like so:
 
 ```javascript
-function lockedBalanceOf(address user) external view returns (uint256)
+function timelock() external view returns (ERC20)
 ```
+
+You can call the `balanceOf(address)` function on the time-locked token to get the users balance.
 
 The timestamp at which the time-locked balance will be available can be retrieved using:
 
 ```javascript
-function lockedBalanceAvailableAt(address user) external view returns (uint256)
+function timelockBalanceAvailableAt(address user) external view returns (uint256)
 ```
 
 ### Instant Redemption
