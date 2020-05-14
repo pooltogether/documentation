@@ -23,13 +23,21 @@ Because the protocol is built on the Ethereum blockchain it also has the additio
 * Efficiency through administration by smart contracts
 * Trust through transparency of code
 
-**The codebase is hosted on** [**Github**](https://github.com/pooltogether/pooltogether-contracts/tree/version-3)**.**
-
 **Please join the \#development channel in the PoolTogether community** [**Discord**](https://discord.gg/5sjnHd) **server.**  The PoolTogether team and members of the community are there to help you build your application and answer any questions you might have.  Your questions help us improve the protocol!
 
 ## Getting Started
 
-### [Creating a Prize Pool](tutorials/creating-a-prize-pool.md)
+### Codebase
+
+The PoolTogether v3.0-alpha contracts live in the **version-3** branch on [Github](https://github.com/pooltogether/pooltogether-contracts/tree/version-3).
+
+The Prize Pool builder is [hosted here](https://builder.pooltogether.com), and the source code is on [Github](https://github.com/pooltogether/prize-pool-builder-ui).
+
+The Prize Pool reference interface is [hosted here](https://reference-app.pooltogether.com/), and the source code is on [Github](https://github.com/pooltogether/pt-v3-ui).
+
+### Guides
+
+[Creating a Prize Pool](tutorials/creating-a-prize-pool.md)
 
 ## Networks
 
