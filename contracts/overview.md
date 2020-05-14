@@ -18,5 +18,16 @@ When a Prize Pool is created it is configured with a Prize Strategy.  The [Prize
 
 The Prize Pool Builders allow users to easily create preconfigured Prize Pools.  There is a builder to create Single Randomly Selected Winner Prize Pools, and one to create Prize Pools with a custom prize strategy.
 
+## Gas Station Network
 
+PoolTogether supports the [Gas Station Network 2.0](https://github.com/opengsn/gsn).  The Gas Station Network is an open source system for meta transactions on Ethereum.  The GSN consists of smart contracts, relayers, and a protocol to support a decentralized meta transaction relayer network.
+
+The PoolTogether smart contracts support GSNv2 by inheriting from the [BaseRelayRecipient](https://github.com/opengsn/gsn/blob/master/contracts/BaseRelayRecipient.sol) contract and being bound to a trusted forwarder.  The contracts are tooled so that they support GSN transactions.
+
+The contracts that support the GSN are:
+
+* [Prize Pools](prize-pool/)
+* [Ticket](prize-pool/ticket.md) tokens
+
+The PoolTogether contracts on Kovan are bound to the [TrustedForwarder deployed by the GSN](https://docs.opengsn.org/gsn-provider/networks.html).
 
