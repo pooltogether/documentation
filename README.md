@@ -8,7 +8,7 @@ description: 'PoolTogether: A Protocol for Prize-Linked Savings'
 
 **Please note that this documentation is currently for the alpha version of PoolTogether 3.0.  It is subject to change until the protocol has stabilized.**
 
-PoolTogether is a protocol for prize savings on the Ethereum Blockchain. It enables the creation of pools of funds whose accrued interest is distributed fairly as prizes.  Users of the protocol deposit funds in exchange for tickets, which represent both the amount of underlying assets and their chance to win.  Prizes are awarded as tickets to the winning ticket holder. 
+PoolTogether is a protocol for prize savings on the Ethereum Blockchain. It enables the creation of pools of funds whose accrued interest is distributed fairly as prizes. Users of the protocol deposit funds in exchange for tickets, which represent both the amount of underlying assets and their chance to win. Prizes are awarded as tickets to the winning ticket holder. 
 
 The protocol shares the same key characteristics of all prize savings products:
 
@@ -23,17 +23,17 @@ Because the protocol is built on the Ethereum blockchain it also has the additio
 * Efficiency through administration by smart contracts
 * Trust through transparency of code
 
-**Please join the \#development channel in the PoolTogether community** [**Discord**](https://discord.gg/5sjnHd) **server.**  The PoolTogether team and members of the community are there to help you build your application and answer any questions you might have.  Your questions help us improve the protocol!
+**Please join the \#development channel in the PoolTogether community** [**Discord**](https://discord.gg/5sjnHd) **server.** The PoolTogether team and members of the community are there to help you build your application and answer any questions you might have.  Your questions help us improve the protocol!
 
 ## Getting Started
 
 ### Codebase
 
-The PoolTogether v3.0-alpha contracts live in the **version-3** branch on [Github](https://github.com/pooltogether/pooltogether-contracts/tree/version-3).
+The PoolTogether v3.0-alpha contracts live in the **version-3** branch on [Github](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3).
 
-The Prize Pool builder is [hosted here](https://builder.pooltogether.com), and the source code is on [Github](https://github.com/pooltogether/prize-pool-builder-ui).
+The Prize Pool builder is [hosted here](https://builder.pooltogether.com), and the source code is on [Github](https://github.com/pooltogether/pooltogether-pool-builder-ui).
 
-The Prize Pool reference interface is [hosted here](https://reference-app.pooltogether.com/), and the source code is on [Github](https://github.com/pooltogether/pt-v3-ui).
+The Prize Pool reference interface is [hosted here](https://reference-app.pooltogether.com/), and the source code is on [Github](https://github.com/pooltogether/pooltogether-pool-ui).
 
 ### Guides
 
@@ -41,7 +41,7 @@ The Prize Pool reference interface is [hosted here](https://reference-app.poolto
 
 ## Networks
 
-PoolTogether is currently deployed to the following networks:
+PoolTogether 3.0-alpha is currently deployed to the following networks:
 
 ### Kovan
 
