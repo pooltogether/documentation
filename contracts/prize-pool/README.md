@@ -6,210 +6,121 @@ description: Pool deposits and award accrued interest periodically as a prize
 
 ## Introduction
 
-Prize Pools allow users to pool their assets together and award the accrued interest periodically as a prize.
+Prize Pools are general-purpose contracts that allow users to safely deposit collateral into a yield-generating service and have the accrued interest disbursed by a separate Prize Strategy contract. PoolTogether currently provides a Compound Prize Pool that uses Compound as the yield generating service.  More are coming!
 
-1. Users deposit into the Prize Pool and receive Tickets in exchange.
-2. Deposits are placed into Compound and interest accrues
-3. Accrued interest is awarded as prizes
-4. The accrued interest starts to build again...
+The Prize Pool is not upgradeable and has no admin controls beyond an emergency shutdown function.
 
-Users may also "sponsor" the pool by minting sponsorship tokens.  Sponsorship tokens allow a user to contribute to the prize without being eligible to win.
+When the Prize Pool is created it must be initialized with a set of controlled tokens.  The Prize Pool is able to mint and burn these tokens as needed; it is their Token Controller.  The default [Compound Prize Pool Builder](../builders.md) creates a Ticket controlled token and a Sponsorship controlled token.  These tokens can be looked up on the corresponding [Prize Strategy](../prize-strategy.md).
 
-Prize Pools are created using [Prize Pool Builders](../builders.md). When a Prize Pool is created it is configured with:
+## Depositing
 
-* The [Compound cToken](https://compound.finance/docs/ctokens) to use to generate yield
-* The period of the prize in seconds; i.e. the frequency at which prizes can be awarded.
-* A [Prize Strategy](../prize-strategy.md) that determines how prizes are distributed
-
-## Buying Tickets
-
-Users can purchase tickets using the **mintTickets** function. Tickets will be minted at a ratio of 1:1 to the underlying asset, so minted 10 tickets will require 10 of the asset.  This function should be pre-approved to transfer the underlying asset on behalf of the sender, as in the ERC20 spec.
+Users can deposit into the Prize Pool using the **depositTo** function. 
 
 ```javascript
-function mintTickets(uint256 amount) external
+function depositTo(
+    address to,
+    uint256 amount,
+    address controlledToken,
+    bytes calldata data
+) external;
 ```
 
 | Parameter | Description |
 | :--- | :--- |
+| to | The address to whom the controlled tokens should be minted |
 | amount | The amount of the underlying asset the user wishes to deposit.  The Prize Pool contract should have been pre-approved by the caller to transfer the underlying ERC20 tokens. |
+| controlledToken | The address of the token that they wish to mint.  For our default Prize Strategy this will either be the Ticket address or the Sponsorship address.  Those addresses can be looked up on the Prize Strategy. |
+| data | Additional call data that can be passed to the Prize Strategy.  Typically this includes referral information. |
 
-Alternatively, a ticket can be purchased for someone else.  The sender must still supply the underlying tokens as the deposit:
-
-```javascript
-function mintTicketsTo(address to, uint256 amount) external
-```
-
-Minting fires the event:
+Depositing fires the event:
 
 ```javascript
-event TicketsMinted(address indexed from, address indexed to, uint256 amount);
+event Deposited(
+    address indexed operator,
+    address indexed to,
+    address indexed token,
+    uint256 amount
+);
 ```
 
 | Event Data | Description |
 | :--- | :--- |
-| from | The address that triggered and paid for the mint |
-| to | The address that received the tickets |
-| amount | The amount of both the underlying asset that was transferred and the tickets that were minted. |
+| operator | The address that made the deposit |
+| to | The address that received the minted controlled tokens |
+| token | The address of the controlled token that was minted |
+| amount | The amount of both the underlying asset that was transferred and the tokens that were minted. |
 
-## Redeeming Tickets
+## Withdrawing
 
-Tickets can be redeemed for the underlying asset in two ways: losslessly by triggering a transaction that completes at the end of the prize period, or instantly by paying an early exit contribution to the prize.
+Collateral can be withdrawn in two ways: the withdrawal can be redeemed losslessly after a timelock expires, or the user can pay an early exit fee.
 
 ### Lossless Redemption
 
-Tickets can be redeemed without any fees by time-locking the funds.  The withdrawal amount will be available at the conclusion of the current prize period.
+Collateral can be withdrawn without any fees by time-locking the funds.  The withdrawal amount will be unlocked at a later date at which point the funds can be swept back to the user.  The timelock duration is determined by the [Prize Strategy](../prize-strategy.md).
 
 To start a lossless withdrawal a user may call:
 
 ```javascript
-function redeemTicketsWithTimelock(uint256 tickets) external returns (uint256)
+function withdrawWithTimelockFrom(
+    address from,
+    uint256 amount,
+    address controlledToken,
+    bytes calldata data
+) external returns (uint256 unlockTimestamp);
 ```
 
-The **tickets** represents the number of tickets to redeem and the function will return the timestamp after which the funds will be available to sweep into the user's wallet. The timestamp will correspond to the end of the prize period the users has initiated the withdrawal in.
+| Parameter Name | Parameter Description |
+| :--- | :--- |
+| from | The user from whom to withdraw.  This means you may withdraw on another user's behalf if they have given you an ERC20 allowance. |
+| amount | The amount of collateral to withdraw. |
+| controlledToken | The type of controlled token to withdraw. |
+| data | Call data that is passed on to the Prize Strategy. |
 
-The timestamp at which funds will be unlocked can be calculated using:
+### Sweeping Funds
+
+When a user's withdrawal timelocks have ended, the funds may be swept to their wallets:
 
 ```javascript
-function calculateUnlockTimestamp(address sender, uint256 tickets) external view
+function sweepTimelockBalances(
+    address[] memory users
+) external returns (uint256 totalWithdrawal);
 ```
 
-When the current prize period has completed the funds may be swept by anyone into the user's wallet:
+The function accepts an array of addresses and will attempt to sweep the time-locked funds for each one.  The funds will be transferred back to the users wallets.
 
-```javascript
-function sweepTimelockFunds(address[] calldata users) external returns (uint256)
-```
-
-The function accepts an array of addresses and will attempt to sweep the time-locked funds for each one.
-
-The time-locked funds are tracked using the "Timelock" token.  The ERC20 token address can be retrieved like so:
-
-```javascript
-function timelock() external view returns (ERC20)
-```
-
-You can call the `balanceOf(address)` function on the time-locked token to get the users balance.
-
-The timestamp at which the time-locked balance will be available can be retrieved using:
+After funds have been timelocked, you can see when they'll be available:
 
 ```javascript
 function timelockBalanceAvailableAt(address user) external view returns (uint256)
 ```
 
-### Instant Redemption
+### Instant Withdrawal
 
-If a user would like their tickets right away, they may pay an early exit contribution to the prize.  This contribution is calculated based on the previous prize and is designed to prevent people from gaming the system by depositing right before a prize, having a chance to win, and withdrawing right after.
+If a user would like their tickets right away, they may pay an early exit fee to the prize.  The early exit fee is determined by the [Prize Strategy](../prize-strategy.md).
 
 To withdraw instantly:
 
 ```javascript
-function redeemTicketsInstantly(uint256 tickets) external returns (uint256)
+function withdrawInstantlyFrom(
+    address from,
+    uint256 amount,
+    address controlledToken,
+    uint256 sponsorAmount,
+    uint256 maximumExitFee,
+    bytes calldata data
+  )
+    external
+    returns (uint256 exitFee);
 ```
 
-The **tickets** parameter determines how many tickets will be redeemed.  The amount transferred to the user, less the fee, is the value returned from the function.
-
-The exit fee can be calculated using:
-
-```javascript
-function calculateExitFee(address sender, uint256 tickets) external view returns (uint256)
-```
-
-## Sponsoring
-
-A user may sponsor the pool by contributing interest to the prize without being eligible to win.
-
-A user's sponsorship is tokenized as Sponsorship Tokens.  Sponsorship tokens are minted at a ratio of 1:1 to the underlying asset.  To deposit the asset as sponsorship a user may call:
-
-```javascript
-function mintSponsorship(uint256 tickets) external
-```
-
-To redeem their sponsorship a user calls:
-
-```javascript
- function redeemSponsorship(uint256 tickets) external
-```
-
-## Awarding Prizes
-
-Prizes are awarded in two phases.  The first phase locks the Pool and requests a random number from the Random Number Generation service.  The second phase retrieves the random number, award the prize, and unlocks the pool.
-
-The first phase of the award process begins by calling:
-
-```javascript
-function startAward() external
-```
-
-**startAward\(\)** will:
-
-* Lock the pool: minting and redemption not allowed.
-* Request a random number from the RNG service
-
-Once the random number is available, a user can call:
-
-```javascript
-function completeAward() external
-```
-
-**completeAward\(\)** will:
-
-* Unlock the pool
-* Disburse the prize
-* Start the new prize
-
-Both startAward\(\) and completeAward\(\) have functions to check whether they can be called:
-
-```javascript
-function canStartAward() external view returns (bool);
-```
-
-and
-
-```javascript
-function canCompleteAward() external view returns (bool);
-```
-
-## Reporting
-
-### Current Prize
-
-To retrieve amount of accrued prize interest so far you may call:
-
-```javascript
-function currentPrize() external view returns (uint256)
-```
-
-### Estimating Prize
-
-To estimate what the prize will be you can call:
-
-```javascript
-function estimatePrize() external view returns (uint256)
-```
-
-### Time
-
-To retrieve when the current prize started:
-
-```javascript
-function currentPrizeStartedAt() external view returns (uint256)
-```
-
-To retrieve when the prize will end:
-
-```javascript
-function prizePeriodEndAt() external view returns (uint256)
-```
-
-To retrieve the remaining time:
-
-```javascript
-function remainingSecondsToPrize() external view returns (uint256)
-```
-
-## Miscellaneous
-
-| Function | Description |
+| Parameter Name | Parameter Description |
 | :--- | :--- |
-| function sponsorship\(\) returns \([ERC20](https://eips.ethereum.org/EIPS/eip-20)\) | Returns the address of the sponsorship token. |
-| function ticket\(\) returns \([Ticket](ticket.md)\) | Returns the address of the ticket token. |
+| from | The address to withdraw from.  This means you can withdraw on another user's behalf if you have an allowance for the controlled token. |
+| amount | The amount to withdraw |
+| controlledToken | The controlled token to withdraw from |
+| sponsorAmount | The amount of the early exit fee the caller wishes to cover themselves.  They should have approved of the Prize Pool spending their funds prior to calling withdraw. |
+| maximumExitFee | The maximum early exit fee the caller is willing to pay.  This prevents the Prize Strategy from changing the fee on-the-fly. |
+| data | Call data that is passed on to the Prize Strategy. |
+
+
 

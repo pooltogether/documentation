@@ -47,8 +47,7 @@ PoolTogether 3.0-alpha is currently deployed to the following networks:
 
 | Contract Name | Address |
 | :--- | :--- |
-| [SingleRandomWinnerPrizePoolBuilder](contracts/builders.md#single-random-winner-prize-pool-builder) | [0x3ea5e0536Fd7751Fc2D4DD641afA0032F1720064](https://kovan.etherscan.io/address/0x3ea5e0536Fd7751Fc2D4DD641afA0032F1720064) |
-| [PrizePoolBuilder](contracts/builders.md#prize-pool-builder) | [0xE997122D560686073086d77cfb13d0F71980ef1A](https://kovan.etherscan.io/address/0xE997122D560686073086d77cfb13d0F71980ef1A) |
+| [CompoundPrizePoolBuilder](contracts/builders.md) | [0x6e12233ac8ccD7cC0d0481787D7e7dd943315984](https://kovan.etherscan.io/address/0x6e12233ac8ccD7cC0d0481787D7e7dd943315984) |
 
 
 

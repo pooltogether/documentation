@@ -4,98 +4,63 @@ description: Easily create preconfigured Prize Pools
 
 # 🛠 Prize Pool Builders
 
-Builders allow users to create preconfigured Prize Pools.  Users may provide their own Prize Strategy, or use the Single Random Winner strategy.
+Prize Pool Builders allow users to create preconfigured Prize Pool.  Currently there is a Compound Prize Pool Builder that creates Compound Prize Pools.
 
-## Single Random Winner Prize Pool Builder
+## Compound Prize Pool Builder
 
-This builder creates a new [Prize Pool](prize-pool/) that uses a [Single Random Winner]() prize strategy.  This strategy awards the prize periodically to a randomly selected winner.
-
-Users can create a new single random winner prize pool using:
+This builder creates a new [Prize Pool](prize-pool/) that uses a Compound cToken as the yield source.
 
 ```javascript
-function createSingleRandomWinnerPrizePool(
-    CTokenInterface cToken,
-    uint256 prizePeriodInSeconds,
-    string calldata ticketName,
-    string calldata ticketSymbol,
-    string calldata sponsorshipName,
-    string calldata sponsorshipSymbol
-) external returns (SingleRandomWinnerPrizeStrategy)
+function create(
+    Config calldata config
+) external returns (PrizeStrategy);
 ```
 
-| Function Parameter | Description |
+The **Config** object has a shape like so:
+
+```javascript
+struct Config {
+    CTokenInterface cToken;
+    uint256 prizePeriodSeconds;
+    string ticketName;
+    string ticketSymbol;
+    string sponsorshipName;
+    string sponsorshipSymbol;
+    uint256 maxExitFeeMantissa;
+    uint256 maxTimelockDuration;
+    uint256 exitFeeMantissa;
+    uint256 creditRateMantissa;
+    address[] externalAwards;
+}
+```
+
+| Parameter | Description |
 | :--- | :--- |
 | cToken | The address of the Compound cToken to use |
-| prizePeriodInSeconds | The prize period to use |
+| prizePeriodSeconds | The prize period to use |
 | ticketName | The name to use for the ticket ERC20 |
 | ticketSymbol | The symbol to use for the ticket ERC20 |
 | sponsorshipName | The name to use for the sponsorship token ERC20 |
 | sponsorshipSymbol | The symbol to use for the sponsorship token ERC20 |
+| maxExitFeeMantissa | The maximum exit fee that the Prize Strategy can use as a fixed point 18 fraction of the withdrawal amount.  For example, "0.5 ether" would be a fraction of 0.5, so if a user is withdrawing 100 Dai the maximum fee would be 50 Dai.  This value is hard coded and cannot be changed. |
+| maxTimelockDuration | The maximum duration of the withdrawal timelock in seconds.  This value is hard coded and cannot be changed. |
+| exitFeeMantissa | The default early exit fee as a fixed point 18 fraction.  For example, if a user is withdrawing 100 Dai and the exit fee is "0.1 ether" then the early exit fee will be 10 Dai.  This value can be changed in the Prize Strategy by the owner. |
+| creditRateMantissa | The rate at which a user accrues credit, per second, expressed as a fixed point 18 number.  For example, a credit rate of "0.01 ether" means that a user will accrue 1% credit on their deposit every second.  This credit is burned to offset the early exit fees and withdrawal timelocks.  This value can be changed in the Prize Strategy by the owner. |
+| externalAwards | Registers addresses of external ERC20 tokens that should be awarded as part of the prize.  If the Prize Pools has a non-zero balance of any of these tokens they will be awarded to the winner alongside the accrued interest. |
 
 This function will emit the event:
 
 ```javascript
-event SingleRandomWinnerPrizePoolCreated(
+event CompoundPrizePoolCreated (
     address indexed creator,
     address indexed prizePool,
-    address indexed singleRandomWinnerPrizeStrategy
+    address indexed prizeStrategy
 );
 ```
 
 | Event Parameter | Description |
 | :--- | :--- |
-| creator | The address that called this contract |
-| prizePool | The address of the Prize Pool created |
-| singleRandomWinnerPrizeStrategy | The address of the Single Random Winner prize strategy |
-
-## Prize Pool Builder
-
-The Prize Pool Builder is the core Builder of the system.  It allows users to create new Prize Pool with their desired Prize Strategy.
-
-Users can create new prize pools using the function:
-
-```javascript
-function createPeriodicPrizePool(
-    CTokenInterface cToken,
-    PrizeStrategyInterface prizeStrategy,
-    uint256 prizePeriodSeconds,
-    string memory ticketName,
-    string memory ticketSymbol,
-    string memory sponsorshipName,
-    string memory sponsorshipSymbol
-) public returns (PrizePool)
-```
-
-| Function Parameter | Description |
-| :--- | :--- |
-| cToken | The Compound cToken to use for yield.  The underlying asset for the Prize Pool will be the underlying asset for the cToken. |
-| prizeStrategy | The address of the prize strategy contract. |
-| ticketName | The name to use for the ticket ERC20 |
-| ticketSymbol | The symbol to use for the ticket ERC20 |
-| sponsorshipName | The name to use for the sponsorship ERC20 |
-| sponsorshipSymbol | The symbol to use for the sponsorship ERC20 |
-
-This function will emit the event:
-
-```javascript
-event PrizePoolCreated(
-    address indexed creator,
-    address indexed prizePool,
-    address interestPool,
-    address ticket,
-    address prizeStrategy,
-    uint256 prizePeriodSeconds
-);
-```
-
-| Event Parameter | Description |
-| :--- | :--- |
-| creator | The address that called the contract |
-| prizePool | The address of the Prize Pool |
-| interestPool | The address of the Compound Interest Pool |
-| ticket | The address of the ticket token ERC20 |
-| prizeStrategy | The address of the Prize Strategy |
-| prizePeriodSeconds | The prize period in seconds. |
-
-
+| creator | The address that called this contract and who is the owner. |
+| prizePool | The address of the Prize Pool that was created |
+| prizeStrategy | The address of the Prize Strategy that was created |
 

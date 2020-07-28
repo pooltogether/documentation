@@ -10,7 +10,6 @@ Before creating the Prize Pool, you'll need to decide:
 
 * Which Compound cToken to use for yield
 * How frequently prizes should be awarded
-* Whether you wish to award the prize to a single winner or employ a custom strategy
 
 ## Using the Builder Tool
 
@@ -18,13 +17,68 @@ The PoolTogether Prize Pool Builder allows you to create a Prize Pool that award
 
 To begin, navigate to the [Builder](https://builder.pooltogether.com).  Once you connect your wallet, you should see something like:
 
-![](../.gitbook/assets/screen-shot-2020-05-05-at-4.52.53-pm.png)
+![](../.gitbook/assets/screen-shot-2020-07-28-at-1.26.44-pm.png)
 
-This will be the configuration to use for the Prize Pool.  The Prize Period is expressed in seconds; so the above configuration is showing a daily prize pool, since there are 86400 seconds in a day.
+This will be the configuration to use for the Prize Pool and Prize Strategy.  Let's dig into the config:
 
-The above configuration uses cDai as the yield mechanism.  This means that it will be a Dai pool: users will need to deposit Dai into the Pool in order to get tickets or sponsorship.
-
-FINISH TUTORIAL HERE
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Parameter Name</th>
+      <th style="text-align:left">Parameter Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Prize Period</td>
+      <td style="text-align:left">This is the duration in seconds that must elapsed between each award.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Sponsorship Name</td>
+      <td style="text-align:left">The Sponsorship token name</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Sponsorship Symbol</td>
+      <td style="text-align:left">The Sponsorship token symbol</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Ticket Name</td>
+      <td style="text-align:left">The Ticket token name</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Ticket Symbol</td>
+      <td style="text-align:left">The Ticket token symbol</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Max Exit Fee</td>
+      <td style="text-align:left">
+        <p>This value determines the maximum possible early exit fee. It is a fraction
+          of the user&apos;s withdrawal. This value is <b>immutable</b> once it is
+          set.</p>
+        <p></p>
+        <p>For example, a Max Exit Fee of 0.5 means that the exit fee cannot be greater
+          than 50% of the withdrawal amount. If a user attempts to withdraw 100 Dai
+          then the early exit fee can be no larger than 50 Dai.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Max Timelock Duration</td>
+      <td style="text-align:left">
+        <p>This value determines the maximum length of time (in seconds) that a users
+          funds can be timelocked. This value is <b>immutable</b> once it is set.</p>
+        <p></p>
+        <p>For example, if a user withdraws funds with a timelock then they are guaranteed
+          to not have to wait longer than the max timelock duration.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Exit Fee</td>
+      <td style="text-align:left">This is the early exit fee that users will need to contribute if they
+        leave the pool early. This value can be changed by the owner after the
+        pool is created.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
