@@ -6,15 +6,15 @@ description: Pool deposits and award accrued interest periodically as a prize
 
 ## Introduction
 
-Prize Pools are general-purpose contracts that allow users to safely deposit collateral into a yield-generating service and have the accrued interest disbursed by a separate Prize Strategy contract. PoolTogether currently provides a Compound Prize Pool that uses Compound as the yield generating service.  More are coming!
+Prize Pools are general-purpose contracts that allow users to safely deposit collateral into a yield-generating service and have any accrued tokens disbursed to a separate Prize Strategy contract. PoolTogether currently provides a Compound Prize Pool that uses Compound as the yield generating service.  More are coming!
 
-The Prize Pool is not upgradeable and has no admin controls beyond an emergency shutdown function.
+The Prize Pool is not upgradeable and has no admin controls beyond an emergency shutdown function the governor contract can initiate. 
 
 When the Prize Pool is created it must be initialized with a set of controlled tokens.  The Prize Pool is able to mint and burn these tokens as needed; it is their Token Controller.  The default [Compound Prize Pool Builder](../builders/) creates a Ticket controlled token and a Sponsorship controlled token.  These tokens can be looked up on the corresponding [Prize Strategy](../prize-strategy.md).
 
-## Depositing for Tickets 
+## Depositing  
 
-Users can deposit into the Prize Pool using the **depositTo** function. 
+Users can deposit into the Prize Pool using the **depositTo** function. A user is instantly minted tickets upon deposit and eligible to win the prize right away.  
 
 ```javascript
 function depositTo(
