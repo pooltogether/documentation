@@ -2,7 +2,7 @@
 description: Pool deposits and award accrued interest periodically as a prize
 ---
 
-# 🏆 Prize Pool
+# 🏆 Prize Pools
 
 ## Introduction
 
@@ -10,9 +10,9 @@ Prize Pools are general-purpose contracts that allow users to safely deposit col
 
 The Prize Pool is not upgradeable and has no admin controls beyond an emergency shutdown function.
 
-When the Prize Pool is created it must be initialized with a set of controlled tokens.  The Prize Pool is able to mint and burn these tokens as needed; it is their Token Controller.  The default [Compound Prize Pool Builder](../builders.md) creates a Ticket controlled token and a Sponsorship controlled token.  These tokens can be looked up on the corresponding [Prize Strategy](../prize-strategy.md).
+When the Prize Pool is created it must be initialized with a set of controlled tokens.  The Prize Pool is able to mint and burn these tokens as needed; it is their Token Controller.  The default [Compound Prize Pool Builder](../builders/) creates a Ticket controlled token and a Sponsorship controlled token.  These tokens can be looked up on the corresponding [Prize Strategy](../prize-strategy.md).
 
-## Depositing
+## Depositing for Tickets 
 
 Users can deposit into the Prize Pool using the **depositTo** function. 
 

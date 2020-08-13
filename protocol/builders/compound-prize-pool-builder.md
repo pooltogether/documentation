@@ -1,14 +1,8 @@
----
-description: Easily create preconfigured Prize Pools
----
-
-# 🛠 Prize Pool Builders
-
-Prize Pool Builders allow users to create preconfigured Prize Pool.  Currently there is a Compound Prize Pool Builder that creates Compound Prize Pools.
+# Compound Prize Pool Builder
 
 ## Compound Prize Pool Builder
 
-This builder creates a new [Prize Pool](prize-pool/) that uses a Compound cToken as the yield source.
+This builder creates a new [Prize Pool](../prize-pool/) that uses a Compound cToken as the yield source.
 
 ```javascript
 function create(

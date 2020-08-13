@@ -4,8 +4,6 @@ description: 'PoolTogether: A Protocol for Prize-Linked Savings'
 
 # Introduction
 
-### 🚧 !!! Under Construction !!!
-
 **Please note that this documentation is currently for the alpha version of PoolTogether 3.0.  It is subject to change until the protocol has stabilized.**
 
 PoolTogether is a protocol for prize savings on the Ethereum Blockchain. It enables the creation of pools of funds whose accrued interest is distributed fairly as prizes. Users of the protocol deposit funds in exchange for tickets, which represent both the amount of underlying assets and their chance to win. Prizes are awarded as tickets to the winning ticket holder. 
@@ -47,7 +45,7 @@ PoolTogether 3.0-alpha is currently deployed to the following networks:
 
 | Contract Name | Address |
 | :--- | :--- |
-| [CompoundPrizePoolBuilder](contracts/builders.md) | [0x6e12233ac8ccD7cC0d0481787D7e7dd943315984](https://kovan.etherscan.io/address/0x6e12233ac8ccD7cC0d0481787D7e7dd943315984) |
+| [CompoundPrizePoolBuilder](protocol/builders/) | [0x6e12233ac8ccD7cC0d0481787D7e7dd943315984](https://kovan.etherscan.io/address/0x6e12233ac8ccD7cC0d0481787D7e7dd943315984) |
 
 
 

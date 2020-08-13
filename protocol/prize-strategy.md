@@ -2,11 +2,11 @@
 description: Customize how a Prize Pool distributes prizes
 ---
 
-# 💸 Prize Strategy
+# 💸 Prize Strategies
 
-A Prize Strategy handles prize distribution for a [Prize Pool](prize-pool/).  When a Prize Pool is constructed it is configured with a Prize Strategy.  The default Prize Strategy provided by PoolTogether is designed to work against a single Prize Pool.
+A Prize Strategy handles prize distribution for a [Prize Pool](prize-pool/).  When a Prize Pool is constructed it is configured with a Prize Strategy.  
 
-The Prize Strategy created by the [Compound Prize Pool Builder](builders.md) is upgradeable and governed by the owner of the contract.
+The Prize Strategy created by the [Compound Prize Pool Builder](builders/) is upgradeable by the governor contract. 
 
 ## Prize Strategy Interface
 

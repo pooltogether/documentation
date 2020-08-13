@@ -6,11 +6,20 @@
 
 * [Creating a Prize Pool](tutorials/creating-a-prize-pool.md)
 
-## Contract API <a id="contracts"></a>
+## Protocol
 
-* [Overview](contracts/overview.md)
-* [🏆 Prize Pool](contracts/prize-pool/README.md)
-  * [Ticket](contracts/prize-pool/ticket.md)
-* [🛠 Prize Pool Builders](contracts/builders.md)
-* [💸 Prize Strategy](contracts/prize-strategy.md)
+* [1️⃣Overview](protocol/overview.md)
+* [🏆 Prize Pools](protocol/prize-pool/README.md)
+  * [Ticket](protocol/prize-pool/ticket.md)
+* [🛠 Prize Pool Builders](protocol/builders/README.md)
+  * [Compound Prize Pool Builder](protocol/builders/compound-prize-pool-builder.md)
+* [💸 Prize Strategies](protocol/prize-strategy.md)
+* [🎲Random Number Generator](protocol/random-number-generator.md)
+* [👑Governor](protocol/governor.md)
+* [🤖Comptroller](protocol/comptroller.md)
+
+## Security
+
+* [Audits & Testing](security/audits-and-testing.md)
+* [Bug Bounties](security/bug-bounties.md)
 

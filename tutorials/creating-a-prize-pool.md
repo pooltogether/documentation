@@ -4,7 +4,7 @@ description: How to create your own PoolTogether Prize Pool
 
 # Creating a Prize Pool
 
-[Prize Pools](../contracts/prize-pool/) can be created using our [Builder](https://builder.pooltogether.com/) interface or programmatically using the [Prize Pool Builders](../contracts/builders.md).
+[Prize Pools](../protocol/prize-pool/) can be created using our [Builder](https://builder.pooltogether.com/) interface or programmatically using the [Prize Pool Builders](../protocol/builders/).
 
 Before creating the Prize Pool, you'll need to decide:
 
