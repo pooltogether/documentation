@@ -12,9 +12,9 @@ The core primitive in PoolTogether is the Prize Pool, which manages ticket purch
 
 \*Prize Pools are not upgradeable, and have no admin functions other than an emergency shutdown.\*
 
-### [Prize Strategy](prize-strategy.md)
+### [Prize Strategy](prize-strategy/)
 
-When a Prize Pool is created it is configured with a Prize Strategy.  The [Prize Strategy](prize-strategy.md) determines how prizes are distributed, the early withdrawal exit fee for users, and the timelocked withdrawal duration.  The Prize Strategy is upgradeable and governed by the owner of the pool.
+When a Prize Pool is created it is configured with a Prize Strategy.  The [Prize Strategy](prize-strategy/) determines how prizes are distributed, the early withdrawal exit fee for users, and the timelocked withdrawal duration.  The Prize Strategy is upgradeable and governed by the owner of the pool.
 
 ### [Prize Pool Builder](builders/)
 
@@ -37,7 +37,7 @@ The PoolTogether smart contracts support GSNv2 by inheriting from the [BaseRelay
 The contracts that support the GSN are:
 
 * [Prize Pools](prize-pool/)
-* [Prize Strategies](prize-strategy.md)
+* [Prize Strategies](prize-strategy/)
 * [Ticket](prize-pool/ticket.md) tokens
 
 The PoolTogether contracts on Kovan are bound to the [TrustedForwarder deployed by the GSN](https://docs.opengsn.org/gsn-provider/networks.html).
