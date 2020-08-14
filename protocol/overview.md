@@ -2,7 +2,7 @@
 description: The PoolTogether Protocol
 ---
 
-# 1️⃣Overview
+# 🌐 Overview
 
 The management of the protocol is facilitated via the Governor and Comptroller contracts. The core value of the protocol is facilitated by the Prize Pools, Prize Strategies and Prize Pool Builder contracts. The code can be found on [Github](https://github.com/pooltogether/pooltogether-contracts).
 
@@ -20,11 +20,11 @@ When a Prize Pool is created it is configured with a Prize Strategy.  The [Prize
 
 The Prize Pool Builder generates new prize pools. The creation of new prize pools are initiated by the governor contract. Because prize pools are not upgradeable the yield generation source is set when the pool is created.
 
-### Comptroller
+### [Comptroller](comptroller.md)
 
 The comptroller sets the global reserve rate and manages the protocol reserves. The reserve rate is a global parameter that takes a percent of the yield accrued on a prize pool. 
 
-### Governor
+### [Governor](governor.md)
 
 The governor contract manages the protocol. As of September 1st 2020 the governor contract is managed by the PoolTogether Inc team. Management of this contract and the protocol itself will be decentralized.  
 
