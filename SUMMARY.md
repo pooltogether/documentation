@@ -23,6 +23,7 @@
 
 ## Security
 
+* [Risks](security/risks.md)
 * [Audits & Testing](security/audits-and-testing.md)
 * [Bug Bounties](security/bug-bounties.md)
 
