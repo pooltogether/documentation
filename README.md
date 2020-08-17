@@ -1,45 +1,30 @@
 ---
-description: 'PoolTogether: A Protocol for Prize-Linked Savings'
+description: 'PoolTogether: A Protocol for No Loss Prize Games'
 ---
 
 # Introduction
 
-PoolTogether is a protocol for prize savings on the Ethereum Blockchain. It enables the creation of pools of funds whose accrued interest is distributed fairly as prizes. Users of the protocol deposit funds in exchange for tickets, which represent both the amount of underlying assets and their chance to win. Prizes are awarded as tickets to the winning ticket holder. 
+PoolTogether is a protocol for no loss prize games on the Ethereum blockchain. It enables the creation of pools of funds whose accrued interest is distributed according to a "prize strategy". 
 
-The protocol shares the same key characteristics of all prize savings products:
+Users of the protocol deposit funds into a "prize pool" and receive tickets. Tickets represent both the amount of the underlying asset and a chance to win. Prizes are made up from the yield earned on all deposited funds thus insuring a user can always recover their original deposit. Everyone has a chance to win and no one loses.
+
+The protocol is modeled on the well established concept of "[prize savings accounts](https://en.wikipedia.org/wiki/Prize-linked_savings_account)" and shares the same key characteristics:
 
 * No loss of deposited funds 
 * Ability to withdraw a deposit at any time 
 * Fairness of prize distribution
 
-Because the protocol is built on the Ethereum blockchain it also has the additional advantages of: 
+Prize Pools created by the protocol can be differentiated in four primary ways: 
 
-* Decentralized ownership and governance 
-* Programmability 
-* Efficiency through administration by smart contracts
-* Trust through transparency of code
+* The yield source the prize pool uses to generate no loss return
+* The prize strategy used to determine prize distribution 
+* The frequency prizes are awarded 
+* The asset type the prize pool accepts for deposits 
 
-**Please join the \#development channel in the PoolTogether community** [**Discord**](https://discord.gg/5sjnHd) **server.** The PoolTogether team and members of the community are there to help you build your application and answer any questions you might have.  Your questions help us improve the protocol!
+Get started by: 
 
-## Getting Started
-
-### Codebase
-
-The PoolTogether v3.0-alpha contracts live in the **version-3** branch on [Github](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3).
-
-The Prize Pool builder is [hosted here](https://builder.pooltogether.com), and the source code is on [Github](https://github.com/pooltogether/pooltogether-pool-builder-ui).
-
-The Prize Pool reference interface is [hosted here](https://reference-app.pooltogether.com/), and the source code is on [Github](https://github.com/pooltogether/pooltogether-pool-ui).
-
-### Guides
-
-[Creating a Prize Pool](tutorials/creating-a-prize-pool.md)
-
-
-
-
-
-
-
-
+* Integrating existing prize pools into your application 
+* Proposing new prize strategies
+* Proposing new yield sources for prize pools 
+* Joining our community on Discord ****[**Discord**](https://discord.gg/5sjnHd) ****server**.** 
 
