@@ -12,6 +12,7 @@ The following are the core functions of the Governor
 * Initiates the creation of prize pool builders with new yield sources
 * Initiates emergency shutdown for any prize pool
 * Sets parameters for any prize strategy 
+* Sets reserve rate for all prize pools
 
-Note: because the prize pools are non-custodial the governor cannot upgrade or change them once created.
+**Note: because the prize pools are not upgradeable the governor cannot upgrade or change them once created.**
 

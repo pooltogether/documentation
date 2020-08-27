@@ -12,13 +12,13 @@ The protocol is modeled on the well established concept of "[no loss lotteries](
 * Ability to withdraw a deposit at any time 
 * Fairness of prize distribution
 
-Users of the protocol deposit funds into a "prize pool" and receive tickets. Tickets represent both the amount of the underlying asset and a chance to win. Prizes are made up from the yield earned on all deposited funds thus insuring a user can always recover their original deposit. Everyone has a chance to win and no one loses.
+Users of the protocol deposit funds into a "prize pool" and receive tickets. Tickets represent both the amount of the underlying asset and a chance to win. Prizes are made up from the yield earned on all deposited funds. The yield is allocated according to the "prize strategy". The prize strategy can define any logic for any to allocated any tokens the prize pool accrues. Everyone has a chance to win and no one loses.
 
 Prize Pools created by the protocol can be differentiated in four primary ways: 
 
 * The yield source the prize pool uses to generate no loss return
-* The prize strategy used to determine prize distribution 
-* The frequency prizes are awarded 
+* The prize strategy used to determine frequency and distribution 
+* The rewards offered to referrals and depositors  
 * The asset type the prize pool accepts for deposits 
 
 Get started by: 
