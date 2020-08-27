@@ -19,7 +19,6 @@
   * [Compound Prize Pool Builder](protocol/builders/compound-prize-pool-builder.md)
 * [👑 Governor](protocol/governor.md)
 * [🤖 Comptroller](protocol/comptroller.md)
-* [🎁 Rewards](protocol/rewards.md)
 
 ## Security
 

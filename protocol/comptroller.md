@@ -10,5 +10,9 @@ Functionality, sponsorship increases the size of prizes without decreasing the c
 
 ### Protocol Rewards
 
-The protocol 
+The protocol has the ability to reward tokens to users based on 1\) user balances and 2\) users referral volume. 
+
+These rewards are set as "drip rates" and can be set specific to each prize pool. They can drip out any ERC-20 token.  
+
+Initially the PoolTogether managed prize pools have been setup to drip tickets to depositors and referrers. 
 
