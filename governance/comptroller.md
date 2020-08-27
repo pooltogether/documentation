@@ -14,5 +14,3 @@ The protocol has the ability to reward tokens to users based on 1\) user balance
 
 These rewards are set as "drip rates" and can be set specific to each prize pool. They can drip out any ERC-20 token.  
 
-Initially the PoolTogether managed prize pools have been setup to drip tickets to depositors and referrers. 
-

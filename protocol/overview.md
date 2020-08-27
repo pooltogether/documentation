@@ -20,11 +20,11 @@ When a Prize Pool is created it is configured with a Prize Strategy.  The [Prize
 
 The Prize Pool Builder generates new prize pools. The creation of new prize pools are initiated by the governor contract. Because prize pools are not upgradeable the yield generation source is set when the pool is created.
 
-### [Comptroller](comptroller.md)
+### [Comptroller](../governance/comptroller.md)
 
 The comptroller sets the global reserve rate and manages the protocol reserves. The reserve rate is a global parameter that takes a percent of the yield accrued on a prize pool. 
 
-### [Governor](governor.md)
+### [Governor](../governance/governor.md)
 
 The governor contract manages the protocol. As of September 1st 2020 the governor contract is managed by the PoolTogether Inc team. Management of this contract and the protocol itself will be decentralized.  
 

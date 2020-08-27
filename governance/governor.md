@@ -6,13 +6,5 @@ description: The governor contract controls all other protocol contracts.
 
 The governor contract controls the protocol. As of September 1st, 2020 the PoolTogether core  team controls the contract. This control will be decentralized. 
 
-The following are the core functions of the Governor 
-
-* Initiates the creation of new prize pools
-* Initiates the creation of prize pool builders with new yield sources
-* Initiates emergency shutdown for any prize pool
-* Sets parameters for any prize strategy 
-* Sets reserve rate for all prize pools
-
 **Note: because the prize pools are not upgradeable the governor cannot upgrade or change them once created.**
 
