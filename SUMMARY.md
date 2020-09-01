@@ -5,6 +5,7 @@
 
 ## Tutorials
 
+* [Buying Tickets](tutorials/buying-tickets.md)
 * [Creating a Prize Pool](tutorials/creating-a-prize-pool.md)
 
 ## Protocol

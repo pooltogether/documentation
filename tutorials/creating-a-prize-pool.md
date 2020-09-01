@@ -1,5 +1,5 @@
 ---
-description: How to create your own PoolTogether Prize Pool
+description: How to Create Your Own PoolTogether Prize Pool
 ---
 
 # Creating a Prize Pool
