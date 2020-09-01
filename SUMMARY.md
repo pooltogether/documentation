@@ -5,12 +5,12 @@
 
 ## Tutorials
 
-* [📡 Networks](tutorials/networks.md)
 * [Creating a Prize Pool](tutorials/creating-a-prize-pool.md)
 
 ## Protocol
 
 * [🌐 Overview](protocol/overview.md)
+* [📡 Networks](protocol/networks.md)
 * [🏆 Prize Pools](protocol/prize-pool/README.md)
   * [Ticket](protocol/prize-pool/ticket.md)
 * [💸 Prize Strategies](protocol/prize-strategy/README.md)
