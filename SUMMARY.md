@@ -15,16 +15,16 @@
   * [Compound Prize Pool Builder](protocol/builders/compound-prize-pool-builder.md)
 * [🎟️ Ticket](protocol/ticket.md)
 
-## Tutorials
-
-* [Buying Tickets](tutorials/buying-tickets.md)
-* [Creating a Prize Pool](tutorials/creating-a-prize-pool.md)
-
 ## Governance
 
 * [Overview](governance/overview.md)
 * [👑 Governor](governance/governor.md)
 * [🤖 Comptroller](governance/comptroller.md)
+
+## Tutorials
+
+* [Buying Tickets](tutorials/buying-tickets.md)
+* [Creating a Prize Pool](tutorials/creating-a-prize-pool.md)
 
 ## Security
 
