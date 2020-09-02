@@ -116,7 +116,7 @@ function prizePeriodEndAt() external view returns (uint256)
 | Function | Description |
 | :--- | :--- |
 | function sponsorship\(\) returns \([ERC20](https://eips.ethereum.org/EIPS/eip-20)\) | Returns the address of the sponsorship token. |
-| function ticket\(\) returns \([Ticket](../prize-pool/ticket.md)\) | Returns the address of the ticket token. |
+| function ticket\(\) returns \([Ticket](../ticket.md)\) | Returns the address of the ticket token. |
 
 
 
