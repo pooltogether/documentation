@@ -1,26 +1,32 @@
----
-description: 'PoolTogether: A Protocol for No-Loss Prize Games'
----
-
 # Introduction
 
-PoolTogether is a protocol for no-loss prize games on the Ethereum blockchain.  Prize games are pools of funds whose accrued interest is distributed as prizes.  The protocol governs a set of prize games and also enables developers to build their own.
+PoolTogether is a protocol for no-loss **prize games** on the Ethereum blockchain.
 
-Prize games all share the same key characteristics:
+🛠**Enables developers to build their own prize games.**  
+👑**Offers governance-managed prize games**
 
-* No loss of deposited funds 
-* Ability to withdraw a deposit at any time 
-* Fairness of play
+## Prize Games
 
-The first type of prize game in PoolTogether is the no-loss lottery: also known as a [prize savings account](https://en.wikipedia.org/wiki/Prize-linked_savings_account).
+Prize games are pools of funds whose accrued interest is distributed as prizes. ****Prize games all share the same key characteristics:
+
+* No loss of deposited funds
+* Ability to withdraw at any time
+
+The first type of prize game in PoolTogether is the no-loss lottery: also known as a [prize savings account](https://en.wikipedia.org/wiki/Prize-linked_savings_account) \(wikipedia\).  This is the [Single Random Winner](protocol/prize-strategy/single-random-winner.md) prize strategy.
+
+## Governance
+
+The PoolTogether Protocol also governs its own set of prize games.  These games are shown on the official [PoolTogether App](https://app.pooltogether.com) and are managed by PoolTogether governance.  Governance is currently the core PoolTogether team, but very soon governance control will be distributed amongst PoolTogether stakeholders. 
 
 ## Next Steps
 
-### [Learn How the Protocol Works](protocol/overview.md)
-
-### [Learn How Governance Works](governance/overview.md)
+### [Learn How Prize Games Work](protocol/overview.md)
 
 ### [Join Our Community on Discord](https://discord.gg/5sjnHd)
+
+### [See the Code on Github](https://github.com/pooltogether/pooltogether-pool-contracts)
+
+
 
 
 

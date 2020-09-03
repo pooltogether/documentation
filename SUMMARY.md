@@ -10,9 +10,9 @@
   * [⚖️ Fairness](protocol/prize-pool/fairness.md)
 * [💸 Prize Strategies](protocol/prize-strategy/README.md)
   * [Single Random Winner](protocol/prize-strategy/single-random-winner.md)
-  * [Random Number Generator](protocol/prize-strategy/random-number-generator.md)
 * [🛠 Prize Pool Builders](protocol/builders/README.md)
   * [Compound Prize Pool Builder](protocol/builders/compound-prize-pool-builder.md)
+* [🧞 Random Number Generator](protocol/random-number-generator.md)
 * [🎟️ Ticket](protocol/ticket.md)
 
 ## Governance
