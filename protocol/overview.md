@@ -1,10 +1,10 @@
 ---
-description: What is the PoolTogether Protocol
+description: What are Prize Games?
 ---
 
 # 🌐 Overview
 
-The PoolTogether Protocol 
+Prize games are pools of funds whose accrued interest is distributed as prizes.  
 
 ## How it works
 
@@ -12,6 +12,12 @@ The PoolTogether Protocol
 2. The funds earn interest.
 3. The interest is distributed by the Prize Strategy as tokens.
 4. Users withdraw their funds by telling the Prize Pool to burn their tokens.
+
+## Prize Pools
+
+Prize Pools are the central building block for Prize Games.  
+
+
 
 ## Brief
 

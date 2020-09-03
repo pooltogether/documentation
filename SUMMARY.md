@@ -1,11 +1,11 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [🎺 Introduction](README.md)
+* [📡 Networks](networks.md)
 
 ## Protocol
 
 * [🌐 Overview](protocol/overview.md)
-* [📡 Networks](protocol/networks.md)
 * [🏆 Prize Pools](protocol/prize-pool/README.md)
   * [⚖️ Fairness](protocol/prize-pool/fairness.md)
 * [💸 Prize Strategies](protocol/prize-strategy/README.md)
