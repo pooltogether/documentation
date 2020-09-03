@@ -39,13 +39,13 @@ Prize Strategies determine the prize distribution for the Prize Pool.  They can 
 
 ### [Builders](builders/)
 
-Builders make it easy to create pre-configured prize games.  The first builder offered by PoolTogether is the [Compound Single Random Winner Builder](builders/compound-prize-pool-builder.md), which creates a [Compound Prize Pool](compound-prize-pool.md) bound to a [Single Random Winner](prize-strategy/single-random-winner.md) prize strategy and a [Ticket](ticket.md) token as the pool token.
+Builders make it easy to create pre-configured prize games.  The first builder offered by PoolTogether is the [Compound Single Random Winner Builder](builders/compound-prize-pool-builder.md), which creates a [Compound Prize Pool]() bound to a [Single Random Winner](prize-strategy/single-random-winner.md) prize strategy and a [Ticket](ticket.md) token as the pool token.
 
 ### [Random Number Generator](random-number-generator.md)
 
 There are many different ways to generate a random number, so we've abstracted them as request-based Random Number Generator services.  Each RNG service has a different security profile, so be sure to use the appropriate one for your game.
 
-### [Comptroller](../governance/comptroller.md)
+### [Comptroller](comptroller.md)
 
 Comptrollers make it really easy to "drip" tokens to players.  Comptrollers listen for token mints, transfers and burns and drip tokens accordingly.  The global PoolTogether governance comptroller is baked into every Prize Pool, so that we can drip out rewards to all prize games.
 

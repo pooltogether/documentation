@@ -6,21 +6,24 @@ description: Pool deposits and award accrued interest periodically as a prize
 
 ## Introduction
 
-Prize Pools allow funds to be pooled together into a no-loss yield source, such as Compound, and have the yield safely exposed to a separate Prize Strategy.  They are the primary way in which users interact with PoolTogether prize games; deposits and withdraws are always done through the game's Prize Pool.
+Prize Pools allow funds to be pooled together into a no-loss yield source, such as Compound, and have the yield safely exposed to a separate Prize Strategy.  They are the primary way through which users interact with PoolTogether prize games.
 
-When a user deposits into a Prize Pool, they also request what type of pool token they receive in exchange.  These pool tokens are configured when the Prize Pool is created, and more can be added later.  Pool tokens cannot be removed.
+## Owner
 
+When a Prize Pool is created, the creator is set as the pool's "owner".  The owner is able to:
 
+* Add additional pool tokens
+* Change the Prize Strategy
+* Set the credit rate and credit limit
+* Shutdown the prize pool
+* Transfer ownership
+* Renounce ownership
 
-When a user wishes to withdraw their funds from a Prize Pool,  
+## Pool Tokens
 
+When a user deposits into a Prize Pool, they also request what type of pool token they receive in exchange.  These pool tokens are configured when the Prize Pool is created, and more can be added later.  These tokens can represent a claim on collateral, or anything the owner likes.
 
-
-Prize Pools are general-purpose contracts that allow users to safely deposit collateral into a yield-generating service and have any accrued tokens disbursed to a separate Prize Strategy contract. PoolTogether currently provides a Compound Prize Pool that uses Compound as the yield generating service.  More are coming!
-
-The Prize Pool is not upgradeable and has no admin controls beyond an emergency shutdown function the governor contract can initiate. 
-
-When the Prize Pool is created it must be initialized with a set of controlled tokens.  The Prize Pool is able to mint and burn these tokens as needed; it is their Token Controller.  The default [Compound Prize Pool Builder](builders/) creates a Ticket controlled token and a Sponsorship controlled token.  These tokens can be looked up on the corresponding [Prize Strategy](prize-strategy/).
+The default [Compound Prize Pool Builder](builders/) creates a Ticket controlled token and a Sponsorship controlled token.  These tokens can be looked up on the corresponding [Prize Strategy](prize-strategy/).
 
 ## Depositing  
 

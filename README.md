@@ -11,7 +11,7 @@ Prize games are pools of funds whose accrued interest is distributed as prizes. 
 * Ability to withdraw at any time
 * Fair prize distribution according to a **prize strategy**
 
-Prize games created by the protocol can be differentiated in the following ways: 
+Prize games can be differentiated in the following ways: 
 
 * The yield source the prize pool uses to generate no loss return
 * The prize strategy used to determine frequency and distribution 
@@ -26,7 +26,7 @@ The first type of prize game offered by PoolTogether is the [Single Random Winne
 The PoolTogether Protocol governance serves two primary functions. 
 
 * Governing the prize pool creation tools
-* Governing the prize strategies for a sub-set of prize pools
+* Governing a sub-set of prize pools
 
 The protocol governed prize pools appear on the official [PoolTogether App](https://app.pooltogether.com).  Governance is currently the core PoolTogether team, but very soon governance control will be distributed amongst protocol stakeholders.
 
