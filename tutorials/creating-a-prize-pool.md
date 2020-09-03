@@ -6,7 +6,7 @@ description: How to Create Your Own PoolTogether Prize Pool
 
 ### Using the Builder App
 
-[Prize Pools](../protocol/prize-pool/) can be created using our [Builder](https://builder.pooltogether.com/) app.
+[Prize Pools](../protocol/prize-pool.md) can be created using our [Builder](https://builder.pooltogether.com/) app.
 
 Before creating the Prize Pool, you'll need to decide:
 

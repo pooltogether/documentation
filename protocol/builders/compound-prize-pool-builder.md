@@ -2,7 +2,7 @@
 
 ## Compound Prize Pool Builder
 
-This builder creates a new [Prize Pool](../prize-pool/) that uses a Compound cToken as the yield source.
+This builder creates a new [Prize Pool](../prize-pool.md) that uses a Compound cToken as the yield source.
 
 ```javascript
 function create(

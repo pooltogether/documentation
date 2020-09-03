@@ -11,11 +11,12 @@
 ## Protocol
 
 * [🌐 Overview](protocol/overview.md)
-* [🏆 Prize Pools](protocol/prize-pool/README.md)
-  * [⚖️ Fairness](protocol/prize-pool/fairness.md)
+* [⚖️ Fairness](protocol/fairness.md)
+* [🏆 Prize Pools](protocol/prize-pool.md)
+* [Compound Prize Pool](protocol/compound-prize-pool.md)
 * [💸 Prize Strategies](protocol/prize-strategy/README.md)
   * [Single Random Winner](protocol/prize-strategy/single-random-winner.md)
-* [🛠 Prize Pool Builders](protocol/builders/README.md)
+* [🛠 Builders](protocol/builders/README.md)
   * [Compound Prize Pool Builder](protocol/builders/compound-prize-pool-builder.md)
 * [🧞 Random Number Generator](protocol/random-number-generator.md)
 * [🎟️ Ticket](protocol/ticket.md)
