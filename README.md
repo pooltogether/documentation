@@ -5,19 +5,30 @@ PoolTogether is a protocol for no-loss **prize games** on the Ethereum blockchai
 🛠**Enables developers to build their own prize games.**  
 👑**Offers governance-managed prize games**
 
-## Prize Games
-
-Prize games are pools of funds whose accrued interest is distributed as prizes. ****Prize games all share the same key characteristics:
+Prize games are pools of funds whose accrued interest is distributed as prizes. All ****prize games created by the protocol share the same key characteristics:
 
 * No loss of deposited funds
 * Ability to withdraw at any time
-* Prizes are distributed according to a **prize strategy**
+* Fair prize distribution according to a **prize strategy**
 
-The first type of prize game offered by PoolTogether is the [Single Random Winner](protocol/prize-strategy/single-random-winner.md) prize strategy.  This strategy effectively implements a [prize savings account](https://en.wikipedia.org/wiki/Prize-linked_savings_account) \(wikipedia\).  More are coming!
+Prize games created by the protocol can be differentiated in the following ways: 
+
+* The yield source the prize pool uses to generate no loss return
+* The prize strategy used to determine frequency and distribution 
+* The rewards offered by the prize pool
+* The asset type the prize pool accepts for deposits 
+* The fairness parameters 
+
+The first type of prize game offered by PoolTogether is the [Single Random Winner](protocol/prize-strategy/single-random-winner.md) prize strategy. This strategy effectively implements a [prize savings account](https://en.wikipedia.org/wiki/Prize-linked_savings_account) \(wikipedia\). More are coming!
 
 ## Governance
 
-The PoolTogether Protocol also governs its own set of prize games.  These games are shown on the official [PoolTogether App](https://app.pooltogether.com) and are managed by PoolTogether governance.  Governance is currently the core PoolTogether team, but very soon governance control will be distributed amongst PoolTogether stakeholders.
+The PoolTogether Protocol serves two primary functions. 
+
+* Governing the prize pool creation tools
+* Governing the prize strategies for a sub-set of prize pools
+
+The protocol governed prize pools appear on the official [PoolTogether App](https://app.pooltogether.com).  Governance is currently the core PoolTogether team, but very soon governance control will be distributed amongst protocol stakeholders.
 
 ## Next Steps
 
