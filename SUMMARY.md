@@ -3,6 +3,11 @@
 * [🎺 Introduction](README.md)
 * [📡 Networks](networks.md)
 
+## Tutorials
+
+* [Buying Tickets](tutorials/buying-tickets.md)
+* [Creating a Prize Pool](tutorials/creating-a-prize-pool.md)
+
 ## Protocol
 
 * [🌐 Overview](protocol/overview.md)
@@ -20,11 +25,6 @@
 * [Overview](governance/overview.md)
 * [👑 Governor](governance/governor.md)
 * [🤖 Comptroller](governance/comptroller.md)
-
-## Tutorials
-
-* [Buying Tickets](tutorials/buying-tickets.md)
-* [Creating a Prize Pool](tutorials/creating-a-prize-pool.md)
 
 ## Security
 

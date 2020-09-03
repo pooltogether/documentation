@@ -13,7 +13,7 @@ Prize games are pools of funds whose accrued interest is distributed as prizes. 
 * Ability to withdraw at any time
 * Prizes are distributed according to a **prize strategy**
 
-The first type of prize game in PoolTogether is the no-loss lottery: also known as a [prize savings account](https://en.wikipedia.org/wiki/Prize-linked_savings_account) \(wikipedia\).  This is the [Single Random Winner](protocol/prize-strategy/single-random-winner.md) prize strategy.
+The first type of prize game offered by PoolTogether is the no-loss lottery: also known as a [prize savings account](https://en.wikipedia.org/wiki/Prize-linked_savings_account) \(wikipedia\).  This is the [Single Random Winner](protocol/prize-strategy/single-random-winner.md) prize strategy.  More are coming!
 
 ## Governance
 

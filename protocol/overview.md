@@ -4,31 +4,34 @@ description: What are Prize Games?
 
 # 🌐 Overview
 
-Prize games are pools of funds whose accrued interest is distributed as prizes.  
+Prize games are pools of funds whose accrued interest is distributed as prizes.
 
 ## How it works
 
-1. Users deposit funds into a Prize Pool.  They receive tokens in exchange.
+1. Users deposit funds into a Prize Pool.  They receive pool tokens in exchange.
 2. The funds earn interest.
-3. The interest is distributed by the Prize Strategy as tokens.
-4. Users withdraw their funds by telling the Prize Pool to burn their tokens.
+3. The interest is distributed by the Prize Strategy as pool tokens.
+4. Users withdraw their funds by telling the Prize Pool to burn their pool tokens.
 
-## Prize Pools
+## [Prize Pools](prize-pool/)
 
-Prize Pools are the central building block for Prize Games.  
+Prize Pools are the central building block of prize games.  They pool user funds in a **yield source** and expose the yield to their **Prize Strategy**, which then disburses as desired.
 
+Prize Pools can be differentiated in four primary ways:
 
-
-## Brief
-
-Users of the protocol deposit funds into a "prize pool" and receive tickets. Tickets represent both the amount of the underlying asset and a chance to win. Prizes are made up from the yield earned on all deposited funds. The yield is allocated according to the "prize strategy". The prize strategy can define any logic to allocate tokens the prize pool accrues. Everyone has a chance to win and no one loses.
-
-Prize Pools created by the protocol can be differentiated in four primary ways: 
-
-* The yield source the prize pool uses to generate no loss return
+* The yield source that generates no loss return
 * The prize strategy used to determine frequency and distribution 
-* The rewards offered to referrals and depositors  
-* The asset type the prize pool accepts for deposits 
+* The rewards offered to referrals and depositors
+* The asset type the prize pool accepts for deposits
+* Fairness parameters as determined by the owner
+
+## [Prize Strategies](prize-strategy/)
+
+Prize Strategies determine the prize distribution for the Prize Pool.  They can define any logic to allocate tokens that the prize pool accrues.  Specifically they can:
+
+* Award yield in the Prize Pool as pool tokens
+* Award ERC20 tokens held by the Prize Pool
+* Award ERC721 tokens held by the Prize Pool
 
 ## Get started by
 
@@ -72,12 +75,4 @@ The governor contract manages the protocol. As of September 1st 2020 the governo
 PoolTogether supports the [Gas Station Network 2.0](https://github.com/opengsn/gsn).  The Gas Station Network is an open source system for meta-transactions on Ethereum.  The GSN consists of smart contracts, relayers, and a protocol to support a decentralized meta transaction relayer network.
 
 The PoolTogether smart contracts support GSNv2 by inheriting from the [BaseRelayRecipient](https://github.com/opengsn/gsn/blob/master/contracts/BaseRelayRecipient.sol) contract and being bound to a trusted forwarder.  The contracts are tooled so that they support GSN transactions.
-
-The contracts that support the GSN are:
-
-* [Prize Pools](prize-pool/)
-* [Prize Strategies](prize-strategy/)
-* [Tickets](ticket.md)
-
-The PoolTogether contracts on Kovan are bound to the [TrustedForwarder deployed by the GSN](https://docs.opengsn.org/gsn-provider/networks.html).
 
