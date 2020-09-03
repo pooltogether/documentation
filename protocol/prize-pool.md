@@ -6,6 +6,16 @@ description: Pool deposits and award accrued interest periodically as a prize
 
 ## Introduction
 
+Prize Pools allow funds to be pooled together into a no-loss yield source, such as Compound, and have the yield safely exposed to a separate Prize Strategy.  They are the primary way in which users interact with PoolTogether prize games; deposits and withdraws are always done through the game's Prize Pool.
+
+When a user deposits into a Prize Pool, they also request what type of pool token they receive in exchange.  These pool tokens are configured when the Prize Pool is created, and more can be added later.  Pool tokens cannot be removed.
+
+
+
+When a user wishes to withdraw their funds from a Prize Pool,  
+
+
+
 Prize Pools are general-purpose contracts that allow users to safely deposit collateral into a yield-generating service and have any accrued tokens disbursed to a separate Prize Strategy contract. PoolTogether currently provides a Compound Prize Pool that uses Compound as the yield generating service.  More are coming!
 
 The Prize Pool is not upgradeable and has no admin controls beyond an emergency shutdown function the governor contract can initiate. 
