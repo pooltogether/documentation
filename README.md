@@ -23,7 +23,7 @@ The first type of prize game offered by PoolTogether is the [Single Random Winne
 
 ## Governance
 
-The PoolTogether Protocol serves two primary functions. 
+The PoolTogether Protocol governance serves two primary functions. 
 
 * Governing the prize pool creation tools
 * Governing the prize strategies for a sub-set of prize pools
