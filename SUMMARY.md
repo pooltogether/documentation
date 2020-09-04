@@ -14,6 +14,7 @@
 * [⚖️ Fairness](protocol/fairness.md)
 * [🏆 Prize Pools](protocol/prize-pool/README.md)
   * [Compound Prize Pool](protocol/prize-pool/compound-prize-pool.md)
+  * [Token Listener](protocol/prize-pool/token-listener.md)
 * [💸 Prize Strategies](protocol/prize-strategy/README.md)
   * [🤑 Single Random Winner](protocol/prize-strategy/single-random-winner/README.md)
     * [🎟️ Ticket](protocol/prize-strategy/single-random-winner/ticket.md)
