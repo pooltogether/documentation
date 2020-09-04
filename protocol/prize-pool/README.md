@@ -158,7 +158,7 @@ function timelockDepositTo(
 
 If a user would like their tickets right away, they may pay an early exit fee to the prize.  The early exit fee is determined by the [Prize Strategy](../prize-strategy/).
 
-To withdraw instantly:
+The instant withdrawal function returns the amount of the withdrawal that was retained as payment.  This means you can call this function in a constant way to check to see what the exit fee will be.  When it comes time to run the tx, that exit fee can be passed as the `maximumExitFee` to ensure it doesn't exceed the expected limit.
 
 ```javascript
 function withdrawInstantlyFrom(
@@ -242,7 +242,7 @@ function awardExternalERC721(
 
 ## Credit
 
-Credit accrues differently for each of the Prize Pool's controlled tokens, so each token will have it's own credit rate and credit limit.
+Credit accrues differently for each of the Prize Pool's controlled tokens, so each token will have its own credit rate and credit limit.
 
 ### Credit Balance
 
@@ -276,4 +276,10 @@ function creditRateOf(
 | Parameter Name | Parameter Description |
 | :--- | :--- |
 | controlledToken | The controlled token whose credit limit and rate should be returned. |
+
+Note that the returned values are "mantissas": i.e. fixed point numbers with 18 decimal places.
+
+
+
+
 
