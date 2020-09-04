@@ -1,6 +1,6 @@
 # Compound Prize Pool Builder
 
-This builder creates a new [Compound Prize Pool](../prize-pool/compound-prize-pool.md) using the [Single Random Winner](../prize-strategy/single-random-winner.md) strategy.
+This builder creates a new [Compound Prize Pool](../prize-pool/compound-prize-pool.md) using the [Single Random Winner](../prize-strategy/single-random-winner/) strategy.
 
 To create a new prize game call the `create()` function.  The caller will be set as the owner of both the newly created Prize Pool and the Prize Strategy.
 

@@ -19,7 +19,7 @@ Prize games can be differentiated in the following ways:
 * The asset type the prize pool accepts for deposits 
 * The fairness parameters 
 
-The first type of prize game offered by PoolTogether is the [Single Random Winner](protocol/prize-strategy/single-random-winner.md) prize strategy. This strategy effectively implements a [prize savings account](https://en.wikipedia.org/wiki/Prize-linked_savings_account) \(wikipedia\). More are coming!
+The first type of prize game offered by PoolTogether is the [Single Random Winner](protocol/prize-strategy/single-random-winner/) prize strategy. This strategy effectively implements a [prize savings account](https://en.wikipedia.org/wiki/Prize-linked_savings_account) \(wikipedia\). More are coming!
 
 ## Governance
 

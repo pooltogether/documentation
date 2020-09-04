@@ -4,7 +4,7 @@ The Comptroller contract sets the protocol reserve rate and manages reward distr
 
 ### Protocol Reserve Rate
 
-The protocol reserve rate is a global rate that defines the percent fo yield each pool returns to itself as "sponsorship". Sponsorship is collateral deposited into a prize pool contributing yield but without tickets \(and therefore not eligible for yield distribution\). 
+The protocol reserve rate is a global percent of pool yield that is captured as "sponsorship". Sponsorship is collateral deposited into a prize pool contributing yield but without tickets \(and therefore not eligible for yield distribution\). 
 
 Functionality, sponsorship increases the size of prizes without decreasing the chance of winning for depositors. 
 

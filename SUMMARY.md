@@ -15,13 +15,14 @@
 * [🏆 Prize Pools](protocol/prize-pool/README.md)
   * [Compound Prize Pool](protocol/prize-pool/compound-prize-pool.md)
 * [💸 Prize Strategies](protocol/prize-strategy/README.md)
-  * [Single Random Winner](protocol/prize-strategy/single-random-winner.md)
+  * [Single Random Winner](protocol/prize-strategy/single-random-winner/README.md)
+    * [🎟️ Ticket](protocol/prize-strategy/single-random-winner/ticket.md)
+    * [🎁 Sponsorship](protocol/prize-strategy/single-random-winner/sponsorship.md)
 * [🛠 Builders](protocol/builders/README.md)
   * [Compound Prize Pool Builder](protocol/builders/compound-prize-pool-builder.md)
 * [🧞 Random Number Generator](protocol/random-number-generator/README.md)
   * [Blockhash](protocol/random-number-generator/blockhash.md)
   * [Chainlink VRF](protocol/random-number-generator/chainlink-vrf.md)
-* [🎟️ Ticket](protocol/ticket.md)
 * [🤖 Comptroller](protocol/comptroller.md)
 
 ## Governance

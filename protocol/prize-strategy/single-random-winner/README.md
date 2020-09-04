@@ -10,6 +10,8 @@ A Single Random Winner prize strategy is initialized with:
 
 **Ticket:** The interface to use to select winners
 
+**Sponsorship**: The token that represents sponsorship
+
 **Random Number Generator**: used to generate random numbers for winner selection
 
 ## Awarding
@@ -103,7 +105,7 @@ function prizePeriodEndAt() external view returns (uint256)
 | Function | Description |
 | :--- | :--- |
 | function sponsorship\(\) returns \([ERC20](https://eips.ethereum.org/EIPS/eip-20)\) | Returns the address of the sponsorship token. |
-| function ticket\(\) returns \([Ticket](../ticket.md)\) | Returns the address of the ticket token. |
+| function ticket\(\) returns \([Ticket](ticket.md)\) | Returns the address of the ticket token. |
 
 
 
