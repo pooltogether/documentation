@@ -2,9 +2,9 @@
 description: How to Buy Tickets in a PoolTogether Prize Pool
 ---
 
-# Buying Tickets
+# Depositing into a Prize Pool
 
-Let's buy a ticket in a Prize Pool.  Each step of the way we'll show you how to do it in both Solidity and Javascript \(using [Ethers.js](https://docs.ethers.io)\).
+Let's deposit into a Prize Pool.  Each step of the way we'll show you how to do it in both Solidity and Javascript \(using [Ethers.js](https://docs.ethers.io)\).
 
 First, we'll need to identify what the underlying asset to be deposited is.  If it's a Compound Prize Pool, we'll want to check which cToken it is.
 
@@ -44,7 +44,9 @@ await dai.approve(daiPrizePool.address, ethers.utils.parseEther('1'))
 
 ## Deposit
 
-Now let's deposit into the Prize Pool.  We need to tell the prize pool that we want tickets so that we're eligible for prizes, not sponsorship.  If we're using the [Single Random Winner](../protocol/prize-strategy/single-random-winner/) strategy we can simply ask it for the ticket address:
+Now let's deposit into the Prize Pool.  Since we're depositing into a [Compound Prize Pool](../protocol/prize-pool/compound-prize-pool.md) that uses a [Single Random Winner](../protocol/prize-strategy/single-random-winner/) strategy, we'll want to mint Tickets so that we're eligible for prizes.
+
+We can retrieve the Ticket controlled token address from the Single Random Winner prize strategy:
 
 **Solidity**
 
