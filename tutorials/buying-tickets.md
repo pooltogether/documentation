@@ -106,3 +106,5 @@ The last parameter to the depositTo function is the referral address.  The proto
 
 Any interface for a PrizePool will want to pass it's own address as the referrer so that it can capture sweet, sweet rewards.
 
+For more information see [Rewards](../governance/untitled.md)
+
