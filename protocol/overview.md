@@ -49,6 +49,12 @@ There are many different ways to generate a random number, so we've abstracted t
 
 Comptrollers make it really easy to "drip" tokens to players.  Comptrollers listen for token mints, transfers and burns and drip tokens accordingly.  The global PoolTogether governance comptroller is baked into every Prize Pool, so that we can drip out rewards to all prize games.
 
+## Conventions
+
+Fixed point math is used extensively in PoolTogether.  We used fixed point math with 18 decimal places for all fractional numbers.  You can think of this as being just like Ether and wei: a value of "1" Ether is represented as "1000000000000000000" wei.
+
+When a number is a fixed point 18 number we always suffix the number with _mantissa._  For example the credit rate is written as _creditRateMantissa_, because it is a fixed point number.
+
 ## Gas Station Network
 
 PoolTogether supports the [Gas Station Network 2.0](https://github.com/opengsn/gsn).  The Gas Station Network is an open source system for meta-transactions on Ethereum.  The GSN consists of smart contracts, relayers, and a protocol to support a decentralized meta transaction relayer network.

@@ -31,6 +31,8 @@ When a Prize Pool is created it is initialized with some hard-coded limits to pr
 
 The maximum timelock duration ensures that a user has to wait at most X amount of time to withdraw their funds loss-lessly.  If the owner of a pool sets the credit rate to be way too low, this limit ensures users will still be able to withdraw.
 
+If using the Single Random Winner Prize Strategy, it would make sense to set the maximum timelock duration to 2x the prize period.  That way the owner has some flexibility when adjusting the credit limit and credit rate.
+
 #### Maximum Credit Limit
 
 The maximum credit limit ensures that the credit limit cannot be set higher than this number.  This prevents the owner of the Prize Pool from capturing \*all\* of a user's deposit at withdrawal time.
@@ -189,7 +191,7 @@ function award(
     address to,
     uint256 amount,
     address controlledToken
-) external;
+) external onlyPrizeStrategy;
 ```
 
 | Parameter Name | Parameter Description |
@@ -198,5 +200,80 @@ function award(
 | amount | The amount of tokens to mint |
 | controlledToken | The type of token to mint |
 
+### Awarding ERC20s
 
+The Prize Strategy can award ERC20 tokens that are held by the Prize Pool.
+
+```javascript
+function awardExternalERC20(
+    address to,
+    address externalToken,
+    uint256 amount
+) external onlyPrizeStrategy;
+```
+
+However, some tokens are be blacklisted if they need to be held to generate yield \(i.e. Compound cTokens\).
+
+| Parameter Name | Parameter Description |
+| :--- | :--- |
+| to | The address to receive the transfer |
+| externalToken | The ERC20 to transfer |
+| amount | The amount of tokens to transfer |
+
+### Awarding ERC721s \(NFTs\)
+
+The Prize Strategy can award ERC721 tokens that are held by the Prize Pool.
+
+```javascript
+function awardExternalERC721(
+    address to,
+    address externalToken,
+    uint256[] calldata tokenIds
+  )
+    external
+    onlyPrizeStrategy;
+```
+
+| Parameter Name | Parameter Description |
+| :--- | :--- |
+| to | The address to receive the NFTs |
+| externalToken | The ERC721 contract address |
+| tokenIds | The NFT token ids to transfer. |
+
+## Credit
+
+Credit accrues differently for each of the Prize Pool's controlled tokens, so each token will have it's own credit rate and credit limit.
+
+### Credit Balance
+
+To get a users credit balance for a controlled token:
+
+```javascript
+function balanceOfCredit(
+    address user,
+    address controlledToken
+) external returns (uint256);
+```
+
+| Parameter Name | Parameter Description |
+| :--- | :--- |
+| user | The user whose credit balance should be returned |
+| controlledToken | The token for which the credit balance should be pulled |
+
+### Credit Rate
+
+The credit rate for a controlled token can be checked like so:
+
+```javascript
+function creditRateOf(
+    address controlledToken
+) external view returns (
+    uint128 creditLimitMantissa,
+    uint128 creditRateMantissa
+);
+```
+
+| Parameter Name | Parameter Description |
+| :--- | :--- |
+| controlledToken | The controlled token whose credit limit and rate should be returned. |
 
