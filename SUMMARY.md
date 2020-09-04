@@ -30,8 +30,8 @@
 
 ## Governance
 
-* [Overview](governance/overview.md)
-* [Untitled](governance/untitled.md)
+* [🏛️ Overview](governance/overview.md)
+* [💰 Rewards](governance/untitled.md)
 
 ## Security
 
