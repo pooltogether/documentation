@@ -8,6 +8,10 @@ description: Pool deposits and award accrued interest periodically as a prize
 
 Prize Pools allow funds to be pooled together into a no-loss yield source, such as Compound, and have the yield safely exposed to a separate Prize Strategy.  They are the primary way through which users interact with PoolTogether prize games.
 
+There is a type of prize pool for each yield source.  For example, if you wish to use Compound you will use the Compound Prize Pool.
+
+All Prize Pools share the functionality below.
+
 ## Owner
 
 When a Prize Pool is created, the creator is set as the pool's "owner".  The owner is able to:
@@ -23,7 +27,7 @@ When a Prize Pool is created, the creator is set as the pool's "owner".  The own
 
 When a user deposits into a Prize Pool, they also request what type of pool token they receive in exchange.  These pool tokens are configured when the Prize Pool is created, and more can be added later.  These tokens can represent a claim on collateral, or anything the owner likes.
 
-The default [Compound Prize Pool Builder](builders/) creates a Ticket controlled token and a Sponsorship controlled token.  These tokens can be looked up on the corresponding [Prize Strategy](prize-strategy/).
+The default [Compound Prize Pool Builder](../builders/) creates a Ticket controlled token and a Sponsorship controlled token.  These tokens can be looked up on the corresponding [Prize Strategy](../prize-strategy/).
 
 ## Depositing  
 
@@ -65,7 +69,7 @@ event Deposited(
 
 ## Withdrawing
 
-When a user withdraws they may need to contribute to the prize according to the [fairness rules](fairness.md).  They may either cover the contribution by time-locking their funds, or cover the contribution explicitly using funds.
+When a user withdraws they may need to contribute to the prize according to the [fairness rules](../fairness.md).  They may either cover the contribution by time-locking their funds, or cover the contribution explicitly using funds.
 
 ### **Withdraw with Timelock**
 
@@ -136,7 +140,7 @@ function timelockDepositTo(
 
 ### Withdraw Instantly
 
-If a user would like their tickets right away, they may pay an early exit fee to the prize.  The early exit fee is determined by the [Prize Strategy](prize-strategy/).
+If a user would like their tickets right away, they may pay an early exit fee to the prize.  The early exit fee is determined by the [Prize Strategy](../prize-strategy/).
 
 To withdraw instantly:
 

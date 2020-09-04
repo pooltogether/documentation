@@ -17,7 +17,7 @@ The code is available on [Github](https://github.com/pooltogether/pooltogether-p
 
 ## Architecture
 
-### [Prize Pools](prize-pool.md)
+### [Prize Pools](prize-pool/)
 
 Prize Pools are the central building block of prize games.  They pool user funds in a **yield source** and expose the yield to their **Prize Strategy**, which then disburses as desired.
 
