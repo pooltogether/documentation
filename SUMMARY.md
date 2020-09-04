@@ -18,7 +18,8 @@
   * [Single Random Winner](protocol/prize-strategy/single-random-winner.md)
 * [🛠 Builders](protocol/builders/README.md)
   * [Compound Prize Pool Builder](protocol/builders/compound-prize-pool-builder.md)
-* [🧞 Random Number Generator](protocol/random-number-generator.md)
+* [🧞 Random Number Generator](protocol/random-number-generator/README.md)
+  * [Chainlink VRF](protocol/random-number-generator/chainlink-vrf.md)
 * [🎟️ Ticket](protocol/ticket.md)
 * [🤖 Comptroller](protocol/comptroller.md)
 

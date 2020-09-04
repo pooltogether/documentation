@@ -10,7 +10,7 @@ It functions like so:
 4. The user may check to see if the random number is available using the identifier.
 5. When the random number is available the user may retrieve it with the identifier.
 
-Let's look at these functions in detail
+Let's look at these functions in detail.
 
 ## Get the Request Fee
 

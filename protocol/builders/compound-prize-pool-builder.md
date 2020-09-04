@@ -35,7 +35,7 @@ struct Config {
 | :--- | :--- |
 | proxyAdmin | Optional - if supplied then the Prize Strategy will be upgradeable by this address.  This is expected to be an OpenZeppelin ProxyAdmin contract. |
 | cToken | The [Compound cToken](https://compound.finance/docs/ctokens) to use |
-| rngService | The [Random Number Generator](../random-number-generator.md) service to use |
+| rngService | The [Random Number Generator](../random-number-generator/) service to use |
 | prizePeriodSeconds | The prize period of the Prize Strategy. |
 | ticketName | The name to use for the ticket ERC20 |
 | ticketSymbol | The symbol to use for the ticket ERC20 |
