@@ -4,7 +4,7 @@ description: Easily create preconfigured Prize Pools
 
 # 🛠 Builders
 
-Prize Pool Builders allow users to create preconfigured Prize Pools.  Currently there is a Compound Prize Pool Builder that creates Compound Prize Pools using the Single Random Winner prize strategy.
+Prize Pool Builders allow users to create preconfigured Prize Pools. Builders create all contracts using teeny tiny proxies, so creating prize games is cheap!
 
-The Builder create all contracts using very small proxies, so creating prize games is cheap!
+* \*\*\*\*[**Compound Prize Pool Builder**](compound-prize-pool-builder.md) ****creates Compound Prize Pools using the Single Random Winner prize strategy.
 
