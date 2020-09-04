@@ -6,6 +6,7 @@
 ## Tutorials
 
 * [Depositing into a Prize Pool](tutorials/buying-tickets.md)
+* [Withdrawing from a Prize Pool](tutorials/withdrawing-from-a-prize-pool.md)
 * [Creating a Prize Pool](tutorials/creating-a-prize-pool.md)
 * [Migrating from V2 to V3](tutorials/migrating-from-v2-to-v3.md)
 
