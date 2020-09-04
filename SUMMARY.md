@@ -30,7 +30,7 @@
 ## Governance
 
 * [Overview](governance/overview.md)
-* [👑 Governor](governance/governor.md)
+* [Untitled](governance/untitled.md)
 
 ## Security
 
