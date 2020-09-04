@@ -39,7 +39,7 @@ Prize Strategies determine the prize distribution for the Prize Pool.  They can 
 
 ### [Builders](builders/)
 
-Builders make it easy to create pre-configured prize games.  The first builder offered by PoolTogether is the [Compound Single Random Winner Builder](builders/compound-prize-pool-builder.md), which creates a [Compound Prize Pool]() bound to a [Single Random Winner](prize-strategy/single-random-winner.md) prize strategy and a [Ticket](ticket.md) token as the pool token.
+Builders make it easy to create pre-configured prize games.  The first builder offered by PoolTogether is the [Compound Single Random Winner Builder](builders/compound-prize-pool-builder.md), which creates a [Compound Prize Pool](prize-pool/compound-prize-pool.md) bound to a [Single Random Winner](prize-strategy/single-random-winner.md) prize strategy and a [Ticket](ticket.md) token as the pool token.
 
 ### [Random Number Generator](random-number-generator/)
 

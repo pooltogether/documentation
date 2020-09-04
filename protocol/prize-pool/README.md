@@ -25,7 +25,7 @@ When a Prize Pool is created, the creator is set as the pool's "owner".  The own
 
 ## Limits
 
-When a Prize Pool is created it is initialized with some hard-coded limits to protect users.
+When a Prize Pool is created it is initialized with some hard-coded limits to protect users. See [Fairness](../fairness.md) for more details.
 
 #### Maximum Timelock Duration
 
