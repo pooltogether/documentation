@@ -8,7 +8,7 @@ description: Pool deposits and award accrued interest periodically as a prize
 
 Prize Pools allow funds to be pooled together into a no-loss yield source, such as Compound, and have the yield safely exposed to a separate Prize Strategy.  They are the primary way through which users interact with PoolTogether prize games.
 
-There is a type of prize pool for each yield source.  For example, if you wish to use Compound you will use the Compound Prize Pool.
+There is a different type of prize pool for each yield source.  For example, if you wish to use Compound you will use the Compound Prize Pool.
 
 All Prize Pools share the functionality below.
 
@@ -22,6 +22,18 @@ When a Prize Pool is created, the creator is set as the pool's "owner".  The own
 * Shutdown the prize pool
 * Transfer ownership
 * Renounce ownership
+
+## Limits
+
+When a Prize Pool is created it is initialized with some hard-coded limits to protect users.
+
+#### Maximum Timelock Duration
+
+The maximum timelock duration ensures that a user has to wait at most X amount of time to withdraw their funds loss-lessly.  If the owner of a pool sets the credit rate to be way too low, this limit ensures users will still be able to withdraw.
+
+#### Maximum Credit Limit
+
+The maximum credit limit ensures that the credit limit cannot be set higher than this number.  This prevents the owner of the Prize Pool from capturing \*all\* of a user's deposit at withdrawal time.
 
 ## Pool Tokens
 
