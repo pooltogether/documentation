@@ -10,7 +10,7 @@ Prize Pools measure the duration of time funds are held by accruing **credit** f
 
 Prize Pools enforce the duration of time funds are held using a withdrawal **timelock**.  If a user withdraws too early, then they have to wait.  If a user withdraws after a long enough time, then they get their funds back instantly.
 
-### Credit
+## Credit
 
 After a user deposits funds they begin to accrue credit according to the credit rate.  The credit rate is expressed in tokens per second.
 
@@ -20,7 +20,7 @@ Users will accrue credit up until the **credit limit**.  The credit limit is a f
 
 Once a deposit has accrued maximum credit, it is considered **matured**.
 
-### Timelock
+## Timelock
 
 A deposit can be withdrawn instantly from the Prize Pool if it has matured.  Otherwise, upon withdrawal the deposit will be timelocked until it has matured, at which point the funds can be swept back to the user by anyone.
 
@@ -31,4 +31,28 @@ The duration of the timelock is the time it takes for the withdrawal to mature l
 ### Paying Off the Timelock
 
 It's possible for a user to withdraw their funds instantly.  Instead of a timelock, the Prize Pool will capture the remaining contribution directly from the withdrawal amount. The user will receive the withdrawal amount less the remaining contribution.  Their spare credit will be burned.  We call this an **instant withdrawal.**
+
+## What should the credit rate and credit limit for a pool be?
+
+In principal, we want the timelock to be as short as possible. We are trying to prevent abuse of the system by a small subset of users while keeping the smoothest experience for the majority of users.
+
+At first glance the credit limit should simply be equal to the amount of interest a deposit would contribute over a prize period. But there are several factors that can change the cost / benefit balance for depositors, specifically:
+
+* Any subsidies to the prize \(whether through sponsored deposits or direct additions\)
+* Any rewards given to deposits through the token drips
+* Fluctuations in the yield rate
+* Amount of tickets for a given prize
+* Gas fees of entering and exiting the pool
+
+To find the ideal credit limit it is best to estimate the **effective apr** a pool is offering.
+
+**Example**
+
+Assume a pool has 100,000 tickets sold and its yield source is returning 5% APR, that would infer a $96 weekly prize. It means over the course of 7 days, one ticket \(equaling 1 dollar deposited\) contributes $0.0009 to the prize and over the course of one day contributes $0.00012 to the prize.
+
+In this situation, a credit limit should be set to $0.0009 and the credit rate and the credit rate set to $0.00012.
+
+But this pool also has a $1,000 weekly prize subsidy. So the actual prize is $1,096 per week. That would mean the effective APR is 57%! If the credit rate and limit were set to the above it could be very profitably gamed. At 57% APR one ticket \(equaling 1 dollar deposited\) effectively represents $0.01 to the prize and over the course a week and $0.0015 to the prize each day.
+
+Therefore the credit rate and credit limit need to at minimum be matched to these rates.
 
