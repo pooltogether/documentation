@@ -93,6 +93,8 @@ Funds can be withdrawn losslessly by time-locking the funds.  The withdrawal amo
 
 If the user has sufficient credit, the unlockTimestamp may be "now" and the funds are instantly swept to the `from` address.
 
+Tip: You can call this function in a constant way to see when the users funds will be unlocked.
+
 To start a lossless withdrawal a user may call:
 
 ```javascript

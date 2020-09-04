@@ -4,11 +4,9 @@ description: Customize how a Prize Pool distributes prizes
 
 # 💸 Prize Strategies
 
-A Prize Strategy handles prize distribution for a [Prize Pool](../prize-pool/).  When a Prize Pool is constructed it is configured with a Prize Strategy.
+A Prize Strategy handles prize distribution for a [Prize Pool](../prize-pool/).  When a Prize Pool is constructed it is configured with a Prize Strategy.  The Prize Strategy has the privileged ability to award tokens from the Prize Pool.
 
-Currently there is one prize strategy -- "Single Random Winner". If you'd like to implement a new prize pool strategy that can be done via governance.  
-
-The Prize Strategy created by the [Compound Prize Pool Builder](../builders/) is upgradeable by the governor contract. 
+The first Prize Strategy PoolTogether is offering is the [Single Random Winner](single-random-winner.md) strategy.
 
 
 
