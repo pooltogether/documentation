@@ -15,7 +15,7 @@
 * [🏆 Prize Pools](protocol/prize-pool/README.md)
   * [Compound Prize Pool](protocol/prize-pool/compound-prize-pool.md)
 * [💸 Prize Strategies](protocol/prize-strategy/README.md)
-  * [Single Random Winner](protocol/prize-strategy/single-random-winner/README.md)
+  * [🤑 Single Random Winner](protocol/prize-strategy/single-random-winner/README.md)
     * [🎟️ Ticket](protocol/prize-strategy/single-random-winner/ticket.md)
     * [🎁 Sponsorship](protocol/prize-strategy/single-random-winner/sponsorship.md)
 * [🛠 Builders](protocol/builders/README.md)

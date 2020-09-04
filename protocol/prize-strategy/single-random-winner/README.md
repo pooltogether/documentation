@@ -1,4 +1,4 @@
-# Single Random Winner
+# 🤑 Single Random Winner
 
 The Single Random Winner prize strategy periodically selects a random winner and awards to them all the prizes available in the Prize Pool.
 
@@ -8,9 +8,9 @@ A Single Random Winner prize strategy is initialized with:
 
 **Prize Period Seconds**: the duration of time between prizes
 
-**Ticket:** The interface to use to select winners
+\*\*\*\*[**Ticket**](ticket.md)**:** The interface to use to select winners
 
-**Sponsorship**: The token that represents sponsorship
+\*\*\*\*[**Sponsorship**](sponsorship.md): The token that represents sponsorship
 
 **Random Number Generator**: used to generate random numbers for winner selection
 
