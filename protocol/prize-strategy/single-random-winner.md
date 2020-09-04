@@ -1,50 +1,20 @@
 # Single Random Winner
 
-## Prize Strategy Interface
+The Single Random Winner prize strategy periodically selects a random winner and awards to them all the prizes available in the Prize Pool.
 
-### Calculating the Early Exit Fee
+A Single Random Winner prize strategy is initialized with:
 
-When a user wishes to redeem their tickets instantly, the prize pool will ask the strategy what the fairness fee should be. 
+**Prize Period Start:** the timestamp at which the prize period should start
 
-The function signature is:
+**Prize Period Seconds**: the duration of time between prizes
 
-```javascript
-function calculateInstantWithdrawalFee(
-    address from,
-    uint256 amount,
-    address controlledToken
-  )
-    external
-    returns (uint256 remainingFee, uint256 burnedCredit)
-```
+**Ticket:** The interface to use to select winners
 
-The strategy will be given the user, the number of tickets they are attempting to withdraw, and is expected to return the fee amount.
+**Random Number Generator**: used to generate random numbers for winner selection
 
-### Calculating the Withdrawal Timelock
+## Awarding
 
-When a user wishes to redeem their tickets without paying any fees, then prize pool will ask the strategy what the unlock timestamp is:
-
-```javascript
-function calculateTimelockDurationAndFee(
-    address from,
-    uint256 amount,
-    address controlledToken
-  )
-    external
-    returns (uint256 durationSeconds, uint256 burnedCredit)
-```
-
-The strategy will be passed the user and the amount of tickets and be expected to return the timestamp after which the user may withdraw.
-
-## Prize Strategy Privileges
-
-Only the Prize Strategy is able to award prizes on its associated [Prize Pool](../prize-pool/).   See [Awarding Prizes](../prize-pool/#awarding-prizes).
-
-## Awarding Prizes
-
-Prizes are awarded in two phases.  The first phase locks the Pool and requests a random number from the Random Number Generation service.  The second phase retrieves the random number, award the prize, and unlocks the pool.
-
-The first phase of the award process begins by calling:
+When the current time is greater than or equal to the prize period start + duration, anyone may start the award process.
 
 ```javascript
 function startAward() external
@@ -79,9 +49,9 @@ and
 function canCompleteAward() external view returns (bool);
 ```
 
-## Reporting
+## Prizes
 
-### Current Prize
+### Current Yield Prize
 
 To retrieve amount of accrued prize interest so far you may call:
 
@@ -97,7 +67,24 @@ To estimate what the prize will be you can call:
 function estimatePrize() external returns (uint256);
 ```
 
-### Time
+## External Prizes
+
+The owner can add "external" ERC20 tokens as prizes.  The strategy will award the entire balance held by the Prize Pool to the winner.
+
+```javascript
+function addExternalErc20Award(address _externalErc20) external onlyOwner;
+```
+
+The owner can add "external" ERC721 tokens as prizes.  These tokens will be transferred to the winner.
+
+```javascript
+function addExternalErc721Award(
+    address _externalErc721,
+    uint256[] calldata _tokenIds
+) external onlyOwner
+```
+
+## Time
 
 To retrieve when the current prize started:
 
