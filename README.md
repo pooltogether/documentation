@@ -2,8 +2,8 @@
 
 PoolTogether is a protocol for no-loss **prize games** on the Ethereum blockchain.
 
-🛠**Enables developers to build their own prize games.**  
-👑**Offers governance-managed prize games**
+🛠 **Enables developers to build their own prize games.**  
+👑 **Offers governance-managed prize games**
 
 Prize games are pools of funds whose accrued interest is distributed as prizes. All ****prize games created by the protocol share the same key characteristics:
 
