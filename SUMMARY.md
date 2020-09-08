@@ -19,13 +19,11 @@
 * [🧞 Random Number Generator](protocol/random-number-generator/README.md)
   * [Blockhash](protocol/random-number-generator/blockhash.md)
   * [Chainlink VRF](protocol/random-number-generator/chainlink-vrf.md)
-* [🤖 Comptroller](protocol/comptroller.md)
 
 ## Tutorials
 
 * [Deposit into a Prize Pool](tutorials/buying-tickets.md)
 * [Withdraw from a Prize Pool](tutorials/withdrawing-from-a-prize-pool.md)
-* [Create a Custom Prize Strategy](tutorials/create-a-custom-prize-strategy.md)
 * [Create a Prize Pool](tutorials/creating-a-prize-pool.md)
 * [Migrating from V2 to V3](tutorials/migrating-from-v2-to-v3.md)
 
