@@ -46,7 +46,7 @@ await dai.approve(daiPrizePool.address, ethers.utils.parseEther('1'))
 
 Now let's deposit into the Prize Pool.  Since we're depositing into a [Compound Prize Pool](../protocol/prize-pool/compound-prize-pool.md) that uses a [Single Random Winner](../protocol/prize-strategy/single-random-winner/) strategy, we'll want to mint Tickets so that we're eligible for prizes.
 
-We can retrieve the Ticket controlled token address from the Single Random Winner prize strategy:
+We can retrieve the Ticket [controlled token](../protocol/prize-pool/#controlled-tokens) address from the Single Random Winner prize strategy:
 
 **Solidity**
 
