@@ -23,7 +23,7 @@ Governance will guide the evolution of the protocol.  Improvements may include:
 * subsidized transactions
 * insurance coverage
 
-These improvements will be funded using the **protocol reserve**.  All Prize Pools created with [Builders](../protocol/builders/) contribute a small fee to the protocol reserve.  This fee is retained as sponsorship for the Prize Pool until it needs to be spent.
+All Prize Pools created with [Builders](../protocol/builders/) contribute a small fee to the **protocol reserve**.  The reserve is retained by the protocol as sponsorship in the Prize Pool in which it accrued.
 
 ## Prize Pool Management
 
