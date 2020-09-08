@@ -4,7 +4,7 @@ description: The Role of Governance
 
 # 🏛️ Overview
 
-_The PoolTogether protocol will be transitioning to decentralized governance by token holders.  In the meantime, the core team serves as the interim governance body._
+_The PoolTogether protocol will be transitioning to decentralized governance.  In the meantime, the core team serves as the interim governance body._
 
 PoolTogether Governance broadly serves two mandates:
 
