@@ -108,5 +108,9 @@ await daiPrizePool.withdrawInstantlyFrom(
 
 ```
 
+## Getting Approval
 
+Both methods of withdrawal allow users to withdraw on behalf of others, as long as they have sufficient ERC20 allowance for the user and controlled token in question.
+
+The funds will be transferred back to the original user, not to the caller.
 
