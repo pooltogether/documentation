@@ -15,7 +15,7 @@ PoolTogether Governance broadly serves two mandates:
 
 Governance will guide the evolution of the protocol.  Improvements may include:
 
-* rewards for prize pool users
+* [rewards](untitled.md) for prize pool users
 * new yield sources for prize pools 
 * new prize strategies
 * additional prizes or rewards
@@ -24,8 +24,6 @@ Governance will guide the evolution of the protocol.  Improvements may include:
 * insurance coverage
 
 These improvements will be funded using the **protocol reserve**.  All Prize Pools created with [Builders](../protocol/builders/) contribute a small fee to the protocol reserve.  This fee is retained as sponsorship for the Prize Pool until it needs to be spent.
-
-The protocol can distribute [rewards](untitled.md) to all Prize Pools.
 
 ## Prize Pool Management
 
