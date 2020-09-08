@@ -6,7 +6,7 @@ description: Pool deposits and award accrued interest periodically as a prize
 
 ## Introduction
 
-Prize Pools allow funds to be pooled together into a no-loss yield source, such as Compound, and have the yield safely exposed to a separate Prize Strategy.  They are the primary way through which users interact with PoolTogether prize games.
+Prize Pools allow funds to be pooled together into a no-loss yield source, such as Compound, and have the yield safely exposed to a separate Prize Strategy.  They are the primary way through which users interact with PoolTogether prize games.  Fairness is dictated by the [credit rate and credit limit](fairness.md#credit).
 
 There is a different type of prize pool for each yield source.  For example, if you wish to use Compound you will use the Compound Prize Pool.
 
@@ -18,14 +18,14 @@ When a Prize Pool is created, the creator is set as the pool's "owner".  The own
 
 * Add additional pool tokens
 * Change the Prize Strategy
-* Set the credit rate and credit limit
+* Set the [credit rate and credit limit](fairness.md#credit)
 * Shutdown the prize pool
 * Transfer ownership
 * Renounce ownership
 
 ## Limits
 
-When a Prize Pool is created it is initialized with some hard-coded limits to protect users. See [Fairness](../fairness.md) for more details.
+When a Prize Pool is created it is initialized with some hard-coded limits to protect users. See [Fairness](fairness.md) for more details.
 
 #### Maximum Timelock Duration
 
@@ -93,7 +93,7 @@ event Deposited(
 
 ## Withdrawing
 
-When a user withdraws they may need to contribute to the prize according to the [fairness rules](../fairness.md).  They may either cover the contribution by time-locking their funds, or cover the contribution explicitly using funds.
+When a user withdraws they may need to contribute to the prize according to the [fairness rules](fairness.md).  They may either cover the contribution by time-locking their funds, or cover the contribution explicitly using funds.
 
 ### **Withdraw with Timelock**
 

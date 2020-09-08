@@ -6,8 +6,8 @@
 ## Protocol
 
 * [🌐 Overview](protocol/overview.md)
-* [⚖️ Fairness](protocol/fairness.md)
 * [🏆 Prize Pools](protocol/prize-pool/README.md)
+  * [⚖️ Fairness](protocol/prize-pool/fairness.md)
   * [Compound Prize Pool](protocol/prize-pool/compound-prize-pool.md)
   * [Token Listener](protocol/prize-pool/token-listener.md)
 * [💸 Prize Strategies](protocol/prize-strategy/README.md)

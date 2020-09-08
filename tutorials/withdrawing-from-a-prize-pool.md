@@ -55,7 +55,7 @@ const unlockTimestamp = await daiPrizePool.balanceAvailableAt(signer._address)
 
 ## Withdrawing Funds Instantly
 
-If the user doesn't have sufficient [credit](../protocol/fairness.md#credit) to cover the timelock they can "pay off" the timelock by contributing to the prize.
+If the user doesn't have sufficient [credit](../protocol/prize-pool/fairness.md#credit) to cover the timelock they can "pay off" the timelock by contributing to the prize.
 
 **Solidity**
 
