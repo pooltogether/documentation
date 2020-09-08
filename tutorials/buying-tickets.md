@@ -2,7 +2,7 @@
 description: How to Buy Tickets in a PoolTogether Prize Pool
 ---
 
-# Depositing into a Prize Pool
+# Deposit into a Prize Pool
 
 Let's deposit into a Prize Pool.  Each step of the way we'll show you how to do it in both Solidity and Javascript \(using [Ethers.js](https://docs.ethers.io)\).
 

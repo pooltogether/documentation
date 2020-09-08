@@ -2,7 +2,7 @@
 description: How to Withdraw Funds from a Prize Pool
 ---
 
-# Withdrawing from a Prize Pool
+# Withdraw from a Prize Pool
 
 When it comes time to withdraw funds from a Prize Pool you can withdraw funds for yourself, or for others if they have given you an allowance.
 
