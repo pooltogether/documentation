@@ -4,7 +4,7 @@ description: How Prize Pools Ensure Fair Play
 
 # ⚖️ Fairness
 
-When users play a game they want it to be fair.  In PoolTogether, this means that everyone has contributed the same amount of interest to the prize.  Interest accrues over time, so the Prize Pool needs to measure and enforce the time that funds are held.
+When users play a game they want it to be fair.  In PoolTogether, this means that everyone has contributed the same amount of interest to prizes.  Interest accrues over time, so the Prize Pool needs to measure and enforce the time that funds are held.
 
 Prize Pools measure the duration of time funds are held by accruing **credit** for each user at the **credit rate**.  The longer a user holds tokens, the more credit they accrue.
 
@@ -34,14 +34,14 @@ It's possible for a user to withdraw their funds instantly.  Instead of a timelo
 
 ## What should the credit rate and credit limit for a pool be?
 
-In principal, we want the timelock to be as short as possible. We are trying to prevent abuse of the system by a small subset of users while keeping the smoothest experience for the majority of users.
+In principal, we want the timelock to be as short as possible and most users should never encounter it. We are trying to prevent abuse of the system by a small subset of users while keeping the smoothest experience for the majority of users.
 
 At first glance the credit limit should simply be equal to the amount of interest a deposit would contribute over a prize period. But there are several factors that can change the cost / benefit balance for depositors, specifically:
 
 * Any subsidies to the prize \(whether through sponsored deposits or direct additions\)
 * Any rewards given to deposits through the token drips
 * Fluctuations in the yield rate
-* Amount of tickets for a given prize
+* Total amount of outstanding tickets for a given prize
 * Gas fees of entering and exiting the pool
 
 To find the ideal credit limit it is best to estimate the **effective apr** a pool is offering.

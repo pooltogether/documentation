@@ -13,7 +13,7 @@ The code is available on [Github](https://github.com/pooltogether/pooltogether-p
 1. Users deposit funds into a Prize Pool.  They receive pool tokens in exchange.
 2. The funds earn interest.
 3. The interest is distributed by the Prize Strategy as pool tokens.
-4. Users withdraw their funds by telling the Prize Pool to burn their pool tokens.
+4. Users withdraw their funds at any time by telling the Prize Pool to burn their pool tokens.
 
 ## Architecture
 
@@ -23,11 +23,11 @@ Prize Pools are the central building block of prize games.  They pool user funds
 
 Prize Pools can be differentiated in four primary ways:
 
-* The yield source that generates no loss return
-* The asset type the prize pool accepts for deposits
+* The yield source the prize pool uses to generate no loss return
 * The prize strategy used to determine frequency and distribution 
-* Additional prizes
-* Fairness parameters
+* The rewards offered by the prize pool
+* The asset type the prize pool accepts for deposits 
+* The fairness parameters 
 
 ### [Prize Strategies](prize-strategy/)
 
@@ -47,7 +47,7 @@ There are many different ways to generate a random number, so we've abstracted t
 
 ### [Comptroller](comptroller.md)
 
-Comptrollers make it really easy to "drip" tokens to players.  Comptrollers listen for token mints, transfers and burns and drip tokens accordingly.  The global PoolTogether governance comptroller is baked into every Prize Pool, so that we can drip out rewards to all prize games.
+Comptrollers make it simple to "drip" tokens to players.  Comptrollers listen for token mints, transfers and burns and drip tokens accordingly.  The global PoolTogether governance comptroller is baked into every Prize Pool, so rewards can be dripped to all prize games.
 
 ## Conventions
 
