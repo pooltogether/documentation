@@ -39,9 +39,17 @@ The maximum credit limit ensures that the credit limit cannot be set higher than
 
 ## Pool Tokens
 
-When a user deposits into a Prize Pool, they also request what type of token they receive in exchange.  These pool tokens are configured when the Prize Pool is created, and more can be added later.  These tokens can represent a claim on collateral, or anything the owner likes.
+When a user deposits into a Prize Pool, they also request what type of token they receive in exchange.  These pool tokens are configured when the Prize Pool is created, and more can be added later.  These tokens can represent a claim on collateral or have additional features.
 
-Pool tokens are implemented as Controlled Tokens: these tokens all have a Token Controller, which is allowed to mint and burn the tokens on behalf of users.  The Prize Pool is the Token Controller for all of it's controlled tokens.
+Pool tokens must implement the **Controlled Token** interface**.**
+
+### Controlled Tokens
+
+A Controlled Token is a standard ERC20 that is bound to a **Token Controller**.
+
+The Token Controller has the privileged ability to mint and burn tokens on user's behalf, and has a callback that listens for token transfers.  Controlled Tokens are expected to trigger this callback on any mint, burns or transfers.
+
+The Prize Pool must be the Token Controller for the controlled tokens that it is initialized with at construction.
 
 The default [Compound Prize Pool Builder](../builders/) creates a Ticket controlled token and a Sponsorship controlled token.  These tokens can be looked up on the corresponding [Prize Strategy](../prize-strategy/).
 
