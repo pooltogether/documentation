@@ -25,6 +25,8 @@ When a Prize Pool is created, the creator is set as the pool's "owner".  The own
 * Transfer ownership
 * Renounce ownership
 
+**The prize pool is not upgradeable and therefore the owner can never seize the funds deposited into the prize pool** 
+
 ## Limits
 
 When a Prize Pool is created it is initialized with some hard-coded limits to protect users. See [Fairness](fairness.md) for more details.
