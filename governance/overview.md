@@ -13,15 +13,19 @@ PoolTogether Governance broadly serves two mandates:
 
 ## Protocol Improvement
 
-Governance will guide the evolution of the protocol.  Improvements may include:
+Governance will guide the evolution of the protocol towards the goal of building products that create financial health. The primary functions of governance are to: 
 
-* [rewards](untitled.md) for prize pool users
-* new yield sources for prize pools 
-* new prize strategies
-* additional prizes or rewards
-* integrations with L2 systems
+* Set [rewards](untitled.md) for prize pool users
+* Approve & implement new yield sources for prize pools 
+* Implement new prize strategies
+
+In addition to these core functions governance may: 
+
+* propose integrations with L2 systems
+* Add additional prizes or rewards 
 * subsidized transactions
 * insurance coverage
+* + Anything else! 
 
 All Prize Pools created with [Builders](../protocol/builders/) contribute a small fee to the **protocol reserve**.  The reserve is retained by the protocol as sponsorship in the Prize Pool in which it accrued.
 
