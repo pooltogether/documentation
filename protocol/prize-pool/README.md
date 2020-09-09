@@ -6,7 +6,9 @@ description: Pool deposits and award accrued interest periodically as a prize
 
 ## Introduction
 
-Prize Pools allow funds to be pooled together into a no-loss yield source, such as Compound, and have the yield safely exposed to a separate Prize Strategy.  They are the primary way through which users interact with PoolTogether prize games.  Fairness is dictated by the [credit rate and credit limit](fairness.md#credit).
+Prize Pools allow funds to be pooled together into a no-loss yield source, such as Compound, and have the yield safely exposed to a separate Prize Strategy.  They are the primary way through which users interact with PoolTogether prize games.
+
+Prize Pools provide controls to the owner so that participation can be made fair.  See [Fairness](fairness.md) for more information.
 
 There is a different type of prize pool for each yield source.  For example, if you wish to use Compound you will use the Compound Prize Pool.
 
