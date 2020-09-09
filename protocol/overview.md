@@ -1,12 +1,12 @@
 ---
-description: What are Prize Games?
+description: What are No-Loss Prize Games?
 ---
 
 # 🌐 Overview
 
-Prize games are pools of funds whose accrued interest is distributed as prizes.
+No-loss prize games are pools of funds whose accrued interest is distributed as prizes.
 
-The code is available on [Github](https://github.com/pooltogether/pooltogether-pool-contracts).
+The high level protocol architecture is outlined below. The code is available on [Github](https://github.com/pooltogether/pooltogether-pool-contracts).
 
 ## How it works
 
