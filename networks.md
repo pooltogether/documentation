@@ -3,7 +3,7 @@
 ## Prize Pools
 | Name | Address | Artifact |
 | :--- | :--- | :--- |
-| Compound cDAI Prize Pool | [0xe19d8b62Bbb53F3e5d2c62e361240a6d3Ad4084F](https://rinkeby.etherscan.io/address/0xe19d8b62Bbb53F3e5d2c62e361240a6d3Ad4084F) | [ABI]({% file src=".gitbook/assets/prizepoolabi.json" %}) |
+| Compound cDAI Prize Pool | [0xe19d8b62Bbb53F3e5d2c62e361240a6d3Ad4084F](https://rinkeby.etherscan.io/address/0xe19d8b62Bbb53F3e5d2c62e361240a6d3Ad4084F) | {% file src=".gitbook/assets/prizepoolabi.json" %} |
 | Compound cUSDC Prize Pool | [0x5f4d901082229b7FBf2afd4d3Ac970De2eB2AB92](https://rinkeby.etherscan.io/address/0x5f4d901082229b7FBf2afd4d3Ac970De2eB2AB92) | [ABI]({% file src=".gitbook/assets/prizepoolabi.json" %}) |
 | Compound cUSDT Prize Pool | [0x832B459C0Bc3FB10F2Aa62c70eDf5918085315c1](https://rinkeby.etherscan.io/address/0x832B459C0Bc3FB10F2Aa62c70eDf5918085315c1) | [ABI]({% file src=".gitbook/assets/prizepoolabi.json" %}) |
 | Contract Name | Address | ABI |
