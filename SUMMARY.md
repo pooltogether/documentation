@@ -22,6 +22,7 @@
 
 ## Tutorials
 
+* [Getting Started](tutorials/getting-started.md)
 * [Deposit into a Prize Pool](tutorials/buying-tickets.md)
 * [Withdraw from a Prize Pool](tutorials/withdrawing-from-a-prize-pool.md)
 * [Create a Prize Pool](tutorials/creating-a-prize-pool.md)
