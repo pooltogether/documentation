@@ -2,9 +2,9 @@
 
 | Name | Address | Artifact |
 | :--- | :--- | :--- |
-| Compound cDAI Prize Pool | [0xe19d8b62Bbb53F3e5d2c62e361240a6d3Ad4084F](https://rinkeby.etherscan.io/address/0xe19d8b62Bbb53F3e5d2c62e361240a6d3Ad4084F) | [ABI](/.gitbook/assets/prizepoolabi.json) |
-| Compound cUSDC Prize Pool | [0x5f4d901082229b7FBf2afd4d3Ac970De2eB2AB92](https://rinkeby.etherscan.io/address/0x5f4d901082229b7FBf2afd4d3Ac970De2eB2AB92) | [ABI](/.gitbook/assets/prizepoolabi.json) |
-| Compound cUSDT Prize Pool | [0x832B459C0Bc3FB10F2Aa62c70eDf5918085315c1](https://rinkeby.etherscan.io/address/0x832B459C0Bc3FB10F2Aa62c70eDf5918085315c1) | [ABI](/.gitbook/assets/prizepoolabi.json) |
+| [Compound cDAI Prize Pool](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/prize-pool/PrizePool.sol) | [0xe19d8b62Bbb53F3e5d2c62e361240a6d3Ad4084F](https://rinkeby.etherscan.io/address/0xe19d8b62Bbb53F3e5d2c62e361240a6d3Ad4084F) | [ABI](/.gitbook/assets/prizepoolabi.json) |
+| [Compound cUSDC Prize Pool](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/prize-pool/PrizePool.sol) | [0x5f4d901082229b7FBf2afd4d3Ac970De2eB2AB92](https://rinkeby.etherscan.io/address/0x5f4d901082229b7FBf2afd4d3Ac970De2eB2AB92) | [ABI](/.gitbook/assets/prizepoolabi.json) |
+| [Compound cUSDT Prize Pool](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/prize-pool/PrizePool.sol) | [0x832B459C0Bc3FB10F2Aa62c70eDf5918085315c1](https://rinkeby.etherscan.io/address/0x832B459C0Bc3FB10F2Aa62c70eDf5918085315c1) | [ABI](/.gitbook/assets/prizepoolabi.json) |
 | [CompoundPrizePoolBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/builders/CompoundPrizePoolBuilder.sol) | [0xAE17b0BA282FBb24e5ba050C56302c02D2CF6c31](https://rinkeby.etherscan.io/address/0xAE17b0BA282FBb24e5ba050C56302c02D2CF6c31) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/rinkeby/CompoundPrizePoolBuilder.json) |
 
 # Ropsten
