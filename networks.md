@@ -1,10 +1,35 @@
 # 📡 Networks
 
-## Rinkeby
+# kovan
 
-| Contract | Address |
-| :--- | :--- |
-|  |  |
+| Contract Name | Address | ABI |
+| :--- | :--- | :--- |
+| CompoundPrizePoolBuilder | [0x2b82d20FBe1B8Bafc7f9514f736224Df0b96fcfb](https://kovan.etherscan.io/address/0x2b82d20FBe1B8Bafc7f9514f736224Df0b96fcfb) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/kovan/CompoundPrizePoolBuilder.json) |
+| CompoundPrizePoolProxyFactory | [0x8f83b30c8f2cC1d5032c15C75304F25A2489F718](https://kovan.etherscan.io/address/0x8f83b30c8f2cC1d5032c15C75304F25A2489F718) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/kovan/CompoundPrizePoolProxyFactory.json) |
+| Comptroller | [0x7a3B05c412ED37241541434e41bC286e6319Ce6E](https://kovan.etherscan.io/address/0x7a3B05c412ED37241541434e41bC286e6319Ce6E) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/kovan/Comptroller.json) |
+| ControlledTokenProxyFactory | [0xB448EAe0263bEA9D87171045D61198362a2C8C2D](https://kovan.etherscan.io/address/0xB448EAe0263bEA9D87171045D61198362a2C8C2D) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/kovan/ControlledTokenProxyFactory.json) |
+| SingleRandomWinnerProxyFactory | [0x83edDE6335B3bD1DFEbD5356a38F243FdD48EB70](https://kovan.etherscan.io/address/0x83edDE6335B3bD1DFEbD5356a38F243FdD48EB70) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/kovan/SingleRandomWinnerProxyFactory.json) |
+| TicketProxyFactory | [0xfAfe05062b1E9CE98FE7cdcf2d16780f77A0949f](https://kovan.etherscan.io/address/0xfAfe05062b1E9CE98FE7cdcf2d16780f77A0949f) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/kovan/TicketProxyFactory.json) |
 
+# rinkeby
 
+| Contract Name | Address | ABI |
+| :--- | :--- | :--- |
+| CompoundPrizePoolBuilder | [0xAE17b0BA282FBb24e5ba050C56302c02D2CF6c31](https://rinkeby.etherscan.io/address/0xAE17b0BA282FBb24e5ba050C56302c02D2CF6c31) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/rinkeby/CompoundPrizePoolBuilder.json) |
+| CompoundPrizePoolProxyFactory | [0x58aEC022E9eBD24597BEdCa65F0Bb0672c60Fb67](https://rinkeby.etherscan.io/address/0x58aEC022E9eBD24597BEdCa65F0Bb0672c60Fb67) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/rinkeby/CompoundPrizePoolProxyFactory.json) |
+| Comptroller | [0x7bdD8C15Bc4C5033086AD22D240F5ab493B74CA5](https://rinkeby.etherscan.io/address/0x7bdD8C15Bc4C5033086AD22D240F5ab493B74CA5) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/rinkeby/Comptroller.json) |
+| ControlledTokenProxyFactory | [0xa5532D14791479E2aD0976081aEEA7A84D72C561](https://rinkeby.etherscan.io/address/0xa5532D14791479E2aD0976081aEEA7A84D72C561) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/rinkeby/ControlledTokenProxyFactory.json) |
+| SingleRandomWinnerProxyFactory | [0xd771bBdE75a37b98c4473Ab353416870DFdcf7a0](https://rinkeby.etherscan.io/address/0xd771bBdE75a37b98c4473Ab353416870DFdcf7a0) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/rinkeby/SingleRandomWinnerProxyFactory.json) |
+| TicketProxyFactory | [0x433a10658d42e3211C424419B02e4a56c9f36607](https://rinkeby.etherscan.io/address/0x433a10658d42e3211C424419B02e4a56c9f36607) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/rinkeby/TicketProxyFactory.json) |
+
+# ropsten
+
+| Contract Name | Address | ABI |
+| :--- | :--- | :--- |
+| CompoundPrizePoolBuilder | [0xdffF916E2813757c7970a98a7668CFf73E03B1e6](https://ropsten.etherscan.io/address/0xdffF916E2813757c7970a98a7668CFf73E03B1e6) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/ropsten/CompoundPrizePoolBuilder.json) |
+| CompoundPrizePoolProxyFactory | [0x8fc0341d39f9C3AbE83E0f30048862FC7768918E](https://ropsten.etherscan.io/address/0x8fc0341d39f9C3AbE83E0f30048862FC7768918E) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/ropsten/CompoundPrizePoolProxyFactory.json) |
+| Comptroller | [0xEF889edD0dCf30dAF0fe2675723B221497A33961](https://ropsten.etherscan.io/address/0xEF889edD0dCf30dAF0fe2675723B221497A33961) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/ropsten/Comptroller.json) |
+| ControlledTokenProxyFactory | [0x729dCc0a488ba6FFbce5B93a8E435effee84919D](https://ropsten.etherscan.io/address/0x729dCc0a488ba6FFbce5B93a8E435effee84919D) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/ropsten/ControlledTokenProxyFactory.json) |
+| SingleRandomWinnerProxyFactory | [0x046B071a44301E94Cc6Bbc97721BFA0eCB6947Ff](https://ropsten.etherscan.io/address/0x046B071a44301E94Cc6Bbc97721BFA0eCB6947Ff) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/ropsten/SingleRandomWinnerProxyFactory.json) |
+| TicketProxyFactory | [0x766B58D0cB6102794C8B8eb62A99b7dEEE1c45Da](https://ropsten.etherscan.io/address/0x766B58D0cB6102794C8B8eb62A99b7dEEE1c45Da) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/ropsten/TicketProxyFactory.json) |
 
