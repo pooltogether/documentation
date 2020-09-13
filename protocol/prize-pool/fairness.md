@@ -4,11 +4,11 @@ description: How Prize Pools Ensure Fair Play
 
 # ⚖️ Fairness
 
-When users play a game they want it to be fair.  In PoolTogether, this means that everyone has contributed the same amount of interest to prizes.  Interest accrues over time, so the Prize Pool needs to measure and enforce the time that funds are held.
+When users play a game they want it to be fair. In PoolTogether, this means that everyone has contributed the same amount of interest to prizes they are eligible to win. Interest accrues over time, so the Prize Pool needs to measure and enforce the time that funds are held. Without this mechanism, it would be very easy to game the system by depositing right before a prize, having a chance to win, and withdrawing right after. 
 
-Prize Pools measure the duration of time funds are held by accruing **credit** for each user at the **credit rate**.  The longer a user holds tokens, the more credit they accrue.
+Prize Pools measure the duration of time funds are held by accruing **credit** for each user at the **credit rate**. The longer a user holds tokens, the more credit they accrue.
 
-Prize Pools enforce the duration of time funds are held using a withdrawal **timelock**.  If a user withdraws too early, then they have to wait.  If a user withdraws after a long enough time, then they get their funds back instantly.
+Prize Pools enforce the duration of time funds are held by setting a **credit limit**. Once a credit limit is reached a user can withdraw instantly with no loss. If the credit limit has not been reached the user can either use a withdrawal **timelock** or pay an early exit contribution to the prize.  
 
 ## Credit
 
