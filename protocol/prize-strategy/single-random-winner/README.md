@@ -16,16 +16,19 @@ A Single Random Winner prize strategy is initialized with:
 
 ## Awarding
 
-When the current time is greater than or equal to the prize period start + duration, anyone may start the award process.
+Anyone may start the award process.
 
 ```javascript
 function startAward() external
 ```
 
-**startAward\(\)** will:
+**startAward\(\):**
 
-* Lock the pool: minting and redemption not allowed.
-* Request a random number from the RNG service
+* Requires that either:
+  * the current time is greater than or equal to start time + prize period
+  * there is an active random number request and it has timed out
+* Locks the pool. Tickets cannot be minted or redeemed
+* Requests a random number from the RNG service
 
 Once the random number is available, a user can call:
 
@@ -33,13 +36,15 @@ Once the random number is available, a user can call:
 function completeAward() external
 ```
 
-**completeAward\(\)** will:
+**completeAward\(\):**
 
-* Unlock the pool
-* Disburse the prize
-* Start the new prize
+* Requires that **startAward\(\)** has been called
+* Unlocks the pool
+* Disburses the prize
+* Moves the prize start time forward
+* Clears the random number request
 
-Both startAward\(\) and completeAward\(\) have functions to check whether they can be called:
+You can check the above required conditions using canStartAward\(\) and canCompleteAward\(\):
 
 ```javascript
 function canStartAward() external view returns (bool);
