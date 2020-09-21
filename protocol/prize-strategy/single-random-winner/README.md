@@ -44,7 +44,7 @@ function completeAward() external
 * Moves the prize start time forward
 * Clears the random number request
 
-You can check the above required conditions using canStartAward\(\) and canCompleteAward\(\):
+Both startAward\(\) and completeAward\(\) have functions to check whether they can be called:
 
 ```javascript
 function canStartAward() external view returns (bool);
