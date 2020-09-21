@@ -78,7 +78,7 @@ external
 returns (CompoundPrizePool)
 ```
 
-This function will create a new Compound Prize Pool bound to the given Prize Strategy, but it will not create any Controlled Tokens.  Those must be added by the caller.  The caller will become the owner of the Prize Pool.
+This function will create a new Compound Prize Pool bound to the given Prize Strategy, but it will not create any [Controlled Tokens](../prize-pool/#controlled-tokens).  Those must be added by the caller.  The caller will be the owner of the Prize Pool.
 
 | Parameter | Description |
 | :--- | :--- |
