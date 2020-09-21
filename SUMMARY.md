@@ -12,7 +12,6 @@
   * [yVault Prize Pool](protocol/prize-pool/yvault-prize-pool.md)
   * [Token Listener](protocol/prize-pool/token-listener.md)
 * [💸 Prize Strategies](protocol/prize-strategy/README.md)
-  * [Untitled](protocol/prize-strategy/untitled.md)
   * [🤑 Single Random Winner](protocol/prize-strategy/single-random-winner/README.md)
     * [🎟️ Ticket](protocol/prize-strategy/single-random-winner/ticket.md)
     * [🎁 Sponsorship](protocol/prize-strategy/single-random-winner/sponsorship.md)
