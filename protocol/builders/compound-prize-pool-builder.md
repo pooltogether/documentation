@@ -18,22 +18,6 @@ function createSingleRandomWinner(
 | prizePoolConfig | The Compound Prize Pool configuration details |
 | prizeStrategyConfig | The Single Random Winner configuration details |
 
-This function will emit the event:
-
-```javascript
-event CompoundPrizePoolCreated (
-    address indexed creator,
-    address indexed prizePool,
-    address indexed prizeStrategy
-);
-```
-
-| Event Parameter | Description |
-| :--- | :--- |
-| creator | The address that called this contract and who is the owner. |
-| prizePool | The address of the Prize Pool that was created |
-| prizeStrategy | The address of the Prize Strategy that was created |
-
 ### CompoundPrizePoolConfig
 
 ```javascript
@@ -101,5 +85,21 @@ This function will create a new Compound Prize Pool bound to the given Prize Str
 | config | The Compound Prize Pool configuration to use |
 | prizeStrategy | The address of the Prize Strategy to bind to.  Must implement the [Token Listener](../prize-pool/token-listener.md) interface. |
 
+## Events
 
+Both of these function emit the event:
+
+```javascript
+event CompoundPrizePoolCreated (
+    address indexed creator,
+    address indexed prizePool,
+    address indexed prizeStrategy
+);
+```
+
+| Event Parameter | Description |
+| :--- | :--- |
+| creator | The address that called this contract and who is the owner. |
+| prizePool | The address of the Prize Pool that was created |
+| prizeStrategy | The address of the Prize Strategy that was created |
 
