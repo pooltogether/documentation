@@ -12,7 +12,7 @@ A Single Random Winner prize strategy is initialized with:
 
 \*\*\*\*[**Sponsorship**](sponsorship.md): The token that represents sponsorship
 
-**Random Number Generator**: used to generate random numbers for winner selection
+\*\*\*\*[**Random Number Generator**](../../random-number-generator/): used to generate random numbers for winner selection
 
 ## Awarding
 
@@ -44,7 +44,7 @@ function completeAward() external
 * Moves the prize start time forward
 * Clears the random number request
 
-Both startAward\(\) and completeAward\(\) have functions to check whether they can be called:
+You can check the above required conditions using canStartAward\(\) and canCompleteAward\(\):
 
 ```javascript
 function canStartAward() external view returns (bool);
