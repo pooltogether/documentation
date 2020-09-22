@@ -14,7 +14,9 @@ function vault() returns (address);
 
 yVaults may charge users a fee upon withdrawal if the amount exceeds the vault holdings.  In order to compensate for this the yVault Prize Pool retains a reserve at a rate matching the fee.  For example, if the yVault fee is 0.5% then the yVault Prize Pool will retain 0.5% of the deposits as reserve.  The reserve will **not** be exposed to the Prize Strategy for distribution: it will be retained to cover withdrawal fees.
 
-At first blush it may appear that users will immediately lose 0.5% upon deposit, but it is important to note that the reserve works in tandem with the [credit system](fairness.md).  The credit system ensures users participate long enough to contribute to the prize and, in this case, cover the withdrawal fee.
+{% hint style="info" %}
+It may appear that users will immediately lose 0.5% upon deposit, but it is important to note that the reserve works in tandem with the [credit system](fairness.md).  The credit system ensures users participate long enough to contribute to the prize and the reserve.
+{% endhint %}
 
 The reserve rate can be retrieved using:
 
