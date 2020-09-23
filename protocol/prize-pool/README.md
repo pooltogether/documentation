@@ -41,11 +41,11 @@ If using the Single Random Winner Prize Strategy, it would make sense to set the
 
 The maximum credit limit ensures that the credit limit cannot be set higher than this number.  This prevents the owner of the Prize Pool from capturing \*all\* of a user's deposit at withdrawal time.
 
-## Pool Tokens
+## Token Model
 
-When a user deposits into a Prize Pool, they also request what type of token they receive in exchange.  These pool tokens are configured when the Prize Pool is created, and more can be added later.  These tokens can represent a claim on collateral or have additional features.
+A Prize Pool accepts a single type of ERC20 token for deposits.  This token depends on the implementation: for a Compound Prize Pool bound to cDai it will be Dai, for a yEarn yUSDC vault it will be USDC.  This is the underlying **asset** of the Prize Pool.
 
-Pool tokens must implement the **Controlled Token** interface**.**
+Prize Pools use **Controlled Tokens** for their internal accounting.  These tokens are minted when depositing or awarding prizes.  Controlled Tokens are burned when users withdraw.  They will are exchanged at a ratio of 1:1 to the asset.
 
 ### Controlled Tokens
 
@@ -57,7 +57,15 @@ The Prize Pool must be the Token Controller for the controlled tokens that it is
 
 The default [Compound Prize Pool Builder](../builders/) creates a Ticket controlled token and a Sponsorship controlled token.  These tokens can be looked up on the corresponding [Prize Strategy](../prize-strategy/).
 
-## Depositing  
+### Minting
+
+When a user deposits into a Prize Pool they must request what type of controlled token they receive in exchange.  This token will be minted to them at an exchange rate of 1:1 for the asset.
+
+### Burning
+
+When a user wishes to withdraw from a Prize Pool they must burn controlled tokens.
+
+## Depositing
 
 Users can deposit into the Prize Pool using the **depositTo** function. A user is instantly minted tokens upon deposit.
 
