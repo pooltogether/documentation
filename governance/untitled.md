@@ -1,6 +1,8 @@
 # 💰 Rewards
 
-Governance can reward users of any Prize Pool with ERC20 tokens.  These rewards are called **Drips** and they are managed by the protocol [Comptroller](overview.md#comptroller).
+Governance can reward users of any Prize Pool with ERC20 tokens.  These rewards are called **Drips** and they are managed by the global protocol Comptroller.
+
+## Comptroller
 
 Rewards are defined per-pool, and can reward users based on the balance they hold, their deposit volume for a time period, or for their deposit referral volume for a time period.
 
