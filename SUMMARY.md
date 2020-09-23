@@ -33,7 +33,7 @@
 ## Governance
 
 * [🏛️ Overview](governance/overview.md)
-* [💰 Rewards](governance/untitled.md)
+* [💰 Comptroller](governance/untitled.md)
 
 ## Security
 

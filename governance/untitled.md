@@ -1,10 +1,14 @@
-# 💰 Rewards
+# 💰 Comptroller
 
-Governance can reward users of any Prize Pool with ERC20 tokens.  These rewards are called **Drips** and they are managed by the global protocol Comptroller.
+All Prize Pools link to a global protocol Comptroller.  The Comptroller is owned by governance, and determines the reserve rate and rewards.
 
-## Comptroller
+## Reserve Rate
 
-Rewards are defined per-pool, and can reward users based on the balance they hold, their deposit volume for a time period, or for their deposit referral volume for a time period.
+The reserve rate is the portion of the prize that is allocated to the protocol and retained as sponsorship in the Prize Pool.
+
+## Rewards
+
+Governance can reward users of any Prize Pool with ERC20 tokens.  Rewards are defined per-pool, and can reward users based on the balance they hold, their deposit volume for a time period, or for their deposit referral volume for a time period.
 
 Users accrue a claimable balance of reward tokens.  The Comptroller will hold a balance of the token being dripped, and transfer tokens to the user when tokens are claimed.
 

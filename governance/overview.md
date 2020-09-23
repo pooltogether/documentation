@@ -35,5 +35,5 @@ Governance also manages its own set of Prize Pools.  These Prize Pools are displ
 
 ## Comptroller
 
-All Prize Pools link to a global protocol Comptroller.  The Comptroller is owned by governance, and determines the reserve rate and rewards Prize Pools.
+All Prize Pools link to a global protocol [Comptroller](untitled.md).  The Comptroller is owned by governance, and determines the reserve rate and rewards Prize Pools.
 
