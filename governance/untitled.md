@@ -8,9 +8,9 @@ The reserve rate is the portion of the prize that is allocated to the protocol a
 
 ## Rewards
 
-Governance can reward users of any Prize Pool with ERC20 tokens.  Rewards are defined per-pool, and can reward users based on the balance they hold, their deposit volume for a time period, or for their deposit referral volume for a time period.
+Governance can reward users of any Prize Pool with ERC20 tokens.  Rewards are defined per-pool, and can reward users based on the balance they hold, their deposit volume for a time period, or for their deposit referral volume for a time period.  Each of these are types of **Drips**.  The tokens that are being distributed are called the **drip token**.  The drip token can be any ERC20!
 
-Users accrue a claimable balance of reward tokens.  The Comptroller will hold a balance of the token being dripped, and transfer tokens to the user when tokens are claimed.
+Users accrue a claimable balance of drip tokens.  The Comptroller will hold a balance of the token being dripped, and transfer tokens to the user when tokens are claimed.
 
 ## Balance Drips
 
