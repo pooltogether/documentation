@@ -206,7 +206,21 @@ Only the Prize Strategy can call the award functions.  These functions allow pri
 
 ### Awarding Yield
 
-Yield that accrues in the Prize Pool can be awarded by the Prize Strategy using the `award` function.  The yield must be awarded as one of the controlled tokens configured in the Prize Pool.
+Yield that accrues in the Prize Pool can be awarded by the Prize Strategy.  The yield must first be **captured** and then it can be **awarded.**
+
+To capture the yield the prize strategy can call the `captureAwardBalance` function:
+
+```javascript
+function captureAwardBalance() external onlyPrizeStrategy returns (uint256);
+```
+
+This function will:
+
+* add the current yield balance to the available award balance
+* capture a portion for the reserve
+* return the total available award balance.
+
+To award the captured yield to an address, the Prize strategy uses the `award` function.  The yield must be awarded as one of the controlled tokens configured in the Prize Pool.
 
 ```javascript
 function award(
