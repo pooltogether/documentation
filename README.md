@@ -6,7 +6,7 @@
 
 <br />
 
-### ✨ Introduction
+## ✨ Introduction
 
 PoolTogether is a protocol for no-loss prize games on the Ethereum blockchain. The protocol: 
 
