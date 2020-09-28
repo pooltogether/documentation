@@ -12,8 +12,6 @@
 | [StakePrizePoolBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/builders/StakePrizePoolBuilder.sol) | [0xf8FF27E69F157CCec4C6B7230c7C52c75a83b066](https://rinkeby.etherscan.io/address/0xf8FF27E69F157CCec4C6B7230c7C52c75a83b066) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/rinkeby/StakePrizePoolBuilder.json) |
 | [yVaultPrizePoolBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/builders/yVaultPrizePoolBuilder.sol) | [0xcEBb5B8d75add14BbA0fFa65a845e21B89b4226D](https://rinkeby.etherscan.io/address/0xcEBb5B8d75add14BbA0fFa65a845e21B89b4226D) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/rinkeby/yVaultPrizePoolBuilder.json) |
 
-# 📡 Networks
-
 ## Ropsten
 
 | Contract | Address | Artifact |
@@ -22,8 +20,6 @@
 | [SingleRandomWinnerBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/builders/SingleRandomWinnerBuilder.sol) | [0xc7C6090083163E7B36a04A26d0eB95C3fC95C023](https://ropsten.etherscan.io/address/0xc7C6090083163E7B36a04A26d0eB95C3fC95C023) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/ropsten/SingleRandomWinnerBuilder.json) |
 | [StakePrizePoolBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/builders/StakePrizePoolBuilder.sol) | [0x508C67AA48851dB58f19E5a47194D3EFe941395E](https://ropsten.etherscan.io/address/0x508C67AA48851dB58f19E5a47194D3EFe941395E) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/ropsten/StakePrizePoolBuilder.json) |
 | [yVaultPrizePoolBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/builders/yVaultPrizePoolBuilder.sol) | [0x165aA68A577BDaD800e56bbdC833e45e841b24D2](https://ropsten.etherscan.io/address/0x165aA68A577BDaD800e56bbdC833e45e841b24D2) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/ropsten/yVaultPrizePoolBuilder.json) |
-
-# 📡 Networks
 
 ## Kovan
 
