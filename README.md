@@ -1,4 +1,12 @@
-# ✨ Introduction
+<p align="center">
+  <a href="https://github.com/pooltogether/pooltogether--brand-assets">
+    <img src="https://github.com/pooltogether/pooltogether--brand-assets/blob/977e03604c49c63314450b5d432fe57d34747c66/logo/pooltogether-logo--purple-gradient.png?raw=true" alt="PoolTogether Brand" style="max-width:100%;" width="200">
+  </a>
+</p>
+
+<br />
+
+### ✨ Introduction
 
 PoolTogether is a protocol for no-loss prize games on the Ethereum blockchain. The protocol: 
 
@@ -21,7 +29,7 @@ Prize games can be differentiated in the following ways:
 
 The first type of prize game offered by PoolTogether implements the [Single Random Winner](protocol/prize-strategy/single-random-winner/) prize strategy. More are coming!
 
-## Governance
+#### Governance
 
 The PoolTogether Protocol governance serves two primary functions. 
 
@@ -30,15 +38,15 @@ The PoolTogether Protocol governance serves two primary functions.
 
 The protocol governed prize pools appear on the official [PoolTogether App](https://app.pooltogether.com).  Governance is currently the core PoolTogether team, but very soon governance control will be distributed amongst protocol stakeholders.
 
-## Next Steps
+#### Next Steps
 
-#### [Learn How Prize Games Work](protocol/overview.md)
+###### [Learn How Prize Games Work](protocol/overview.md)
 
-#### [Learn More About Governance](governance/overview.md)
+###### [Learn More About Governance](governance/overview.md)
 
-#### [Join Our Community on Discord](https://discord.gg/5sjnHd)
+###### [Join Our Community on Discord](https://discord.gg/5sjnHd)
 
-#### [See the Code on Github](https://github.com/pooltogether/pooltogether-pool-contracts)
+###### [See the Code on Github](https://github.com/pooltogether/pooltogether-pool-contracts)
 
 
 
