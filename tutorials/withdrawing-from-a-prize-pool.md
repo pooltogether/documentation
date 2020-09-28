@@ -61,6 +61,7 @@ If the user doesn't have sufficient [credit](../protocol/prize-pool/fairness.md#
 
 ```javascript
 uint256 exitFee = PRIZE_POOL.calculateEarlyExitFee(
+    fromAddress,
     controlledToken,
     amount
 );
@@ -94,7 +95,7 @@ const daiPrizePool = new ethers.Contract(
 
 const controlledTokens = await daiPrizePool.tokens();
 
-const exitFee = await daiPrizePool.calculateEarlyExitFee(
+const exitFee = await daiPrizePool.callStatic.calculateEarlyExitFee(
     controlledTokens[0],
     ethers.utils.parseEther('1')
 )
