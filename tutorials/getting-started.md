@@ -6,7 +6,7 @@ description: Start Building with PoolTogether
 
 There are many ways to integrate with PoolTogether!  Follow the tutorials or browse the resources below.
 
-## Learn
+## Tutorials
 
 * [Depositing into a Prize Pool](buying-tickets.md)
 * [Withdraw from a Prize Pool](withdrawing-from-a-prize-pool.md)
