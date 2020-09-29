@@ -31,7 +31,7 @@ All Prize Pools created with [Builders](../protocol/builders/) contribute a smal
 
 ## Prize Pool Management
 
-Governance also manages its own set of Prize Pools.  These Prize Pools are displayed on the official [PoolTogether App](https://app.pooltogether.com).
+Governance also manages its own set of Prize Pools.  These Prize Pools are displayed on the official [PoolTogether App](https://app-v3.pooltogether.com).
 
 ## Comptroller
 
