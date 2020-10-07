@@ -91,9 +91,59 @@
     "anonymous": false,
     "inputs": [
       {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "CreditBurned",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "user",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "CreditMinted",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
         "indexed": false,
         "internalType": "address",
-        "name": "controlledToken",
+        "name": "token",
         "type": "address"
       },
       {
@@ -109,7 +159,7 @@
         "type": "uint128"
       }
     ],
-    "name": "CreditRateSet",
+    "name": "CreditPlanSet",
     "type": "event"
   },
   {
@@ -167,7 +217,7 @@
       {
         "indexed": false,
         "internalType": "address",
-        "name": "comptroller",
+        "name": "reserve",
         "type": "address"
       },
       {
@@ -277,6 +327,18 @@
   {
     "anonymous": false,
     "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "token",
+        "type": "address"
+      },
       {
         "indexed": false,
         "internalType": "uint256",
@@ -397,6 +459,31 @@
       }
     ],
     "name": "TimelockedWithdrawalSwept",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "TransferredExternalERC20",
     "type": "event"
   },
   {
@@ -571,6 +658,11 @@
     "inputs": [
       {
         "internalType": "address",
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
         "name": "controlledToken",
         "type": "address"
       },
@@ -584,11 +676,16 @@
     "outputs": [
       {
         "internalType": "uint256",
-        "name": "",
+        "name": "exitFee",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "burnedCredit",
         "type": "uint256"
       }
     ],
-    "stateMutability": "view",
+    "stateMutability": "nonpayable",
     "type": "function"
   },
   {
@@ -632,7 +729,12 @@
     "outputs": [
       {
         "internalType": "uint256",
-        "name": "",
+        "name": "durationSeconds",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "burnedCredit",
         "type": "uint256"
       }
     ],
@@ -672,19 +774,6 @@
     "type": "function"
   },
   {
-    "inputs": [],
-    "name": "comptroller",
-    "outputs": [
-      {
-        "internalType": "contract ComptrollerInterface",
-        "name": "",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
     "inputs": [
       {
         "internalType": "address",
@@ -692,7 +781,7 @@
         "type": "address"
       }
     ],
-    "name": "creditRateOf",
+    "name": "creditPlanOf",
     "outputs": [
       {
         "internalType": "uint128",
@@ -746,30 +835,6 @@
   {
     "inputs": [
       {
-        "internalType": "uint256",
-        "name": "principal",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "blocks",
-        "type": "uint256"
-      }
-    ],
-    "name": "estimateAccruedInterestOverBlocks",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
         "internalType": "address",
         "name": "_controlledToken",
         "type": "address"
@@ -797,19 +862,6 @@
     "type": "function"
   },
   {
-    "inputs": [],
-    "name": "getTrustedForwarder",
-    "outputs": [
-      {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
     "inputs": [
       {
         "internalType": "address",
@@ -817,13 +869,8 @@
         "type": "address"
       },
       {
-        "internalType": "contract PrizePoolTokenListenerInterface",
-        "name": "_prizeStrategy",
-        "type": "address"
-      },
-      {
-        "internalType": "contract ComptrollerInterface",
-        "name": "_comptroller",
+        "internalType": "contract ReserveInterface",
+        "name": "_reserve",
         "type": "address"
       },
       {
@@ -936,7 +983,7 @@
     "name": "prizeStrategy",
     "outputs": [
       {
-        "internalType": "contract PrizePoolTokenListenerInterface",
+        "internalType": "contract TokenListenerInterface",
         "name": "",
         "type": "address"
       }
@@ -949,6 +996,19 @@
     "name": "renounceOwnership",
     "outputs": [],
     "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "reserve",
+    "outputs": [
+      {
+        "internalType": "contract ReserveInterface",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
     "type": "function"
   },
   {
@@ -968,7 +1028,7 @@
     "inputs": [
       {
         "internalType": "address",
-        "name": "controlledToken",
+        "name": "_controlledToken",
         "type": "address"
       },
       {
@@ -982,7 +1042,7 @@
         "type": "uint128"
       }
     ],
-    "name": "setCreditRateOf",
+    "name": "setCreditPlanOf",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
@@ -1003,7 +1063,7 @@
   {
     "inputs": [
       {
-        "internalType": "address",
+        "internalType": "contract TokenListenerInterface",
         "name": "_prizeStrategy",
         "type": "address"
       }
@@ -1149,6 +1209,29 @@
     "inputs": [
       {
         "internalType": "address",
+        "name": "to",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "externalToken",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "transferExternalERC20",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
         "name": "newOwner",
         "type": "address"
       }
@@ -1156,6 +1239,19 @@
     "name": "transferOwnership",
     "outputs": [],
     "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "trustedForwarder",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
     "type": "function"
   },
   {
