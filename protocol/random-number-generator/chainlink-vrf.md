@@ -14,7 +14,9 @@ This approach has some benefits in that the operator cannot “lie”: they must
 
 This approach also has some drawbacks.  Given a seed value, the operator will know ahead of time what the random number will be.  The operator may also \*withhold\* the answer if they don’t like it**.**  We mitigate the operator's foreknowledge by locking the Tickets; even if the operator knows the answer they are unable to manipulate the Ticket structure.  If the operator withholds the answer, we can simply switch operators.
 
-## Payment
+## Usage
 
-The Chainlink VRF requires LINK tokens as payment to operate.
+A [Single Random Winner](../prize-strategy/single-random-winner/) prize strategy can be created with a [RNGChainlink](../../networks.md) RNG service.  However, the RNGChainlink service requires LINK tokens as payment.
+
+**LINK tokens must be supplied to the prize strategy to pay for the RNG service charges**
 

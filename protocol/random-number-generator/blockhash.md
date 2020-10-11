@@ -4,7 +4,7 @@ The Blockhash RNG uses a future blockhash as the random number.  This is the lea
 
 When a user request a random number their lock block will be the current block.  Their request is considered 'complete' when at least one block has been mined since the lock block.  Upon retrieval the last blockhash will be stored as the random number and returned.
 
-## Payment
+## Usage
 
-This RNG is free to use, so the request fee will always be zero.
+A [Single Random Winner](../prize-strategy/single-random-winner/) prize strategy can use a [RNGBlockhash](../../networks.md) RNG service.  No additional work is needed: the blockhash service is free.
 
