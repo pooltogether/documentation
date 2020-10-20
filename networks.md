@@ -61,22 +61,4 @@
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0x0FcEDB079E56F336840Aa0c0f20816CcE7de63B6](https://ropsten.etherscan.io/address/0x0FcEDB079E56F336840Aa0c0f20816CcE7de63B6) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/ropsten/RNGBlockhash.json) |
 
 
-## Kovan
-
-### [@pooltogether/current-pool-data](https://www.npmjs.com/package/@pooltogether/current-pool-data) ^3.0.0-rc.1
-| Contract | Address | Artifact |
-| :--- | :--- | :--- |
-
-### [@pooltogether/pooltogether-contracts](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts) ^3.0.0-rc.1
-| Contract | Address | Artifact |
-| :--- | :--- | :--- |
-
-
-### [@pooltogether/pooltogether-rng-contracts](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts) ^1.0.0-alpha.9
-| Contract | Address | Artifact |
-| :--- | :--- | :--- |
-| [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xe20ba80D263246537592B14211746E438be6b756](https://kovan.etherscan.io/address/0xe20ba80D263246537592B14211746E438be6b756) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/kovan/RNGBlockhash.json) |
-| [RNGChainlink](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGChainlink.sol) | [0x0FcEDB079E56F336840Aa0c0f20816CcE7de63B6](https://kovan.etherscan.io/address/0x0FcEDB079E56F336840Aa0c0f20816CcE7de63B6) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/kovan/RNGChainlink.json) |
-
-
 
