@@ -7,7 +7,7 @@
 ### [@pooltogether/current-pool-data](https://www.npmjs.com/package/@pooltogether/current-pool-data) ^3.0.0-rc.1c
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
-| [DAI](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/prize-pool/PrizePool.sol) ([open app](https://staging-v3.pooltogether.com)) | [0x0725Ca260292D3C3911d7B67d525682ec861339b](https://mainnet.etherscan.io/address/0x0725Ca260292D3C3911d7B67d525682ec861339b) | [ABI](/.gitbook/assets/prizepoolabi.json) |
+| [DAI](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/prize-pool/PrizePool.sol) ([open app](https://staging-v3.pooltogether.com)) | [0x0725Ca260292D3C3911d7B67d525682ec861339b](https://etherscan.io/address/0x0725Ca260292D3C3911d7B67d525682ec861339b) | [ABI](/.gitbook/assets/prizepoolabi.json) |
 
 ### [@pooltogether/pooltogether-contracts](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts) ^3.0.0-rc.1b
 | Contract | Address | Artifact |
