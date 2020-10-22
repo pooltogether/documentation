@@ -4,10 +4,10 @@
 
 ## Mainnet
 
-### [@pooltogether/current-pool-data](https://www.npmjs.com/package/@pooltogether/current-pool-data) ^3.0.0
+### [@pooltogether/current-pool-data](https://www.npmjs.com/package/@pooltogether/current-pool-data) ^3.0.1
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
-| [DAI](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/prize-pool/PrizePool.sol) ([open app](https://staging-v3.pooltogether.com)) | [0x3dd1749e00b6376779c5e63a38f7b5bbbd7ce3f2](https://etherscan.io/address/0x3dd1749e00b6376779c5e63a38f7b5bbbd7ce3f2) | [ABI](/.gitbook/assets/prizepoolabi.json) |
+| [DAI](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/prize-pool/PrizePool.sol) ([open app](https://staging-v3.pooltogether.com)) | [0xEBfb47A7ad0FD6e57323C8A42B2E5A6a4F68fc1a](https://etherscan.io/address/0xEBfb47A7ad0FD6e57323C8A42B2E5A6a4F68fc1a) | [ABI](/.gitbook/assets/prizepoolabi.json) |
 
 ### [@pooltogether/pooltogether-contracts](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts) ^3.0.0
 | Contract | Address | Artifact |
@@ -31,7 +31,7 @@
 
 ## Rinkeby
 
-### [@pooltogether/current-pool-data](https://www.npmjs.com/package/@pooltogether/current-pool-data) ^3.0.0
+### [@pooltogether/current-pool-data](https://www.npmjs.com/package/@pooltogether/current-pool-data) ^3.0.1
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [DAI](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/prize-pool/PrizePool.sol) ([open app](https://staging-v3.pooltogether.com)) | [0x4706856FA8Bb747D50b4EF8547FE51Ab5Edc4Ac2](https://rinkeby.etherscan.io/address/0x4706856FA8Bb747D50b4EF8547FE51Ab5Edc4Ac2) | [ABI](/.gitbook/assets/prizepoolabi.json) |
@@ -60,7 +60,7 @@
 
 ## Ropsten
 
-### [@pooltogether/current-pool-data](https://www.npmjs.com/package/@pooltogether/current-pool-data) ^3.0.0
+### [@pooltogether/current-pool-data](https://www.npmjs.com/package/@pooltogether/current-pool-data) ^3.0.1
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [DAI](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/prize-pool/PrizePool.sol) ([open app](https://staging-v3.pooltogether.com)) | [0x7e72cfd7F2a0dB4Aa4B1A5b3FaBadc98d45bbeD7](https://ropsten.etherscan.io/address/0x7e72cfd7F2a0dB4Aa4B1A5b3FaBadc98d45bbeD7) | [ABI](/.gitbook/assets/prizepoolabi.json) |
