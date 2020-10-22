@@ -25,7 +25,7 @@ In addition to these core functions governance may:
 * Add additional prizes or rewards 
 * subsidized transactions
 * insurance coverage
-* * Anything else! 
+* Anything else! 
 
 All Prize Pools created with [Builders](../protocol/builders/) contribute a small fee to the **protocol reserve**. The reserve is retained by the protocol as sponsorship in the Prize Pool in which it accrued.
 
