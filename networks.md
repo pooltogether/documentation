@@ -62,7 +62,7 @@
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xA932e74d5263A754Ea04432E5c53658434b0484B](https://rinkeby.etherscan.io/address/0xA932e74d5263A754Ea04432E5c53658434b0484B) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/rinkeby/RNGBlockhash.json) |
 | [RNGChainlink](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGChainlink.sol) | [0x11D94431718934868C4339aFc5ea27585F46C99A](https://rinkeby.etherscan.io/address/0x11D94431718934868C4339aFc5ea27585F46C99A) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/rinkeby/RNGChainlink.json) |
 
-### [@pooltogether/loot-box](https://github.com/pooltogether/pooltogether-loot-box) ^1.0.0-beta.1
+### [@pooltogether/loot-box](https://github.com/pooltogether/loot-box) ^1.0.0-beta.1
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ERC721Ownable](https://github.com/pooltogether/loot-box/tree/main/contracts/ERC721Ownable.sol) | [0xE539c8EbE8F6050C7a8733f5C7C449F8D802fBfF](https://rinkeby.etherscan.io/address/0xE539c8EbE8F6050C7a8733f5C7C449F8D802fBfF) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/ERC721Ownable.json) |
