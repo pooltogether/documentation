@@ -65,7 +65,8 @@
 ### [@pooltogether/loot-box](https://github.com/pooltogether/pooltogether-loot-box) ^1.0.0-beta.1
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
-| [ERC721Ownable](https://github.com/pooltogether/loot-box/tree/main/contracts/ERC721Ownable.sol) | [0xE539c8EbE8F6050C7a8733f5C7C449F8D802fBfF](https://rinkeby.etherscan.io/address/0xE539c8EbE8F6050C7a8733f5C7C449F8D802fBfF) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/ERC721Ownable.json) |,| [LootBoxController](https://github.com/pooltogether/loot-box/tree/main/contracts/LootBoxController.sol) | [0xE4E9cDB3E139D7E8a41172C20b6Ed17b6750f117](https://rinkeby.etherscan.io/address/0xE4E9cDB3E139D7E8a41172C20b6Ed17b6750f117) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/LootBoxController.json) |
+| [ERC721Ownable](https://github.com/pooltogether/loot-box/tree/main/contracts/ERC721Ownable.sol) | [0xE539c8EbE8F6050C7a8733f5C7C449F8D802fBfF](https://rinkeby.etherscan.io/address/0xE539c8EbE8F6050C7a8733f5C7C449F8D802fBfF) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/ERC721Ownable.json) |
+| [LootBoxController](https://github.com/pooltogether/loot-box/tree/main/contracts/LootBoxController.sol) | [0xE4E9cDB3E139D7E8a41172C20b6Ed17b6750f117](https://rinkeby.etherscan.io/address/0xE4E9cDB3E139D7E8a41172C20b6Ed17b6750f117) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/LootBoxController.json) |
 
 
 ## Ropsten
