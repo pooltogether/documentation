@@ -44,7 +44,7 @@ At first glance the credit limit should simply be equal to the amount of interes
 * Total amount of outstanding tickets for a given prize
 * Gas fees of entering and exiting the pool
 
-To find the ideal credit limit it is best to estimate the **effective apr** a pool is offering.
+To find the ideal credit limit it is best to estimate the **effective APR** a pool is offering.
 
 **Example**
 
