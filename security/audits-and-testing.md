@@ -1,8 +1,8 @@
 # Audits & Testing
 
-The PoolTogether Protocol has undergone two formal professional third party audits conducted by Open Zeppelin. [Those audits can be viewed here](https://blog.openzeppelin.com/pooltogether-v3-audit/). 
+The PoolTogether Protocol has undergone three formal professional third party audits. Two have been [conducted by Open Zeppelin](https://blog.openzeppelin.com/pooltogether-v3-audit/). And one was [conducted by Ditcraft](https://www.ditcraft.io/blog/pooltogether-v3-smart-contract-audit).
 
-Additionally there is an on-going audit being conducted by [Ditcraft](https://www.ditcraft.io/) and the PoolTogether core team has a long term security relationship with [ConsenSys Diligence](https://diligence.consensys.net/audits/). 
+Additionally the PoolTogether core team has a long term security relationship with [ConsenSys Diligence](https://diligence.consensys.net/audits/) including monthly code reviews. 
 
 Notwithstanding, portions of the PoolTogether Protocol codebase will continue to evolve and **it should never be expected that 100% of the deployed code has been formally audited.**
 
