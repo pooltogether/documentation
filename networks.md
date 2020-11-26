@@ -62,12 +62,12 @@
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xA932e74d5263A754Ea04432E5c53658434b0484B](https://rinkeby.etherscan.io/address/0xA932e74d5263A754Ea04432E5c53658434b0484B) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/rinkeby/RNGBlockhash.json) |
 | [RNGChainlink](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGChainlink.sol) | [0x11D94431718934868C4339aFc5ea27585F46C99A](https://rinkeby.etherscan.io/address/0x11D94431718934868C4339aFc5ea27585F46C99A) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/rinkeby/RNGChainlink.json) |
 
-### [@pooltogether/loot-box](https://github.com/pooltogether/loot-box) ^1.0.0-beta.4
+### [@pooltogether/loot-box](https://github.com/pooltogether/loot-box) ^1.0.0-beta.5
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
-| [ERC721ControlledFactory](https://github.com/pooltogether/loot-box/tree/main/contracts/ERC721ControlledFactory.sol) | [0xF273EfaED59fED4F41cb9E693EefD9B1191f1522](https://rinkeby.etherscan.io/address/0xF273EfaED59fED4F41cb9E693EefD9B1191f1522) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/ERC721ControlledFactory.json) |
-| [LootBoxController](https://github.com/pooltogether/loot-box/tree/main/contracts/LootBoxController.sol) | [0x3FaB224830C182972239F6a599A5A5bd64e43d6D](https://rinkeby.etherscan.io/address/0x3FaB224830C182972239F6a599A5A5bd64e43d6D) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/LootBoxController.json) |
-| [LootBoxPrizeStrategyListener](https://github.com/pooltogether/loot-box/tree/main/contracts/LootBoxPrizeStrategyListener.sol) | [0x6c7330466aE67d1Eda70BF3ad50A75E8a269E51F](https://rinkeby.etherscan.io/address/0x6c7330466aE67d1Eda70BF3ad50A75E8a269E51F) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/LootBoxPrizeStrategyListener.json) |
+| [ERC721ControlledFactory](https://github.com/pooltogether/loot-box/tree/main/contracts/ERC721ControlledFactory.sol) | [0xF438bC6C3250BE17B361042cCa708A743a3FC5e5](https://rinkeby.etherscan.io/address/0xF438bC6C3250BE17B361042cCa708A743a3FC5e5) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/ERC721ControlledFactory.json) |
+| [LootBoxController](https://github.com/pooltogether/loot-box/tree/main/contracts/LootBoxController.sol) | [0x3E3A097aF79D6389c16A1e2b3A2F056D3D543C53](https://rinkeby.etherscan.io/address/0x3E3A097aF79D6389c16A1e2b3A2F056D3D543C53) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/LootBoxController.json) |
+| [LootBoxPrizeStrategyListener](https://github.com/pooltogether/loot-box/tree/main/contracts/LootBoxPrizeStrategyListener.sol) | [0xdA64816F76BEA59cde1ecbe5A094F6c56A7F9770](https://rinkeby.etherscan.io/address/0xdA64816F76BEA59cde1ecbe5A094F6c56A7F9770) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/LootBoxPrizeStrategyListener.json) |
 
 
 ## Ropsten
