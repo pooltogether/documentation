@@ -45,7 +45,7 @@ The maximum credit limit ensures that the credit limit cannot be set higher than
 
 A Prize Pool accepts a single type of ERC20 token for deposits.  This token depends on the implementation: for a Compound Prize Pool bound to cDai it will be Dai, for a yEarn yUSDC vault it will be USDC.  This is the underlying **asset** of the Prize Pool.
 
-Prize Pools use **Controlled Tokens** for their internal accounting.  These tokens are minted when depositing or awarding prizes.  Controlled Tokens are burned when users withdraw.  They will are exchanged at a ratio of 1:1 to the asset.
+Prize Pools use **Controlled Tokens** for their internal accounting.  These tokens are minted when depositing or awarding prizes.  Controlled Tokens are burned when users withdraw.  They are exchanged at a ratio of 1:1 to the asset.
 
 ### Controlled Tokens
 
