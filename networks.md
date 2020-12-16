@@ -9,6 +9,7 @@
 | Contract | Address |
 | :--- | :--- |
 | Weekly Dai Prize Pool | [0xEBfb47A7ad0FD6e57323C8A42B2E5A6a4F68fc1a](https://etherscan.io/address/0xEBfb47A7ad0FD6e57323C8A42B2E5A6a4F68fc1a) |
+| Weekly Dai Prize Strategy | [0x178969A87a78597d303C47198c66F68E8be67Dc2](https://etherscan.io/address/0x178969A87a78597d303C47198c66F68E8be67Dc2) |
 | Loot Box ERC721 | [0x4d695c615a7AACf2d7b9C481B66045BB2457Dfde](https://etherscan.io/address/0x4d695c615a7AACf2d7b9C481B66045BB2457Dfde) |
 
 ### Core Contracts
@@ -52,6 +53,7 @@
 | Contract | Address |
 | :--- | :--- |
 | Weekly Dai Prize Pool | [0x4706856FA8Bb747D50b4EF8547FE51Ab5Edc4Ac2](https://rinkeby.etherscan.io/address/0x4706856FA8Bb747D50b4EF8547FE51Ab5Edc4Ac2) |
+| Weekly Dai Prize Strategy | [0x5E0A6d336667EACE5D1b33279B50055604c3E329](https://rinkeby.etherscan.io/address/0x5E0A6d336667EACE5D1b33279B50055604c3E329) |
 | Loot Box ERC721 | [0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66](https://rinkeby.etherscan.io/address/0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66) |
 
 ### Core Contracts
