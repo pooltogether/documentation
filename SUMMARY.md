@@ -26,6 +26,7 @@
 * [🧞 Random Number Generator](protocol/random-number-generator/README.md)
   * [Blockhash](protocol/random-number-generator/blockhash.md)
   * [Chainlink VRF](protocol/random-number-generator/chainlink-vrf.md)
+* [LootBox](protocol/lootbox.md)
 
 ## Tutorials
 

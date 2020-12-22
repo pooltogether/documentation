@@ -154,7 +154,7 @@ function withdrawWithTimelockFrom(
 
 ### Checking Timelock Balances
 
-To see how many funds have been timelocked for a user you can call:
+To see how many funds have been timelocked for a `user` call:
 
 ```javascript
 function timelockBalanceOf(address user) external view returns (uint256)
@@ -165,6 +165,25 @@ After funds have been time-locked, you can see at what timestamp they'll be avai
 ```javascript
 function timelockBalanceAvailableAt(address user) external view returns (uint256)
 ```
+
+### Checking Timelock Duration
+
+To calculate a timelocked withdrawal duration and credit consumption call: 
+
+```javascript
+function calculateTimelockDuration(address from, address controlledToken, uint256 amount) external override returns (uint256 durationSeconds,uint256 burnedCredit)
+```
+
+| Parameter Name | Parameter Description |
+| :--- | :--- |
+| from | The user who is withdrawing. |
+| amount | The amount the user is withdrawing. |
+| controlledToken | The type of controlled token to withdraw. |
+
+returns:
+`durationSeconds` : the duration of the timelock in seconds
+`burned` : the amount of credit that would be burned
+
 
 ### Sweeping Timelocked Funds
 
@@ -220,6 +239,22 @@ function withdrawInstantlyFrom(
 | amount | The amount to withdraw |
 | controlledToken | The controlled token to withdraw from |
 | maximumExitFee | The maximum early exit fee the caller is willing to pay.  This prevents the Prize Strategy from changing the fee on-the-fly. |
+
+
+This early exit fee can also be calculated by calling:
+
+```javascript
+function calculateEarlyExitFee(address from, address controlledToken, uint256 amount) external override returns (uint256 exitFee, uint256 burnedCredit)
+```
+
+| Parameter Name | Parameter Description |
+| :--- | :--- |
+| from | The address to withdraw from.  This means you can withdraw on another user's behalf if you have an allowance for the controlled token. |
+| controlledToken | The controlled token to withdraw from |
+| amount | The amount to withdraw |
+
+returns the `exitFee` that would be paid along with the credit that would be burned (`burnedCredit`). 
+
 
 ## Awarding
 
@@ -350,15 +385,22 @@ function awardBalance() external override view returns (uint256)
 
 ### Total Balances
 
-The total of all controlled tokens and timelock can be obtained by calling:
+The total of all controlled tokens (including timelocked) can be obtained by calling:
 
 ```javascript
 function accountedBalance() external override view returns (uint256)
 ```
 
+The total underlying balance of all assets (including both principal and interest) can be obtained by calling:
+
+```javascript
+function balance() external returns (uint256) 
+```
 
 
 ## External Prizes
+
+### Adding Tokens
 
 The owner can add "external" ERC20 tokens as prizes.  The strategy will award the entire balance held by the Prize Pool to the winner.
 
@@ -373,6 +415,13 @@ function addExternalErc721Award(
     address _externalErc721,
     uint256[] calldata _tokenIds
 ) external onlyOwner
+```
+### Checking Tokens
+
+Checks with the Prize Pool if a specific token type (`_externalToken`) may be awarded as an external prize:
+
+```javascript
+function canAwardExternal(address _externalToken) external view returns (bool) 
 ```
 
 ## Time
@@ -390,18 +439,17 @@ function prizePeriodEndAt() external view returns (uint256)
 ```
 
 
-
 ## Reserve 
 
 ### Calculate Reserve Fee
-Calculates the reserve portion of the given amount of funds.  If there is no reserve address, the Reserve fee portion will be zero.
+Calculates the reserve portion of the given `amount` of funds.  If there is no reserve address, the Reserve fee portion will be zero.
 
 ```javascript
 function calculateReserveFee(uint256 amount) public view returns (uint256)
 ```
 
 ### Withdraw Reserve
-The balance of the Reserve may be withdrawn by calling:
+The balance of the Reserve may be withdrawn to the `to` address specified by calling:
 
 ```javascript
 function withdrawReserve(address to) external override onlyReserve returns (uint256) 
