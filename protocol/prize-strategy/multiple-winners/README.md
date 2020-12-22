@@ -1,14 +1,14 @@
-# 🤑 Single Random Winner
+# 🤑 Multiple Winners
 
-DEPRECATED IN v3.1.0
+The Multiple Winnners prize strategy periodically selects a predefined number of winners and awards to them an equal share of the prizes available in the Prize Pool.
 
-The Single Random Winner prize strategy periodically selects a random winner and awards to them all the prizes available in the Prize Pool.
-
-A Single Random Winner prize strategy is initialized with:
+A Multiple Winners prize strategy is initialized with:
 
 **Prize Period Start:** the timestamp at which the prize period should start
 
 **Prize Period Seconds**: the duration of time between prizes
+
+**The PrizePool address**: the address of the prize pool (../../prize-pool) that implements the pool functionality such as deposit and withdraw
 
 \*\*\*\*[**Ticket**](../ticket.md)**:** The interface to use to select winners
 
@@ -16,7 +16,9 @@ A Single Random Winner prize strategy is initialized with:
 
 \*\*\*\*[**Random Number Generator**](../../random-number-generator/): used to generate random numbers for winner selection
 
-## Awarding
+**Number of Winners**: the number of winners in a prize period. This can be later changed. 
+
+<!-- ## Awarding
 
 Anyone may start the award process.
 
@@ -56,9 +58,38 @@ and
 
 ```javascript
 function canCompleteAward() external view returns (bool);
+``` -->
+
+
+
+## Strategy Settings
+
+The number of winners in a prize period can be set by calling:
+```javascript
+function setNumberOfWinners(uint256 count) external onlyOwner requireAwardNotInProgress
+```
+* Requires that the Award process is not in progress
+* Count must be greater than 0
+
+
+The SplitExternalErc20Awards flag can be set by calling: 
+```javascript
+function setSplitExternalErc20Awards(bool _splitExternalErc20Awards) external onlyOwner requireAwardNotInProgress
 ```
 
-## Prizes
+This controls how externally added ERC-20's are distributed. Setting to `true` results in the ERC-20's paid out uniformly (similar to the main prize), while `false` does not pay out external ERC-20's for that award. 
+
+### View Strategy Settings
+
+The number of winners setting can be viewed by calling the following:
+
+```javascript
+function numberOfWinners() external view returns (uint256) {
+```
+
+
+
+<!-- ## Prizes
 
 ### Current Yield Prize
 
@@ -105,14 +136,14 @@ To retrieve when the prize will end:
 
 ```javascript
 function prizePeriodEndAt() external view returns (uint256)
-```
+``` -->
 
-## Miscellaneous
+<!-- ## Miscellaneous
 
 | Function | Description |
 | :--- | :--- |
 | function sponsorship\(\) returns \([ERC20](https://eips.ethereum.org/EIPS/eip-20)\) | Returns the address of the sponsorship token. |
-| function ticket\(\) returns \([Ticket](ticket.md)\) | Returns the address of the ticket token. |
+| function ticket\(\) returns \([Ticket](ticket.md)\) | Returns the address of the ticket token. | -->
 
 
 

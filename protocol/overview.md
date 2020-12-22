@@ -45,10 +45,6 @@ Builders make it easy to create pre-configured prize games.  The first builder o
 
 There are many different ways to generate a random number, so we've abstracted them as request-based Random Number Generator services.  Each RNG service has a different security profile, so be sure to use the appropriate one for your game.
 
-### [Comptroller]()
-
-Comptrollers make it simple to "drip" tokens to players.  Comptrollers listen for token mints, transfers and burns and drip tokens accordingly.  The global PoolTogether governance comptroller is baked into every Prize Pool, so rewards can be dripped to all prize games.
-
 ## Conventions
 
 Fixed point math is used extensively in PoolTogether.  We used fixed point math with 18 decimal places for all fractional numbers.  You can think of this as being just like Ether and wei: a value of "1" Ether is represented as "1000000000000000000" wei.

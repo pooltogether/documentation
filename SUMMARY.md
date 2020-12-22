@@ -12,13 +12,16 @@
   * [⚖️ Fairness](protocol/prize-pool/fairness.md)
   * [Compound Prize Pool](protocol/prize-pool/compound-prize-pool.md)
   * [yVault Prize Pool](protocol/prize-pool/yvault-prize-pool.md)
+  * [Stake Prize Pool](protocol/prize-pool/stake-prize-pool.md)
   * [Token Listener](protocol/prize-pool/token-listener.md)
 * [💸 Prize Strategies](protocol/prize-strategy/README.md)
+  * [🤑 Multiple Winners](protocol/prize-strategy/multiple-winners/README.md)
   * [🤑 Single Random Winner](protocol/prize-strategy/single-random-winner/README.md)
-    * [🎟️ Ticket](protocol/prize-strategy/single-random-winner/ticket.md)
-    * [🎁 Sponsorship](protocol/prize-strategy/single-random-winner/sponsorship.md)
+  * [🎟️ Ticket](protocol/prize-strategy/single-random-winner/ticket.md)
+  * [🎁 Sponsorship](protocol/prize-strategy/single-random-winner/sponsorship.md)
 * [🛠 Builders](protocol/builders/README.md)
   * [Compound Prize Pool Builder](protocol/builders/compound-prize-pool-builder.md)
+  * [Stake Prize Pool Builder](protocol/builders/stake-prize-pool-builder.md)
   * [yVault Prize Pool Builder](protocol/builders/yvault-prize-pool-builder.md)
 * [🧞 Random Number Generator](protocol/random-number-generator/README.md)
   * [Blockhash](protocol/random-number-generator/blockhash.md)
@@ -35,7 +38,6 @@
 ## Governance
 
 * [🏛️ Overview](governance/overview.md)
-* [💰 Comptroller](governance/untitled.md)
 
 ## Security
 

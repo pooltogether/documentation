@@ -33,7 +33,3 @@ All Prize Pools created with [Builders](../protocol/builders/) contribute a smal
 
 Governance also manages its own set of Prize Pools. These Prize Pools are displayed on the official [PoolTogether App](https://app-v3.pooltogether.com).
 
-## Comptroller
-
-All Prize Pools link to a global protocol [Comptroller](untitled.md). The Comptroller is owned by governance, and determines the reserve rate and rewards Prize Pools.
-

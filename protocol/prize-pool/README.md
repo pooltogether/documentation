@@ -41,11 +41,26 @@ If using the Single Random Winner Prize Strategy, it would make sense to set the
 
 The maximum credit limit ensures that the credit limit cannot be set higher than this number.  This prevents the owner of the Prize Pool from capturing \*all\* of a user's deposit at withdrawal time.
 
+#### Maximum Liquidity Limit
+
+The maxium liquidity limit allows the PrizePool owner to set a cap on the amount of liquidity the pool can hold. This can be set by calling:
+
+```javascript
+function setLiquidityCap(uint256 _liquidityCap) external override onlyOwner 
+```
+
+
 ## Token Model
 
 A Prize Pool accepts a single type of ERC20 token for deposits.  This token depends on the implementation: for a Compound Prize Pool bound to cDai it will be Dai, for a yEarn yUSDC vault it will be USDC.  This is the underlying **asset** of the Prize Pool.
 
 Prize Pools use **Controlled Tokens** for their internal accounting.  These tokens are minted when depositing or awarding prizes.  Controlled Tokens are burned when users withdraw.  They are exchanged at a ratio of 1:1 to the asset.
+
+The tokens associated with a PrizePool can be seen by calling:
+
+```javascript
+function tokens() external override view returns (address[] memory)
+```
 
 ### Controlled Tokens
 
@@ -55,7 +70,13 @@ The Token Controller has the privileged ability to mint and burn tokens on user'
 
 The Prize Pool must be the Token Controller for the controlled tokens that it is initialized with at construction.
 
-The default [Compound Prize Pool Builder](../builders/) creates a Ticket controlled token and a Sponsorship controlled token.  These tokens can be looked up on the corresponding [Prize Strategy](../prize-strategy/).
+The default [Compound Prize Pool Builder](../builders/) creates a Ticket controlled token and a Sponsorship controlled token. 
+
+A Controlled Token can added by the PrizePool owner by calling:
+
+```javascript
+function addControlledToken(ControlledTokenInterface _controlledToken) external override onlyOwner
+```
 
 ### Minting
 
@@ -317,5 +338,83 @@ Note that the returned values are "mantissas": i.e. fixed point numbers with 18 
 
 
 
+## Prizes
 
+### Current Award Balance
+
+The following function returns the amount calculated by `captureAwardBalance()`:
+
+```javascript
+function awardBalance() external override view returns (uint256) 
+```
+
+### Total Balances
+
+The total of all controlled tokens and timelock can be obtained by calling:
+
+```javascript
+function accountedBalance() external override view returns (uint256)
+```
+
+
+
+## External Prizes
+
+The owner can add "external" ERC20 tokens as prizes.  The strategy will award the entire balance held by the Prize Pool to the winner.
+
+```javascript
+function addExternalErc20Award(address _externalErc20) external onlyOwner;
+```
+
+The owner can add "external" ERC721 tokens as prizes.  These tokens will be transferred to the winner.
+
+```javascript
+function addExternalErc721Award(
+    address _externalErc721,
+    uint256[] calldata _tokenIds
+) external onlyOwner
+```
+
+## Time
+
+To retrieve when the current prize started:
+
+```javascript
+function prizePeriodStartedAt() external view returns (uint256)
+```
+
+To retrieve when the prize will end:
+
+```javascript
+function prizePeriodEndAt() external view returns (uint256)
+```
+
+
+
+## Reserve 
+
+### Calculate Reserve Fee
+Calculates the reserve portion of the given amount of funds.  If there is no reserve address, the Reserve fee portion will be zero.
+
+```javascript
+function calculateReserveFee(uint256 amount) public view returns (uint256)
+```
+
+### Withdraw Reserve
+The balance of the Reserve may be withdrawn by calling:
+
+```javascript
+function withdrawReserve(address to) external override onlyReserve returns (uint256) 
+``` 
+
+## Prize Strategy
+
+### Set the Prize Strategy
+The associated Prize Strategy can be set by calling: 
+
+```javascript
+function setPrizeStrategy(TokenListenerInterface _prizeStrategy) external override onlyOwner
+```
+
+Only the Prize Pool owner can call this function.
 
