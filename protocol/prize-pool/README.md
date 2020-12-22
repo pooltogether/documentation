@@ -184,6 +184,17 @@ returns:
 `durationSeconds` : the duration of the timelock in seconds
 `burned` : the amount of credit that would be burned
 
+Similarly it is also possible to calculate how long a user must keep their funds in the pool:
+
+```javascript
+function estimateCreditAccrualTime(address _controlledToken, uint256 _principal, uint256 _interest) external override view returns (uint256 durationSeconds)
+```
+
+| Parameter Name | Parameter Description |
+| :--- | :--- |
+| _controlledToken | The type of controlled token. |
+| _principal | The principal amount on which interest is accruing. |
+| _interest | The amount of interest that must accrue. |
 
 ### Sweeping Timelocked Funds
 
@@ -249,7 +260,7 @@ function calculateEarlyExitFee(address from, address controlledToken, uint256 am
 
 | Parameter Name | Parameter Description |
 | :--- | :--- |
-| from | The address to withdraw from.  This means you can withdraw on another user's behalf if you have an allowance for the controlled token. |
+| from | The address to withdraw from | 
 | controlledToken | The controlled token to withdraw from |
 | amount | The amount to withdraw |
 
@@ -371,7 +382,13 @@ function creditRateOf(
 
 Note that the returned values are "mantissas": i.e. fixed point numbers with 18 decimal places.
 
+### Credit Plan
 
+The credit plan associated with a `controlledToken` can be found by calling: 
+
+```javascript
+function creditPlanOf(address controlledToken) external override view returns (uint128 creditLimitMantissa, uint128 creditRateMantissa)
+```
 
 ## Prizes
 
@@ -424,7 +441,7 @@ Checks with the Prize Pool if a specific token type (`_externalToken`) may be aw
 function canAwardExternal(address _externalToken) external view returns (bool) 
 ```
 
-## Time
+## Prize Time Periods
 
 To retrieve when the current prize started:
 
@@ -437,7 +454,6 @@ To retrieve when the prize will end:
 ```javascript
 function prizePeriodEndAt() external view returns (uint256)
 ```
-
 
 ## Reserve 
 
