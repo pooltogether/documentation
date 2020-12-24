@@ -4,7 +4,7 @@ The Compound Prize Pool is a Prize Pool that uses [Compound](https://compound.fi
 
 ## Retrieving the Underlying cToken
 
-To access the underlying [cToken](https://compound.finance/docs/ctokens), simple call this function:
+To access the underlying [cToken](https://compound.finance/docs/ctokens), simply call this function:
 
 ```javascript
 function cToken() returns (address);

@@ -1,6 +1,6 @@
 # Token Listener
 
-The Prize Pool Token Listener interface allows contracts to "listen" to the complete token lifecycle of mint, transfer and burn.  There are two functions that must be implemented: `beforeTokenMint` and `beforeTokenTransfer`
+The Token Listener interface allows contracts to "listen" to the complete token lifecycle of mint, transfer and burn.  There are two functions that must be implemented: `beforeTokenMint` and `beforeTokenTransfer`
 
 The beforeTokenMint function must be called whenever a token is minted.
 

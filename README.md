@@ -23,7 +23,7 @@ Prize games can be differentiated in the following ways:
 * The asset type the prize pool accepts for deposits 
 * The fairness parameters 
 
-The first type of prize game offered by PoolTogether implements the [Single Random Winner](protocol/prize-strategy/single-random-winner/) prize strategy. More are coming!
+The first type of prize game offered by PoolTogether implements the [Single Random Winner]() prize strategy. More are coming!
 
 ### Governance
 
@@ -36,11 +36,9 @@ The protocol governed prize pools appear on the official [PoolTogether App](http
 
 ### Next Steps
 
-#### [Learn How Prize Games Work](protocol/overview.md)
+#### [Learn How Prize Pools Work](protocol/overview.md)
 
-#### [Learn More About Governance](governance/overview.md)
+#### [Learn How To Build a Pool](protocol/builders/)
 
-#### [Join Our Community on Discord](https://discord.gg/5sjnHd)
 
-#### [See the Code on Github](https://github.com/pooltogether/pooltogether-pool-contracts)
 

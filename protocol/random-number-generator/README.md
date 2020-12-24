@@ -35,7 +35,7 @@ function requestRandomNumber() external returns (uint32 requestId, uint32 lockBl
 
 This function returns two values:
 
-* **requestId:** the unique id for this rng request
+* **requestId:** the unique id for this RNG request
 * **lockBlock:** the commitment block for this RNG request.  Users of the RNG request shouldn't make any changes after the lockBlock, otherwise the RNG may be less secure.  For example, the Prize Strategy will lock all ticket sales and movements after the lockBlock, as they affect the winner selection.  Once the request is complete the Prize Strategy unlocks tickets.
 
 ## Check if Request is Complete

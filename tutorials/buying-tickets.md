@@ -44,7 +44,7 @@ await dai.approve(daiPrizePool.address, ethers.utils.parseEther('1'))
 
 ## Deposit
 
-Now let's deposit into the Prize Pool.  Since we're depositing into a [Compound Prize Pool](../protocol/prize-pool/compound-prize-pool.md) that uses a [Single Random Winner](../protocol/prize-strategy/single-random-winner/) strategy, we'll want to mint Tickets so that we're eligible for prizes.
+Now let's deposit into the Prize Pool.  Since we're depositing into a [Compound Prize Pool](../protocol/prize-pool/compound-prize-pool.md) that uses a [Single Random Winner]() strategy, we'll want to mint Tickets so that we're eligible for prizes.
 
 We can retrieve the Ticket [controlled token](../protocol/prize-pool/#controlled-tokens) address from the Single Random Winner prize strategy:
 
@@ -106,5 +106,5 @@ The last parameter to the depositTo function is the referral address.  The proto
 
 Any interface for a PrizePool will want to pass it's own address as the referrer so that it can capture sweet, sweet rewards.
 
-For more information see [Rewards](../governance/untitled.md)
+For more information see [Rewards]()
 

@@ -11,18 +11,23 @@
 * [🏆 Prize Pools](protocol/prize-pool/README.md)
   * [⚖️ Fairness](protocol/prize-pool/fairness.md)
   * [Compound Prize Pool](protocol/prize-pool/compound-prize-pool.md)
+  * [Stake Prize Pool](protocol/prize-pool/stake-prize-pool.md)
   * [yVault Prize Pool](protocol/prize-pool/yvault-prize-pool.md)
   * [Token Listener](protocol/prize-pool/token-listener.md)
 * [💸 Prize Strategies](protocol/prize-strategy/README.md)
-  * [🤑 Single Random Winner](protocol/prize-strategy/single-random-winner/README.md)
-    * [🎟️ Ticket](protocol/prize-strategy/single-random-winner/ticket.md)
-    * [🎁 Sponsorship](protocol/prize-strategy/single-random-winner/sponsorship.md)
+  * [🤑 Multiple Winners](protocol/prize-strategy/multiple-winners.md)
 * [🛠 Builders](protocol/builders/README.md)
+  * [Stake Prize Pool](protocol/builders/stake-prize-pool.md)
   * [Compound Prize Pool Builder](protocol/builders/compound-prize-pool-builder.md)
   * [yVault Prize Pool Builder](protocol/builders/yvault-prize-pool-builder.md)
+* [🎟️ Tokens](protocol/tokens/README.md)
+  * [🎟️ Ticket](protocol/tokens/ticket.md)
+  * [🎁 Sponsorship](protocol/tokens/sponsorship.md)
 * [🧞 Random Number Generator](protocol/random-number-generator/README.md)
   * [Blockhash](protocol/random-number-generator/blockhash.md)
   * [Chainlink VRF](protocol/random-number-generator/chainlink-vrf.md)
+* [🏴‍☠️ LootBox](protocol/lootbox.md)
+* [⛽ Gas Usage](protocol/gas-usage.md)
 
 ## Tutorials
 
@@ -35,7 +40,6 @@
 ## Governance
 
 * [🏛️ Overview](governance/overview.md)
-* [💰 Comptroller](governance/untitled.md)
 
 ## Security
 

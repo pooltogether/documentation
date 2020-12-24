@@ -16,7 +16,7 @@ This approach also has some drawbacks.  Given a seed value, the operator will kn
 
 ## Usage
 
-A [Single Random Winner](../prize-strategy/single-random-winner/) prize strategy can be created with a [RNGChainlink](../../networks.md) RNG service.  However, the RNGChainlink service requires LINK tokens as payment.
+A prize strategy can be created with a [RNGChainlink](../../networks.md) RNG service.  However, the RNGChainlink service requires LINK tokens as payment.
 
 **LINK tokens must be supplied to the prize strategy to pay for the RNG service charges**
 
