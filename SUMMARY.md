@@ -1,13 +1,16 @@
 # Table of contents
 
 * [✨ Introduction](README.md)
-* [🧐 Why Prize Pools?](why-prize-pools.md)
 * [📡 Networks](networks.md)
 * [🚰 Resources](resources.md)
 * [💱 Migrating from V2 to V3](migrating-from-v2-to-v3.md)
 
 ## Tutorials
 
+* [🧐 Why Prize Pools?](tutorials/why-prize-pools/README.md)
+  * [🎨 NFT Art Giveaway](tutorials/why-prize-pools/nft-art-giveaway.md)
+  * [🤑 Reward Liquidity Providers](tutorials/why-prize-pools/reward-liquidity-providers.md)
+  * [⚖️ Fair Launch](tutorials/why-prize-pools/fair-launch.md)
 * [🔨 Create a Prize Pool](tutorials/creating-a-prize-pool.md)
 * [🎛️ Operate a Prize Pool](tutorials/operate-a-prize-pool.md)
 
