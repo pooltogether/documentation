@@ -1,4 +1,4 @@
-# 🧞 Random Number Generator
+# 🎲 Random Number Generator
 
 PoolTogether has abstracted the generation of random numbers by creating a request-based Random Number Generator interface.
 

@@ -12,11 +12,13 @@ ChainLink has implemented their VRF using public key cryptography.  It works lik
 
 This approach has some benefits in that the operator cannot “lie”: they must sign the seed using the secret they have committed to.  The algorithm is also instantaneous: there is no delay or waiting period to get the answer. ****
 
-This approach also has some drawbacks.  Given a seed value, the operator will know ahead of time what the random number will be.  The operator may also \*withhold\* the answer if they don’t like it**.**  We mitigate the operator's foreknowledge by locking the Tickets; even if the operator knows the answer they are unable to manipulate the Ticket structure.  If the operator withholds the answer, we can simply switch operators.
-
 ## Usage
 
-A prize strategy can be created with a [RNGChainlink](../../networks.md) RNG service.  However, the RNGChainlink service requires LINK tokens as payment.
+To use the [RNGChainlink](../../networks.md) RNG service, create a new prize pool using the service or set it on an existing pool.
 
-**LINK tokens must be supplied to the prize strategy to pay for the RNG service charges**
+🚨🚨🚨 **Chainlink RNG requires 2 LINK tokens per RNG request** 🚨🚨🚨
+
+🚨🚨🚨 **You must deposit LINK into the PRIZE STRATEGY** 🚨🚨🚨
+
+
 

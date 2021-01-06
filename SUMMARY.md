@@ -1,9 +1,15 @@
 # Table of contents
 
 * [✨ Introduction](README.md)
+* [🧐 Why Prize Pools?](why-prize-pools.md)
 * [📡 Networks](networks.md)
-* [💱 Migrating from V2 to V3](migrating-from-v2-to-v3.md)
 * [🚰 Resources](resources.md)
+* [💱 Migrating from V2 to V3](migrating-from-v2-to-v3.md)
+
+## Tutorials
+
+* [🔨 Create a Prize Pool](tutorials/creating-a-prize-pool.md)
+* [🎛️ Operate a Prize Pool](tutorials/operate-a-prize-pool.md)
 
 ## Protocol
 
@@ -23,19 +29,11 @@
 * [🎟️ Tokens](protocol/tokens/README.md)
   * [🎟️ Ticket](protocol/tokens/ticket.md)
   * [🎁 Sponsorship](protocol/tokens/sponsorship.md)
-* [🧞 Random Number Generator](protocol/random-number-generator/README.md)
+* [🎲 Random Number Generator](protocol/random-number-generator/README.md)
   * [Blockhash](protocol/random-number-generator/blockhash.md)
   * [Chainlink VRF](protocol/random-number-generator/chainlink-vrf.md)
 * [🏴‍☠️ LootBox](protocol/lootbox.md)
 * [⛽ Gas Usage](protocol/gas-usage.md)
-
-## Tutorials
-
-* [Getting Started](tutorials/getting-started.md)
-* [Deposit into a Prize Pool](tutorials/buying-tickets.md)
-* [Withdraw from a Prize Pool](tutorials/withdrawing-from-a-prize-pool.md)
-* [Create a Prize Pool](tutorials/creating-a-prize-pool.md)
-* [Create a Prize Strategy](tutorials/create-a-prize-strategy.md)
 
 ## Governance
 
