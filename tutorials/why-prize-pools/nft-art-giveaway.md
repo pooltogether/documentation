@@ -4,7 +4,7 @@ description: Users stake artist token to have a chance to win art
 
 # 🎨 NFT Art Giveaway
 
-An artist could use a Stake Prize Pool to giveaway a piece of their art each month.  The artist could require that the users stake their personal token for a chance to win.  
+An artist could use a Stake Prize Pool to give away a piece of their art each month.  The artist could require that the users stake their personal token for a chance to win.  
 
 1. Users stake artist's personal token in the prize pool
 2. Artist adds NFT to the prize pool
