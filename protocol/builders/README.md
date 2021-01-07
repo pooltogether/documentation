@@ -27,7 +27,6 @@ function createCompoundMultipleWinners(
 | Parameter | Description | Example |
 | :--- | :--- | :--- |
 | cToken | address | 0x5dbcF33D8c2E~~9~~76c6b560249878e6F1491Bca25c |
-| reserveRateMantissa | uint | 10000000000000000 |
 | maxExitFeeMantissa | uint | 10000000000000000 |
 | maxTimelockDuration | seconds uint | 1000000 |
 
