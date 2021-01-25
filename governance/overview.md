@@ -27,8 +27,6 @@ In addition to these core functions governance may:
 * insurance coverage
 * Anything else! 
 
-All Prize Pools created with [Builders](../protocol/builders/) contribute a small fee to the **protocol reserve**. The reserve is retained by the protocol as sponsorship in the Prize Pool in which it accrued.
-
 ## Prize Pool Management
 
 Governance also manages its own set of Prize Pools. These Prize Pools are displayed on the official [PoolTogether App](https://app-v3.pooltogether.com).
