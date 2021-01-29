@@ -61,6 +61,8 @@
 | Dai Prize Strategy | [0x5E0A6d336667EACE5D1b33279B50055604c3E329](https://rinkeby.etherscan.io/address/0x5E0A6d336667EACE5D1b33279B50055604c3E329) |
 | USDC Prize Pool | [0xde5275536231eCa2Dd506B9ccD73C028e16a9a32](https://rinkeby.etherscan.io/address/0xde5275536231eCa2Dd506B9ccD73C028e16a9a32) |
 | USDC Prize Strategy | [0x1b92BC2F339ef25161711e4EafC31999C005aF21](https://rinkeby.etherscan.io/address/0x1b92BC2F339ef25161711e4EafC31999C005aF21) |
+| BAT Prize Pool | [0xab068F220E10eEd899b54F1113dE7E354c9A8eB7](https://rinkeby.etherscan.io/address/0xab068F220E10eEd899b54F1113dE7E354c9A8eB7) |
+| BAT Prize Strategy | [0x41CF0758b7Cc2394b1C2dfF6133FEbb0Ef317C3b](https://rinkeby.etherscan.io/address/0x41CF0758b7Cc2394b1C2dfF6133FEbb0Ef317C3b) |
 | Loot Box ERC721 | [0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66](https://rinkeby.etherscan.io/address/0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66) |
 
 ### Core Contracts
