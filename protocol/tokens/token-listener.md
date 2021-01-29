@@ -1,4 +1,4 @@
-# Token Listener
+# 👂 Token Listener
 
 The Token Listener interface allows contracts to "listen" to the complete token lifecycle of mint, transfer and burn.  There are two functions that must be implemented: `beforeTokenMint` and `beforeTokenTransfer`
 
