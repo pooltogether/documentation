@@ -1,6 +1,6 @@
 # Risks
 
-Using the protocol includes substantial risks of losing some or all of your funds. The PoolTogether core team and community have made every effort to insure the security of funds.
+Using the protocol includes substantial risks of losing some or all of your funds. The PoolTogether core team and community have made every effort to ensure the security of funds.
 
 This section will help you understand the the types of risk you are taking what has been done to mitigate them and how to mitigate them further. 
 
