@@ -1,13 +1,11 @@
 # 📡 Networks
 
-_This document was generated_ [_automatically_](https://github.com/pooltogether/generate-networks-doc)
+*This document was generated [automatically](https://github.com/pooltogether/generate-networks-doc)*
 
 ## Mainnet
 
 ### PoolTogether Pools & Supporting Contracts
-
-**@pooltogether/current-pool-data ^3.2.0-beta.3** [**npm**](https://www.npmjs.com/package/@pooltogether/current-pool-data)
-
+**@pooltogether/current-pool-data ^3.2.0-beta.3 [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
 | Contract | Address |
 | :--- | :--- |
 | Dai Prize Pool | [0xEBfb47A7ad0FD6e57323C8A42B2E5A6a4F68fc1a](https://etherscan.io/address/0xEBfb47A7ad0FD6e57323C8A42B2E5A6a4F68fc1a) |
@@ -16,15 +14,11 @@ _This document was generated_ [_automatically_](https://github.com/pooltogether/
 | UNI Prize Strategy | [0xe8726B85236a489a8E84C56c95790d07a368f913](https://etherscan.io/address/0xe8726B85236a489a8E84C56c95790d07a368f913) |
 | USDC Prize Pool | [0xde9ec95d7708b8319ccca4b8bc92c0a3b70bf416](https://etherscan.io/address/0xde9ec95d7708b8319ccca4b8bc92c0a3b70bf416) |
 | USDC Prize Strategy | [0x3d9946190907ada8b70381b25c71eb9adf5f9b7b](https://etherscan.io/address/0x3d9946190907ada8b70381b25c71eb9adf5f9b7b) |
-| COMP Prize Pool | [0xBC82221e131c082336cf698F0cA3EBd18aFd4ce7](https://etherscan.io/address/0xBC82221e131c082336cf698F0cA3EBd18aFd4ce7) |
-| COMP Prize Strategy | [0x3ec4694b65e41f12d6b5d5ba7c2341f4d6859773](https://etherscan.io/address/0x3ec4694b65e41f12d6b5d5ba7c2341f4d6859773) |
 | Loot Box ERC721 | [0x4d695c615a7AACf2d7b9C481B66045BB2457Dfde](https://etherscan.io/address/0x4d695c615a7AACf2d7b9C481B66045BB2457Dfde) |
 | Loot Box Prize Strategy Listener | [0xfe7205DF55BA42c8801e44B55BF05F06cCe8565E](https://etherscan.io/address/0xfe7205DF55BA42c8801e44B55BF05F06cCe8565E) |
 
 ### Core Contracts
-
-**@pooltogether/pooltogether-contracts ^3.1.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)
-
+**@pooltogether/pooltogether-contracts ^3.1.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [CompoundPrizePoolBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/builders/CompoundPrizePoolBuilder.sol) | [0x55189c8836A7B3998935683F5AFACEE733B5fd20](https://etherscan.io/address/0x55189c8836A7B3998935683F5AFACEE733B5fd20) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/mainnet/CompoundPrizePoolBuilder.json) |
@@ -36,18 +30,14 @@ _This document was generated_ [_automatically_](https://github.com/pooltogether/
 | [VaultPrizePoolBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/builders/VaultPrizePoolBuilder.sol) | [0x1469C3C2F8CbACafCed0A271711e3491700b4f5d](https://etherscan.io/address/0x1469C3C2F8CbACafCed0A271711e3491700b4f5d) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/mainnet/VaultPrizePoolBuilder.json) |
 
 ### RNG Contracts
-
-**@pooltogether/pooltogether-rng-contracts ^1.0.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)
-
+**@pooltogether/pooltogether-rng-contracts ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xb1D89477d1b505C261bab6e73f08fA834544CD21](https://etherscan.io/address/0xb1D89477d1b505C261bab6e73f08fA834544CD21) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/mainnet/RNGBlockhash.json) |
 | [RNGChainlink](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGChainlink.sol) | [0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F](https://etherscan.io/address/0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/mainnet/RNGChainlink.json) |
 
 ### Loot Box Contracts
-
-**@pooltogether/loot-box ^1.0.0** [**npm**](https://www.npmjs.com/package/@pooltogether/loot-box)
-
+**@pooltogether/loot-box ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/loot-box)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ERC721ControlledFactory](https://github.com/pooltogether/loot-box/tree/main/contracts/ERC721ControlledFactory.sol) | [0x4E869b3A0978fA61DAbd7Da8F9B272AADc745Fb3](https://etherscan.io/address/0x4E869b3A0978fA61DAbd7Da8F9B272AADc745Fb3) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/mainnet/ERC721ControlledFactory.json) |
@@ -55,19 +45,16 @@ _This document was generated_ [_automatically_](https://github.com/pooltogether/
 | [LootBoxPrizeStrategyListenerFactory](https://github.com/pooltogether/loot-box/tree/main/contracts/LootBoxPrizeStrategyListenerFactory.sol) | [0x25e6a78D93D2935A638fDbd684e7b39565d0B7eA](https://etherscan.io/address/0x25e6a78D93D2935A638fDbd684e7b39565d0B7eA) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/mainnet/LootBoxPrizeStrategyListenerFactory.json) |
 
 ### V2-to-V3 Migration Contract
-
-**@pooltogether/migrate-v3 ^0.1.3** [**Github**](https://github.com/pooltogether/pooltogether-migrate-v3)
-
+**@pooltogether/migrate-v3 ^0.1.3 [Github](https://github.com/pooltogether/pooltogether-migrate-v3)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [MigrateV2ToV3](https://github.com/pooltogether/pooltogether-migrate-v3/tree/master/contracts/MigrateV2ToV3.sol) | [0x801B4872a635dCCc7E679eEaf04bEf08E562972a](https://etherscan.io/address/0x801B4872a635dCCc7E679eEaf04bEf08E562972a) | [Artifact](https://github.com/pooltogether/pooltogether-migrate-v3/tree/master/deployments/mainnet/MigrateV2ToV3.json) |
 
+
 ## Rinkeby
 
 ### PoolTogether Pools & Supporting Contracts
-
-**@pooltogether/current-pool-data ^3.2.0-beta.3** [**npm**](https://www.npmjs.com/package/@pooltogether/current-pool-data)
-
+**@pooltogether/current-pool-data ^3.2.0-beta.3 [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
 | Contract | Address |
 | :--- | :--- |
 | Dai Prize Pool | [0x4706856FA8Bb747D50b4EF8547FE51Ab5Edc4Ac2](https://rinkeby.etherscan.io/address/0x4706856FA8Bb747D50b4EF8547FE51Ab5Edc4Ac2) |
@@ -79,9 +66,7 @@ _This document was generated_ [_automatically_](https://github.com/pooltogether/
 | Loot Box ERC721 | [0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66](https://rinkeby.etherscan.io/address/0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66) |
 
 ### Core Contracts
-
-**@pooltogether/pooltogether-contracts ^3.1.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)
-
+**@pooltogether/pooltogether-contracts ^3.1.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [CompoundPrizePoolBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/builders/CompoundPrizePoolBuilder.sol) | [0xA8F32475438733B974CD4F19Ba8f97484EeB95a3](https://rinkeby.etherscan.io/address/0xA8F32475438733B974CD4F19Ba8f97484EeB95a3) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/rinkeby/CompoundPrizePoolBuilder.json) |
@@ -96,21 +81,19 @@ _This document was generated_ [_automatically_](https://github.com/pooltogether/
 | [VaultPrizePoolBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/builders/VaultPrizePoolBuilder.sol) | [0xd89a09084555a7D0ABe7B111b1f78DFEdDd638Be](https://rinkeby.etherscan.io/address/0xd89a09084555a7D0ABe7B111b1f78DFEdDd638Be) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/rinkeby/VaultPrizePoolBuilder.json) |
 
 ### RNG Contracts
-
-**@pooltogether/pooltogether-rng-contracts ^1.0.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)
-
+**@pooltogether/pooltogether-rng-contracts ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xA932e74d5263A754Ea04432E5c53658434b0484B](https://rinkeby.etherscan.io/address/0xA932e74d5263A754Ea04432E5c53658434b0484B) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/rinkeby/RNGBlockhash.json) |
 | [RNGChainlink](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGChainlink.sol) | [0x11D94431718934868C4339aFc5ea27585F46C99A](https://rinkeby.etherscan.io/address/0x11D94431718934868C4339aFc5ea27585F46C99A) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/rinkeby/RNGChainlink.json) |
 
 ### Loot Box Contracts
-
-**@pooltogether/loot-box ^1.0.0** [**npm**](https://www.npmjs.com/package/@pooltogether/loot-box)
-
+**@pooltogether/loot-box ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/loot-box)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ERC721ControlledFactory](https://github.com/pooltogether/loot-box/tree/main/contracts/ERC721ControlledFactory.sol) | [0x1D90F79a8515F63881075Ec2C212e18272aD9E38](https://rinkeby.etherscan.io/address/0x1D90F79a8515F63881075Ec2C212e18272aD9E38) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/ERC721ControlledFactory.json) |
 | [LootBoxController](https://github.com/pooltogether/loot-box/tree/main/contracts/LootBoxController.sol) | [0xb1EAc75da9bc31B078742C5AF9EDe62EFE31299D](https://rinkeby.etherscan.io/address/0xb1EAc75da9bc31B078742C5AF9EDe62EFE31299D) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/LootBoxController.json) |
 | [LootBoxPrizeStrategyListenerFactory](https://github.com/pooltogether/loot-box/tree/main/contracts/LootBoxPrizeStrategyListenerFactory.sol) | [0xadB4D93D84b18b5D82063aCf58b21587c92fdfb5](https://rinkeby.etherscan.io/address/0xadB4D93D84b18b5D82063aCf58b21587c92fdfb5) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/LootBoxPrizeStrategyListenerFactory.json) |
+
+
 
