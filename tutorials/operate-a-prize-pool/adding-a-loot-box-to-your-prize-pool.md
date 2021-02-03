@@ -12,5 +12,7 @@ You can look up the Loot Box address for an NFT using the Loot Box Controller.  
 
 For more information see the [documentation](../../protocol/lootbox.md) and the code[ on Github](https://github.com/pooltogether/loot-box)
 
+Looty
+
 
 
