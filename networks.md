@@ -14,6 +14,8 @@
 | UNI Prize Strategy | [0xe8726B85236a489a8E84C56c95790d07a368f913](https://etherscan.io/address/0xe8726B85236a489a8E84C56c95790d07a368f913) |
 | USDC Prize Pool | [0xde9ec95d7708b8319ccca4b8bc92c0a3b70bf416](https://etherscan.io/address/0xde9ec95d7708b8319ccca4b8bc92c0a3b70bf416) |
 | USDC Prize Strategy | [0x3d9946190907ada8b70381b25c71eb9adf5f9b7b](https://etherscan.io/address/0x3d9946190907ada8b70381b25c71eb9adf5f9b7b) |
+| COMP Prize Pool | [0xBC82221e131c082336cf698F0cA3EBd18aFd4ce7](https://etherscan.io/address/0xBC82221e131c082336cf698F0cA3EBd18aFd4ce7) |
+| COMP Prize Strategy | [0x3ec4694b65e41f12d6b5d5ba7c2341f4d6859773](https://etherscan.io/address/0x3ec4694b65e41f12d6b5d5ba7c2341f4d6859773) |
 | Loot Box ERC721 | [0x4d695c615a7AACf2d7b9C481B66045BB2457Dfde](https://etherscan.io/address/0x4d695c615a7AACf2d7b9C481B66045BB2457Dfde) |
 | Loot Box Prize Strategy Listener | [0xfe7205DF55BA42c8801e44B55BF05F06cCe8565E](https://etherscan.io/address/0xfe7205DF55BA42c8801e44B55BF05F06cCe8565E) |
 
