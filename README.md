@@ -32,6 +32,8 @@ The PoolTogether Protocol governance serves two primary functions.
 
 The protocol governed prize pools appear on the official [PoolTogether App](https://app-v3.pooltogether.com). Governance is currently the core PoolTogether team, but very soon governance control will be distributed amongst protocol stakeholders.
 
+
+
 #### 
 
 #### 
