@@ -62,5 +62,5 @@ The early exit fee is the percent of the withdrawal amount that must be contribu
 
 Push the big button at the bottom.  You're all done!  You're now the proud owner of a Compound Prize Pool.  Ownership comes with special privileges, so that the pool can be managed properly.
 
-To find out how to operate a pool, see the tutorial [Operate a Prize Pool](operate-a-prize-pool.md)
+To find out how to operate a pool, see the tutorial [Operate a Prize Pool](operate-a-prize-pool/)
 

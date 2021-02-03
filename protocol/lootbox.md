@@ -1,12 +1,12 @@
 ---
-description: What is a PoolTogether LootBox?
+description: What is a PoolTogether Loot Box?
 ---
 
-# 🏴‍☠️ LootBox
+# 🏴‍☠️ Loot Box
 
 ### Overview
 
-The PoolTogether LootBox is a permission-less token container. A LootBox allows wallets to be transferred like an ERC721.
+The PoolTogether Loot Box is a permission-less token container. A Loot Box allows wallets to be transferred like an ERC721.
 
 Many different tokens can be controlled simply by one counterfactual address. The holding contract is created and destroyed within the same transaction. This cheap deployment and immediate destruction of the contract minimizes the gas overhead involved with containerization.
 
