@@ -3,7 +3,6 @@
 * [✨ Introduction](README.md)
 * [📡 Networks](networks.md)
 * [🚰 Resources](resources.md)
-* [💱 Migrating from V2 to V3](migrating-from-v2-to-v3.md)
 
 ## Tutorials
 
