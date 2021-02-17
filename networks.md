@@ -1,7 +1,4 @@
 # 📡 Networks
-
-*This document was generated [automatically](https://github.com/pooltogether/generate-networks-doc)*
-
 ## Mainnet
 
 ### PoolTogether Pools & Supporting Contracts
@@ -127,5 +124,8 @@
 | :--- | :--- | :--- |
 | [MerkleDistributor](https://github.com/pooltogether/merkle-distributor/tree/main/contracts/MerkleDistributor.sol) | [0x93a6540DcE05a4A5E5B906eB97bBCBb723768F2D](https://rinkeby.etherscan.io/address/0x93a6540DcE05a4A5E5B906eB97bBCBb723768F2D) | [Artifact](https://github.com/pooltogether/merkle-distributor/tree/main/deployments/rinkeby/MerkleDistributor.json) |
 
+
+
+*This document was generated [automatically](https://github.com/pooltogether/generate-networks-doc)*
 
 
