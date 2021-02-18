@@ -55,12 +55,7 @@
 | [LootBoxController](https://github.com/pooltogether/loot-box/tree/main/contracts/LootBoxController.sol) | [0x2c2a966b7F5448A36EC9f896088DfB99B21d8A24](https://etherscan.io/address/0x2c2a966b7F5448A36EC9f896088DfB99B21d8A24) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/mainnet/LootBoxController.json) |
 | [LootBoxPrizeStrategyListenerFactory](https://github.com/pooltogether/loot-box/tree/main/contracts/LootBoxPrizeStrategyListenerFactory.sol) | [0x25e6a78D93D2935A638fDbd684e7b39565d0B7eA](https://etherscan.io/address/0x25e6a78D93D2935A638fDbd684e7b39565d0B7eA) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/mainnet/LootBoxPrizeStrategyListenerFactory.json) |
 
-### V2-to-V3 Migration Contract
-**@pooltogether/migrate-v3 ^0.1.3 [Github](https://github.com/pooltogether/pooltogether-migrate-v3)**
-| Contract | Address | Artifact |
-| :--- | :--- | :--- |
-| [MigrateV2ToV3](https://github.com/pooltogether/pooltogether-migrate-v3/tree/master/contracts/MigrateV2ToV3.sol) | [0x801B4872a635dCCc7E679eEaf04bEf08E562972a](https://etherscan.io/address/0x801B4872a635dCCc7E679eEaf04bEf08E562972a) | [Artifact](https://github.com/pooltogether/pooltogether-migrate-v3/tree/master/deployments/mainnet/MigrateV2ToV3.json) |
-
+### Retroactive Token Distribution
 **@pooltogether/merkle-distributor ^1.0.2 [npm](https://www.npmjs.com/package/@pooltogether/merkle-distributor)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
@@ -119,6 +114,7 @@
 | [LootBoxController](https://github.com/pooltogether/loot-box/tree/main/contracts/LootBoxController.sol) | [0xb1EAc75da9bc31B078742C5AF9EDe62EFE31299D](https://rinkeby.etherscan.io/address/0xb1EAc75da9bc31B078742C5AF9EDe62EFE31299D) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/LootBoxController.json) |
 | [LootBoxPrizeStrategyListenerFactory](https://github.com/pooltogether/loot-box/tree/main/contracts/LootBoxPrizeStrategyListenerFactory.sol) | [0xadB4D93D84b18b5D82063aCf58b21587c92fdfb5](https://rinkeby.etherscan.io/address/0xadB4D93D84b18b5D82063aCf58b21587c92fdfb5) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/LootBoxPrizeStrategyListenerFactory.json) |
 
+### Retroactive Token Distribution
 **@pooltogether/merkle-distributor ^1.0.2 [npm](https://www.npmjs.com/package/@pooltogether/merkle-distributor)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
