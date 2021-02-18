@@ -20,7 +20,7 @@
 | Loot Box ERC721 | [0x4d695c615a7AACf2d7b9C481B66045BB2457Dfde](https://etherscan.io/address/0x4d695c615a7AACf2d7b9C481B66045BB2457Dfde) |
 | Loot Box Prize Strategy Listener | [0xfe7205DF55BA42c8801e44B55BF05F06cCe8565E](https://etherscan.io/address/0xfe7205DF55BA42c8801e44B55BF05F06cCe8565E) |
 
-### Core Contracts
+### Builders
 **@pooltogether/pooltogether-contracts ^3.2.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
@@ -76,7 +76,7 @@
 | BAT Prize Strategy | [0x41CF0758b7Cc2394b1C2dfF6133FEbb0Ef317C3b](https://rinkeby.etherscan.io/address/0x41CF0758b7Cc2394b1C2dfF6133FEbb0Ef317C3b) |
 | Loot Box ERC721 | [0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66](https://rinkeby.etherscan.io/address/0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66) |
 
-### Core Contracts
+### Builders
 **@pooltogether/pooltogether-contracts ^3.2.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
