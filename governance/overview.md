@@ -36,3 +36,5 @@ The best place to start is by discussing it in the [governance forum](http://gov
 
 When it comes time to actually make the proposal, you can review the documentation and use the proposal creation interface available on the "vote" section of the PoolTogether app. You can create proposals without this interface but the interface helps make it more simple for non-technical people. 
 
+[Visit the proposal creation interface!](https://vote.pooltogether.com/proposals/create)
+
