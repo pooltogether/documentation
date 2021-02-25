@@ -43,6 +43,7 @@
 ## Governance
 
 * [🏛️ Overview](governance/overview.md)
+* [🕹️ Controls](governance/controls.md)
 
 ## Security
 
