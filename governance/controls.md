@@ -19,7 +19,7 @@ Each prize pool consists of the prize pool contract and the prize strategy contr
 
 Prize Pool actions include:
 
-* Setting a prize pool's exit fees
+* Setting a prize pool's early exit fees
 * Setting a prize pool's liquidity cap
 * Setting the prize strategy for a prize pool
 
@@ -33,8 +33,9 @@ Prize Strategy actions include:
 
 The protocol owns a set of token faucets, and can create more.  Each faucet is bound to a prize pool as a token listener and drips POOL tokens to the users.  The original program is time-limited, but governance can:
 
-* Deposit tokens into each faucet
+* Deposit more tokens into each faucet
 * Change the drip rate of each faucet
+* Create new token faucets for new prize pools
 
 ## Protocol Treasury
 
