@@ -25,6 +25,8 @@ Prize Pool actions include:
 
 Prize Strategy actions include:
 
+* Setting the number of winners
+* Setting whether to split external awards among the winners
 * Configuring the Random Number Generator
 * Managing external awards
 * Configuring token and prize listener contracts
