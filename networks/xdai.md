@@ -1,9 +1,5 @@
 # Sokol
 
-## PoolTogether Pools & Supporting Contracts
-**@pooltogether/current-pool-data ^3.2.1 [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
-| Contract | Address |
-| :--- | :--- |
 
 ## Builders
 **@pooltogether/pooltogether-contracts ^3.3.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
