@@ -1,4 +1,5 @@
-# mainnet Mainnet
+# Mainnet
+# Mainnet
 
 ## PoolTogether Pools & Supporting Contracts
 **@pooltogether/current-pool-data ^3.2.1 [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
@@ -65,7 +66,8 @@
 | [MerkleDistributor](https://github.com/pooltogether/merkle-distributor/tree/main/contracts/MerkleDistributor.sol) | [0xBE1a33519F586A4c8AA37525163Df8d67997016f](https://etherscan.io/address/0xBE1a33519F586A4c8AA37525163Df8d67997016f) | [Artifact](https://github.com/pooltogether/merkle-distributor/tree/main/deployments/mainnet/MerkleDistributor.json) |
 
 
-# rinkeby Rinkeby
+# Rinkeby
+# Rinkeby
 
 ## PoolTogether Pools & Supporting Contracts
 **@pooltogether/current-pool-data ^3.2.1 [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
