@@ -3,7 +3,6 @@
 * [✨ Introduction](README.md)
 * [📡 Networks](networks/README.md)
   * [Ethereum](networks/ethereum.md)
-  * [Matic](networks/matic.md)
   * [xDai](networks/xdai.md)
 * [🚰 Resources](resources.md)
 
