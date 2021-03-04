@@ -16,12 +16,6 @@
 | UnsafeTokenListenerDelegatorProxyFactory | [0x53A2E4F8BFe581bC28e0d1d30808ffB163E53A46](https://blockscout.com/poa/sokol/address/0x53A2E4F8BFe581bC28e0d1d30808ffB163E53A46) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/poaSokol/UnsafeTokenListenerDelegatorProxyFactory.json) |
 | [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0xdc488E6e8c55a11d20032997cd1fF7c4951401df](https://blockscout.com/poa/sokol/address/0xdc488E6e8c55a11d20032997cd1fF7c4951401df) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/version-3/deployments/poaSokol/YieldSourcePrizePoolProxyFactory.json) |
 
-## Governance
-**@pooltogether/governance ^1.0.1 [npm](https://www.npmjs.com/package/@pooltogether/governance)**
-| Contract | Address | Artifact |
-| :--- | :--- | :--- |
-
-
 ## RNG Contracts
 **@pooltogether/pooltogether-rng-contracts ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
 | Contract | Address | Artifact |
