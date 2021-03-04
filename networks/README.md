@@ -1,8 +1,8 @@
 # 📡 Networks
 
-## [Mainnet](./networks/mainnet.md)
+## [Mainnet](./mainnet.md)
 
-## [Rinkeby](./networks/rinkeby.md)
+## [Rinkeby](./rinkeby.md)
 
 *This document was generated [automatically](https://github.com/pooltogether/generate-networks-doc)*
 
