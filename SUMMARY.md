@@ -3,6 +3,7 @@
 * [✨ Introduction](README.md)
 * [📡 Networks](networks/README.md)
   * [Test2](networks/test2.md)
+  * [This is Another Test](networks/this-is-another-test.md)
 * [Test](test.md)
 * [🚰 Resources](resources.md)
 
