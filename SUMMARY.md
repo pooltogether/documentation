@@ -3,7 +3,6 @@
 * [✨ Introduction](README.md)
 * [📡 Networks](networks.md)
 * [🚰 Resources](resources.md)
-* [💱 Migrating from V2 to V3](migrating-from-v2-to-v3.md)
 
 ## Tutorials
 
@@ -23,9 +22,9 @@
   * [⚖️ Fairness](protocol/prize-pool/fairness.md)
   * [Compound Prize Pool](protocol/prize-pool/compound-prize-pool.md)
   * [Stake Prize Pool](protocol/prize-pool/stake-prize-pool.md)
-  * [yVault Prize Pool](protocol/prize-pool/yvault-prize-pool.md)
   * [Custom Yield Sources](protocol/prize-pool/custom-yield-sources.md)
 * [💸 Prize Strategies](protocol/prize-strategy/README.md)
+  * [Yield Sources](protocol/prize-strategy/yield-sources.md)
   * [🤑 Multiple Winners](protocol/prize-strategy/multiple-winners.md)
 * [🛠 Builders](protocol/builders/README.md)
   * [Stake Prize Pool](protocol/builders/stake-prize-pool.md)
@@ -44,6 +43,8 @@
 ## Governance
 
 * [🏛️ Overview](governance/overview.md)
+* [🕹️ Controls](governance/controls.md)
+* [🗳️ Process](governance/process.md)
 
 ## Security
 
