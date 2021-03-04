@@ -1,7 +1,8 @@
 # Table of contents
 
 * [✨ Introduction](README.md)
-* [📡 Networks](networks.md)
+* [📡 Networks](networks/README.md)
+  * [Test2](networks/test2.md)
 * [Test](test.md)
 * [🚰 Resources](resources.md)
 

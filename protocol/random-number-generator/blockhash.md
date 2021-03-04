@@ -6,5 +6,5 @@ When a user request a random number their lock block will be the current block. 
 
 ## Usage
 
-A prize strategy can use a [RNGBlockhash](../../networks.md) RNG service.  No additional work is needed: the blockhash service is free.
+A prize strategy can use a [RNGBlockhash](../../networks/) RNG service.  No additional work is needed: the blockhash service is free.
 
