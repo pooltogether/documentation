@@ -14,7 +14,7 @@
 * [OpenZeppelin Defender Award Autotask](https://github.com/pooltogether/defender-autotask-reward)
 * [V2 to V3 Migration Contracts](https://github.com/pooltogether/pooltogether-migrate-v3)
 
-## Subgraphs
+### Subgraphs
 
 * [mainnet Subgraph](https://thegraph.com/explorer/subgraph/pooltogether/pooltogether-v3_1_0)
 * [mainnet LootBox Subgraph](https://thegraph.com/explorer/subgraph/pooltogether/lootbox-v1_0_0)

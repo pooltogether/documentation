@@ -2,6 +2,7 @@
 
 * [✨ Introduction](README.md)
 * [📡 Networks](networks.md)
+* [Test](test.md)
 * [🚰 Resources](resources.md)
 
 ## Tutorials
