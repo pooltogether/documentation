@@ -22,10 +22,4 @@
 | :--- | :--- | :--- |
 
 
-## Retroactive Token Distribution
-**@pooltogether/merkle-distributor ^1.0.2 [npm](https://www.npmjs.com/package/@pooltogether/merkle-distributor)**
-| Contract | Address | Artifact |
-| :--- | :--- | :--- |
-
-
 
