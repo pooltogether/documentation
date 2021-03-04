@@ -4,6 +4,8 @@ description: How to Create Your Own Prize Pools using the Builder
 
 # 🔨 Create a Prize Pool
 
+{% embed url="https://pooltogether.wistia.com/medias/tn44htw6s4" %}
+
 This tutorial will show you how to create a Compound Prize Pool using the [PoolTogether Builder Interface](https://builder.pooltogether.com/).   The Prize Pool will accept Dai, generate yield from Compound, and split the prize among three winners.
 
 ## Pool Type
