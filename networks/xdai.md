@@ -1,5 +1,4 @@
 # Sokol
-# Turst Sokol
 
 
 ## Builders

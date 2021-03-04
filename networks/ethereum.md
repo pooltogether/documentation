@@ -1,5 +1,4 @@
 # Mainnet
-# Turst Mainnet
 
 ## PoolTogether Pools & Supporting Contracts
 **@pooltogether/current-pool-data ^3.2.1 [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
@@ -67,7 +66,6 @@
 
 
 # Rinkeby
-# Turst Rinkeby
 
 ## PoolTogether Pools & Supporting Contracts
 **@pooltogether/current-pool-data ^3.2.1 [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
