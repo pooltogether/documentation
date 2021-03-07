@@ -1,6 +1,6 @@
 # Stake Prize Pool
 
-This builder creates a new [Stake Prize Pool](../prize-pool/stake-prize-pool.md).
+This builder creates a new [Stake Prize Pool](../yield-sources/stake-prize-pool.md).
 
 The easiest way to create a Stake Prize Pool is from the PoolWithMultipleWinnersBuilder described [🛠 Builders](./)
 
