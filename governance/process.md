@@ -2,7 +2,7 @@
 description: Illustrating governance process with examples
 ---
 
-# 🗳️ Process
+# 🗳️ Example Proposals
 
 The governance system is very new, so it might be difficult for some people to imagine how it works.  Here we're going to give some example proposals to illustrate how governance could work.  The examples will be both PoolTogether-specific and refer to proposals created in other governance systems.  We'll cover:
 

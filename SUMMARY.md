@@ -47,7 +47,7 @@
 
 * [🏛️ Overview](governance/overview.md)
 * [🕹️ Controls](governance/controls.md)
-* [🗳️ Process](governance/process.md)
+* [🗳️ Example Proposals](governance/process.md)
 
 ## Security
 
