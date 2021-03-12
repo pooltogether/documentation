@@ -18,13 +18,14 @@
   * [♠️ Add an ERC721 Prize](tutorials/operate-a-prize-pool/add-an-erc721-prize.md)
   * [🏴‍☠️ Add a Loot Box](tutorials/operate-a-prize-pool/adding-a-loot-box-to-your-prize-pool.md)
 * [🚰 Add a Token Faucet](tutorials/add-a-token-faucet.md)
+* [🌊 Add a Sablier Stream](tutorials/add-a-sablier-stream.md)
 
 ## Protocol
 
 * [🌐 Overview](protocol/overview.md)
 * [🏆 Prize Pools](protocol/prize-pool/README.md)
   * [⚖️ Fairness](protocol/prize-pool/fairness.md)
-* [👨‍🌾Yield Sources](protocol/yield-sources/README.md)
+* [👨‍🌾 Yield Sources](protocol/yield-sources/README.md)
   * [Custom Yield Sources](protocol/yield-sources/custom-yield-sources.md)
   * [Stake Prize Pool](protocol/yield-sources/stake-prize-pool.md)
   * [Compound Prize Pool](protocol/yield-sources/compound-prize-pool.md)

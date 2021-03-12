@@ -5,5 +5,5 @@ description: >-
   create a yield source for a prize pool.
 ---
 
-# 👨‍🌾Yield Sources
+# 👨‍🌾 Yield Sources
 
