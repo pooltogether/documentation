@@ -5,7 +5,8 @@
   * [Ethereum](networks/ethereum.md)
   * [xDai](networks/xdai.md)
   * [Matic](networks/matic.md)
-* [🚰 Resources](resources.md)
+* [🚰 Resources](resources/README.md)
+  * [📈 Subgraphs](resources/subgraphs.md)
 
 ## Tutorials
 
