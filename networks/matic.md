@@ -2,7 +2,7 @@
 
 
 ## Builders
-**@pooltogether/pooltogether-contracts ^3.3.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.3.4 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [Comptroller](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/comptroller/Comptroller.sol) | [0x4027dE966127af5F015Ea1cfd6293a3583892668](https://explorer-mainnet.maticvigil.com/address/0x4027dE966127af5F015Ea1cfd6293a3583892668) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/matic/Comptroller.json) |
@@ -27,7 +27,7 @@
 
 
 ## Builders
-**@pooltogether/pooltogether-contracts ^3.3.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.3.4 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [Comptroller](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/comptroller/Comptroller.sol) | [0xdb8E47BEFe4646fCc62BE61EEE5DF350404c124F](https://explorer-mumbai.maticvigil.com/address/0xdb8E47BEFe4646fCc62BE61EEE5DF350404c124F) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/mumbai/Comptroller.json) |

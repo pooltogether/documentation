@@ -2,7 +2,7 @@
 
 
 ## Builders
-**@pooltogether/pooltogether-contracts ^3.3.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.3.4 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [Comptroller](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/comptroller/Comptroller.sol) | [0x4027dE966127af5F015Ea1cfd6293a3583892668](https://blockscout.com/xdai/mainnet/address/0x4027dE966127af5F015Ea1cfd6293a3583892668) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/xdai/Comptroller.json) |
@@ -27,7 +27,7 @@
 
 
 ## Builders
-**@pooltogether/pooltogether-contracts ^3.3.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.3.4 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [Comptroller](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/comptroller/Comptroller.sol) | [0x14e194Cf5E1dd73BB46256495aEa8ff36A7Aa454](https://blockscout.com/poa/sokol/address/0x14e194Cf5E1dd73BB46256495aEa8ff36A7Aa454) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/poaSokol/Comptroller.json) |

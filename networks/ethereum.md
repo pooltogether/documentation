@@ -22,7 +22,7 @@
 | Reserve Registry | [0x3e8b9901dBFE766d3FE44B36c180A1bca2B9A295](https://etherscan.io/address/0x3e8b9901dBFE766d3FE44B36c180A1bca2B9A295) |
 
 ## Builders
-**@pooltogether/pooltogether-contracts ^3.3.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.3.4 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x3E3A097aF79D6389c16A1e2b3A2F056D3D543C53](https://etherscan.io/address/0x3E3A097aF79D6389c16A1e2b3A2F056D3D543C53) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/mainnet/ControlledTokenBuilder.json) |
@@ -80,10 +80,10 @@
 | Loot Box ERC721 | [0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66](https://rinkeby.etherscan.io/address/0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66) |
 
 ## Builders
-**@pooltogether/pooltogether-contracts ^3.3.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.3.4 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
-| cDaiYieldSource | [0x9379Ce4309c27E47a440BA4724155D16f5eE23Aa](https://rinkeby.etherscan.io/address/0x9379Ce4309c27E47a440BA4724155D16f5eE23Aa) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/rinkeby/cDaiYieldSource.json) |
+| cDaiYieldSource | [0x0783B46bd531270cd7B315Ef129cCa97154d4009](https://rinkeby.etherscan.io/address/0x0783B46bd531270cd7B315Ef129cCa97154d4009) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/rinkeby/cDaiYieldSource.json) |
 | [Comptroller](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/comptroller/Comptroller.sol) | [0x05821572f54C10445379F5A1aD55f4FfFa9e187d](https://rinkeby.etherscan.io/address/0x05821572f54C10445379F5A1aD55f4FfFa9e187d) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/rinkeby/Comptroller.json) |
 | [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x427F81196f4E86e4241B13F2E51B01aF616075ea](https://rinkeby.etherscan.io/address/0x427F81196f4E86e4241B13F2E51B01aF616075ea) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/rinkeby/ControlledTokenBuilder.json) |
 | [MultipleWinnersBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/MultipleWinnersBuilder.sol) | [0xa347bFB39918aFfD59601eb35F5b9dA9ba94c840](https://rinkeby.etherscan.io/address/0xa347bFB39918aFfD59601eb35F5b9dA9ba94c840) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/rinkeby/MultipleWinnersBuilder.json) |
@@ -131,10 +131,10 @@
 
 
 ## Builders
-**@pooltogether/pooltogether-contracts ^3.3.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.3.4 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
-| cDaiYieldSource | [0x4027dE966127af5F015Ea1cfd6293a3583892668](https://kovan.etherscan.io/address/0x4027dE966127af5F015Ea1cfd6293a3583892668) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/kovan/cDaiYieldSource.json) |
+| cDaiYieldSource | [0x9eA5656117f4d42CF82AfE2d9686004BDaAea2B3](https://kovan.etherscan.io/address/0x9eA5656117f4d42CF82AfE2d9686004BDaAea2B3) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/kovan/cDaiYieldSource.json) |
 | [Comptroller](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/comptroller/Comptroller.sol) | [0xdb8E47BEFe4646fCc62BE61EEE5DF350404c124F](https://kovan.etherscan.io/address/0xdb8E47BEFe4646fCc62BE61EEE5DF350404c124F) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/kovan/Comptroller.json) |
 | [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0xb1D89477d1b505C261bab6e73f08fA834544CD21](https://kovan.etherscan.io/address/0xb1D89477d1b505C261bab6e73f08fA834544CD21) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/kovan/ControlledTokenBuilder.json) |
 | [MultipleWinnersBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/MultipleWinnersBuilder.sol) | [0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F](https://kovan.etherscan.io/address/0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/kovan/MultipleWinnersBuilder.json) |
