@@ -16,34 +16,30 @@ The yield source just needs these properties:
 The yield source interface is very simple; it just needs to support four functions:
 
 ```javascript
-interface YieldSourceInterface {
+/// @title Defines the functions used to interact with a yield source.  The Prize Pool inherits this contract.
+/// @notice Prize Pools subclasses need to implement this interface so that yield can be generated.
+interface IYieldSource {
 
-  function token() external view returns (address);
+  /// @notice Returns the ERC20 asset token used for deposits.
+  /// @return The ERC20 asset token
+  function depositToken() external view returns (address);
 
-  function balanceOf(address addr) external returns (uint256);
+  /// @notice Returns the total balance (in asset tokens).  This includes the deposits and interest.
+  /// @return The underlying balance of asset tokens
+  function balanceOfToken(address addr) external returns (uint256);
 
-  function supplyTo(uint256 amount, address to) external;
+  /// @notice Supplies tokens to the yield source.  Allows assets to be supplied on other user's behalf using the `to` param.
+  /// @param amount The amount of `token()` to be supplied
+  /// @param to The user whose balance will receive the tokens
+  function supplyTokenTo(uint256 amount, address to) external;
 
-  function redeem(uint256 amount) external returns (uint256);
-  
+  /// @notice Redeems tokens from the yield source.
+  /// @param amount The amount of `token()` to withdraw.  Denominated in `token()` as above.
+  /// @return The actual amount of tokens that were redeemed.
+  function redeemToken(uint256 amount) external returns (uint256);
+
 }
 ```
-
-### token\(\)
-
-The token function must return the ERC20 address of the token used to deposit.  Users will deposit this token into the yield source.
-
-### balanceOf\(address\)
-
-The balanceOf function returns the balance of the given address, denominated in the ERC20 token mentioned above.  This balance must increase as yield accrues.
-
-### supplyTo\(uint256, address\)
-
-The supplyTo function allows a user to deposit tokens into the yield source.  The tokens will be the above ERC20 tokens, and they may deposit to themselves or any other Ethereum address.
-
-### redeem\(uint256\)
-
-The redeem function allows users to withdraw their tokens.  Their withdrawal will be the ERC20 tokens mentioned above and be transferred to them.  The actual amount transferred is the return value of the function, as some yield sources may incur fees.
 
 
 
