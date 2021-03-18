@@ -6,6 +6,8 @@ description: Create a Prize Pool that Uses a Custom Yield Source
 
 If you want to generate yield using a protocol that isn't currently supported by PoolTogether, you can build a custom **Yield Source**.  Then when you create a Prize Pool, you can configure it to use your custom yield source.
 
+[See the Specification on Github ](https://github.com/pooltogether/yield-source-interface)
+
 The yield source just needs these properties:
 
 *  The deposit asset is the same as the asset that accrues.  I.e. if users deposit Dai into the yield source, then it should yield Dai as well
