@@ -124,24 +124,6 @@ event Deposited(
 | token | The address of the controlled token that was minted |
 | amount | The amount of both the underlying asset that was transferred and the tokens that were minted. |
 
-### Depositing Using Timelocked Funds
-
-If a user wishes to re-deposit their timelocked funds, they can do so using this function:
-
-```javascript
-function timelockDepositTo(
-    address to,
-    uint256 amount,
-    address controlledToken
-) external;
-```
-
-| Parameter | Description |
-| :--- | :--- |
-| to | The address to whom the controlled tokens should be minted |
-| amount | The amount of the underlying asset the user wishes to deposit.  The Prize Pool contract should have been pre-approved by the caller to transfer the underlying ERC20 tokens. |
-| controlledToken | The address of the token that they wish to mint.  For our default Prize Strategy this will either be the Ticket address or the Sponsorship address.  Those addresses can be looked up on the Prize Strategy. |
-
 ## Withdrawing
 
 When a user withdraws they may need to contribute to the prize according to the [fairness rules](fairness.md).  If a user would like their tickets right away, they may pay an early exit fee to the prize. The early exit fee is determined by the [Prize Strategy](../prize-strategy/).
