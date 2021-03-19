@@ -144,100 +144,7 @@ function timelockDepositTo(
 
 ## Withdrawing
 
-When a user withdraws they may need to contribute to the prize according to the [fairness rules](fairness.md). They may either cover the contribution by time-locking their funds, or cover the contribution explicitly using funds.
-
-### **Withdraw with Timelock**
-
-Funds can be withdrawn losslessly by time-locking the funds. The withdrawal amount will be unlocked at a later date at which point the funds can be swept back to the user. The timelock duration is calculated based on the users accrued credit, the credit rate, and the fairness fee.
-
-If the user has sufficient credit, the unlockTimestamp may be "now" and the funds are instantly swept to the `from` address.
-
-Tip: You can call this function in a constant way to see when the users funds will be unlocked.
-
-To start a lossless withdrawal a user may call:
-
-```javascript
-function withdrawWithTimelockFrom(
-    address from,
-    uint256 amount,
-    address controlledToken
-) external returns (uint256 unlockTimestamp);
-```
-
-| Parameter Name | Parameter Description |
-| :--- | :--- |
-| from | The user from whom to withdraw.  This means you may withdraw on another user's behalf if they have given you an ERC20 allowance. |
-| amount | The amount of collateral to withdraw. |
-| controlledToken | The type of controlled token to withdraw. |
-
-### Checking Timelock Balances
-
-To see how many funds have been timelocked for a `user` call:
-
-```javascript
-function timelockBalanceOf(address user) external view returns (uint256)
-```
-
-After funds have been time-locked, you can see at what timestamp they'll be available:
-
-```javascript
-function timelockBalanceAvailableAt(address user) external view returns (uint256)
-```
-
-### Checking Timelock Duration
-
-To calculate a timelocked withdrawal duration and credit consumption call:
-
-```javascript
-function calculateTimelockDuration(address from, address controlledToken, uint256 amount) 
-external override returns (uint256 durationSeconds,uint256 burnedCredit)
-```
-
-| Parameter Name | Description |
-| :--- | :--- |
-| from | The user who is withdrawing. |
-| amount | The amount the user is withdrawing. |
-| controlledToken | The type of controlled token to withdraw. |
-
-**returns**:
-
-| Returned Parameter Name | Description |
-| :--- | :--- |
-| `durationSeconds` | The duration of the timelock in seconds |
-| `burned` | The amount of credit that would be burned |
-
-### Estimating Credit Accrual Time
-
-Similarly it is also possible to calculate how long a user must keep their funds in the pool:
-
-```javascript
-function estimateCreditAccrualTime(address _controlledToken,
- uint256 _principal,
- uint256 _interest) 
- external override view returns (uint256 durationSeconds)
-```
-
-| Parameter Name | Parameter Description |
-| :--- | :--- |
-| \_controlledToken | The type of controlled token. |
-| \_principal | The principal amount on which interest is accruing. |
-| \_interest | The amount of interest that must accrue. |
-
-### Sweeping Timelocked Funds
-
-When a user's withdrawal timelocks have ended, the funds may be swept to their wallets:
-
-```javascript
-function sweepTimelockBalances(
-    address[] memory users
-) external returns (uint256 totalWithdrawal);
-```
-
-The function accepts an array of addresses and will attempt to sweep the time-locked funds for each one. The funds will be transferred back to the users wallets.
-
-### Withdraw Instantly
-
-If a user would like their tickets right away, they may pay an early exit fee to the prize. The early exit fee is determined by the [Prize Strategy](../prize-strategy/).
+When a user withdraws they may need to contribute to the prize according to the [fairness rules](fairness.md).  If a user would like their tickets right away, they may pay an early exit fee to the prize. The early exit fee is determined by the [Prize Strategy](../prize-strategy/).
 
 The instant withdrawal function returns the amount of the withdrawal that was retained as payment. This means you can call this function in a constant way to check to see what the exit fee will be. When it comes time to run the tx, that exit fee can be passed as the `maximumExitFee` to ensure it doesn't exceed the expected limit.
 
@@ -272,7 +179,26 @@ function calculateEarlyExitFee(address from, address controlledToken, uint256 am
 | controlledToken | The controlled token to withdraw from |
 | amount | The amount to withdraw |
 
-returns the `exitFee` that would be paid along with the credit that would be burned \(`burnedCredit`\).
+"calculateEarlyExitFee" returns the `exitFee` that would be paid along with the credit that would be burned \(`burnedCredit`\).
+
+### Estimating Credit Accrual Time
+
+Similarly it is also possible to calculate how long a user must keep their funds in the pool:
+
+```javascript
+function estimateCreditAccrualTime(address _controlledToken,
+ uint256 _principal,
+ uint256 _interest) 
+ external override view returns (uint256 durationSeconds)
+```
+
+| Parameter Name | Parameter Description |
+| :--- | :--- |
+| \_controlledToken | The type of controlled token. |
+| \_principal | The principal amount on which interest is accruing. |
+| \_interest | The amount of interest that must accrue. |
+
+### 
 
 ## Awarding
 
