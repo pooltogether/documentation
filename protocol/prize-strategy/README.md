@@ -8,7 +8,9 @@ A Prize Strategy handles prize distribution for a [Prize Pool](../prize-pool/). 
 
 The most popular Prize Strategy offering is the [Multiple Winner](multiple-winners.md) strategy. Earlier versions \(&lt; v3.1.0\) of the protocol used the Single Random Winner strategy, which is now a trivial subset of Multiple Winners \(with `numberofWinners = 1`\).
 
-Prize Strategies must implement the [Token Listener](../tokens/token-listener.md) interface so that they can be aware of the full token lifecycle.
+Prize Strategies must implement the Token Listener interface so that they can be aware of the full token lifecycle.
+
+See the [Token Listener Interface on Github](https://github.com/pooltogether/token-listener-interface)
 
 ## Privileged Actions
 
@@ -20,5 +22,5 @@ A [Prize Pool's](../prize-pool/) Prize Strategy is able to award tokens held by 
 
 ## Required Behaviour
 
-A Prize Strategy must implement the [Token Listener](../tokens/token-listener.md) interface so that it can listen to pool token mint, transfer and burn actions by the Prize Pool.
+A Prize Strategy must implement the [Token Listener]() interface so that it can listen to pool token mint, transfer and burn actions by the Prize Pool.
 

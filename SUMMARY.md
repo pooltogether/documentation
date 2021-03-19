@@ -39,7 +39,6 @@
 * [🎟️ Tokens](protocol/tokens/README.md)
   * [🎟️ Ticket](protocol/tokens/ticket.md)
   * [🎁 Sponsorship](protocol/tokens/sponsorship.md)
-  * [👂 Token Listener](protocol/tokens/token-listener.md)
 * [🎲 Random Number Generator](protocol/random-number-generator/README.md)
   * [Blockhash](protocol/random-number-generator/blockhash.md)
   * [Chainlink VRF](protocol/random-number-generator/chainlink-vrf.md)

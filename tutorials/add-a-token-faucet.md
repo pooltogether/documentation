@@ -10,13 +10,13 @@ The Token Faucet drips a certain number of tokens per second.  Those tokens are 
 
 For example: if the Token Faucet drips 100 tokens per second, and Alice holds 50% of the total supply of **measure** tokens, then she accrues 50 tokens per second.
 
-In order to accomplish this the Token Faucet must be updated before every token transfer; whether it's a mint, transfer or burn.  This is why the Token Faucet implements the [Token Listener](../protocol/tokens/token-listener.md) interface.
+In order to accomplish this the Token Faucet must be updated before every token transfer; whether it's a mint, transfer or burn.  This is why the Token Faucet implements the [Token Listener]() interface.
 
 To summarize:
 
 * The token faucet distributes a token to holders of a **measure** token.
 * The token faucet drips tokens **every second**
-* The token faucet implements the [Token Listener](../protocol/tokens/token-listener.md) interface that must be called in order to function correctly.
+* The token faucet implements the [Token Listener]() interface that must be called in order to function correctly.
 
 ## Adding a Token Faucet to a Prize Pool
 
@@ -38,7 +38,7 @@ The `create` function creates a new Token Faucet with the parameters:
 
 ### Step 2: Attach the Token Faucet to your Prize Pool
 
-The Token Faucet is a [Token Listener](../protocol/tokens/token-listener.md), so you'll need to attach it to your prize pool's **prize strategy**.  The default [Multiple Winners](../protocol/prize-strategy/multiple-winners.md) prize strategy allows you to set the token listener using the `setTokenListener` function.
+The Token Faucet is a [Token Listener](), so you'll need to attach it to your prize pool's **prize strategy**.  The default [Multiple Winners](../protocol/prize-strategy/multiple-winners.md) prize strategy allows you to set the token listener using the `setTokenListener` function.
 
 ### Step 3: Deposit Tokens into the Token Faucet
 
