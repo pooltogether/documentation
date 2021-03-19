@@ -22,5 +22,5 @@ A [Prize Pool's](../prize-pool/) Prize Strategy is able to award tokens held by 
 
 ## Required Behaviour
 
-A Prize Strategy must implement the [Token Listener]() interface so that it can listen to pool token mint, transfer and burn actions by the Prize Pool.
+A Prize Strategy must implement the [Token Listener interface](https://github.com/pooltogether/token-listener-interface) so that it can listen to pool token mint, transfer and burn actions by the Prize Pool.
 
