@@ -31,12 +31,6 @@ When a Prize Pool is created, the creator is set as the pool's "owner". The owne
 
 When a Prize Pool is created it is initialized with some hard-coded limits to protect users. See [Fairness](fairness.md) for more details.
 
-### **Maximum Timelock Duration**
-
-The maximum timelock duration ensures that a user has to wait at most X amount of time to withdraw their funds loss-lessly. If the owner of a pool sets the credit rate to be way too low, this limit ensures users will still be able to withdraw.
-
-If using the Single Random Winner Prize Strategy, it would make sense to set the maximum timelock duration to 2x the prize period. That way the owner has some flexibility when adjusting the credit limit and credit rate.
-
 ### **Maximum Credit Limit**
 
 The maximum credit limit ensures that the credit limit cannot be set higher than this number. This prevents the owner of the Prize Pool from capturing \*all\* of a user's deposit at withdrawal time.
