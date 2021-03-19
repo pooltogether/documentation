@@ -22,7 +22,7 @@
 | Reserve Registry | [0x3e8b9901dBFE766d3FE44B36c180A1bca2B9A295](https://etherscan.io/address/0x3e8b9901dBFE766d3FE44B36c180A1bca2B9A295) |
 
 ## Builders
-**@pooltogether/pooltogether-contracts ^3.3.5 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.3.6 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x3E3A097aF79D6389c16A1e2b3A2F056D3D543C53](https://etherscan.io/address/0x3E3A097aF79D6389c16A1e2b3A2F056D3D543C53) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/mainnet/ControlledTokenBuilder.json) |
@@ -80,7 +80,7 @@
 | Loot Box ERC721 | [0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66](https://rinkeby.etherscan.io/address/0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66) |
 
 ## Builders
-**@pooltogether/pooltogether-contracts ^3.3.5 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.3.6 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | cDaiYieldSource | [0x345Bf44F4D1bc5Ed4066ff65DdffC4B2FFB6D16b](https://rinkeby.etherscan.io/address/0x345Bf44F4D1bc5Ed4066ff65DdffC4B2FFB6D16b) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/rinkeby/cDaiYieldSource.json) |
@@ -131,7 +131,7 @@
 
 
 ## Builders
-**@pooltogether/pooltogether-contracts ^3.3.5 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.3.6 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | cDaiYieldSource | [0xaD20C8F8171dEF18605EC342cAca08192eCe63F2](https://kovan.etherscan.io/address/0xaD20C8F8171dEF18605EC342cAca08192eCe63F2) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/kovan/cDaiYieldSource.json) |
