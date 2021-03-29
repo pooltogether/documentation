@@ -17,7 +17,7 @@
 | [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0xE1d06d492107F14AE024c357005c5c692158B13D](https://explorer-mainnet.maticvigil.com/address/0xE1d06d492107F14AE024c357005c5c692158B13D) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/matic/YieldSourcePrizePoolProxyFactory.json) |
 
 ## RNG Contracts
-**@pooltogether/pooltogether-rng-contracts ^1.1.1 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
+**@pooltogether/pooltogether-rng-contracts ^1.1.2 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F](https://explorer-mainnet.maticvigil.com/address/0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/matic/RNGBlockhash.json) |
@@ -43,7 +43,7 @@
 | [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0x41122Ca50202d13c809dfE88F60Da212A1525Ed7](https://explorer-mumbai.maticvigil.com/address/0x41122Ca50202d13c809dfE88F60Da212A1525Ed7) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/mumbai/YieldSourcePrizePoolProxyFactory.json) |
 
 ## RNG Contracts
-**@pooltogether/pooltogether-rng-contracts ^1.1.1 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
+**@pooltogether/pooltogether-rng-contracts ^1.1.2 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xE1d06d492107F14AE024c357005c5c692158B13D](https://explorer-mumbai.maticvigil.com/address/0xE1d06d492107F14AE024c357005c5c692158B13D) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/mumbai/RNGBlockhash.json) |
