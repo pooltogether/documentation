@@ -10,10 +10,10 @@ The high level protocol architecture is outlined below. The code is available on
 
 ## How it works
 
-1. Users deposit funds into a Prize Pool.  They receive pool tokens in exchange.
+1. Users deposit funds into a Prize Pool.  They receive "ticket" tokens in exchange.
 2. The funds earn interest.
-3. The interest is distributed by the Prize Strategy as pool tokens.
-4. Users withdraw their funds at any time by telling the Prize Pool to burn their pool tokens.
+3. The interest is distributed by the Prize Strategy as ticket tokens.
+4. Users withdraw their funds at any time by telling the Prize Pool to burn their ticket tokens.
 
 ## Architecture
 
