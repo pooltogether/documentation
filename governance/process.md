@@ -19,7 +19,7 @@ As new assets become available and new types of prize pools are added to the [Bu
 If POOL holders decide to create a new prize pool after thorough discussion on the governance forums, then they would need to follow these steps:
 
 1. A user creates the appropriate prize pool using the [Prize Pool Builder app](https://builder.pooltogether.com/).
-2. Once created, the user transfers the ownership of the resulting prize pool and prize strategy contracts to the Timelock contract \(see the Governance section in [Networks](../networks/)\).  The only interface for this right now is Etherscan.
+2. Once created, the user transfers the ownership of the resulting prize pool and prize strategy contracts to the Timelock contract \(see the Governance section in [Networks](../resources-1/networks/)\).  The only interface for this right now is Etherscan.
 3. Finally, the user creates a new governance proposal.  The proposal will include:
    1. Adding the prize pool address to the official Protocol Prize Pool Registry \(coming soon!\)
    2. Possible compensation for the gas spent by the user that created the pool

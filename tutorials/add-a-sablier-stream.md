@@ -5,7 +5,7 @@ description: Stream tokens to your Prize Pool
 # 🌊 Add a Sablier Stream
 
 {% hint style="info" %}
-Sablier is only supported on the [Ethereum](../networks/ethereum.md) network
+Sablier is only supported on the [Ethereum](../resources-1/networks/ethereum.md) network
 {% endhint %}
 
 {% hint style="warning" %}
@@ -62,7 +62,7 @@ Enter the SablierManager address as the user, and the stream amount you calculat
 
 ### Step 3: Create the Stream
 
-Find the SablierManager on the [Ethereum Networks page](../networks/ethereum.md) and navigate to it on Etherscan.
+Find the SablierManager on the [Ethereum Networks page](../resources-1/networks/ethereum.md) and navigate to it on Etherscan.
 
 ![SablierManager Create Stream Function](../.gitbook/assets/screen-shot-2021-03-11-at-4.44.38-pm.png)
 

@@ -8,7 +8,7 @@ You might want to add a Loot Box to your Prize Pool, so that anyone can add more
 
 A Loot Box can be attached to any NFT: in fact, all NFTs already have a loot box!
 
-You can look up the Loot Box address for an NFT using the Loot Box Controller.  See the [Networks](../../networks/) page.  To transfer any tokens held by the Loot Box to the owner of the NFT you call the `plunder` function.
+You can look up the Loot Box address for an NFT using the Loot Box Controller.  See the [Networks](../../resources-1/networks/) page.  To transfer any tokens held by the Loot Box to the owner of the NFT you call the `plunder` function.
 
 For more information see the [documentation](../../protocol/lootbox.md) and the code[ on Github](https://github.com/pooltogether/loot-box)
 
