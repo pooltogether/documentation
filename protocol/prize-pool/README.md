@@ -47,6 +47,16 @@ function setLiquidityCap(uint256 _liquidityCap) external override onlyOwner
 
 A Prize Pool accepts a single type of ERC20 token for deposits. This token depends on the implementation: for a Compound Prize Pool bound to cDai it will be Dai, for a yEarn yUSDC vault it will be USDC. This is the underlying **asset** of the Prize Pool.
 
+### Prize Pool Asset
+
+The asset that user deposit into the prize pool can be retrieved by calling:
+
+```javascript
+function token() external view returns (address);
+```
+
+### Controlled Tokens
+
 Prize Pools use **Controlled Tokens** for their internal accounting. These tokens are minted when depositing or awarding prizes. Controlled Tokens are burned when users withdraw. They are exchanged at a ratio of 1:1 to the asset.
 
 The tokens associated with a PrizePool can be seen by calling:
@@ -54,8 +64,6 @@ The tokens associated with a PrizePool can be seen by calling:
 ```javascript
 function tokens() external override view returns (address[] memory)
 ```
-
-### Controlled Tokens
 
 A Controlled Token is a standard ERC20 that is bound to a **Token Controller**.
 
