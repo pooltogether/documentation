@@ -309,13 +309,17 @@ function creditPlanOf(address controlledToken) external override view returns (u
 
 ## Prizes
 
-### Current Award Balance
+### Calculate Current Prize
 
-The following function returns the amount calculated by `captureAwardBalance()`:
+To calculate the total interest that can be given away you can **statically** call this function:
 
 ```javascript
-function awardBalance() external override view returns (uint256)
+function captureAwardBalance() external returns (uint256);
 ```
+
+{% hint style="info" %}
+Note that this amount is just the currently accrued interest.  For prize pools with yield this amount will continue to increase.  It does not include the external awards.
+{% endhint %}
 
 ### Total Balances
 
