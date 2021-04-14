@@ -51,6 +51,10 @@
 * [🏴‍☠️ Loot Box](protocol/lootbox.md)
 * [⛽ Gas Usage](protocol/gas-usage.md)
 
+## Contributing
+
+* [Smart Contract Guidelines](contributing/smart-contract-guidelines.md)
+
 ## Governance
 
 * [🏛️ Overview](governance/overview.md)
