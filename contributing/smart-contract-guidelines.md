@@ -80,7 +80,7 @@ Events must have \(at minimum\):
 
 * There must be a test suite for each contract
 * Functions should be tested in isolation as much as possible
-* Unit tests only run **locally**
+* Unit tests must run **locally; i.e. they do not connect to a remote node.**
 
 ### Fork Test
 
