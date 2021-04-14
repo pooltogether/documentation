@@ -4,7 +4,7 @@ description: >-
   your project meets our basic standards of quality.
 ---
 
-# Smart Contract Guidelines
+# 📐 Smart Contract Guidelines
 
 ## Security
 

@@ -59,7 +59,7 @@
 
 ## Contributing
 
-* [Smart Contract Guidelines](contributing/smart-contract-guidelines.md)
+* [📐 Smart Contract Guidelines](contributing/smart-contract-guidelines.md)
 
 ## Security
 
