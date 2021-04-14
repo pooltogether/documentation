@@ -6,6 +6,10 @@ description: >-
 
 # 📐 Smart Contract Guidelines
 
+{% hint style="info" %}
+If you're reviewing a project, you can use the [markdown for the docs below](https://github.com/pooltogether/documentation/blob/v3.3.0/contributing/smart-contract-guidelines.md) as a template
+{% endhint %}
+
 ## Security
 
 ### Re-entrancy
