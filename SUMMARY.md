@@ -25,7 +25,6 @@
   * [♠️ Add an ERC721 Prize](tutorials/operate-a-prize-pool/add-an-erc721-prize.md)
   * [🏴‍☠️ Add a Loot Box](tutorials/operate-a-prize-pool/adding-a-loot-box-to-your-prize-pool.md)
 * [🚰 Add a Token Faucet](tutorials/add-a-token-faucet.md)
-* [🌊 Add a Sablier Stream](tutorials/add-a-sablier-stream.md)
 
 ## Protocol
 
