@@ -21,7 +21,6 @@
 | POOL POOL Faucet | [0x30430419b86e9512E6D93Fc2b0791d98DBeb637b](https://etherscan.io/address/0x30430419b86e9512E6D93Fc2b0791d98DBeb637b) |
 | Loot Box ERC721 | [0x4d695c615a7AACf2d7b9C481B66045BB2457Dfde](https://etherscan.io/address/0x4d695c615a7AACf2d7b9C481B66045BB2457Dfde) |
 | Loot Box Prize Strategy Listener | [0xfe7205DF55BA42c8801e44B55BF05F06cCe8565E](https://etherscan.io/address/0xfe7205DF55BA42c8801e44B55BF05F06cCe8565E) |
-| Reserve | [0xdb8E47BEFe4646fCc62BE61EEE5DF350404c124F](https://etherscan.io/address/0xdb8E47BEFe4646fCc62BE61EEE5DF350404c124F) |
 | Reserve Registry | [0x3e8b9901dBFE766d3FE44B36c180A1bca2B9A295](https://etherscan.io/address/0x3e8b9901dBFE766d3FE44B36c180A1bca2B9A295) |
 
 ## Builders
