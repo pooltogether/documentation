@@ -20,7 +20,7 @@ To summarize:
 
 ## Adding a Token Faucet to a Prize Pool
 
-You can create a Token Faucet using the TokenFaucetProxyFactory.  See the [Networks](../resources-1/networks/) page to find a faucet on the network of your choice.
+You can create a Token Faucet using the TokenFaucetProxyFactory.  See the [Networks](../resources/networks/) page to find a faucet on the network of your choice.
 
 ### Step 1: Create the Token Faucet
 

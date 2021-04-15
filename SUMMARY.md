@@ -2,17 +2,17 @@
 
 * [✨ Introduction](README.md)
 
-## Resources <a id="resources-1"></a>
+## Resources
 
-* [📡 Contracts](resources-1/networks/README.md)
-  * [Ethereum](resources-1/networks/ethereum.md)
-  * [xDai](resources-1/networks/xdai.md)
-  * [Matic](resources-1/networks/matic.md)
-  * [Binance](resources-1/networks/binance.md)
-* [🕹️ Apps](resources-1/apps.md)
-* [🤖 Code](resources-1/code.md)
-* [📈 Subgraphs](resources-1/subgraphs.md)
-* [⚒️ Workshops](resources-1/workshops.md)
+* [📡 Contracts](resources/networks/README.md)
+  * [Ethereum](resources/networks/ethereum.md)
+  * [xDai](resources/networks/xdai.md)
+  * [Matic](resources/networks/matic.md)
+  * [Binance](resources/networks/binance.md)
+* [🕹️ Apps](resources/apps.md)
+* [🤖 Code](resources/code.md)
+* [📈 Subgraphs](resources/subgraphs.md)
+* [⚒️ Workshops](resources/workshops.md)
 
 ## Tutorials
 
