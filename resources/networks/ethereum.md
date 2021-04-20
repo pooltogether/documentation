@@ -70,7 +70,7 @@
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0x14e09c3319244a84e7c1E7B52634f5220FA96623](https://etherscan.io/address/0x14e09c3319244a84e7c1E7B52634f5220FA96623) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/mainnet/GenericProxyFactory.json) |
 
 ## AaveYieldSource
-**@pooltogether/aave-yield-source ^1.0.1 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
+**@pooltogether/aave-yield-source ^1.0.2 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | aBUSDYieldSouce | [0x858415FdB262F17F7a63f6B1F6fEd7AF8308A1A7](https://etherscan.io/address/0x858415FdB262F17F7a63f6B1F6fEd7AF8308A1A7) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/mainnet/aBUSDYieldSouce.json) |
@@ -173,7 +173,7 @@
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0x713edC7728C4F0BCc135D48fF96282444d77E604](https://kovan.etherscan.io/address/0x713edC7728C4F0BCc135D48fF96282444d77E604) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/kovan/GenericProxyFactory.json) |
 
 ## AaveYieldSource
-**@pooltogether/aave-yield-source ^1.0.1 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
+**@pooltogether/aave-yield-source ^1.0.2 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | aAAVE | [0x495F5751780FE4F0dfCd7E43215F250ecE671Fe2](https://kovan.etherscan.io/address/0x495F5751780FE4F0dfCd7E43215F250ecE671Fe2) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/kovan/aAAVE.json) |
