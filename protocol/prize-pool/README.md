@@ -10,7 +10,10 @@ Prize Pools allow funds to be pooled together into a no-loss yield source, such 
 
 Prize Pools provide controls to the owner so that participation can be made fair. See [Fairness](fairness.md) for more information.
 
-There is a different type of prize pool for each yield source. For example, if you wish to use Compound you will use the Compound Prize Pool.
+There are two types of prize pools:
+
+* **Yield Source Prize Pools**: these prize pools utilize a yield source to generate prizes.
+* **Stake Prize Pools**: these prize pools simply hold deposits; prizes must be added manually.
 
 All Prize Pools share the functionality below.
 
@@ -18,10 +21,8 @@ All Prize Pools share the functionality below.
 
 When a Prize Pool is created, the creator is set as the pool's "owner". The owner is able to:
 
-* Add additional pool tokens
 * Change the Prize Strategy
 * Set the [credit rate and credit limit](fairness.md#credit)
-* Shutdown the prize pool
 * Transfer ownership
 * Renounce ownership
 

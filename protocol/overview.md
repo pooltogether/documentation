@@ -21,7 +21,7 @@ The high level protocol architecture is outlined below. The code is available on
 
 ### [Prize Pools](prize-pool/)
 
-Prize Pools are the central building block of prize games.  They pool user funds in a **yield source** and expose the yield to their **Prize Strategy**, which then disburses as desired.
+Prize Pools are the central building block of prize games.  They pool user funds in a **yield source** and expose the yield to a **Prize Strategy**, which then disburses as it pleases.
 
 Prize Pools can be differentiated in four primary ways:
 
@@ -29,7 +29,6 @@ Prize Pools can be differentiated in four primary ways:
 * The prize strategy used to determine frequency and distribution 
 * The rewards offered by the prize pool
 * The asset type the prize pool accepts for deposits 
-* The fairness parameters 
 
 ### [Prize Strategies](prize-strategy/)
 
@@ -39,13 +38,15 @@ Prize Strategies determine the prize distribution for the Prize Pool.  They can 
 * Award ERC20 tokens held by the Prize Pool
 * Award ERC721 tokens held by the Prize Pool
 
-### [Builders](prize-pool/prize-pool-builder.md)
+### [Yield Source](yield-sources.md)
 
-Builders make it easy to create pre-configured prize games.  There are currently three Prize Pool types paired with the MultipleWinners, documentation available [here](prize-pool/prize-pool-builder.md). 
+Yield sources take deposits and generate interest for the prize pool.  Yield sources must be designed to be no-loss, and adhere to the [Yield Source Interface]().
 
-### [Random Number Generator](random-number-generator/)
 
-There are many different ways to generate a random number, so we've abstracted them as request-based Random Number Generator services.  Each RNG service has a different security profile, so be sure to use the appropriate one for your game.
+
+
+
+
 
 ## Conventions
 

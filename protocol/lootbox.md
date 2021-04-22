@@ -6,9 +6,9 @@ description: What is a PoolTogether Loot Box?
 
 ### Overview
 
-The PoolTogether Loot Box is a permission-less token container. A Loot Box allows wallets to be transferred like an ERC721.
+A Loot Box is an address that can be controlled by the owner of an ERC721.  Any ERC721 can have an associated Loot Box address, to which tokens and pretty much anything can be sent to.  Anyone can "plunder" the Loot Box for tokens, and those tokens will be sent to the owner of The ERC721.
 
-Many different tokens can be controlled simply by one counterfactual address. The holding contract is created and destroyed within the same transaction. This cheap deployment and immediate destruction of the contract minimizes the gas overhead involved with containerization.
+In this way, Loot Boxes allow addresses to be traded like NFTs.
 
 The code can be found here: [https://github.com/pooltogether/loot-box](https://github.com/pooltogether/loot-box)
 

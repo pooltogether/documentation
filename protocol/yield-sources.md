@@ -1,10 +1,10 @@
 ---
-description: Create a Prize Pool that Uses a Custom Yield Source
+description: Yield sources generate yield for prize pools.
 ---
 
-# Custom Yield Sources
+# 👨‍🌾 Yield Sources
 
-If you want to generate yield using a protocol that isn't currently supported by PoolTogether, you can build a custom **Yield Source**.  Then when you create a Prize Pool, you can configure it to use your custom yield source.
+A **Yield Source** contract is used by a Yield Source Prize Pool to generate yield for prizes.
 
 [See the Specification on Github ](https://github.com/pooltogether/yield-source-interface)
 
@@ -12,6 +12,8 @@ The yield source just needs these properties:
 
 *  The deposit asset is the same as the asset that accrues.  I.e. if users deposit Dai into the yield source, then it should yield Dai as well
 * Yield must always be increasing.  The mechanics of the Prize Pool require yield to always go up, as it's a no-loss system.  The yield source must protect depositor's collateral.
+
+There are implementations for all of the major yield sources, such as Compound, Aave, and Yearn.
 
 ## Yield Source Interface
 

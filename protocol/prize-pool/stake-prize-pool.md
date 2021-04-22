@@ -1,4 +1,4 @@
-# Stake Prize Pool
+# 🥩 Stake Prize Pool
 
 The Stake Prize Pool is a prize pool that uses an ERC-20 compatible token as the underlying asset.
 
