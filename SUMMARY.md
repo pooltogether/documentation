@@ -44,7 +44,6 @@
   * [Blockhash](protocol/random-number-generator/blockhash.md)
   * [Chainlink VRF](protocol/random-number-generator/chainlink-vrf.md)
 * [🏴‍☠️ Loot Box](protocol/lootbox.md)
-* [⛽ Gas Usage](protocol/gas-usage.md)
 
 ## Governance
 
