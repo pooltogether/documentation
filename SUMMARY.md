@@ -30,6 +30,7 @@
 
 * [🌐 Overview](protocol/overview.md)
 * [🏆 Prize Pools](protocol/prize-pool/README.md)
+  * [🛠 Prize Pool Builder](protocol/prize-pool/prize-pool-builder.md)
   * [⚖️ Fairness](protocol/prize-pool/fairness.md)
 * [👨‍🌾 Yield Sources](protocol/yield-sources/README.md)
   * [Custom Yield Sources](protocol/yield-sources/custom-yield-sources.md)
@@ -37,10 +38,6 @@
   * [Compound Prize Pool](protocol/yield-sources/compound-prize-pool.md)
 * [💸 Prize Strategies](protocol/prize-strategy/README.md)
   * [🤑 Multiple Winners](protocol/prize-strategy/multiple-winners.md)
-* [🛠 Builders](protocol/builders/README.md)
-  * [Stake Prize Pool](protocol/builders/stake-prize-pool.md)
-  * [Compound Prize Pool Builder](protocol/builders/compound-prize-pool-builder.md)
-  * [yVault Prize Pool Builder](protocol/builders/yvault-prize-pool-builder.md)
 * [🎟️ Tokens](protocol/tokens/README.md)
   * [🎟️ Ticket](protocol/tokens/ticket.md)
   * [🎁 Sponsorship](protocol/tokens/sponsorship.md)

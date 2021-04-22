@@ -1,8 +1,11 @@
 # Matic
 
+## Matic
 
-## Builders
-**@pooltogether/pooltogether-contracts ^3.3.8 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+### Builders
+
+**@pooltogether/pooltogether-contracts ^3.3.8** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)
+
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x317625b28Acb3C0540DB00b179D84D9b804277f7](https://explorer-mainnet.maticvigil.com/address/0x317625b28Acb3C0540DB00b179D84D9b804277f7) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/matic/ControlledTokenBuilder.json) |
@@ -11,20 +14,26 @@
 | [TokenFaucetProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/token-faucet/TokenFaucetProxyFactory.sol) | [0xB3e8bBD6CB0443e0dc59602825Dc6854D7ec5c4b](https://explorer-mainnet.maticvigil.com/address/0xB3e8bBD6CB0443e0dc59602825Dc6854D7ec5c4b) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/matic/TokenFaucetProxyFactory.json) |
 | [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0x4d1639e4b237BCab6F908A1CEb0995716D5ebE36](https://explorer-mainnet.maticvigil.com/address/0x4d1639e4b237BCab6F908A1CEb0995716D5ebE36) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/matic/YieldSourcePrizePoolProxyFactory.json) |
 
-## RNG Contracts
-**@pooltogether/pooltogether-rng-contracts ^1.1.2 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
+### RNG Contracts
+
+**@pooltogether/pooltogether-rng-contracts ^1.1.2** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)
+
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F](https://explorer-mainnet.maticvigil.com/address/0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/matic/RNGBlockhash.json) |
 
-## GenericProxyFactory
-**@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)**
+### GenericProxyFactory
+
+**@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)
+
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0xd1797D46C3E825fce5215a0259D3426a5c49455C](https://explorer-mainnet.maticvigil.com/address/0xd1797D46C3E825fce5215a0259D3426a5c49455C) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/matic/GenericProxyFactory.json) |
 
-## AaveYieldSource
-**@pooltogether/aave-yield-source ^1.0.2 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
+### AaveYieldSource
+
+**@pooltogether/aave-yield-source ^1.0.2** [**npm**](https://www.npmjs.com/package/@pooltogether/aave-yield-source)
+
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | amAAVEYieldSource | [0xEbED994f97396106f7B3d55C287A6A51128cDBB1](https://explorer-mainnet.maticvigil.com/address/0xEbED994f97396106f7B3d55C287A6A51128cDBB1) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/matic/amAAVEYieldSource.json) |
@@ -36,12 +45,12 @@
 | amWMATICYieldSource | [0x4570Ab872EbF376caBbbB0CBecb985dFe2757900](https://explorer-mainnet.maticvigil.com/address/0x4570Ab872EbF376caBbbB0CBecb985dFe2757900) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/matic/amWMATICYieldSource.json) |
 | [ATokenYieldSource](https://github.com/pooltogether/aave-yield-source/tree/main/contracts/yield-source/ATokenYieldSource.sol) | [0xd06814AC6CD4A5192E3767a7329a731A3d2E3F1C](https://explorer-mainnet.maticvigil.com/address/0xd06814AC6CD4A5192E3767a7329a731A3d2E3F1C) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/matic/ATokenYieldSource.json) |
 
+## Mumbai
 
-# Mumbai
+### Builders
 
+**@pooltogether/pooltogether-contracts ^3.3.8** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)
 
-## Builders
-**@pooltogether/pooltogether-contracts ^3.3.8 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x6aeBE10a4607B1002ea56D825Ee18Ce751fD9592](https://explorer-mumbai.maticvigil.com/address/0x6aeBE10a4607B1002ea56D825Ee18Ce751fD9592) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/mumbai/ControlledTokenBuilder.json) |
@@ -50,24 +59,29 @@
 | [TokenFaucetProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/token-faucet/TokenFaucetProxyFactory.sol) | [0x58aF4554c0DB496EFdf93bB344eC513C5627Efb9](https://explorer-mumbai.maticvigil.com/address/0x58aF4554c0DB496EFdf93bB344eC513C5627Efb9) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/mumbai/TokenFaucetProxyFactory.json) |
 | [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0xdc488E6e8c55a11d20032997cd1fF7c4951401df](https://explorer-mumbai.maticvigil.com/address/0xdc488E6e8c55a11d20032997cd1fF7c4951401df) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/mumbai/YieldSourcePrizePoolProxyFactory.json) |
 
-## RNG Contracts
-**@pooltogether/pooltogether-rng-contracts ^1.1.2 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
+### RNG Contracts
+
+**@pooltogether/pooltogether-rng-contracts ^1.1.2** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)
+
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xE1d06d492107F14AE024c357005c5c692158B13D](https://explorer-mumbai.maticvigil.com/address/0xE1d06d492107F14AE024c357005c5c692158B13D) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/mumbai/RNGBlockhash.json) |
 | [RNGChainlink](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGChainlink.sol) | [0x9eA5656117f4d42CF82AfE2d9686004BDaAea2B3](https://explorer-mumbai.maticvigil.com/address/0x9eA5656117f4d42CF82AfE2d9686004BDaAea2B3) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/mumbai/RNGChainlink.json) |
 
-## GenericProxyFactory
-**@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)**
+### GenericProxyFactory
+
+**@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)
+
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0xd1797D46C3E825fce5215a0259D3426a5c49455C](https://explorer-mumbai.maticvigil.com/address/0xd1797D46C3E825fce5215a0259D3426a5c49455C) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/mumbai/GenericProxyFactory.json) |
 
-## AaveYieldSource
-**@pooltogether/aave-yield-source ^1.0.2 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
+### AaveYieldSource
+
+**@pooltogether/aave-yield-source ^1.0.2** [**npm**](https://www.npmjs.com/package/@pooltogether/aave-yield-source)
+
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | aAAVE | [0x31c457b2AdD91196B3B0Ed9D0bFAFF22052fA38a](https://explorer-mumbai.maticvigil.com/address/0x31c457b2AdD91196B3B0Ed9D0bFAFF22052fA38a) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/mumbai/aAAVE.json) |
 | [ATokenYieldSource](https://github.com/pooltogether/aave-yield-source/tree/main/contracts/yield-source/ATokenYieldSource.sol) | [0x6cFbf44ac86eFB9110c3b7D393E783bAEEf243D2](https://explorer-mumbai.maticvigil.com/address/0x6cFbf44ac86eFB9110c3b7D393E783bAEEf243D2) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/mumbai/ATokenYieldSource.json) |
-
 

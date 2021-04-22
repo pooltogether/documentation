@@ -39,9 +39,9 @@ Prize Strategies determine the prize distribution for the Prize Pool.  They can 
 * Award ERC20 tokens held by the Prize Pool
 * Award ERC721 tokens held by the Prize Pool
 
-### [Builders](builders/)
+### [Builders](prize-pool/prize-pool-builder.md)
 
-Builders make it easy to create pre-configured prize games.  There are currently three Prize Pool types paired with the MultipleWinners, documentation available [here](builders/). 
+Builders make it easy to create pre-configured prize games.  There are currently three Prize Pool types paired with the MultipleWinners, documentation available [here](prize-pool/prize-pool-builder.md). 
 
 ### [Random Number Generator](random-number-generator/)
 

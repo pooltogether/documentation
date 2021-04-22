@@ -14,7 +14,7 @@ It's important to mention that a proposal is much more likely to be successful i
 
 ## Proposal: Create a Protocol Prize Pool
 
-As new assets become available and new types of prize pools are added to the [Builder](../protocol/builders/), users may wish to create new governance owned & operated prize pools.  By having ownership only governance will be able to change parameters such as the exit fee and number of winners.  See [Controls](controls.md) for more info.
+As new assets become available and new types of prize pools are added to the [Builder](../protocol/prize-pool/prize-pool-builder.md), users may wish to create new governance owned & operated prize pools.  By having ownership only governance will be able to change parameters such as the exit fee and number of winners.  See [Controls](controls.md) for more info.
 
 If POOL holders decide to create a new prize pool after thorough discussion on the governance forums, then they would need to follow these steps:
 

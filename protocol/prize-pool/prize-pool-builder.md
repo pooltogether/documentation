@@ -2,13 +2,13 @@
 description: Easily create preconfigured Prize Pools
 ---
 
-# 🛠 Builders
+# 🛠 Prize Pool Builder
 
-Prize Pool Builders allow users to create preconfigured Prize Pools. Builders create all contracts using teeny tiny proxies, so creating prize games is cheap!
-
-There are currently three specific prize builders, but the starting point for all Prize Pool Builders is the PoolWithMultipleWinnersBuilder contract.
+The Prize Pool Builder allow users to create preconfigured Prize Pools. Builders create all contracts using teeny tiny proxies, so creating prize games is cheap!  Prize Pools can be built using the **PoolWithMultipleWinnersBuilder**.
 
 ## PoolWithMultipleWinnersBuilder
+
+The PoolWithMultipleWinnersBuilder contract is deployed across all networks.  See the [Contracts](../../resources/networks/) page for more details.
 
 ### **Create a Multiple Winners Compound Prize Pool**
 
