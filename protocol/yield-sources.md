@@ -13,7 +13,14 @@ The yield source just needs these properties:
 *  The deposit asset is the same as the asset that accrues.  I.e. if users deposit Dai into the yield source, then it should yield Dai as well
 * Yield must always be increasing.  The mechanics of the Prize Pool require yield to always go up, as it's a no-loss system.  The yield source must protect depositor's collateral.
 
-There are implementations for all of the major yield sources, such as Compound, Aave, and Yearn.
+There are implementations for all of the major yield sources:
+
+* Compound
+* Aave
+* Yearn
+* More!
+
+See the full list [here](https://github.com/pooltogether/yield-source-interface)
 
 ## Yield Source Interface
 
