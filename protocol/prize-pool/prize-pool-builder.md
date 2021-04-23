@@ -4,7 +4,16 @@ description: Easily create preconfigured Prize Pools
 
 # 🛠 Prize Pool Builder
 
-The Prize Pool Builder allow users to create preconfigured Prize Pools. Builders create all contracts using teeny tiny proxies, so creating prize games is cheap!  Prize Pools can be built using the **PoolWithMultipleWinnersBuilder**.
+The Prize Pool Builder allow users to create preconfigured Prize Pools.  When a user create a Prize Pool with the builder, they'll get:
+
+* Core Prize Pool contract
+* [Sponsorship](../tokens/sponsorship.md) token
+* [Ticket](../tokens/ticket.md) token
+* [Multiple Winners](../prize-strategy/multiple-winners.md) prize strategy
+
+The prize pool will be bound to a specific [yield source](../yield-sources.md) \(if applicable\) and the Multiple Winners prize strategy will be bound to a specific [RNG](../random-number-generator/).
+
+The builder contract is called **PoolWithMultipleWinnersBuilder**.  You can use the [Builder app](../../resources/apps.md#prize-pool-builder) to interact with it.
 
 ## PoolWithMultipleWinnersBuilder
 
