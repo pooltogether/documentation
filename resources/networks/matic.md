@@ -17,13 +17,13 @@
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F](https://explorer-mainnet.maticvigil.com/address/0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/matic/RNGBlockhash.json) |
 
-## GenericProxyFactory
+## Generic Proxy Factory
 **@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0xd1797D46C3E825fce5215a0259D3426a5c49455C](https://explorer-mainnet.maticvigil.com/address/0xd1797D46C3E825fce5215a0259D3426a5c49455C) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/matic/GenericProxyFactory.json) |
 
-## AaveYieldSource
+## Aave Yield Source
 **@pooltogether/aave-yield-source ^1.0.3 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
@@ -57,13 +57,13 @@
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xE1d06d492107F14AE024c357005c5c692158B13D](https://explorer-mumbai.maticvigil.com/address/0xE1d06d492107F14AE024c357005c5c692158B13D) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/mumbai/RNGBlockhash.json) |
 | [RNGChainlink](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGChainlink.sol) | [0x9eA5656117f4d42CF82AfE2d9686004BDaAea2B3](https://explorer-mumbai.maticvigil.com/address/0x9eA5656117f4d42CF82AfE2d9686004BDaAea2B3) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/mumbai/RNGChainlink.json) |
 
-## GenericProxyFactory
+## Generic Proxy Factory
 **@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0xd1797D46C3E825fce5215a0259D3426a5c49455C](https://explorer-mumbai.maticvigil.com/address/0xd1797D46C3E825fce5215a0259D3426a5c49455C) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/mumbai/GenericProxyFactory.json) |
 
-## AaveYieldSource
+## Aave Yield Source
 **@pooltogether/aave-yield-source ^1.0.3 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |

@@ -63,13 +63,13 @@
 | :--- | :--- | :--- |
 | [MerkleDistributor](https://github.com/pooltogether/merkle-distributor/tree/main/contracts/MerkleDistributor.sol) | [0xBE1a33519F586A4c8AA37525163Df8d67997016f](https://etherscan.io/address/0xBE1a33519F586A4c8AA37525163Df8d67997016f) | [Artifact](https://github.com/pooltogether/merkle-distributor/tree/main/deployments/mainnet/MerkleDistributor.json) |
 
-## GenericProxyFactory
+## Generic Proxy Factory
 **@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0x14e09c3319244a84e7c1E7B52634f5220FA96623](https://etherscan.io/address/0x14e09c3319244a84e7c1E7B52634f5220FA96623) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/mainnet/GenericProxyFactory.json) |
 
-## AaveYieldSource
+## Aave Yield Source
 **@pooltogether/aave-yield-source ^1.0.3 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
@@ -139,7 +139,7 @@
 | :--- | :--- | :--- |
 | [MerkleDistributor](https://github.com/pooltogether/merkle-distributor/tree/main/contracts/MerkleDistributor.sol) | [0x93a6540DcE05a4A5E5B906eB97bBCBb723768F2D](https://rinkeby.etherscan.io/address/0x93a6540DcE05a4A5E5B906eB97bBCBb723768F2D) | [Artifact](https://github.com/pooltogether/merkle-distributor/tree/main/deployments/rinkeby/MerkleDistributor.json) |
 
-## GenericProxyFactory
+## Generic Proxy Factory
 **@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
@@ -167,13 +167,13 @@
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xe20ba80D263246537592B14211746E438be6b756](https://kovan.etherscan.io/address/0xe20ba80D263246537592B14211746E438be6b756) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/kovan/RNGBlockhash.json) |
 | [RNGChainlink](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGChainlink.sol) | [0x0FcEDB079E56F336840Aa0c0f20816CcE7de63B6](https://kovan.etherscan.io/address/0x0FcEDB079E56F336840Aa0c0f20816CcE7de63B6) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/kovan/RNGChainlink.json) |
 
-## GenericProxyFactory
+## Generic Proxy Factory
 **@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0x713edC7728C4F0BCc135D48fF96282444d77E604](https://kovan.etherscan.io/address/0x713edC7728C4F0BCc135D48fF96282444d77E604) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/kovan/GenericProxyFactory.json) |
 
-## AaveYieldSource
+## Aave Yield Source
 **@pooltogether/aave-yield-source ^1.0.3 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
