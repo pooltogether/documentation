@@ -1,4 +1,4 @@
-# 🎛️ Operate a Prize Pool
+# 🎰 Operate a Prize Pool
 
 Now that you've created a Prize Pool, it is time to learn what goes into operating a Prize Pool. Viewing details about any Prize Pool is made easy with the [PoolTogether Reference App](https://reference-app.pooltogether.com/), which displays all the relevant information about any Pool. An example Prize Pool on a testnet can be viewed [here](https://reference-app.pooltogether.com/pools/rinkeby/0x4706856FA8Bb747D50b4EF8547FE51Ab5Edc4Ac2/manage).
 
