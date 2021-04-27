@@ -6,8 +6,8 @@
 
 * [📡 Contracts](resources/networks/README.md)
   * [Ethereum](resources/networks/ethereum.md)
-  * [xDai](resources/networks/xdai.md)
   * [Matic](resources/networks/matic.md)
+  * [xDai](resources/networks/xdai.md)
   * [Binance](resources/networks/binance.md)
 * [🕹️ Apps](resources/apps.md)
 * [🤖 Code](resources/code.md)

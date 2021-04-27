@@ -1,8 +1,11 @@
-# BSC
+# Binance
 
+## BSC
 
-## Builders
-**@pooltogether/pooltogether-contracts ^3.3.8 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+### Builders
+
+**@pooltogether/pooltogether-contracts ^3.3.8** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)
+
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x41122Ca50202d13c809dfE88F60Da212A1525Ed7](https://bscscan.com/address/0x41122Ca50202d13c809dfE88F60Da212A1525Ed7) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bsc/ControlledTokenBuilder.json) |
@@ -11,18 +14,20 @@
 | [TokenFaucetProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/token-faucet/TokenFaucetProxyFactory.sol) | [0xE1d06d492107F14AE024c357005c5c692158B13D](https://bscscan.com/address/0xE1d06d492107F14AE024c357005c5c692158B13D) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bsc/TokenFaucetProxyFactory.json) |
 | [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0x9eA5656117f4d42CF82AfE2d9686004BDaAea2B3](https://bscscan.com/address/0x9eA5656117f4d42CF82AfE2d9686004BDaAea2B3) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bsc/YieldSourcePrizePoolProxyFactory.json) |
 
-## RNG Contracts
-**@pooltogether/pooltogether-rng-contracts ^1.1.2 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
+### RNG Contracts
+
+**@pooltogether/pooltogether-rng-contracts ^1.1.2** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)
+
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xb1D89477d1b505C261bab6e73f08fA834544CD21](https://bscscan.com/address/0xb1D89477d1b505C261bab6e73f08fA834544CD21) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/bsc/RNGBlockhash.json) |
 
+## BSC Testnet
 
-# BSC Testnet
+### Builders
 
+**@pooltogether/pooltogether-contracts ^3.3.8** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)
 
-## Builders
-**@pooltogether/pooltogether-contracts ^3.3.8 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x41122Ca50202d13c809dfE88F60Da212A1525Ed7](https://testnet.bscscan.com/address/0x41122Ca50202d13c809dfE88F60Da212A1525Ed7) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bscTestnet/ControlledTokenBuilder.json) |
@@ -31,10 +36,11 @@
 | [TokenFaucetProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/token-faucet/TokenFaucetProxyFactory.sol) | [0xE1d06d492107F14AE024c357005c5c692158B13D](https://testnet.bscscan.com/address/0xE1d06d492107F14AE024c357005c5c692158B13D) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bscTestnet/TokenFaucetProxyFactory.json) |
 | [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0x9eA5656117f4d42CF82AfE2d9686004BDaAea2B3](https://testnet.bscscan.com/address/0x9eA5656117f4d42CF82AfE2d9686004BDaAea2B3) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bscTestnet/YieldSourcePrizePoolProxyFactory.json) |
 
-## RNG Contracts
-**@pooltogether/pooltogether-rng-contracts ^1.1.2 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
+### RNG Contracts
+
+**@pooltogether/pooltogether-rng-contracts ^1.1.2** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)
+
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xb1D89477d1b505C261bab6e73f08fA834544CD21](https://testnet.bscscan.com/address/0xb1D89477d1b505C261bab6e73f08fA834544CD21) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/bscTestnet/RNGBlockhash.json) |
-
 
