@@ -17,7 +17,7 @@ The high level protocol architecture is outlined below. The code is available on
 
 ## Architecture
 
-![](../.gitbook/assets/screen-shot-2021-03-29-at-5.02.37-pm.png)
+![High level overview of the V3 architecture](../.gitbook/assets/screen-shot-2021-05-05-at-2.20.38-pm.png)
 
 ### [Prize Pools](prize-pool/)
 
