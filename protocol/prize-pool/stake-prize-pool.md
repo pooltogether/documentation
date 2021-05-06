@@ -2,6 +2,8 @@
 
 The Stake Prize Pool is a prize pool that uses an ERC-20 compatible token as the underlying asset.
 
+**If you transfer the underlying tokens directly to the prize pool, they will be treated like interest** 
+
 Users's can stake their tokens to become eligible for whatever prize is defined as the prize strategy for that pool.
 
 This is particularly useful for protocols that are sitting inactively in users's wallets - why not stake them in a pool and become eligible for rewards?
