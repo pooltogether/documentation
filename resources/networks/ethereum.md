@@ -73,6 +73,12 @@
 | :--- | :--- | :--- |
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0x14e09c3319244a84e7c1E7B52634f5220FA96623](https://etherscan.io/address/0x14e09c3319244a84e7c1E7B52634f5220FA96623) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/mainnet/GenericProxyFactory.json) |
 
+## Prize Strategy Upkeep
+**@pooltogether/pooltogether-prizestrategy-upkeep ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizestrategy-upkeep)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| [PrizeStrategyUpkeep](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/contracts/PrizeStrategyUpkeep.sol) | [0x4c1B59c375E1B4A5d7E968f98A580D36fFBb6A7C](https://etherscan.io/address/0x4c1B59c375E1B4A5d7E968f98A580D36fFBb6A7C) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/mainnet/PrizeStrategyUpkeep.json) |
+
 ## Aave Yield Source
 **@pooltogether/aave-yield-source ^1.0.3 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
 | Contract | Address | Artifact |
@@ -151,6 +157,12 @@
 | :--- | :--- | :--- |
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0x594069c560D260F90C21Be25fD2C8684efbb5628](https://rinkeby.etherscan.io/address/0x594069c560D260F90C21Be25fD2C8684efbb5628) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/rinkeby/GenericProxyFactory.json) |
 
+## Prize Strategy Upkeep
+**@pooltogether/pooltogether-prizestrategy-upkeep ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizestrategy-upkeep)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| [PrizeStrategyUpkeep](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/contracts/PrizeStrategyUpkeep.sol) | [0x7eDB775c3F8cABB74086781420FD144ea162D7C2](https://rinkeby.etherscan.io/address/0x7eDB775c3F8cABB74086781420FD144ea162D7C2) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/rinkeby/PrizeStrategyUpkeep.json) |
+
 
 # Kovan
 
@@ -178,6 +190,13 @@
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0x713edC7728C4F0BCc135D48fF96282444d77E604](https://kovan.etherscan.io/address/0x713edC7728C4F0BCc135D48fF96282444d77E604) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/kovan/GenericProxyFactory.json) |
+
+## Prize Strategy Upkeep
+**@pooltogether/pooltogether-prizestrategy-upkeep ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizestrategy-upkeep)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| PrizePoolRegistry | [0x8817bB292941e1A69F12879B274c8A15D315ABb1](https://kovan.etherscan.io/address/0x8817bB292941e1A69F12879B274c8A15D315ABb1) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/kovan/PrizePoolRegistry.json) |
+| [PrizeStrategyUpkeep](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/contracts/PrizeStrategyUpkeep.sol) | [0xb853503F62779ac16068A8fc40B84Ee174b50337](https://kovan.etherscan.io/address/0xb853503F62779ac16068A8fc40B84Ee174b50337) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/kovan/PrizeStrategyUpkeep.json) |
 
 ## Aave Yield Source
 **@pooltogether/aave-yield-source ^1.0.3 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
