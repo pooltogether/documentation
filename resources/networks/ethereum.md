@@ -25,7 +25,8 @@
 | Aave USDT Prize Strategy | [0x2223d2e68e0990567f5e0451f4c027870ea07227](https://etherscan.io/address/0x2223d2e68e0990567f5e0451f4c027870ea07227) |
 | USDT Prize Pool | [0x481f1BA81f7C01400831DfF18215961C3530D118](https://etherscan.io/address/0x481f1BA81f7C01400831DfF18215961C3530D118) |
 | USDT Prize Strategy | [0xc0fcdb4d882c28238cbcfbb023f87a7a7a1bdaa1](https://etherscan.io/address/0xc0fcdb4d882c28238cbcfbb023f87a7a7a1bdaa1) |
-| Uniswap POOL LP Prize Pool | [0x9A29401EF1856b669f55Ae5b24505b3B6fAEb370](https://etherscan.io/address/0x9A29401EF1856b669f55Ae5b24505b3B6fAEb370) |
+| Uniswap POOL LP Prize Pool | [0x3AF7072D29Adde20FC7e173a7CB9e45307d2FB0A](https://etherscan.io/address/0x3AF7072D29Adde20FC7e173a7CB9e45307d2FB0A) |
+| Uniswap POOL LP Faucet | [0x9A29401EF1856b669f55Ae5b24505b3B6fAEb370](https://etherscan.io/address/0x9A29401EF1856b669f55Ae5b24505b3B6fAEb370) |
 | Reserve Registry | [0x3e8b9901dBFE766d3FE44B36c180A1bca2B9A295](https://etherscan.io/address/0x3e8b9901dBFE766d3FE44B36c180A1bca2B9A295) |
 
 ## Builders
