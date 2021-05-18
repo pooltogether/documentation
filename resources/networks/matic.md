@@ -1,7 +1,7 @@
 # Matic
 
 ## PoolTogether Pools & Supporting Contracts
-**@pooltogether/current-pool-data ^3.4.5 [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
+**@pooltogether/current-pool-data ^3.4.14 [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
 | Contract | Address |
 | :--- | :--- |
 | Dai Prize Pool | [0xfecfa775643eb8c0f755491ba4569e501764da51](https://explorer-mainnet.maticvigil.com/address/0xfecfa775643eb8c0f755491ba4569e501764da51) |
@@ -9,6 +9,7 @@
 | USDT Prize Pool | [0x887E17D791Dcb44BfdDa3023D26F7a04Ca9C7EF4](https://explorer-mainnet.maticvigil.com/address/0x887E17D791Dcb44BfdDa3023D26F7a04Ca9C7EF4) |
 | USDT Prize Strategy | [0x5A65f0CE666B8334b6481A8d8C8323BB782386e6](https://explorer-mainnet.maticvigil.com/address/0x5A65f0CE666B8334b6481A8d8C8323BB782386e6) |
 | USDT Token Faucet | [0x90a8d8Ee6fDb1875028C6537877E6704b2646c51](https://explorer-mainnet.maticvigil.com/address/0x90a8d8Ee6fDb1875028C6537877E6704b2646c51) |
+| Uniswap POOL LP Faucet | [0x90a8d8Ee6fDb1875028C6537877E6704b2646c51](https://explorer-mainnet.maticvigil.com/address/0x90a8d8Ee6fDb1875028C6537877E6704b2646c51) |
 
 ## Builders
 **@pooltogether/pooltogether-contracts ^3.3.8 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
