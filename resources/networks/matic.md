@@ -1,7 +1,7 @@
 # Matic
 
 ## PoolTogether Pools & Supporting Contracts
-**@pooltogether/current-pool-data ^3.4.14 [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
+**@pooltogether/current-pool-data pooltogether/current-pool-data#master [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
 | Contract | Address |
 | :--- | :--- |
 | Dai Prize Pool | [0xfecfa775643eb8c0f755491ba4569e501764da51](https://explorer-mainnet.maticvigil.com/address/0xfecfa775643eb8c0f755491ba4569e501764da51) |

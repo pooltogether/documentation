@@ -1,18 +1,20 @@
 # Mainnet
 
 ## PoolTogether Pools & Supporting Contracts
-**@pooltogether/current-pool-data ^3.4.14 [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
+**@pooltogether/current-pool-data pooltogether/current-pool-data#master [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
 | Contract | Address |
 | :--- | :--- |
 | Dai Prize Pool | [0xEBfb47A7ad0FD6e57323C8A42B2E5A6a4F68fc1a](https://etherscan.io/address/0xEBfb47A7ad0FD6e57323C8A42B2E5A6a4F68fc1a) |
 | Dai Prize Strategy | [0x178969A87a78597d303C47198c66F68E8be67Dc2](https://etherscan.io/address/0x178969A87a78597d303C47198c66F68E8be67Dc2) |
 | Dai POOL Faucet | [0xF362ce295F2A4eaE4348fFC8cDBCe8d729ccb8Eb](https://etherscan.io/address/0xF362ce295F2A4eaE4348fFC8cDBCe8d729ccb8Eb) |
+| Dai Pod | [0x2f994e2E4F3395649eeE8A89092e63Ca526dA829](https://etherscan.io/address/0x2f994e2E4F3395649eeE8A89092e63Ca526dA829) |
 | UNI Prize Pool | [0x0650d780292142835F6ac58dd8E2a336e87b4393](https://etherscan.io/address/0x0650d780292142835F6ac58dd8E2a336e87b4393) |
 | UNI Prize Strategy | [0xe8726B85236a489a8E84C56c95790d07a368f913](https://etherscan.io/address/0xe8726B85236a489a8E84C56c95790d07a368f913) |
 | UNI POOL Faucet | [0xa5dddefD30e234Be2Ac6FC1a0364cFD337aa0f61](https://etherscan.io/address/0xa5dddefD30e234Be2Ac6FC1a0364cFD337aa0f61) |
 | USDC Prize Pool | [0xde9ec95d7708b8319ccca4b8bc92c0a3b70bf416](https://etherscan.io/address/0xde9ec95d7708b8319ccca4b8bc92c0a3b70bf416) |
 | USDC Prize Strategy | [0x3d9946190907ada8b70381b25c71eb9adf5f9b7b](https://etherscan.io/address/0x3d9946190907ada8b70381b25c71eb9adf5f9b7b) |
 | USDC POOL Faucet | [0xbd537257fad96e977b9e545be583bbf7028f30b9](https://etherscan.io/address/0xbd537257fad96e977b9e545be583bbf7028f30b9) |
+| USDC Pod | [0x386EB78f2eE79AddE8Bdb0a0e27292755ebFea58](https://etherscan.io/address/0x386EB78f2eE79AddE8Bdb0a0e27292755ebFea58) |
 | COMP Prize Pool | [0xBC82221e131c082336cf698F0cA3EBd18aFd4ce7](https://etherscan.io/address/0xBC82221e131c082336cf698F0cA3EBd18aFd4ce7) |
 | COMP Prize Strategy | [0x3ec4694b65e41f12d6b5d5ba7c2341f4d6859773](https://etherscan.io/address/0x3ec4694b65e41f12d6b5d5ba7c2341f4d6859773) |
 | COMP POOL Faucet | [0x72F06a78bbAac0489067A1973B0Cef61841D58BC](https://etherscan.io/address/0x72F06a78bbAac0489067A1973B0Cef61841D58BC) |
@@ -91,7 +93,7 @@
 **@pooltogether/pooltogether-prizestrategy-upkeep ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizestrategy-upkeep)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
-| [PrizeStrategyUpkeep](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/contracts/PrizeStrategyUpkeep.sol) | [0x4c1B59c375E1B4A5d7E968f98A580D36fFBb6A7C](https://etherscan.io/address/0x4c1B59c375E1B4A5d7E968f98A580D36fFBb6A7C) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/mainnet/PrizeStrategyUpkeep.json) |
+| [PrizeStrategyUpkeep](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/contracts/PrizeStrategyUpkeep.sol) | [0x77c39a3CBE6185cFE977C1BDEeFE59A2023023b7](https://etherscan.io/address/0x77c39a3CBE6185cFE977C1BDEeFE59A2023023b7) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/mainnet/PrizeStrategyUpkeep.json) |
 
 ## Pods Upkeep
 **@pooltogether/pooltogether-pods-upkeep ^1.0.0-beta.4 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-upkeep)**
@@ -113,13 +115,15 @@
 # Rinkeby
 
 ## PoolTogether Pools & Supporting Contracts
-**@pooltogether/current-pool-data ^3.4.14 [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
+**@pooltogether/current-pool-data pooltogether/current-pool-data#master [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
 | Contract | Address |
 | :--- | :--- |
 | Dai Prize Pool | [0x4706856FA8Bb747D50b4EF8547FE51Ab5Edc4Ac2](https://rinkeby.etherscan.io/address/0x4706856FA8Bb747D50b4EF8547FE51Ab5Edc4Ac2) |
 | Dai Prize Strategy | [0x5E0A6d336667EACE5D1b33279B50055604c3E329](https://rinkeby.etherscan.io/address/0x5E0A6d336667EACE5D1b33279B50055604c3E329) |
+| Dai Pod | [0x4A26b34A902045CFb573aCb681550ba30AA79783](https://rinkeby.etherscan.io/address/0x4A26b34A902045CFb573aCb681550ba30AA79783) |
 | USDC Prize Pool | [0xde5275536231eCa2Dd506B9ccD73C028e16a9a32](https://rinkeby.etherscan.io/address/0xde5275536231eCa2Dd506B9ccD73C028e16a9a32) |
 | USDC Prize Strategy | [0x1b92BC2F339ef25161711e4EafC31999C005aF21](https://rinkeby.etherscan.io/address/0x1b92BC2F339ef25161711e4EafC31999C005aF21) |
+| USDC Pod | [0x68c96179Cf9a90C589571Dc7AA94AD15d94e917d](https://rinkeby.etherscan.io/address/0x68c96179Cf9a90C589571Dc7AA94AD15d94e917d) |
 | BAT Prize Pool | [0xab068F220E10eEd899b54F1113dE7E354c9A8eB7](https://rinkeby.etherscan.io/address/0xab068F220E10eEd899b54F1113dE7E354c9A8eB7) |
 | BAT Prize Strategy | [0x41CF0758b7Cc2394b1C2dfF6133FEbb0Ef317C3b](https://rinkeby.etherscan.io/address/0x41CF0758b7Cc2394b1C2dfF6133FEbb0Ef317C3b) |
 | Loot Box ERC721 | [0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66](https://rinkeby.etherscan.io/address/0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66) |
@@ -193,7 +197,7 @@
 **@pooltogether/pooltogether-prizestrategy-upkeep ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizestrategy-upkeep)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
-| [PrizeStrategyUpkeep](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/contracts/PrizeStrategyUpkeep.sol) | [0x7eDB775c3F8cABB74086781420FD144ea162D7C2](https://rinkeby.etherscan.io/address/0x7eDB775c3F8cABB74086781420FD144ea162D7C2) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/rinkeby/PrizeStrategyUpkeep.json) |
+| [PrizeStrategyUpkeep](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/contracts/PrizeStrategyUpkeep.sol) | [0x3fBCb09Ee774F7e32Ba4D60d1E2D4CB9CE703984](https://rinkeby.etherscan.io/address/0x3fBCb09Ee774F7e32Ba4D60d1E2D4CB9CE703984) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/rinkeby/PrizeStrategyUpkeep.json) |
 
 ## Pods Upkeep
 **@pooltogether/pooltogether-pods-upkeep ^1.0.0-beta.4 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-upkeep)**
