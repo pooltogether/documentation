@@ -10,7 +10,6 @@
   * [xDai](resources/networks/xdai.md)
   * [Binance](resources/networks/binance.md)
 * [🕹️ Apps](resources/apps.md)
-* [🤖 Code](resources/code.md)
 * [📈 Subgraphs](resources/subgraphs.md)
 * [⚒️ Workshops](resources/workshops.md)
 
@@ -44,6 +43,7 @@
   * [Blockhash](protocol/random-number-generator/blockhash.md)
   * [Chainlink VRF](protocol/random-number-generator/chainlink-vrf.md)
 * [🏴‍☠️ Loot Box](protocol/lootbox.md)
+* [🐋 Pods](protocol/pods.md)
 
 ## Governance
 
