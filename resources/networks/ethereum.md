@@ -75,11 +75,29 @@
 | :--- | :--- | :--- |
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0x14e09c3319244a84e7c1E7B52634f5220FA96623](https://etherscan.io/address/0x14e09c3319244a84e7c1E7B52634f5220FA96623) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/mainnet/GenericProxyFactory.json) |
 
+## Prize Pool Registry
+**@pooltogether/pooltogether-prizepool-registry ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizepool-registry)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| AddressRegistry | [0x34733851E2047F8d0e1aa91124A6f9EaDc54D253](https://etherscan.io/address/0x34733851E2047F8d0e1aa91124A6f9EaDc54D253) | [Artifact](https://github.com/pooltogether/pooltogether-prizepool-registry/tree/main/deployments/mainnet/AddressRegistry.json) |
+
+## Pods Registry
+**@pooltogether/pooltogether-pods-registry ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-registry)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| PodsRegistry | [0x4658f736b93dCDdCbCe46cDe955970E697fd351f](https://etherscan.io/address/0x4658f736b93dCDdCbCe46cDe955970E697fd351f) | [Artifact](https://github.com/pooltogether/pooltogether-prizepool-registry/tree/main/deployments/mainnet/PodsRegistry.json) |
+
 ## Prize Strategy Upkeep
 **@pooltogether/pooltogether-prizestrategy-upkeep ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizestrategy-upkeep)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [PrizeStrategyUpkeep](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/contracts/PrizeStrategyUpkeep.sol) | [0x4c1B59c375E1B4A5d7E968f98A580D36fFBb6A7C](https://etherscan.io/address/0x4c1B59c375E1B4A5d7E968f98A580D36fFBb6A7C) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/mainnet/PrizeStrategyUpkeep.json) |
+
+## Pods Upkeep
+**@pooltogether/pooltogether-pods-upkeep ^1.0.0-beta.4 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-upkeep)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| [PodsUpkeep](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/main/contracts/PodsUpkeep.sol) | [0xdDf547560eccf082af39FEa77DF60dF664Cdb72E](https://etherscan.io/address/0xdDf547560eccf082af39FEa77DF60dF664Cdb72E) | [Artifact](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/main/deployments/mainnet/PodsUpkeep.json) |
 
 ## Aave Yield Source
 **@pooltogether/aave-yield-source ^1.0.3 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
@@ -159,11 +177,29 @@
 | :--- | :--- | :--- |
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0x594069c560D260F90C21Be25fD2C8684efbb5628](https://rinkeby.etherscan.io/address/0x594069c560D260F90C21Be25fD2C8684efbb5628) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/rinkeby/GenericProxyFactory.json) |
 
+## Prize Pool Registry
+**@pooltogether/pooltogether-prizepool-registry ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizepool-registry)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| AddressRegistry | [0xF76f17682888a738a6DF40aa63ac2b4B1a380831](https://rinkeby.etherscan.io/address/0xF76f17682888a738a6DF40aa63ac2b4B1a380831) | [Artifact](https://github.com/pooltogether/pooltogether-prizepool-registry/tree/main/deployments/rinkeby/AddressRegistry.json) |
+
+## Pods Registry
+**@pooltogether/pooltogether-pods-registry ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-registry)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| PodsRegistry | [0xB917f266424B803F389c79B86609710247a0370f](https://rinkeby.etherscan.io/address/0xB917f266424B803F389c79B86609710247a0370f) | [Artifact](https://github.com/pooltogether/pooltogether-prizepool-registry/tree/main/deployments/rinkeby/PodsRegistry.json) |
+
 ## Prize Strategy Upkeep
 **@pooltogether/pooltogether-prizestrategy-upkeep ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizestrategy-upkeep)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [PrizeStrategyUpkeep](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/contracts/PrizeStrategyUpkeep.sol) | [0x7eDB775c3F8cABB74086781420FD144ea162D7C2](https://rinkeby.etherscan.io/address/0x7eDB775c3F8cABB74086781420FD144ea162D7C2) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/rinkeby/PrizeStrategyUpkeep.json) |
+
+## Pods Upkeep
+**@pooltogether/pooltogether-pods-upkeep ^1.0.0-beta.4 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-upkeep)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| [PodsUpkeep](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/main/contracts/PodsUpkeep.sol) | [0x6C78bd43643aC277Ed15D1562F8080c9d25E32Ab](https://rinkeby.etherscan.io/address/0x6C78bd43643aC277Ed15D1562F8080c9d25E32Ab) | [Artifact](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/main/deployments/rinkeby/PodsUpkeep.json) |
 
 
 # Kovan
@@ -199,6 +235,12 @@
 | :--- | :--- | :--- |
 | PrizePoolRegistry | [0x8817bB292941e1A69F12879B274c8A15D315ABb1](https://kovan.etherscan.io/address/0x8817bB292941e1A69F12879B274c8A15D315ABb1) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/kovan/PrizePoolRegistry.json) |
 | [PrizeStrategyUpkeep](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/contracts/PrizeStrategyUpkeep.sol) | [0xb853503F62779ac16068A8fc40B84Ee174b50337](https://kovan.etherscan.io/address/0xb853503F62779ac16068A8fc40B84Ee174b50337) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/kovan/PrizeStrategyUpkeep.json) |
+
+## Pods Upkeep
+**@pooltogether/pooltogether-pods-upkeep ^1.0.0-beta.4 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-upkeep)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| PodsRegistry | [0x9DA83B2EAc639EBcA7c070532453822cBc3266c0](https://kovan.etherscan.io/address/0x9DA83B2EAc639EBcA7c070532453822cBc3266c0) | [Artifact](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/main/deployments/kovan/PodsRegistry.json) |
 
 ## Aave Yield Source
 **@pooltogether/aave-yield-source ^1.0.3 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
