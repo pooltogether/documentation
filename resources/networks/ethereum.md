@@ -97,7 +97,7 @@
 **@pooltogether/pooltogether-pods-upkeep ^1.0.0-beta.4 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-upkeep)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
-| [PodsUpkeep](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/main/contracts/PodsUpkeep.sol) | [0xdDf547560eccf082af39FEa77DF60dF664Cdb72E](https://etherscan.io/address/0xdDf547560eccf082af39FEa77DF60dF664Cdb72E) | [Artifact](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/main/deployments/mainnet/PodsUpkeep.json) |
+| [PodsUpkeep](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/master/contracts/PodsUpkeep.sol) | [0xdDf547560eccf082af39FEa77DF60dF664Cdb72E](https://etherscan.io/address/0xdDf547560eccf082af39FEa77DF60dF664Cdb72E) | [Artifact](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/master/deployments/mainnet/PodsUpkeep.json) |
 
 ## Aave Yield Source
 **@pooltogether/aave-yield-source ^1.0.3 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
@@ -199,7 +199,7 @@
 **@pooltogether/pooltogether-pods-upkeep ^1.0.0-beta.4 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-upkeep)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
-| [PodsUpkeep](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/main/contracts/PodsUpkeep.sol) | [0x6C78bd43643aC277Ed15D1562F8080c9d25E32Ab](https://rinkeby.etherscan.io/address/0x6C78bd43643aC277Ed15D1562F8080c9d25E32Ab) | [Artifact](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/main/deployments/rinkeby/PodsUpkeep.json) |
+| [PodsUpkeep](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/master/contracts/PodsUpkeep.sol) | [0x6C78bd43643aC277Ed15D1562F8080c9d25E32Ab](https://rinkeby.etherscan.io/address/0x6C78bd43643aC277Ed15D1562F8080c9d25E32Ab) | [Artifact](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/master/deployments/rinkeby/PodsUpkeep.json) |
 
 
 # Kovan
@@ -240,7 +240,7 @@
 **@pooltogether/pooltogether-pods-upkeep ^1.0.0-beta.4 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-upkeep)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
-| PodsRegistry | [0x9DA83B2EAc639EBcA7c070532453822cBc3266c0](https://kovan.etherscan.io/address/0x9DA83B2EAc639EBcA7c070532453822cBc3266c0) | [Artifact](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/main/deployments/kovan/PodsRegistry.json) |
+| PodsRegistry | [0x9DA83B2EAc639EBcA7c070532453822cBc3266c0](https://kovan.etherscan.io/address/0x9DA83B2EAc639EBcA7c070532453822cBc3266c0) | [Artifact](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/master/deployments/kovan/PodsRegistry.json) |
 
 ## Aave Yield Source
 **@pooltogether/aave-yield-source ^1.0.3 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
