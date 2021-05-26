@@ -76,7 +76,7 @@
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0x14e09c3319244a84e7c1E7B52634f5220FA96623](https://etherscan.io/address/0x14e09c3319244a84e7c1E7B52634f5220FA96623) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/mainnet/GenericProxyFactory.json) |
 
 ## Prize Pool Registry
-**@pooltogether/pooltogether-prizepool-registry ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizepool-registry)**
+**@pooltogether/pooltogether-prizepool-registry ^1.0.1 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizepool-registry)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | AddressRegistry | [0x34733851E2047F8d0e1aa91124A6f9EaDc54D253](https://etherscan.io/address/0x34733851E2047F8d0e1aa91124A6f9EaDc54D253) | [Artifact](https://github.com/pooltogether/pooltogether-prizepool-registry/tree/main/deployments/mainnet/AddressRegistry.json) |
@@ -178,7 +178,7 @@
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0x594069c560D260F90C21Be25fD2C8684efbb5628](https://rinkeby.etherscan.io/address/0x594069c560D260F90C21Be25fD2C8684efbb5628) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/rinkeby/GenericProxyFactory.json) |
 
 ## Prize Pool Registry
-**@pooltogether/pooltogether-prizepool-registry ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizepool-registry)**
+**@pooltogether/pooltogether-prizepool-registry ^1.0.1 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizepool-registry)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | AddressRegistry | [0xF76f17682888a738a6DF40aa63ac2b4B1a380831](https://rinkeby.etherscan.io/address/0xF76f17682888a738a6DF40aa63ac2b4B1a380831) | [Artifact](https://github.com/pooltogether/pooltogether-prizepool-registry/tree/main/deployments/rinkeby/AddressRegistry.json) |
