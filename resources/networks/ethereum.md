@@ -1,11 +1,7 @@
-# Ethereum
+# Mainnet
 
-## Mainnet
-
-### PoolTogether Pools & Supporting Contracts
-
-**@pooltogether/current-pool-data pooltogether/current-pool-data\#master** [**npm**](https://www.npmjs.com/package/@pooltogether/current-pool-data)
-
+## PoolTogether Pools & Supporting Contracts
+**@pooltogether/current-pool-data pooltogether/current-pool-data#master [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
 | Contract | Address |
 | :--- | :--- |
 | Dai Prize Pool | [0xEBfb47A7ad0FD6e57323C8A42B2E5A6a4F68fc1a](https://etherscan.io/address/0xEBfb47A7ad0FD6e57323C8A42B2E5A6a4F68fc1a) |
@@ -35,10 +31,8 @@
 | Uniswap POOL LP Faucet | [0x9A29401EF1856b669f55Ae5b24505b3B6fAEb370](https://etherscan.io/address/0x9A29401EF1856b669f55Ae5b24505b3B6fAEb370) |
 | Reserve Registry | [0x3e8b9901dBFE766d3FE44B36c180A1bca2B9A295](https://etherscan.io/address/0x3e8b9901dBFE766d3FE44B36c180A1bca2B9A295) |
 
-### Builders
-
-**@pooltogether/pooltogether-contracts ^3.3.8** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)
-
+## Builders
+**@pooltogether/pooltogether-contracts ^3.3.10 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x3E3A097aF79D6389c16A1e2b3A2F056D3D543C53](https://etherscan.io/address/0x3E3A097aF79D6389c16A1e2b3A2F056D3D543C53) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/mainnet/ControlledTokenBuilder.json) |
@@ -47,10 +41,8 @@
 | [TokenFaucetProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/token-faucet/TokenFaucetProxyFactory.sol) | [0xE4E9cDB3E139D7E8a41172C20b6Ed17b6750f117](https://etherscan.io/address/0xE4E9cDB3E139D7E8a41172C20b6Ed17b6750f117) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/mainnet/TokenFaucetProxyFactory.json) |
 | [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0xe3325f8C5e88a57D787214eA8C001763c1ce99DA](https://etherscan.io/address/0xe3325f8C5e88a57D787214eA8C001763c1ce99DA) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/mainnet/YieldSourcePrizePoolProxyFactory.json) |
 
-### Governance
-
-**@pooltogether/governance ^1.0.1** [**npm**](https://www.npmjs.com/package/@pooltogether/governance)
-
+## Governance
+**@pooltogether/governance ^1.0.1 [npm](https://www.npmjs.com/package/@pooltogether/governance)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [GovernorAlpha](https://github.com/pooltogether/governance/tree/main/contracts/GovernorAlpha.sol) | [0xB3a87172F555ae2a2AB79Be60B336D2F7D0187f0](https://etherscan.io/address/0xB3a87172F555ae2a2AB79Be60B336D2F7D0187f0) | [Artifact](https://github.com/pooltogether/governance/tree/main/deployments/mainnet/GovernorAlpha.json) |
@@ -58,77 +50,59 @@
 | [Timelock](https://github.com/pooltogether/governance/tree/main/contracts/Timelock.sol) | [0x42cd8312D2BCe04277dD5161832460e95b24262E](https://etherscan.io/address/0x42cd8312D2BCe04277dD5161832460e95b24262E) | [Artifact](https://github.com/pooltogether/governance/tree/main/deployments/mainnet/Timelock.json) |
 | TreasuryVesterForTreasury | [0x21950E281bDE1714ffd1062ed17c56D4D8de2359](https://etherscan.io/address/0x21950E281bDE1714ffd1062ed17c56D4D8de2359) | [Artifact](https://github.com/pooltogether/governance/tree/main/deployments/mainnet/TreasuryVesterForTreasury.json) |
 
-### RNG Contracts
-
-**@pooltogether/pooltogether-rng-contracts ^1.2.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)
-
+## RNG Contracts
+**@pooltogether/pooltogether-rng-contracts ^1.2.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xb1D89477d1b505C261bab6e73f08fA834544CD21](https://etherscan.io/address/0xb1D89477d1b505C261bab6e73f08fA834544CD21) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/mainnet/RNGBlockhash.json) |
 | [RNGChainlink](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGChainlink.sol) | [0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F](https://etherscan.io/address/0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/mainnet/RNGChainlink.json) |
 
-### Loot Box Contracts
-
-**@pooltogether/loot-box ^1.1.0** [**npm**](https://www.npmjs.com/package/@pooltogether/loot-box)
-
+## Loot Box Contracts
+**@pooltogether/loot-box ^1.1.0 [npm](https://www.npmjs.com/package/@pooltogether/loot-box)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ERC721ControlledFactory](https://github.com/pooltogether/loot-box/tree/main/contracts/ERC721ControlledFactory.sol) | [0x4E869b3A0978fA61DAbd7Da8F9B272AADc745Fb3](https://etherscan.io/address/0x4E869b3A0978fA61DAbd7Da8F9B272AADc745Fb3) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/mainnet/ERC721ControlledFactory.json) |
 | [LootBoxController](https://github.com/pooltogether/loot-box/tree/main/contracts/LootBoxController.sol) | [0x2c2a966b7F5448A36EC9f896088DfB99B21d8A24](https://etherscan.io/address/0x2c2a966b7F5448A36EC9f896088DfB99B21d8A24) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/mainnet/LootBoxController.json) |
 | [LootBoxPrizeStrategyListenerFactory](https://github.com/pooltogether/loot-box/tree/main/contracts/LootBoxPrizeStrategyListenerFactory.sol) | [0x25e6a78D93D2935A638fDbd684e7b39565d0B7eA](https://etherscan.io/address/0x25e6a78D93D2935A638fDbd684e7b39565d0B7eA) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/mainnet/LootBoxPrizeStrategyListenerFactory.json) |
 
-### Retroactive Token Distribution
-
-**@pooltogether/merkle-distributor ^1.0.2** [**npm**](https://www.npmjs.com/package/@pooltogether/merkle-distributor)
-
+## Retroactive Token Distribution
+**@pooltogether/merkle-distributor ^1.0.2 [npm](https://www.npmjs.com/package/@pooltogether/merkle-distributor)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [MerkleDistributor](https://github.com/pooltogether/merkle-distributor/tree/main/contracts/MerkleDistributor.sol) | [0xBE1a33519F586A4c8AA37525163Df8d67997016f](https://etherscan.io/address/0xBE1a33519F586A4c8AA37525163Df8d67997016f) | [Artifact](https://github.com/pooltogether/merkle-distributor/tree/main/deployments/mainnet/MerkleDistributor.json) |
 
-### Generic Proxy Factory
-
-**@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)
-
+## Generic Proxy Factory
+**@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0x14e09c3319244a84e7c1E7B52634f5220FA96623](https://etherscan.io/address/0x14e09c3319244a84e7c1E7B52634f5220FA96623) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/mainnet/GenericProxyFactory.json) |
 
-### Prize Pool Registry
-
-**@pooltogether/pooltogether-prizepool-registry ^1.0.1** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-prizepool-registry)
-
+## Prize Pool Registry
+**@pooltogether/pooltogether-prizepool-registry ^1.0.1 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizepool-registry)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | AddressRegistry | [0x34733851E2047F8d0e1aa91124A6f9EaDc54D253](https://etherscan.io/address/0x34733851E2047F8d0e1aa91124A6f9EaDc54D253) | [Artifact](https://github.com/pooltogether/pooltogether-prizepool-registry/tree/main/deployments/mainnet/AddressRegistry.json) |
 
-### Pods Registry
-
-**@pooltogether/pooltogether-pods-registry ^1.0.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-registry)
-
+## Pods Registry
+**@pooltogether/pooltogether-pods-registry ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-registry)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | PodsRegistry | [0x4658f736b93dCDdCbCe46cDe955970E697fd351f](https://etherscan.io/address/0x4658f736b93dCDdCbCe46cDe955970E697fd351f) | [Artifact](https://github.com/pooltogether/pooltogether-prizepool-registry/tree/main/deployments/mainnet/PodsRegistry.json) |
 
-### Prize Strategy Upkeep
-
-**@pooltogether/pooltogether-prizestrategy-upkeep ^1.0.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-prizestrategy-upkeep)
-
+## Prize Strategy Upkeep
+**@pooltogether/pooltogether-prizestrategy-upkeep ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizestrategy-upkeep)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [PrizeStrategyUpkeep](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/contracts/PrizeStrategyUpkeep.sol) | [0x77c39a3CBE6185cFE977C1BDEeFE59A2023023b7](https://etherscan.io/address/0x77c39a3CBE6185cFE977C1BDEeFE59A2023023b7) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/mainnet/PrizeStrategyUpkeep.json) |
 
-### Pods Upkeep
-
-**@pooltogether/pooltogether-pods-upkeep ^1.0.1** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-upkeep)
-
+## Pods Upkeep
+**@pooltogether/pooltogether-pods-upkeep ^1.0.1 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-upkeep)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [PodsUpkeep](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/master/contracts/PodsUpkeep.sol) | [0xc1c32a2424567502d7d8a777f3d43114e6e75e9a](https://etherscan.io/address/0xc1c32a2424567502d7d8a777f3d43114e6e75e9a) | [Artifact](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/master/deployments/mainnet/PodsUpkeep.json) |
 
-### Aave Yield Source
-
-**@pooltogether/aave-yield-source ^1.0.3** [**npm**](https://www.npmjs.com/package/@pooltogether/aave-yield-source)
-
+## Aave Yield Source
+**@pooltogether/aave-yield-source ^1.0.3 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | AaveBUSDYieldSource | [0x858415FdB262F17F7a63f6B1F6fEd7AF8308A1A7](https://etherscan.io/address/0x858415FdB262F17F7a63f6B1F6fEd7AF8308A1A7) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/mainnet/AaveBUSDYieldSource.json) |
@@ -137,12 +111,11 @@
 | AaveUSDTYieldSource | [0x6E159B199423383572B7CB05FBbD54103A827F2b](https://etherscan.io/address/0x6E159B199423383572B7CB05FBbD54103A827F2b) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/mainnet/AaveUSDTYieldSource.json) |
 | [ATokenYieldSource](https://github.com/pooltogether/aave-yield-source/tree/main/contracts/yield-source/ATokenYieldSource.sol) | [0xBa71a9907e88925F59a3658C3a7618440Df6406E](https://etherscan.io/address/0xBa71a9907e88925F59a3658C3a7618440Df6406E) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/mainnet/ATokenYieldSource.json) |
 
-## Rinkeby
 
-### PoolTogether Pools & Supporting Contracts
+# Rinkeby
 
-**@pooltogether/current-pool-data pooltogether/current-pool-data\#master** [**npm**](https://www.npmjs.com/package/@pooltogether/current-pool-data)
-
+## PoolTogether Pools & Supporting Contracts
+**@pooltogether/current-pool-data pooltogether/current-pool-data#master [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
 | Contract | Address |
 | :--- | :--- |
 | Dai Prize Pool | [0x4706856FA8Bb747D50b4EF8547FE51Ab5Edc4Ac2](https://rinkeby.etherscan.io/address/0x4706856FA8Bb747D50b4EF8547FE51Ab5Edc4Ac2) |
@@ -157,10 +130,8 @@
 | USDT Prize Pool | [0xDCB24C5C96D3D0677add5B688DCD144601410244](https://rinkeby.etherscan.io/address/0xDCB24C5C96D3D0677add5B688DCD144601410244) |
 | USDT Prize Strategy | [0x1607ce8aDe05C324043D7f5362A6d856cd4Ae589](https://rinkeby.etherscan.io/address/0x1607ce8aDe05C324043D7f5362A6d856cd4Ae589) |
 
-### Builders
-
-**@pooltogether/pooltogether-contracts ^3.3.8** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)
-
+## Builders
+**@pooltogether/pooltogether-contracts ^3.3.10 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | cDaiYieldSource | [0x2fD6fCf7b77884e670bc71bdAF736ab499BA6303](https://rinkeby.etherscan.io/address/0x2fD6fCf7b77884e670bc71bdAF736ab499BA6303) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/rinkeby/cDaiYieldSource.json) |
@@ -170,10 +141,8 @@
 | [TokenFaucetProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/token-faucet/TokenFaucetProxyFactory.sol) | [0x7a20A866c24CFfb0bd80754C133F4F9487dB2AA1](https://rinkeby.etherscan.io/address/0x7a20A866c24CFfb0bd80754C133F4F9487dB2AA1) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/rinkeby/TokenFaucetProxyFactory.json) |
 | [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0x91493d48136b251e125a02a7e2a9AE1ab4A553C3](https://rinkeby.etherscan.io/address/0x91493d48136b251e125a02a7e2a9AE1ab4A553C3) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/rinkeby/YieldSourcePrizePoolProxyFactory.json) |
 
-### Governance
-
-**@pooltogether/governance ^1.0.1** [**npm**](https://www.npmjs.com/package/@pooltogether/governance)
-
+## Governance
+**@pooltogether/governance ^1.0.1 [npm](https://www.npmjs.com/package/@pooltogether/governance)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [GovernorAlpha](https://github.com/pooltogether/governance/tree/main/contracts/GovernorAlpha.sol) | [0x9B63243CD27102fbEc9FAf67CA1a858dcC16Ee01](https://rinkeby.etherscan.io/address/0x9B63243CD27102fbEc9FAf67CA1a858dcC16Ee01) | [Artifact](https://github.com/pooltogether/governance/tree/main/deployments/rinkeby/GovernorAlpha.json) |
@@ -181,19 +150,15 @@
 | [Timelock](https://github.com/pooltogether/governance/tree/main/contracts/Timelock.sol) | [0x8Df0AfB54836dc8D0AE795503F837Cff197d3df1](https://rinkeby.etherscan.io/address/0x8Df0AfB54836dc8D0AE795503F837Cff197d3df1) | [Artifact](https://github.com/pooltogether/governance/tree/main/deployments/rinkeby/Timelock.json) |
 | TreasuryVesterForTreasury | [0x529a916B8B7EC8E01805D45AEd1109C764ea88B9](https://rinkeby.etherscan.io/address/0x529a916B8B7EC8E01805D45AEd1109C764ea88B9) | [Artifact](https://github.com/pooltogether/governance/tree/main/deployments/rinkeby/TreasuryVesterForTreasury.json) |
 
-### RNG Contracts
-
-**@pooltogether/pooltogether-rng-contracts ^1.2.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)
-
+## RNG Contracts
+**@pooltogether/pooltogether-rng-contracts ^1.2.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xA932e74d5263A754Ea04432E5c53658434b0484B](https://rinkeby.etherscan.io/address/0xA932e74d5263A754Ea04432E5c53658434b0484B) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/rinkeby/RNGBlockhash.json) |
 | [RNGChainlink](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGChainlink.sol) | [0x11D94431718934868C4339aFc5ea27585F46C99A](https://rinkeby.etherscan.io/address/0x11D94431718934868C4339aFc5ea27585F46C99A) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/rinkeby/RNGChainlink.json) |
 
-### Loot Box Contracts
-
-**@pooltogether/loot-box ^1.1.0** [**npm**](https://www.npmjs.com/package/@pooltogether/loot-box)
-
+## Loot Box Contracts
+**@pooltogether/loot-box ^1.1.0 [npm](https://www.npmjs.com/package/@pooltogether/loot-box)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ERC1155Mintable](https://github.com/pooltogether/loot-box/tree/main/contracts/test/ERC1155Mintable.sol) | [0x72De7A75Fb7c094e410205aFAF9615E7dAA120b3](https://rinkeby.etherscan.io/address/0x72De7A75Fb7c094e410205aFAF9615E7dAA120b3) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/ERC1155Mintable.json) |
@@ -204,60 +169,48 @@
 | [LootBoxController](https://github.com/pooltogether/loot-box/tree/main/contracts/LootBoxController.sol) | [0xb1EAc75da9bc31B078742C5AF9EDe62EFE31299D](https://rinkeby.etherscan.io/address/0xb1EAc75da9bc31B078742C5AF9EDe62EFE31299D) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/LootBoxController.json) |
 | [LootBoxPrizeStrategyListenerFactory](https://github.com/pooltogether/loot-box/tree/main/contracts/LootBoxPrizeStrategyListenerFactory.sol) | [0xadB4D93D84b18b5D82063aCf58b21587c92fdfb5](https://rinkeby.etherscan.io/address/0xadB4D93D84b18b5D82063aCf58b21587c92fdfb5) | [Artifact](https://github.com/pooltogether/loot-box/tree/main/deployments/rinkeby/LootBoxPrizeStrategyListenerFactory.json) |
 
-### Retroactive Token Distribution
-
-**@pooltogether/merkle-distributor ^1.0.2** [**npm**](https://www.npmjs.com/package/@pooltogether/merkle-distributor)
-
+## Retroactive Token Distribution
+**@pooltogether/merkle-distributor ^1.0.2 [npm](https://www.npmjs.com/package/@pooltogether/merkle-distributor)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [MerkleDistributor](https://github.com/pooltogether/merkle-distributor/tree/main/contracts/MerkleDistributor.sol) | [0x93a6540DcE05a4A5E5B906eB97bBCBb723768F2D](https://rinkeby.etherscan.io/address/0x93a6540DcE05a4A5E5B906eB97bBCBb723768F2D) | [Artifact](https://github.com/pooltogether/merkle-distributor/tree/main/deployments/rinkeby/MerkleDistributor.json) |
 
-### Generic Proxy Factory
-
-**@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)
-
+## Generic Proxy Factory
+**@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0x594069c560D260F90C21Be25fD2C8684efbb5628](https://rinkeby.etherscan.io/address/0x594069c560D260F90C21Be25fD2C8684efbb5628) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/rinkeby/GenericProxyFactory.json) |
 
-### Prize Pool Registry
-
-**@pooltogether/pooltogether-prizepool-registry ^1.0.1** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-prizepool-registry)
-
+## Prize Pool Registry
+**@pooltogether/pooltogether-prizepool-registry ^1.0.1 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizepool-registry)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | AddressRegistry | [0xF76f17682888a738a6DF40aa63ac2b4B1a380831](https://rinkeby.etherscan.io/address/0xF76f17682888a738a6DF40aa63ac2b4B1a380831) | [Artifact](https://github.com/pooltogether/pooltogether-prizepool-registry/tree/main/deployments/rinkeby/AddressRegistry.json) |
 
-### Pods Registry
-
-**@pooltogether/pooltogether-pods-registry ^1.0.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-registry)
-
+## Pods Registry
+**@pooltogether/pooltogether-pods-registry ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-registry)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | PodsRegistry | [0xB917f266424B803F389c79B86609710247a0370f](https://rinkeby.etherscan.io/address/0xB917f266424B803F389c79B86609710247a0370f) | [Artifact](https://github.com/pooltogether/pooltogether-prizepool-registry/tree/main/deployments/rinkeby/PodsRegistry.json) |
 
-### Prize Strategy Upkeep
-
-**@pooltogether/pooltogether-prizestrategy-upkeep ^1.0.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-prizestrategy-upkeep)
-
+## Prize Strategy Upkeep
+**@pooltogether/pooltogether-prizestrategy-upkeep ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizestrategy-upkeep)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [PrizeStrategyUpkeep](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/contracts/PrizeStrategyUpkeep.sol) | [0x3fBCb09Ee774F7e32Ba4D60d1E2D4CB9CE703984](https://rinkeby.etherscan.io/address/0x3fBCb09Ee774F7e32Ba4D60d1E2D4CB9CE703984) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/rinkeby/PrizeStrategyUpkeep.json) |
 
-### Pods Upkeep
-
-**@pooltogether/pooltogether-pods-upkeep ^1.0.1** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-upkeep)
-
+## Pods Upkeep
+**@pooltogether/pooltogether-pods-upkeep ^1.0.1 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-upkeep)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [PodsUpkeep](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/master/contracts/PodsUpkeep.sol) | [0x3F861649a7517af171ff845a5cb7aE6ACeEbd6aA](https://rinkeby.etherscan.io/address/0x3F861649a7517af171ff845a5cb7aE6ACeEbd6aA) | [Artifact](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/master/deployments/rinkeby/PodsUpkeep.json) |
 
-## Kovan
 
-### Builders
+# Kovan
 
-**@pooltogether/pooltogether-contracts ^3.3.8** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)
 
+## Builders
+**@pooltogether/pooltogether-contracts ^3.3.10 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | cDaiYieldSource | [0xB3e8bBD6CB0443e0dc59602825Dc6854D7ec5c4b](https://kovan.etherscan.io/address/0xB3e8bBD6CB0443e0dc59602825Dc6854D7ec5c4b) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/kovan/cDaiYieldSource.json) |
@@ -267,44 +220,34 @@
 | [TokenFaucetProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/token-faucet/TokenFaucetProxyFactory.sol) | [0x41122Ca50202d13c809dfE88F60Da212A1525Ed7](https://kovan.etherscan.io/address/0x41122Ca50202d13c809dfE88F60Da212A1525Ed7) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/kovan/TokenFaucetProxyFactory.json) |
 | [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0x08411ADd0b5AA8ee47563b146743C13b3556c9Cc](https://kovan.etherscan.io/address/0x08411ADd0b5AA8ee47563b146743C13b3556c9Cc) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/kovan/YieldSourcePrizePoolProxyFactory.json) |
 
-### RNG Contracts
-
-**@pooltogether/pooltogether-rng-contracts ^1.2.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)
-
+## RNG Contracts
+**@pooltogether/pooltogether-rng-contracts ^1.2.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xe20ba80D263246537592B14211746E438be6b756](https://kovan.etherscan.io/address/0xe20ba80D263246537592B14211746E438be6b756) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/kovan/RNGBlockhash.json) |
 | [RNGChainlink](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGChainlink.sol) | [0x0FcEDB079E56F336840Aa0c0f20816CcE7de63B6](https://kovan.etherscan.io/address/0x0FcEDB079E56F336840Aa0c0f20816CcE7de63B6) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/kovan/RNGChainlink.json) |
 
-### Generic Proxy Factory
-
-**@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)
-
+## Generic Proxy Factory
+**@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0x713edC7728C4F0BCc135D48fF96282444d77E604](https://kovan.etherscan.io/address/0x713edC7728C4F0BCc135D48fF96282444d77E604) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/kovan/GenericProxyFactory.json) |
 
-### Prize Strategy Upkeep
-
-**@pooltogether/pooltogether-prizestrategy-upkeep ^1.0.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-prizestrategy-upkeep)
-
+## Prize Strategy Upkeep
+**@pooltogether/pooltogether-prizestrategy-upkeep ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizestrategy-upkeep)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | PrizePoolRegistry | [0x8817bB292941e1A69F12879B274c8A15D315ABb1](https://kovan.etherscan.io/address/0x8817bB292941e1A69F12879B274c8A15D315ABb1) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/kovan/PrizePoolRegistry.json) |
 | [PrizeStrategyUpkeep](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/contracts/PrizeStrategyUpkeep.sol) | [0xb853503F62779ac16068A8fc40B84Ee174b50337](https://kovan.etherscan.io/address/0xb853503F62779ac16068A8fc40B84Ee174b50337) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/kovan/PrizeStrategyUpkeep.json) |
 
-### Pods Upkeep
-
-**@pooltogether/pooltogether-pods-upkeep ^1.0.1** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-upkeep)
-
+## Pods Upkeep
+**@pooltogether/pooltogether-pods-upkeep ^1.0.1 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-upkeep)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | PodsRegistry | [0x9DA83B2EAc639EBcA7c070532453822cBc3266c0](https://kovan.etherscan.io/address/0x9DA83B2EAc639EBcA7c070532453822cBc3266c0) | [Artifact](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/master/deployments/kovan/PodsRegistry.json) |
 
-### Aave Yield Source
-
-**@pooltogether/aave-yield-source ^1.0.3** [**npm**](https://www.npmjs.com/package/@pooltogether/aave-yield-source)
-
+## Aave Yield Source
+**@pooltogether/aave-yield-source ^1.0.3 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | AaveAAVEYieldSource | [0x495F5751780FE4F0dfCd7E43215F250ecE671Fe2](https://kovan.etherscan.io/address/0x495F5751780FE4F0dfCd7E43215F250ecE671Fe2) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/kovan/AaveAAVEYieldSource.json) |
@@ -317,4 +260,5 @@
 | AaveMANAYieldSource | [0xCD54847e1Cf0842af9DD161D34bF885AB4860a39](https://kovan.etherscan.io/address/0xCD54847e1Cf0842af9DD161D34bF885AB4860a39) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/kovan/AaveMANAYieldSource.json) |
 | AaveMKRYieldSource | [0xC4ab4345cb443770F4d14a3dA48A4cB5A40cf25b](https://kovan.etherscan.io/address/0xC4ab4345cb443770F4d14a3dA48A4cB5A40cf25b) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/kovan/AaveMKRYieldSource.json) |
 | [ATokenYieldSource](https://github.com/pooltogether/aave-yield-source/tree/main/contracts/yield-source/ATokenYieldSource.sol) | [0x96161e596b14aae63Edcf7Ca3fE3470F6A7f3F1B](https://kovan.etherscan.io/address/0x96161e596b14aae63Edcf7Ca3fE3470F6A7f3F1B) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/kovan/ATokenYieldSource.json) |
+
 
