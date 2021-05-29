@@ -1,6 +1,6 @@
 # Audits & Testing
 
-The PoolTogether Protocol has undergone three formal professional third party audits. Two have been [conducted by Open Zeppelin](https://blog.openzeppelin.com/pooltogether-v3-audit/), and one by ditCraft.
+The PoolTogether Protocol has undergone three formal professional third party audits. Two have been [conducted by Open Zeppelin](https://blog.openzeppelin.com/pooltogether-v3-audit/), and one [conducted by Ditcraft](https://www.ditcraft.io).
 
 <!-- broken URL: And one was [conducted by Ditcraft](https://www.ditcraft.io/blog/pooltogether-v3-smart-contract-audit). -->
 
