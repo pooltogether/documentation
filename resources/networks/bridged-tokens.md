@@ -2,7 +2,13 @@
 description: A list of tokens and the networks they bridge across
 ---
 
-# Bridged Tokens
+# Tokens
+
+## Token List
+
+PoolTogether has a [Token List](https://github.com/pooltogether/pooltogether-token-list) that you can plug into Uniswap-compatible AMMS.
+
+## Bridged Tokens
 
 | Token | Ethereum Address | Polygon Address |
 | :--- | :--- | :--- |
