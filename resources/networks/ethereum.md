@@ -111,6 +111,12 @@
 | AaveUSDTYieldSource | [0x6E159B199423383572B7CB05FBbD54103A827F2b](https://etherscan.io/address/0x6E159B199423383572B7CB05FBbD54103A827F2b) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/mainnet/AaveUSDTYieldSource.json) |
 | [ATokenYieldSource](https://github.com/pooltogether/aave-yield-source/tree/main/contracts/yield-source/ATokenYieldSource.sol) | [0xBa71a9907e88925F59a3658C3a7618440Df6406E](https://etherscan.io/address/0xBa71a9907e88925F59a3658C3a7618440Df6406E) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/mainnet/ATokenYieldSource.json) |
 
+## Sushi Yield Source
+**@pooltogether/pooltogether-sushi-yield-source ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-sushi-yield-source)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| [SushiYieldSource](https://github.com/pooltogether/sushi-pooltogether/tree/master/contracts/SushiYieldSource.sol) | [0x9858aC37e385E52dA6385d828Cfe55a182D8ffA6](https://etherscan.io/address/0x9858aC37e385E52dA6385d828Cfe55a182D8ffA6) | [Artifact](https://github.com/pooltogether/sushi-pooltogether/tree/master/deployments/mainnet/SushiYieldSource.json) |
+
 ## PoolTogether EVM Bridge
 **@pooltogether/pooltogether-evm-bridge ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-evm-bridge)**
 | Contract | Address | Artifact |
@@ -211,6 +217,12 @@
 | :--- | :--- | :--- |
 | [PodsUpkeep](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/master/contracts/PodsUpkeep.sol) | [0x3F861649a7517af171ff845a5cb7aE6ACeEbd6aA](https://rinkeby.etherscan.io/address/0x3F861649a7517af171ff845a5cb7aE6ACeEbd6aA) | [Artifact](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/master/deployments/rinkeby/PodsUpkeep.json) |
 
+## Sushi Yield Source
+**@pooltogether/pooltogether-sushi-yield-source ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-sushi-yield-source)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| [SushiYieldSource](https://github.com/pooltogether/sushi-pooltogether/tree/master/contracts/SushiYieldSource.sol) | [0x248FCb04de8901c32e0815349f071542556cCF91](https://rinkeby.etherscan.io/address/0x248FCb04de8901c32e0815349f071542556cCF91) | [Artifact](https://github.com/pooltogether/sushi-pooltogether/tree/master/deployments/rinkeby/SushiYieldSource.json) |
+
 
 # Kovan
 
@@ -266,5 +278,11 @@
 | AaveMANAYieldSource | [0xCD54847e1Cf0842af9DD161D34bF885AB4860a39](https://kovan.etherscan.io/address/0xCD54847e1Cf0842af9DD161D34bF885AB4860a39) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/kovan/AaveMANAYieldSource.json) |
 | AaveMKRYieldSource | [0xC4ab4345cb443770F4d14a3dA48A4cB5A40cf25b](https://kovan.etherscan.io/address/0xC4ab4345cb443770F4d14a3dA48A4cB5A40cf25b) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/kovan/AaveMKRYieldSource.json) |
 | [ATokenYieldSource](https://github.com/pooltogether/aave-yield-source/tree/main/contracts/yield-source/ATokenYieldSource.sol) | [0x96161e596b14aae63Edcf7Ca3fE3470F6A7f3F1B](https://kovan.etherscan.io/address/0x96161e596b14aae63Edcf7Ca3fE3470F6A7f3F1B) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/kovan/ATokenYieldSource.json) |
+
+## Sushi Yield Source
+**@pooltogether/pooltogether-sushi-yield-source ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-sushi-yield-source)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| [SushiYieldSource](https://github.com/pooltogether/sushi-pooltogether/tree/master/contracts/SushiYieldSource.sol) | [0x559Aa5568543678793fA3d4A839815e68E183D5c](https://kovan.etherscan.io/address/0x559Aa5568543678793fA3d4A839815e68E183D5c) | [Artifact](https://github.com/pooltogether/sushi-pooltogether/tree/master/deployments/kovan/SushiYieldSource.json) |
 
 
