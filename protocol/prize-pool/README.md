@@ -22,7 +22,7 @@ All Prize Pools share the functionality below.
 When a Prize Pool is created, the creator is set as the pool's "owner". The owner is able to:
 
 * Change the Prize Strategy
-* Set the [credit rate and credit limit](fairness.md#credit)
+* Set the [credit rate and credit limit](fairness.md)
 * Transfer ownership
 * Renounce ownership
 
