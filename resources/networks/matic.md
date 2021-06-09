@@ -1,11 +1,7 @@
 # Matic
 
-## Matic
-
-### PoolTogether Pools & Supporting Contracts
-
-**@pooltogether/current-pool-data pooltogether/current-pool-data\#master** [**npm**](https://www.npmjs.com/package/@pooltogether/current-pool-data)
-
+## PoolTogether Pools & Supporting Contracts
+**@pooltogether/current-pool-data pooltogether/current-pool-data#master [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
 | Contract | Address |
 | :--- | :--- |
 | Dai Prize Pool | [0xfecfa775643eb8c0f755491ba4569e501764da51](https://explorer-mainnet.maticvigil.com/address/0xfecfa775643eb8c0f755491ba4569e501764da51) |
@@ -14,10 +10,8 @@
 | USDT Prize Strategy | [0x5A65f0CE666B8334b6481A8d8C8323BB782386e6](https://explorer-mainnet.maticvigil.com/address/0x5A65f0CE666B8334b6481A8d8C8323BB782386e6) |
 | USDT Token Faucet | [0x90a8d8Ee6fDb1875028C6537877E6704b2646c51](https://explorer-mainnet.maticvigil.com/address/0x90a8d8Ee6fDb1875028C6537877E6704b2646c51) |
 
-### Builders
-
-**@pooltogether/pooltogether-contracts ^3.3.10** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)
-
+## Builders
+**@pooltogether/pooltogether-contracts ^3.3.10 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x317625b28Acb3C0540DB00b179D84D9b804277f7](https://explorer-mainnet.maticvigil.com/address/0x317625b28Acb3C0540DB00b179D84D9b804277f7) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/matic/ControlledTokenBuilder.json) |
@@ -28,27 +22,21 @@
 | [TokenFaucetProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/token-faucet/TokenFaucetProxyFactory.sol) | [0xB3e8bBD6CB0443e0dc59602825Dc6854D7ec5c4b](https://explorer-mainnet.maticvigil.com/address/0xB3e8bBD6CB0443e0dc59602825Dc6854D7ec5c4b) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/matic/TokenFaucetProxyFactory.json) |
 | [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0x4d1639e4b237BCab6F908A1CEb0995716D5ebE36](https://explorer-mainnet.maticvigil.com/address/0x4d1639e4b237BCab6F908A1CEb0995716D5ebE36) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/matic/YieldSourcePrizePoolProxyFactory.json) |
 
-### RNG Contracts
-
-**@pooltogether/pooltogether-rng-contracts ^1.2.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)
-
+## RNG Contracts
+**@pooltogether/pooltogether-rng-contracts ^1.2.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F](https://explorer-mainnet.maticvigil.com/address/0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/matic/RNGBlockhash.json) |
 | [RNGChainlink](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGChainlink.sol) | [0xEccfB4F7aB44effE457e399cebAa04A95a9061d8](https://explorer-mainnet.maticvigil.com/address/0xEccfB4F7aB44effE457e399cebAa04A95a9061d8) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/matic/RNGChainlink.json) |
 
-### Generic Proxy Factory
-
-**@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)
-
+## Generic Proxy Factory
+**@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0xd1797D46C3E825fce5215a0259D3426a5c49455C](https://explorer-mainnet.maticvigil.com/address/0xd1797D46C3E825fce5215a0259D3426a5c49455C) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/matic/GenericProxyFactory.json) |
 
-### Aave Yield Source
-
-**@pooltogether/aave-yield-source ^1.0.3** [**npm**](https://www.npmjs.com/package/@pooltogether/aave-yield-source)
-
+## Aave Yield Source
+**@pooltogether/aave-yield-source ^1.0.3 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | AaveAAVEYieldSource | [0xEbED994f97396106f7B3d55C287A6A51128cDBB1](https://explorer-mainnet.maticvigil.com/address/0xEbED994f97396106f7B3d55C287A6A51128cDBB1) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/matic/AaveAAVEYieldSource.json) |
@@ -60,21 +48,19 @@
 | AaveWMATICYieldSource | [0x4570Ab872EbF376caBbbB0CBecb985dFe2757900](https://explorer-mainnet.maticvigil.com/address/0x4570Ab872EbF376caBbbB0CBecb985dFe2757900) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/matic/AaveWMATICYieldSource.json) |
 | [ATokenYieldSource](https://github.com/pooltogether/aave-yield-source/tree/main/contracts/yield-source/ATokenYieldSource.sol) | [0xd06814AC6CD4A5192E3767a7329a731A3d2E3F1C](https://explorer-mainnet.maticvigil.com/address/0xd06814AC6CD4A5192E3767a7329a731A3d2E3F1C) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/matic/ATokenYieldSource.json) |
 
-### PoolTogether EVM Bridge
-
-**@pooltogether/pooltogether-evm-bridge ^1.0.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-evm-bridge)
-
+## PoolTogether EVM Bridge
+**@pooltogether/pooltogether-evm-bridge ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-evm-bridge)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [PoolTogetherEVMBridgeChild](https://github.com/pooltogether/pooltogether-evm-bridge/tree/master/contracts/PoolTogetherEVMBridgeChild.sol) | [0xfaB3b5c4F7959579e350532600707e0269e01F38](https://explorer-mainnet.maticvigil.com/address/0xfaB3b5c4F7959579e350532600707e0269e01F38) | [Artifact](https://github.com/pooltogether/pooltogether-evm-bridge/tree/master/deployments/matic/PoolTogetherEVMBridgeChild.json) |
 | [TestContract](https://github.com/pooltogether/pooltogether-evm-bridge/tree/master/contracts/test/TestContract.sol) | [0xc404c2e69cc82dF8e2F22221f1D1d8e6663bc5F5](https://explorer-mainnet.maticvigil.com/address/0xc404c2e69cc82dF8e2F22221f1D1d8e6663bc5F5) | [Artifact](https://github.com/pooltogether/pooltogether-evm-bridge/tree/master/deployments/matic/TestContract.json) |
 
-## Mumbai
 
-### Builders
+# Mumbai
 
-**@pooltogether/pooltogether-contracts ^3.3.10** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)
 
+## Builders
+**@pooltogether/pooltogether-contracts ^3.3.10 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x6aeBE10a4607B1002ea56D825Ee18Ce751fD9592](https://explorer-mumbai.maticvigil.com/address/0x6aeBE10a4607B1002ea56D825Ee18Ce751fD9592) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/mumbai/ControlledTokenBuilder.json) |
@@ -83,37 +69,30 @@
 | [TokenFaucetProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/token-faucet/TokenFaucetProxyFactory.sol) | [0x58aF4554c0DB496EFdf93bB344eC513C5627Efb9](https://explorer-mumbai.maticvigil.com/address/0x58aF4554c0DB496EFdf93bB344eC513C5627Efb9) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/mumbai/TokenFaucetProxyFactory.json) |
 | [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0xdc488E6e8c55a11d20032997cd1fF7c4951401df](https://explorer-mumbai.maticvigil.com/address/0xdc488E6e8c55a11d20032997cd1fF7c4951401df) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/mumbai/YieldSourcePrizePoolProxyFactory.json) |
 
-### RNG Contracts
-
-**@pooltogether/pooltogether-rng-contracts ^1.2.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)
-
+## RNG Contracts
+**@pooltogether/pooltogether-rng-contracts ^1.2.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xE1d06d492107F14AE024c357005c5c692158B13D](https://explorer-mumbai.maticvigil.com/address/0xE1d06d492107F14AE024c357005c5c692158B13D) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/mumbai/RNGBlockhash.json) |
 | [RNGChainlink](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGChainlink.sol) | [0x9eA5656117f4d42CF82AfE2d9686004BDaAea2B3](https://explorer-mumbai.maticvigil.com/address/0x9eA5656117f4d42CF82AfE2d9686004BDaAea2B3) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/mumbai/RNGChainlink.json) |
 
-### Generic Proxy Factory
-
-**@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)
-
+## Generic Proxy Factory
+**@pooltogether/pooltogether-proxy-factory ^1.0.0.beta.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-proxy-factory)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [GenericProxyFactory](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/contracts/GenericProxyFactory.sol) | [0xd1797D46C3E825fce5215a0259D3426a5c49455C](https://explorer-mumbai.maticvigil.com/address/0xd1797D46C3E825fce5215a0259D3426a5c49455C) | [Artifact](https://github.com/pooltogether/pooltogether-proxy-factory/tree/main/deployments/mumbai/GenericProxyFactory.json) |
 
-### Aave Yield Source
-
-**@pooltogether/aave-yield-source ^1.0.3** [**npm**](https://www.npmjs.com/package/@pooltogether/aave-yield-source)
-
+## Aave Yield Source
+**@pooltogether/aave-yield-source ^1.0.3 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | AaveAAVEYieldSource | [0x31c457b2AdD91196B3B0Ed9D0bFAFF22052fA38a](https://explorer-mumbai.maticvigil.com/address/0x31c457b2AdD91196B3B0Ed9D0bFAFF22052fA38a) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/mumbai/AaveAAVEYieldSource.json) |
 | [ATokenYieldSource](https://github.com/pooltogether/aave-yield-source/tree/main/contracts/yield-source/ATokenYieldSource.sol) | [0x6cFbf44ac86eFB9110c3b7D393E783bAEEf243D2](https://explorer-mumbai.maticvigil.com/address/0x6cFbf44ac86eFB9110c3b7D393E783bAEEf243D2) | [Artifact](https://github.com/pooltogether/aave-yield-source/tree/main/deployments/mumbai/ATokenYieldSource.json) |
 
-### PoolTogether EVM Bridge
-
-**@pooltogether/pooltogether-evm-bridge ^1.0.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-evm-bridge)
-
+## PoolTogether EVM Bridge
+**@pooltogether/pooltogether-evm-bridge ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-evm-bridge)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [PoolTogetherEVMBridgeChild](https://github.com/pooltogether/pooltogether-evm-bridge/tree/master/contracts/PoolTogetherEVMBridgeChild.sol) | [0x3F861649a7517af171ff845a5cb7aE6ACeEbd6aA](https://explorer-mumbai.maticvigil.com/address/0x3F861649a7517af171ff845a5cb7aE6ACeEbd6aA) | [Artifact](https://github.com/pooltogether/pooltogether-evm-bridge/tree/master/deployments/mumbai/PoolTogetherEVMBridgeChild.json) |
+
 
