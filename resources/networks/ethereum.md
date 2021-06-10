@@ -1,7 +1,7 @@
 # Mainnet
 
 ## PoolTogether Pools & Supporting Contracts
-**@pooltogether/current-pool-data pooltogether/current-pool-data#master [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
+**@pooltogether/current-pool-data ^3.4.20 [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
 | Contract | Address |
 | :--- | :--- |
 | Dai Prize Pool | [0xEBfb47A7ad0FD6e57323C8A42B2E5A6a4F68fc1a](https://etherscan.io/address/0xEBfb47A7ad0FD6e57323C8A42B2E5A6a4F68fc1a) |
@@ -25,11 +25,15 @@
 | Loot Box Prize Strategy Listener | [0xfe7205DF55BA42c8801e44B55BF05F06cCe8565E](https://etherscan.io/address/0xfe7205DF55BA42c8801e44B55BF05F06cCe8565E) |
 | Aave USDT Prize Pool | [0xc7d56c06F136EFff93e349C7BF8cc46bBF5D902c](https://etherscan.io/address/0xc7d56c06F136EFff93e349C7BF8cc46bBF5D902c) |
 | Aave USDT Prize Strategy | [0x2223d2e68e0990567f5e0451f4c027870ea07227](https://etherscan.io/address/0x2223d2e68e0990567f5e0451f4c027870ea07227) |
+| Sushi Prize Pool | [0xc32a0f9dfe2d93e8a60ba0200e033a59aec91559](https://etherscan.io/address/0xc32a0f9dfe2d93e8a60ba0200e033a59aec91559) |
+| Sushi Prize Strategy | [0x94ac4f591908ad5a1ccc9e05d2d75b0dd62d97fa](https://etherscan.io/address/0x94ac4f591908ad5a1ccc9e05d2d75b0dd62d97fa) |
+| Sushi Faucet | [0xddcf915656471b7c44217fb8c51f9888701e759a](https://etherscan.io/address/0xddcf915656471b7c44217fb8c51f9888701e759a) |
 | USDT Prize Pool | [0x481f1BA81f7C01400831DfF18215961C3530D118](https://etherscan.io/address/0x481f1BA81f7C01400831DfF18215961C3530D118) |
 | USDT Prize Strategy | [0xc0fcdb4d882c28238cbcfbb023f87a7a7a1bdaa1](https://etherscan.io/address/0xc0fcdb4d882c28238cbcfbb023f87a7a7a1bdaa1) |
 | Uniswap POOL LP Prize Pool | [0x3AF7072D29Adde20FC7e173a7CB9e45307d2FB0A](https://etherscan.io/address/0x3AF7072D29Adde20FC7e173a7CB9e45307d2FB0A) |
 | Uniswap POOL LP Faucet | [0x9A29401EF1856b669f55Ae5b24505b3B6fAEb370](https://etherscan.io/address/0x9A29401EF1856b669f55Ae5b24505b3B6fAEb370) |
 | Reserve Registry | [0x3e8b9901dBFE766d3FE44B36c180A1bca2B9A295](https://etherscan.io/address/0x3e8b9901dBFE766d3FE44B36c180A1bca2B9A295) |
+| Pod Factory | [0x4e3a9F9fBAFB2EC49727cFfa2a411F7a0C1C4cE1](https://etherscan.io/address/0x4e3a9F9fBAFB2EC49727cFfa2a411F7a0C1C4cE1) |
 
 ## Builders
 **@pooltogether/pooltogether-contracts ^3.3.10 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
@@ -127,7 +131,7 @@
 # Rinkeby
 
 ## PoolTogether Pools & Supporting Contracts
-**@pooltogether/current-pool-data pooltogether/current-pool-data#master [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
+**@pooltogether/current-pool-data ^3.4.20 [npm](https://www.npmjs.com/package/@pooltogether/current-pool-data)**
 | Contract | Address |
 | :--- | :--- |
 | Dai Prize Pool | [0x4706856FA8Bb747D50b4EF8547FE51Ab5Edc4Ac2](https://rinkeby.etherscan.io/address/0x4706856FA8Bb747D50b4EF8547FE51Ab5Edc4Ac2) |
@@ -141,6 +145,7 @@
 | Loot Box ERC721 | [0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66](https://rinkeby.etherscan.io/address/0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66) |
 | USDT Prize Pool | [0xDCB24C5C96D3D0677add5B688DCD144601410244](https://rinkeby.etherscan.io/address/0xDCB24C5C96D3D0677add5B688DCD144601410244) |
 | USDT Prize Strategy | [0x1607ce8aDe05C324043D7f5362A6d856cd4Ae589](https://rinkeby.etherscan.io/address/0x1607ce8aDe05C324043D7f5362A6d856cd4Ae589) |
+| Pod Factory | [0x5C126F8F6107b2da41dAA8b7E4c3f4a01098A6db](https://rinkeby.etherscan.io/address/0x5C126F8F6107b2da41dAA8b7E4c3f4a01098A6db) |
 
 ## Builders
 **@pooltogether/pooltogether-contracts ^3.3.10 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
