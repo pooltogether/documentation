@@ -30,7 +30,6 @@
 | Uniswap POOL LP Prize Pool | [0x3AF7072D29Adde20FC7e173a7CB9e45307d2FB0A](https://etherscan.io/address/0x3AF7072D29Adde20FC7e173a7CB9e45307d2FB0A) |
 | Uniswap POOL LP Faucet | [0x9A29401EF1856b669f55Ae5b24505b3B6fAEb370](https://etherscan.io/address/0x9A29401EF1856b669f55Ae5b24505b3B6fAEb370) |
 | Reserve Registry | [0x3e8b9901dBFE766d3FE44B36c180A1bca2B9A295](https://etherscan.io/address/0x3e8b9901dBFE766d3FE44B36c180A1bca2B9A295) |
-| Pod Factory | [0x4e3a9F9fBAFB2EC49727cFfa2a411F7a0C1C4cE1](https://etherscan.io/address/0x4e3a9F9fBAFB2EC49727cFfa2a411F7a0C1C4cE1) |
 
 ## Builders
 **@pooltogether/pooltogether-contracts ^3.3.10 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
@@ -142,7 +141,6 @@
 | Loot Box ERC721 | [0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66](https://rinkeby.etherscan.io/address/0xfbC6677806253dB9739d0F6CBD89b9e7Ed4A5c66) |
 | USDT Prize Pool | [0xDCB24C5C96D3D0677add5B688DCD144601410244](https://rinkeby.etherscan.io/address/0xDCB24C5C96D3D0677add5B688DCD144601410244) |
 | USDT Prize Strategy | [0x1607ce8aDe05C324043D7f5362A6d856cd4Ae589](https://rinkeby.etherscan.io/address/0x1607ce8aDe05C324043D7f5362A6d856cd4Ae589) |
-| Pod Factory | [0x5C126F8F6107b2da41dAA8b7E4c3f4a01098A6db](https://rinkeby.etherscan.io/address/0x5C126F8F6107b2da41dAA8b7E4c3f4a01098A6db) |
 
 ## Builders
 **@pooltogether/pooltogether-contracts ^3.3.10 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
