@@ -35,6 +35,12 @@
 | Reserve Registry | [0x3e8b9901dBFE766d3FE44B36c180A1bca2B9A295](https://etherscan.io/address/0x3e8b9901dBFE766d3FE44B36c180A1bca2B9A295) |
 | Pod Factory | [0x4e3a9F9fBAFB2EC49727cFfa2a411F7a0C1C4cE1](https://etherscan.io/address/0x4e3a9F9fBAFB2EC49727cFfa2a411F7a0C1C4cE1) |
 
+## Configurable Reserve
+**@pooltogether/configurable-reserve-contracts ^1.1.0 [npm](https://www.npmjs.com/package/@pooltogether/configurable-reserve-contracts)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| [ConfigurableReserve](https://github.com/pooltogether/pooltogether-reserve-contracts/tree/master/contracts/ConfigurableReserve.sol) | [0xd1797D46C3E825fce5215a0259D3426a5c49455C](https://etherscan.io/address/0xd1797D46C3E825fce5215a0259D3426a5c49455C) | [Artifact](https://github.com/pooltogether/pooltogether-reserve-contracts/tree/master/deployments/mainnet/ConfigurableReserve.json) |
+
 ## Builders
 **@pooltogether/pooltogether-contracts ^3.3.10 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |

@@ -10,6 +10,12 @@
 | USDT Prize Strategy | [0x5A65f0CE666B8334b6481A8d8C8323BB782386e6](https://explorer-mainnet.maticvigil.com/address/0x5A65f0CE666B8334b6481A8d8C8323BB782386e6) |
 | USDT Token Faucet | [0x90a8d8Ee6fDb1875028C6537877E6704b2646c51](https://explorer-mainnet.maticvigil.com/address/0x90a8d8Ee6fDb1875028C6537877E6704b2646c51) |
 
+## Configurable Reserve
+**@pooltogether/configurable-reserve-contracts ^1.1.0 [npm](https://www.npmjs.com/package/@pooltogether/configurable-reserve-contracts)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| [ConfigurableReserve](https://github.com/pooltogether/pooltogether-reserve-contracts/tree/master/contracts/ConfigurableReserve.sol) | [0xdEcD3c72187325C26f85099A89EED6D5bB4604D3](https://explorer-mainnet.maticvigil.com/address/0xdEcD3c72187325C26f85099A89EED6D5bB4604D3) | [Artifact](https://github.com/pooltogether/pooltogether-reserve-contracts/tree/master/deployments/matic/ConfigurableReserve.json) |
+
 ## Builders
 **@pooltogether/pooltogether-contracts ^3.3.10 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
@@ -58,6 +64,12 @@
 
 # Mumbai
 
+
+## Configurable Reserve
+**@pooltogether/configurable-reserve-contracts ^1.1.0 [npm](https://www.npmjs.com/package/@pooltogether/configurable-reserve-contracts)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| [ConfigurableReserve](https://github.com/pooltogether/pooltogether-reserve-contracts/tree/master/contracts/ConfigurableReserve.sol) | [0x941011a95ad6a69d3b06218A3b74a3f6296481A8](https://explorer-mumbai.maticvigil.com/address/0x941011a95ad6a69d3b06218A3b74a3f6296481A8) | [Artifact](https://github.com/pooltogether/pooltogether-reserve-contracts/tree/master/deployments/mumbai/ConfigurableReserve.json) |
 
 ## Builders
 **@pooltogether/pooltogether-contracts ^3.3.10 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
