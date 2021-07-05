@@ -16,7 +16,7 @@ The code can be found here: [https://github.com/pooltogether/loot-box](https://g
 
 A LootBox contract ephemerally exists within a transaction. The owner of an `ERC721` owns the LootBox.
 
-1. A `ERC721` is created by calling `createERC721Controlled()` on the `ERC721ProxyFactory` by anyone:
+1. A `ERC721` is created by calling `createERC721Controlled()` on the `ERC721ControlledFactory` by anyone:
 
 ```javascript
   function createERC721Controlled(
