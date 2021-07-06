@@ -24,6 +24,13 @@ Any math operations need to be checked for overflow and underflow conditions, us
 
 The contract should minimize trust in external calls.
 
+## Optimizations
+
+* All external / public functions should return a value when possible \(to save gas\)
+* Structs must be tightly packed
+* Hardcoded integers and strings should be constants
+* Contract members that don't change should be immutable
+
 ## Conventions
 
 ### Typed Arguments
@@ -71,24 +78,25 @@ Events must have \(at minimum\):
 
 ## Testing
 
-### Code Coverage
-
-* Coverage must exceed 95%
-* A coverage tag must be included in the README
-
 ### Unit Tests
 
 * There must be a test suite for each contract
-* Functions should be tested in isolation as much as possible
+* Each unit test should mock out contract dependencies using Waffle or Smock
+* Contract functions should be tested in isolation
 * Unit tests must run **locally; i.e. they do not connect to a remote node.**
+
+### Code Coverage
+
+* Coverage must exceed 95%
 
 ### Fork Test
 
 * A fork test script tests the contracts in the real world
+* At a minimum the test must execute the "happy path" for the code.
 
-## Optimizations
+### Repository Badges
 
-* All external / public functions should return a value when possible \(to save gas\)
-* Structs must be tightly packed
-* Values that don't change should be constants
+* Coverage badge must be included \(we use Coveralls\)
+* Github Workflow badge for the fork test 
+* Github Workflow badge for the unit tests
 
