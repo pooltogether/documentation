@@ -105,13 +105,13 @@
 **@pooltogether/pooltogether-prizestrategy-upkeep ^1.0.6 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-prizestrategy-upkeep)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
-| [PrizeStrategyUpkeep](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/contracts/PrizeStrategyUpkeep.sol) | [0x77c39a3CBE6185cFE977C1BDEeFE59A2023023b7](https://etherscan.io/address/0x77c39a3CBE6185cFE977C1BDEeFE59A2023023b7) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/mainnet/PrizeStrategyUpkeep.json) |
+| [PrizeStrategyUpkeep](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/contracts/PrizeStrategyUpkeep.sol) | [0xb9D70C3d7E4453Cc679D8A91145a28782268f229](https://etherscan.io/address/0xb9D70C3d7E4453Cc679D8A91145a28782268f229) | [Artifact](https://github.com/pooltogether/pooltogether-prizestrategy-upkeep/tree/main/deployments/mainnet/PrizeStrategyUpkeep.json) |
 
 ## Pods Upkeep
 **@pooltogether/pooltogether-pods-upkeep ^1.0.2 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-pods-upkeep)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
-| [PodsUpkeep](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/master/contracts/PodsUpkeep.sol) | [0xc1c32a2424567502d7d8a777f3d43114e6e75e9a](https://etherscan.io/address/0xc1c32a2424567502d7d8a777f3d43114e6e75e9a) | [Artifact](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/master/deployments/mainnet/PodsUpkeep.json) |
+| [PodsUpkeep](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/master/contracts/PodsUpkeep.sol) | [0x6c87C9960fac84F31AEc88964cA1270C70Ca6853](https://etherscan.io/address/0x6c87C9960fac84F31AEc88964cA1270C70Ca6853) | [Artifact](https://github.com/pooltogether/pooltogether-pods-upkeep/tree/master/deployments/mainnet/PodsUpkeep.json) |
 
 ## Aave Yield Source
 **@pooltogether/aave-yield-source ^1.0.3 [npm](https://www.npmjs.com/package/@pooltogether/aave-yield-source)**
