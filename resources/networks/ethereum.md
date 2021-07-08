@@ -129,11 +129,17 @@
 | :--- | :--- | :--- |
 | [SushiYieldSource](https://github.com/pooltogether/sushi-pooltogether/tree/master/contracts/SushiYieldSource.sol) | [0x9858aC37e385E52dA6385d828Cfe55a182D8ffA6](https://etherscan.io/address/0x9858aC37e385E52dA6385d828Cfe55a182D8ffA6) | [Artifact](https://github.com/pooltogether/sushi-pooltogether/tree/master/deployments/mainnet/SushiYieldSource.json) |
 
-## PoolTogether EVM Bridge
+## EVM Bridge
 **@pooltogether/pooltogether-evm-bridge ^1.0.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-evm-bridge)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [PoolTogetherEVMBridgeRoot](https://github.com/pooltogether/pooltogether-evm-bridge/tree/master/contracts/PoolTogetherEVMBridgeRoot.sol) | [0xfe6c5Ae087366A7119f12946d07E04C94BB7A048](https://etherscan.io/address/0xfe6c5Ae087366A7119f12946d07E04C94BB7A048) | [Artifact](https://github.com/pooltogether/pooltogether-evm-bridge/tree/master/deployments/mainnet/PoolTogetherEVMBridgeRoot.json) |
+
+## Multi Token Listener
+**@pooltogether/multi-token-listener ^1.1.0 [npm](https://www.npmjs.com/package/@pooltogether/multi-token-listener)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| [MultiTokenListener](https://github.com/pooltogether/multi-token-listener/tree/master/contracts/MultiTokenListener.sol) | [0x04458bA489cFa284ED8A693e3bea3e1DF600d022](https://etherscan.io/address/0x04458bA489cFa284ED8A693e3bea3e1DF600d022) | [Artifact](https://github.com/pooltogether/multi-token-listener/tree/master/deployments/mainnet/MultiTokenListener.json) |
 
 
 # Rinkeby
@@ -235,6 +241,12 @@
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [SushiYieldSource](https://github.com/pooltogether/sushi-pooltogether/tree/master/contracts/SushiYieldSource.sol) | [0x248FCb04de8901c32e0815349f071542556cCF91](https://rinkeby.etherscan.io/address/0x248FCb04de8901c32e0815349f071542556cCF91) | [Artifact](https://github.com/pooltogether/sushi-pooltogether/tree/master/deployments/rinkeby/SushiYieldSource.json) |
+
+## Multi Token Listener
+**@pooltogether/multi-token-listener ^1.1.0 [npm](https://www.npmjs.com/package/@pooltogether/multi-token-listener)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| [MultiTokenListener](https://github.com/pooltogether/multi-token-listener/tree/master/contracts/MultiTokenListener.sol) | [0xDC78901e0FC2097B07008f98Fb28F57fBA0a2CB7](https://rinkeby.etherscan.io/address/0xDC78901e0FC2097B07008f98Fb28F57fBA0a2CB7) | [Artifact](https://github.com/pooltogether/multi-token-listener/tree/master/deployments/rinkeby/MultiTokenListener.json) |
 
 
 # Kovan
