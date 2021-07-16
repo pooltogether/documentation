@@ -107,7 +107,7 @@ function depositTo(
 | to | The address to whom the controlled tokens should be minted |
 | amount | The amount of the underlying asset the user wishes to deposit.  The Prize Pool contract should have been pre-approved by the caller to transfer the underlying ERC20 tokens. |
 | controlledToken | The address of the token that they wish to mint.  For our default Prize Strategy this will either be the Ticket address or the Sponsorship address.  Those addresses can be looked up on the Prize Strategy. |
-| referrer | The address that should receive [referral awards](../../governance/untitled.md#referral-volume-drips), if any. |
+| referrer | The address that should receive referral awards, if any. |
 
 Depositing fires the event:
 
