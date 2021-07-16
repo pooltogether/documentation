@@ -1,9 +1,17 @@
 # Table of contents
 
 * [✨ Introduction](README.md)
-* [📡 Networks](networks.md)
-* [🚰 Resources](resources.md)
-* [💱 Migrating from V2 to V3](migrating-from-v2-to-v3.md)
+
+## Resources
+
+* [📡 Contracts](resources/networks/README.md)
+  * [Ethereum](resources/networks/ethereum.md)
+  * [Matic](resources/networks/matic.md)
+  * [xDai](resources/networks/xdai.md)
+  * [Binance](resources/networks/binance.md)
+  * [Tokens](resources/networks/bridged-tokens.md)
+* [🕹️ Apps](resources/apps.md)
+* [📈 Subgraphs](resources/subgraphs.md)
 
 ## Tutorials
 
@@ -12,38 +20,40 @@
   * [🤑 Reward Liquidity Providers](tutorials/why-prize-pools/reward-liquidity-providers.md)
   * [⚖️ Fair Launch](tutorials/why-prize-pools/fair-launch.md)
 * [🔨 Create a Prize Pool](tutorials/creating-a-prize-pool.md)
-* [🎛️ Operate a Prize Pool](tutorials/operate-a-prize-pool/README.md)
+* [🎰 Operate a Prize Pool](tutorials/operate-a-prize-pool/README.md)
   * [♠️ Add an ERC721 Prize](tutorials/operate-a-prize-pool/add-an-erc721-prize.md)
   * [🏴‍☠️ Add a Loot Box](tutorials/operate-a-prize-pool/adding-a-loot-box-to-your-prize-pool.md)
+* [🚰 Add a Token Faucet](tutorials/add-a-token-faucet.md)
 
 ## Protocol
 
 * [🌐 Overview](protocol/overview.md)
 * [🏆 Prize Pools](protocol/prize-pool/README.md)
   * [⚖️ Fairness](protocol/prize-pool/fairness.md)
-  * [Compound Prize Pool](protocol/prize-pool/compound-prize-pool.md)
-  * [Stake Prize Pool](protocol/prize-pool/stake-prize-pool.md)
-  * [yVault Prize Pool](protocol/prize-pool/yvault-prize-pool.md)
-  * [Custom Yield Sources](protocol/prize-pool/custom-yield-sources.md)
+  * [🥩 Stake Prize Pool](protocol/prize-pool/stake-prize-pool.md)
+  * [📈 Yield Source Prize Pool](protocol/prize-pool/yield-source-prize-pool.md)
+  * [🛠 Prize Pool Builder](protocol/prize-pool/prize-pool-builder.md)
 * [💸 Prize Strategies](protocol/prize-strategy/README.md)
   * [🤑 Multiple Winners](protocol/prize-strategy/multiple-winners.md)
-* [🛠 Builders](protocol/builders/README.md)
-  * [Stake Prize Pool](protocol/builders/stake-prize-pool.md)
-  * [Compound Prize Pool Builder](protocol/builders/compound-prize-pool-builder.md)
-  * [yVault Prize Pool Builder](protocol/builders/yvault-prize-pool-builder.md)
+* [👨‍🌾 Yield Sources](protocol/yield-sources.md)
 * [🎟️ Tokens](protocol/tokens/README.md)
   * [🎟️ Ticket](protocol/tokens/ticket.md)
   * [🎁 Sponsorship](protocol/tokens/sponsorship.md)
-  * [👂 Token Listener](protocol/tokens/token-listener.md)
 * [🎲 Random Number Generator](protocol/random-number-generator/README.md)
   * [Blockhash](protocol/random-number-generator/blockhash.md)
   * [Chainlink VRF](protocol/random-number-generator/chainlink-vrf.md)
 * [🏴‍☠️ Loot Box](protocol/lootbox.md)
-* [⛽ Gas Usage](protocol/gas-usage.md)
+* [🐋 Pods](protocol/pods.md)
 
 ## Governance
 
 * [🏛️ Overview](governance/overview.md)
+* [🕹️ Controls](governance/controls.md)
+* [🗳️ Example Proposals](governance/process.md)
+
+## Contributing
+
+* [📐 Smart Contract Guidelines](contributing/smart-contract-guidelines.md)
 
 ## Security
 
