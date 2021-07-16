@@ -12,7 +12,6 @@
   * [Tokens](resources/networks/bridged-tokens.md)
 * [🕹️ Apps](resources/apps.md)
 * [📈 Subgraphs](resources/subgraphs.md)
-* [⚒️ Workshops](resources/workshops.md)
 
 ## Tutorials
 
