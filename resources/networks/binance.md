@@ -1,46 +1,40 @@
-# Binance
+# BSC
 
-## BSC
 
-### Builders
-
-**@pooltogether/pooltogether-contracts ^3.3.10** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)
-
+## Builders
+**@pooltogether/pooltogether-contracts ^3.4.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
-| [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x41122Ca50202d13c809dfE88F60Da212A1525Ed7](https://bscscan.com/address/0x41122Ca50202d13c809dfE88F60Da212A1525Ed7) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bsc/ControlledTokenBuilder.json) |
-| [MultipleWinnersBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/MultipleWinnersBuilder.sol) | [0x4d1639e4b237BCab6F908A1CEb0995716D5ebE36](https://bscscan.com/address/0x4d1639e4b237BCab6F908A1CEb0995716D5ebE36) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bsc/MultipleWinnersBuilder.json) |
-| [PoolWithMultipleWinnersBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/PoolWithMultipleWinnersBuilder.sol) | [0x08411ADd0b5AA8ee47563b146743C13b3556c9Cc](https://bscscan.com/address/0x08411ADd0b5AA8ee47563b146743C13b3556c9Cc) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bsc/PoolWithMultipleWinnersBuilder.json) |
-| [TokenFaucetProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/token-faucet/TokenFaucetProxyFactory.sol) | [0xE1d06d492107F14AE024c357005c5c692158B13D](https://bscscan.com/address/0xE1d06d492107F14AE024c357005c5c692158B13D) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bsc/TokenFaucetProxyFactory.json) |
-| [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0x9eA5656117f4d42CF82AfE2d9686004BDaAea2B3](https://bscscan.com/address/0x9eA5656117f4d42CF82AfE2d9686004BDaAea2B3) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bsc/YieldSourcePrizePoolProxyFactory.json) |
+| [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x6aeBE10a4607B1002ea56D825Ee18Ce751fD9592](https://bscscan.com/address/0x6aeBE10a4607B1002ea56D825Ee18Ce751fD9592) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bsc/ControlledTokenBuilder.json) |
+| [MultipleWinnersBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/MultipleWinnersBuilder.sol) | [0xdE55668e38FEcD037BFA40AcFD7d30e58F9143D4](https://bscscan.com/address/0xdE55668e38FEcD037BFA40AcFD7d30e58F9143D4) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bsc/MultipleWinnersBuilder.json) |
+| [PoolWithMultipleWinnersBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/PoolWithMultipleWinnersBuilder.sol) | [0xBA79b0aC8818e1515F51fEF240F4228F29F64948](https://bscscan.com/address/0xBA79b0aC8818e1515F51fEF240F4228F29F64948) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bsc/PoolWithMultipleWinnersBuilder.json) |
+| [TokenFaucetProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/token-faucet/TokenFaucetProxyFactory.sol) | [0x58aF4554c0DB496EFdf93bB344eC513C5627Efb9](https://bscscan.com/address/0x58aF4554c0DB496EFdf93bB344eC513C5627Efb9) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bsc/TokenFaucetProxyFactory.json) |
+| [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0xdc488E6e8c55a11d20032997cd1fF7c4951401df](https://bscscan.com/address/0xdc488E6e8c55a11d20032997cd1fF7c4951401df) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bsc/YieldSourcePrizePoolProxyFactory.json) |
 
-### RNG Contracts
-
-**@pooltogether/pooltogether-rng-contracts ^1.2.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)
-
+## RNG Contracts
+**@pooltogether/pooltogether-rng-contracts ^1.2.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xb1D89477d1b505C261bab6e73f08fA834544CD21](https://bscscan.com/address/0xb1D89477d1b505C261bab6e73f08fA834544CD21) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/bsc/RNGBlockhash.json) |
 
-## BSC Testnet
 
-### Builders
+# BSC Testnet
 
-**@pooltogether/pooltogether-contracts ^3.3.10** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)
 
+## Builders
+**@pooltogether/pooltogether-contracts ^3.4.3 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
-| [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x41122Ca50202d13c809dfE88F60Da212A1525Ed7](https://testnet.bscscan.com/address/0x41122Ca50202d13c809dfE88F60Da212A1525Ed7) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bscTestnet/ControlledTokenBuilder.json) |
-| [MultipleWinnersBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/MultipleWinnersBuilder.sol) | [0x4d1639e4b237BCab6F908A1CEb0995716D5ebE36](https://testnet.bscscan.com/address/0x4d1639e4b237BCab6F908A1CEb0995716D5ebE36) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bscTestnet/MultipleWinnersBuilder.json) |
-| [PoolWithMultipleWinnersBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/PoolWithMultipleWinnersBuilder.sol) | [0x08411ADd0b5AA8ee47563b146743C13b3556c9Cc](https://testnet.bscscan.com/address/0x08411ADd0b5AA8ee47563b146743C13b3556c9Cc) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bscTestnet/PoolWithMultipleWinnersBuilder.json) |
-| [TokenFaucetProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/token-faucet/TokenFaucetProxyFactory.sol) | [0xE1d06d492107F14AE024c357005c5c692158B13D](https://testnet.bscscan.com/address/0xE1d06d492107F14AE024c357005c5c692158B13D) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bscTestnet/TokenFaucetProxyFactory.json) |
-| [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0x9eA5656117f4d42CF82AfE2d9686004BDaAea2B3](https://testnet.bscscan.com/address/0x9eA5656117f4d42CF82AfE2d9686004BDaAea2B3) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bscTestnet/YieldSourcePrizePoolProxyFactory.json) |
+| [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x6aeBE10a4607B1002ea56D825Ee18Ce751fD9592](https://testnet.bscscan.com/address/0x6aeBE10a4607B1002ea56D825Ee18Ce751fD9592) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bscTestnet/ControlledTokenBuilder.json) |
+| [MultipleWinnersBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/MultipleWinnersBuilder.sol) | [0xdE55668e38FEcD037BFA40AcFD7d30e58F9143D4](https://testnet.bscscan.com/address/0xdE55668e38FEcD037BFA40AcFD7d30e58F9143D4) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bscTestnet/MultipleWinnersBuilder.json) |
+| [PoolWithMultipleWinnersBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/PoolWithMultipleWinnersBuilder.sol) | [0xBA79b0aC8818e1515F51fEF240F4228F29F64948](https://testnet.bscscan.com/address/0xBA79b0aC8818e1515F51fEF240F4228F29F64948) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bscTestnet/PoolWithMultipleWinnersBuilder.json) |
+| [TokenFaucetProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/token-faucet/TokenFaucetProxyFactory.sol) | [0x58aF4554c0DB496EFdf93bB344eC513C5627Efb9](https://testnet.bscscan.com/address/0x58aF4554c0DB496EFdf93bB344eC513C5627Efb9) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bscTestnet/TokenFaucetProxyFactory.json) |
+| [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0xdc488E6e8c55a11d20032997cd1fF7c4951401df](https://testnet.bscscan.com/address/0xdc488E6e8c55a11d20032997cd1fF7c4951401df) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bscTestnet/YieldSourcePrizePoolProxyFactory.json) |
 
-### RNG Contracts
-
-**@pooltogether/pooltogether-rng-contracts ^1.2.0** [**npm**](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)
-
+## RNG Contracts
+**@pooltogether/pooltogether-rng-contracts ^1.2.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xb1D89477d1b505C261bab6e73f08fA834544CD21](https://testnet.bscscan.com/address/0xb1D89477d1b505C261bab6e73f08fA834544CD21) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/bscTestnet/RNGBlockhash.json) |
+
 
