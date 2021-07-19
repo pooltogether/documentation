@@ -48,9 +48,9 @@ To find the ideal credit limit it is best to estimate the **effective APR** a po
 
 **Example**
 
-Assume a pool has a yield source that returns 5% APR.  The pool awards prizes weekly, which means that each week approximately 5% / 52 = 0.096% accrues.  A fair credit limit could be 0.1%: if the user decides to game the prize, they will need to contribute 0.1% of their deposit.
+Assume a pool has a yield source that returns 5% APR. The pool awards prizes weekly, which means that each week approximately 5% / 52 = 0.096% accrues. A fair credit limit could be 0.1%: if the user decides to game the prize, they will need to contribute 0.1% of their deposit.
 
-However, we want users who have been in the pool since the beginning to not have to pay anything.  Let's say we wish for users to accrue 0.1% credit per week, so that they can withdraw losslessly.  The credit rate is applied per second and does not compound, so we can calculate the credit rate as the credit limit / seconds in a week, or 0.1% / 86400 = 0.0000011574074074074074.
+However, we want users who have been in the pool since the beginning to not have to pay anything. Let's say we wish for users to accrue 0.1% credit per week, so that they can withdraw losslessly. The credit rate is applied per second and does not compound, so we can calculate the credit rate as the credit limit / seconds in a week, or 0.1% / 86400 = 0.0000011574074074074074.
 
-This means that users will need to stay in the pool for a week, otherwise they'll need to pay an early exit fee of 0.1%.  Note, however, that this fee diminishes over time.
+This means that users will need to stay in the pool for a week, otherwise they'll need to pay an early exit fee of 0.1%. Note, however, that this fee diminishes over time.
 

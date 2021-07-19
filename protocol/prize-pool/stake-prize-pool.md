@@ -1,4 +1,4 @@
-# Stake Prize Pool
+# 🥩 Stake Prize Pool
 
 The Stake Prize Pool is a prize pool that uses an ERC-20 compatible token as the underlying asset.
 
@@ -8,7 +8,7 @@ This is particularly useful for protocols that are sitting inactively in users's
 
 The returned [ticket](../tokens/ticket.md) can be thought of as a "proof-of-liquidity".
 
-### Retrieving the Underlying ERC-20
+## Retrieving the Underlying ERC-20
 
 The underlying staked asset can be retrieved by calling:
 

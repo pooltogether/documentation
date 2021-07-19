@@ -69,7 +69,7 @@ The Token Controller has the privileged ability to mint and burn tokens on user'
 
 The Prize Pool must be the Token Controller for the controlled tokens that it is initialized with at construction.
 
-The default [Compound Prize Pool Builder](../builders/) creates a Ticket controlled token and a [Sponsorship](../tokens/sponsorship.md) controlled token.
+The default [Compound Prize Pool Builder](https://github.com/pooltogether/documentation/tree/6c30eec9a3787b298b041b5d864e955c716185ba/protocol/builders/README.md) creates a Ticket controlled token and a [Sponsorship](../tokens/sponsorship.md) controlled token.
 
 A Controlled Token can added by the PrizePool owner by calling:
 
@@ -104,7 +104,7 @@ function depositTo(
 | to | The address to whom the controlled tokens should be minted |
 | amount | The amount of the underlying asset the user wishes to deposit.  The Prize Pool contract should have been pre-approved by the caller to transfer the underlying ERC20 tokens. |
 | controlledToken | The address of the token that they wish to mint.  For our default Prize Strategy this will either be the Ticket address or the Sponsorship address.  Those addresses can be looked up on the Prize Strategy. |
-| referrer | The address that should receive [referral awards](../../governance/untitled.md#referral-volume-drips), if any. |
+| referrer | The address that should receive [referral awards](https://github.com/pooltogether/documentation/tree/6c30eec9a3787b298b041b5d864e955c716185ba/governance/untitled.md#referral-volume-drips), if any. |
 
 Depositing fires the event:
 
@@ -483,6 +483,4 @@ function setPrizeStrategy(TokenListenerInterface _prizeStrategy) external overri
 ```
 
 Only the Prize Pool owner can call this function.
-
-
 

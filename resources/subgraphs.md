@@ -19,17 +19,17 @@ There are currently 3 separate subgraphs for different versions of deployed priz
 | **Ethereum Mainnet** |  |
 | [Explorer](https://thegraph.com/explorer/subgraph/pooltogether/pooltogether-v3_1_0) | 3.0.0 - 3.3.1 |
 | [Explorer](https://thegraph.com/explorer/subgraph/pooltogether/pooltogether-v3_3_2) | 3.3.2 - 3.3.7 |
-| [Explorer](https://thegraph.com/explorer/subgraph/pooltogether/pooltogether-v3_3_8) | 3.3.8 and up |
-|  |  |
+| [Explorer](https://thegraph.com/explorer/subgraph/pooltogether/pooltogether-v3_3_8) | 3.3.8 - 3.3.11 |
+| [Explorer](https://thegraph.com/legacy-explorer/subgraph/pooltogether/pooltogether-v3_4_3) | 3.4.3 |
 | **Rinkeby Testnet** |  |
 | [Explorer](https://thegraph.com/explorer/subgraph/pooltogether/rinkeby-staging-v3_1_0) | 3.0.0 - 3.3.1 |
 | [Explorer](https://thegraph.com/explorer/subgraph/pooltogether/rinkeby-v3_3_2) | 3.3.2 - 3.3.7 |
-| [Explorer](https://thegraph.com/explorer/subgraph/pooltogether/rinkeby-v3_3_8) | 3.3.8 and up |
-|  |  |
+| [Explorer](https://thegraph.com/explorer/subgraph/pooltogether/rinkeby-v3_3_8) | 3.3.8 - 3.3.11 |
+| [Explorer](https://thegraph.com/legacy-explorer/subgraph/pooltogether/rinkeby-v3_4_3) | 3.4.3 |
 | **Polygon** |  |
 | [Explorer](https://thegraph.com/explorer/subgraph/pooltogether/pooltogether-polygon-v3_3) | 3.3.2 - 3.3.7 |
-| [Explorer](https://thegraph.com/explorer/subgraph/pooltogether/polygon-v3_3_8) | 3.3.8 and up |
-|  |  |
+| [Explorer](https://thegraph.com/explorer/subgraph/pooltogether/polygon-v3_3_8) | 3.3.8 - 3.3.11 |
+| [Explorer](https://thegraph.com/legacy-explorer/subgraph/pooltogether/polygon-v3_4_3) | 3.4.3 |
 | **Xdai** |  |
 | [Explorer](https://thegraph.com/explorer/subgraph/pooltogether/pooltogether-xdai-v3_3) | 3.3.8 and up |
 |  |  |

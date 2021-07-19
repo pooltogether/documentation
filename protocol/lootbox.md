@@ -4,7 +4,7 @@ description: What is a PoolTogether Loot Box?
 
 # 🏴‍☠️ Loot Box
 
-### Overview
+## Overview
 
 The PoolTogether Loot Box is a permission-less token container. A Loot Box allows wallets to be transferred like an ERC721.
 
@@ -12,7 +12,7 @@ Many different tokens can be controlled simply by one counterfactual address. Th
 
 The code can be found here: [https://github.com/pooltogether/loot-box](https://github.com/pooltogether/loot-box)
 
-### How it works
+## How it works
 
 A LootBox contract ephemerally exists within a transaction. The owner of an `ERC721` owns the LootBox.
 
@@ -32,15 +32,14 @@ A LootBox contract ephemerally exists within a transaction. The owner of an `ERC
 function mint(address to) external onlyAdmin returns (uint256)
 ```
 
-2. The LootBox address is calculated by calling: 
+1. The LootBox address is calculated by calling: 
 
 ```javascript
 computeAddress(address erc721, uint256 tokenId)
 ```
 
-3. Tokens are transferred/minted to this address. In the case of PoolTogether, these are usually external ERC20, ERC721 and ERC1155 rewards for a Prize Period.
-
-4. Anyone can call `plunder()` on the LootBox controller which will transfer all the passed tokens to the LootBox owner.
+1. Tokens are transferred/minted to this address. In the case of PoolTogether, these are usually external ERC20, ERC721 and ERC1155 rewards for a Prize Period.
+2. Anyone can call `plunder()` on the LootBox controller which will transfer all the passed tokens to the LootBox owner.
 
 ```javascript
 function plunder(

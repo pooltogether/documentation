@@ -19,7 +19,7 @@ The high level protocol architecture is outlined below. The code is available on
 
 ### [Prize Pools](prize-pool/)
 
-Prize Pools are the central building block of prize games.  They pool user funds in a **yield source** and expose the yield to their **Prize Strategy**, which then disburses as desired.
+Prize Pools are the central building block of prize games. They pool user funds in a **yield source** and expose the yield to their **Prize Strategy**, which then disburses as desired.
 
 Prize Pools can be differentiated in four primary ways:
 
@@ -31,25 +31,23 @@ Prize Pools can be differentiated in four primary ways:
 
 ### [Prize Strategies](prize-strategy/)
 
-Prize Strategies determine the prize distribution for the Prize Pool.  They can define any logic to allocate tokens that the prize pool accrues.  Specifically they can:
+Prize Strategies determine the prize distribution for the Prize Pool. They can define any logic to allocate tokens that the prize pool accrues. Specifically they can:
 
 * Award yield in the Prize Pool as pool tokens
 * Award ERC20 tokens held by the Prize Pool
 * Award ERC721 tokens held by the Prize Pool
 
-### [Builders](builders/)
+### [Builders](https://github.com/pooltogether/documentation/tree/6c30eec9a3787b298b041b5d864e955c716185ba/protocol/builders/README.md)
 
-Builders make it easy to create pre-configured prize games.  There are currently three Prize Pool types paired with the MultipleWinners, documentation available [here](builders/). 
+Builders make it easy to create pre-configured prize games. There are currently three Prize Pool types paired with the MultipleWinners, documentation available [here](https://github.com/pooltogether/documentation/tree/6c30eec9a3787b298b041b5d864e955c716185ba/protocol/builders/README.md).
 
 ### [Random Number Generator](random-number-generator/)
 
-There are many different ways to generate a random number, so we've abstracted them as request-based Random Number Generator services.  Each RNG service has a different security profile, so be sure to use the appropriate one for your game.
+There are many different ways to generate a random number, so we've abstracted them as request-based Random Number Generator services. Each RNG service has a different security profile, so be sure to use the appropriate one for your game.
 
 ## Conventions
 
-Fixed point math is used extensively in PoolTogether.  We used fixed point math with 18 decimal places for all fractional numbers.  You can think of this as being just like Ether and wei: a value of "1" Ether is represented as "1000000000000000000" wei.
+Fixed point math is used extensively in PoolTogether. We used fixed point math with 18 decimal places for all fractional numbers. You can think of this as being just like Ether and wei: a value of "1" Ether is represented as "1000000000000000000" wei.
 
-When a number is a fixed point 18 number we always suffix the number with _mantissa._  For example the credit rate is written as _creditRateMantissa_, because it is a fixed point number.
-
-
+When a number is a fixed point 18 number we always suffix the number with _mantissa._ For example the credit rate is written as _creditRateMantissa_, because it is a fixed point number.
 
