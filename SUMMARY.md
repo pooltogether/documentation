@@ -44,6 +44,8 @@
   * [Chainlink VRF](protocol/random-number-generator/chainlink-vrf.md)
 * [🏴‍☠️ Loot Box](protocol/lootbox.md)
 * [🐋 Pods](protocol/pods.md)
+* [🖖 Prize Splits](protocol/prize-splits.md)
+* [🛑 Blocklist](protocol/blocklist.md)
 
 ## Governance
 
