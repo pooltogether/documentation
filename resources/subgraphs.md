@@ -32,7 +32,8 @@ There are currently 3 separate subgraphs for different versions of deployed priz
 | [Explorer](https://thegraph.com/legacy-explorer/subgraph/pooltogether/polygon-v3_4_3) | 3.4.3 |
 | **Xdai** |  |
 | [Explorer](https://thegraph.com/explorer/subgraph/pooltogether/pooltogether-xdai-v3_3) | 3.3.8 and up |
-|  |  |
+| **BSC** |  |
+| [Explorer](https://thegraph.com/legacy-explorer/subgraph/pooltogether/bsc-v3_4_3) | 3.4.3 |
 | **POA Sokol** |  |
 | [Explorer](https://thegraph.com/explorer/subgraph/pooltogether-sokol-v3_3) | 3.3.8 and up |
 
