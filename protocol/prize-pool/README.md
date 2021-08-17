@@ -370,14 +370,14 @@ function balanceOfCredit(
 | user | The user whose credit balance should be returned |
 | controlledToken | The token for which the credit balance should be pulled |
 
-### Credit Rate
+### Credit Plan
 
-The credit rate for a controlled token can be checked like so:
+The credit rate and credit limit for a controlled token can be checked like so:
 
 ```javascript
-function creditRateOf(
+function creditPlanOf(
     address controlledToken
-) external view returns (
+) external override view returns (
     uint128 creditLimitMantissa,
     uint128 creditRateMantissa
 );
@@ -388,14 +388,6 @@ function creditRateOf(
 | controlledToken | The controlled token whose credit limit and rate should be returned. |
 
 Note that the returned values are "mantissas": i.e. fixed point numbers with 18 decimal places.
-
-### Credit Plan
-
-The credit plan associated with a `controlledToken` can be found by calling:
-
-```javascript
-function creditPlanOf(address controlledToken) external override view returns (uint128 creditLimitMantissa, uint128 creditRateMantissa)
-```
 
 ## Prizes
 
