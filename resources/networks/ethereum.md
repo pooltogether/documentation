@@ -56,7 +56,7 @@
 | TreasuryVesterForTreasury | [0x21950E281bDE1714ffd1062ed17c56D4D8de2359](https://etherscan.io/address/0x21950E281bDE1714ffd1062ed17c56D4D8de2359) | [Artifact](https://github.com/pooltogether/governance/tree/main/deployments/mainnet/TreasuryVesterForTreasury.json) |
 
 ## RNG Contracts
-**@pooltogether/pooltogether-rng-contracts ^1.2.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
+**@pooltogether/pooltogether-rng-contracts ^1.3.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xb1D89477d1b505C261bab6e73f08fA834544CD21](https://etherscan.io/address/0xb1D89477d1b505C261bab6e73f08fA834544CD21) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/mainnet/RNGBlockhash.json) |
@@ -175,7 +175,7 @@
 | TreasuryVesterForTreasury | [0x529a916B8B7EC8E01805D45AEd1109C764ea88B9](https://rinkeby.etherscan.io/address/0x529a916B8B7EC8E01805D45AEd1109C764ea88B9) | [Artifact](https://github.com/pooltogether/governance/tree/main/deployments/rinkeby/TreasuryVesterForTreasury.json) |
 
 ## RNG Contracts
-**@pooltogether/pooltogether-rng-contracts ^1.2.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
+**@pooltogether/pooltogether-rng-contracts ^1.3.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xA932e74d5263A754Ea04432E5c53658434b0484B](https://rinkeby.etherscan.io/address/0xA932e74d5263A754Ea04432E5c53658434b0484B) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/rinkeby/RNGBlockhash.json) |
@@ -257,7 +257,7 @@
 | [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0x941011a95ad6a69d3b06218A3b74a3f6296481A8](https://kovan.etherscan.io/address/0x941011a95ad6a69d3b06218A3b74a3f6296481A8) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/kovan/YieldSourcePrizePoolProxyFactory.json) |
 
 ## RNG Contracts
-**@pooltogether/pooltogether-rng-contracts ^1.2.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
+**@pooltogether/pooltogether-rng-contracts ^1.3.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xe20ba80D263246537592B14211746E438be6b756](https://kovan.etherscan.io/address/0xe20ba80D263246537592B14211746E438be6b756) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/kovan/RNGBlockhash.json) |

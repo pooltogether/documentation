@@ -12,7 +12,7 @@
 | [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0x5effa0823e486A5ED1D49d88A1374Fc337e1f9F4](https://blockscout.com/xdai/mainnet/address/0x5effa0823e486A5ED1D49d88A1374Fc337e1f9F4) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/xdai/YieldSourcePrizePoolProxyFactory.json) |
 
 ## RNG Contracts
-**@pooltogether/pooltogether-rng-contracts ^1.2.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
+**@pooltogether/pooltogether-rng-contracts ^1.3.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F](https://blockscout.com/xdai/mainnet/address/0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/xdai/RNGBlockhash.json) |
@@ -32,7 +32,7 @@
 | [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0xfCB8BAA63eCd1E764E655DAB7adE7dAAAbaD5714](https://blockscout.com/poa/sokol/address/0xfCB8BAA63eCd1E764E655DAB7adE7dAAAbaD5714) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/poaSokol/YieldSourcePrizePoolProxyFactory.json) |
 
 ## RNG Contracts
-**@pooltogether/pooltogether-rng-contracts ^1.2.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
+**@pooltogether/pooltogether-rng-contracts ^1.3.0 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-rng-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [RNGBlockhash](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/contracts/RNGBlockhash.sol) | [0xaD20C8F8171dEF18605EC342cAca08192eCe63F2](https://blockscout.com/poa/sokol/address/0xaD20C8F8171dEF18605EC342cAca08192eCe63F2) | [Artifact](https://github.com/pooltogether/pooltogether-rng-contracts/tree/master/deployments/poaSokol/RNGBlockhash.json) |
