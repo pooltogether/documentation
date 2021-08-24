@@ -2,7 +2,7 @@
 
 
 ## Builders
-**@pooltogether/pooltogether-contracts github:pooltogether/pooltogether-pool-contracts [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.4.5 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x6aeBE10a4607B1002ea56D825Ee18Ce751fD9592](https://bscscan.com/address/0x6aeBE10a4607B1002ea56D825Ee18Ce751fD9592) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bsc/ControlledTokenBuilder.json) |
@@ -22,7 +22,7 @@
 
 
 ## Builders
-**@pooltogether/pooltogether-contracts github:pooltogether/pooltogether-pool-contracts [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.4.5 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x6aeBE10a4607B1002ea56D825Ee18Ce751fD9592](https://testnet.bscscan.com/address/0x6aeBE10a4607B1002ea56D825Ee18Ce751fD9592) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/bscTestnet/ControlledTokenBuilder.json) |

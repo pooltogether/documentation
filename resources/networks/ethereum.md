@@ -37,7 +37,7 @@
 | [ConfigurableReserve](https://github.com/pooltogether/pooltogether-reserve-contracts/tree/master/contracts/ConfigurableReserve.sol) | [0xd1797D46C3E825fce5215a0259D3426a5c49455C](https://etherscan.io/address/0xd1797D46C3E825fce5215a0259D3426a5c49455C) | [Artifact](https://github.com/pooltogether/pooltogether-reserve-contracts/tree/master/deployments/mainnet/ConfigurableReserve.json) |
 
 ## Builders
-**@pooltogether/pooltogether-contracts github:pooltogether/pooltogether-pool-contracts [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.4.5 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0xaF00636E7D943a62CCb87E8153c1C97bF657F11D](https://etherscan.io/address/0xaF00636E7D943a62CCb87E8153c1C97bF657F11D) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/mainnet/ControlledTokenBuilder.json) |
@@ -155,7 +155,7 @@
 | Pod Factory | [0x5C126F8F6107b2da41dAA8b7E4c3f4a01098A6db](https://rinkeby.etherscan.io/address/0x5C126F8F6107b2da41dAA8b7E4c3f4a01098A6db) |
 
 ## Builders
-**@pooltogether/pooltogether-contracts github:pooltogether/pooltogether-pool-contracts [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.4.5 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | cDaiYieldSource | [0x14B9165F881D0a13a8001181440b35aB615fC7b2](https://rinkeby.etherscan.io/address/0x14B9165F881D0a13a8001181440b35aB615fC7b2) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/rinkeby/cDaiYieldSource.json) |
@@ -246,7 +246,7 @@
 
 
 ## Builders
-**@pooltogether/pooltogether-contracts github:pooltogether/pooltogether-pool-contracts [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.4.5 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | cDaiYieldSource | [0x6aeBE10a4607B1002ea56D825Ee18Ce751fD9592](https://kovan.etherscan.io/address/0x6aeBE10a4607B1002ea56D825Ee18Ce751fD9592) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/kovan/cDaiYieldSource.json) |

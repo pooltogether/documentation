@@ -16,7 +16,7 @@
 | [ConfigurableReserve](https://github.com/pooltogether/pooltogether-reserve-contracts/tree/master/contracts/ConfigurableReserve.sol) | [0xdEcD3c72187325C26f85099A89EED6D5bB4604D3](https://explorer-mainnet.maticvigil.com/address/0xdEcD3c72187325C26f85099A89EED6D5bB4604D3) | [Artifact](https://github.com/pooltogether/pooltogether-reserve-contracts/tree/master/deployments/matic/ConfigurableReserve.json) |
 
 ## Builders
-**@pooltogether/pooltogether-contracts github:pooltogether/pooltogether-pool-contracts [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.4.5 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x42AD7b4E9ef876388630363a28AbAb51a248FB4d](https://explorer-mainnet.maticvigil.com/address/0x42AD7b4E9ef876388630363a28AbAb51a248FB4d) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/matic/ControlledTokenBuilder.json) |
@@ -75,7 +75,7 @@
 | [ConfigurableReserve](https://github.com/pooltogether/pooltogether-reserve-contracts/tree/master/contracts/ConfigurableReserve.sol) | [0x941011a95ad6a69d3b06218A3b74a3f6296481A8](https://explorer-mumbai.maticvigil.com/address/0x941011a95ad6a69d3b06218A3b74a3f6296481A8) | [Artifact](https://github.com/pooltogether/pooltogether-reserve-contracts/tree/master/deployments/mumbai/ConfigurableReserve.json) |
 
 ## Builders
-**@pooltogether/pooltogether-contracts github:pooltogether/pooltogether-pool-contracts [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.4.5 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0xc0dA19bB3BC4644399ec85808d1ea52cD9f01bB3](https://explorer-mumbai.maticvigil.com/address/0xc0dA19bB3BC4644399ec85808d1ea52cD9f01bB3) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/mumbai/ControlledTokenBuilder.json) |

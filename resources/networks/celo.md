@@ -1,12 +1,24 @@
 # Celo
 
 
+## Builders
+**@pooltogether/pooltogether-contracts ^3.4.5 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+| Contract | Address | Artifact |
+| :--- | :--- | :--- |
+| [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0xb1D89477d1b505C261bab6e73f08fA834544CD21](https://explorer.celo.org/address/0xb1D89477d1b505C261bab6e73f08fA834544CD21) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/celo/ControlledTokenBuilder.json) |
+| [MultipleWinnersBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/MultipleWinnersBuilder.sol) | [0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F](https://explorer.celo.org/address/0xB2DC5571f477b1C5b36509a71013BFedD9Cc492F) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/celo/MultipleWinnersBuilder.json) |
+| [PoolWithMultipleWinnersBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/PoolWithMultipleWinnersBuilder.sol) | [0xE1d06d492107F14AE024c357005c5c692158B13D](https://explorer.celo.org/address/0xE1d06d492107F14AE024c357005c5c692158B13D) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/celo/PoolWithMultipleWinnersBuilder.json) |
+| [Reserve](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/reserve/Reserve.sol) | [0xdd8f31f7B9C6026311464bc07aE5DB2F99F3892e](https://explorer.celo.org/address/0xdd8f31f7B9C6026311464bc07aE5DB2F99F3892e) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/celo/Reserve.json) |
+| ReserveRegistry | [0x59b34c5BC94e2d5b9DcB97Ec935c94C353E5Eb94](https://explorer.celo.org/address/0x59b34c5BC94e2d5b9DcB97Ec935c94C353E5Eb94) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/celo/ReserveRegistry.json) |
+| [TokenFaucetProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/token-faucet/TokenFaucetProxyFactory.sol) | [0x44C585E76A5DA580f59B0a3ADd7ca0C96bF4fE2a](https://explorer.celo.org/address/0x44C585E76A5DA580f59B0a3ADd7ca0C96bF4fE2a) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/celo/TokenFaucetProxyFactory.json) |
+| [YieldSourcePrizePoolProxyFactory](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/prize-pool/yield-source/YieldSourcePrizePoolProxyFactory.sol) | [0xc79B5D46f010c88f738A00B3bed7757d04dd2a37](https://explorer.celo.org/address/0xc79B5D46f010c88f738A00B3bed7757d04dd2a37) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/celo/YieldSourcePrizePoolProxyFactory.json) |
+
 
 # Alfajores
 
 
 ## Builders
-**@pooltogether/pooltogether-contracts github:pooltogether/pooltogether-pool-contracts [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
+**@pooltogether/pooltogether-contracts ^3.4.5 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
 | Contract | Address | Artifact |
 | :--- | :--- | :--- |
 | [ControlledTokenBuilder](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/contracts/builders/ControlledTokenBuilder.sol) | [0x03e75AeEB92adD6f3b168412671360eB94f0dBf7](https://alfajores-blockscout.celo-testnet.org/address/0x03e75AeEB92adD6f3b168412671360eB94f0dBf7) | [Artifact](https://github.com/pooltogether/pooltogether-pool-contracts/tree/master/deployments/celoTestnet/ControlledTokenBuilder.json) |
