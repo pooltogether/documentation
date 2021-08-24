@@ -2,7 +2,7 @@
 
 
 
-# Celo (Alfajores)
+# Alfajores
 
 
 ## Builders
