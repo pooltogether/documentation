@@ -6,6 +6,7 @@
 
 * [📡 Contracts](resources/networks/README.md)
   * [Ethereum](resources/networks/ethereum.md)
+  * [Celo](resources/networks/celo.md)
   * [Matic](resources/networks/matic.md)
   * [xDai](resources/networks/xdai.md)
   * [Binance](resources/networks/binance.md)
