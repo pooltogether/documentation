@@ -36,6 +36,8 @@ There are currently 3 separate subgraphs for different versions of deployed priz
 | [Explorer](https://thegraph.com/legacy-explorer/subgraph/pooltogether/bsc-v3_4_3) | 3.4.3 |
 | **POA Sokol** |  |
 | [Explorer](https://thegraph.com/explorer/subgraph/pooltogether-sokol-v3_3) | 3.3.8 and up |
+| **Celo** |  |
+| [Explorer](https://thegraph.com/legacy-explorer/subgraph/pooltogether/celo-v3_4_5) | 3.4.5 |
 
 ## LootBox Subgraphs
 
