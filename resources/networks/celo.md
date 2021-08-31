@@ -7,7 +7,7 @@
 | cUSD Prize Pool | [0x6F634F531ED0043B94527F68EC7861B4B1Ab110d](https://explorer.celo.org/address/0x6F634F531ED0043B94527F68EC7861B4B1Ab110d) |
 | cUSD Prize Strategy | [0x56837090bb659ee4e468ae22eb97e17cdf829f9f](https://explorer.celo.org/address/0x56837090bb659ee4e468ae22eb97e17cdf829f9f) |
 | cEUR Prize Pool | [0xbe55435BdA8f0A2A20D2Ce98cC21B0AF5bfB7c83](https://explorer.celo.org/address/0xbe55435BdA8f0A2A20D2Ce98cC21B0AF5bfB7c83) |
-| cEUR Prize Pool | [0xc935142eef56f2467e2baa8d1821f6d9178320c7](https://explorer.celo.org/address/0xc935142eef56f2467e2baa8d1821f6d9178320c7) |
+| cEUR Prize Strategy | [0xc935142eef56f2467e2baa8d1821f6d9178320c7](https://explorer.celo.org/address/0xc935142eef56f2467e2baa8d1821f6d9178320c7) |
 
 ## Builders
 **@pooltogether/pooltogether-contracts ^3.4.5 [npm](https://www.npmjs.com/package/@pooltogether/pooltogether-contracts)**
