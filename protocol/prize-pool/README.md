@@ -71,7 +71,7 @@ The Prize Pool must be the Token Controller for the controlled tokens that it is
 
 The default [Compound Prize Pool Builder](https://github.com/pooltogether/documentation/tree/6c30eec9a3787b298b041b5d864e955c716185ba/protocol/builders/README.md) creates a Ticket controlled token and a [Sponsorship](../tokens/sponsorship.md) controlled token.
 
-A Controlled Token can added by the PrizePool owner by calling:
+A Controlled Token can be added by the PrizePool owner by calling:
 
 ```javascript
 function addControlledToken(ControlledTokenInterface _controlledToken) 
