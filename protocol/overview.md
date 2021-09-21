@@ -17,6 +17,10 @@ The high level protocol architecture is outlined below. The code is available on
 
 ## Architecture
 
+{% hint style="success" %}
+**None of the contracts are upgradeable!  The code is stable.**
+{% endhint %}
+
 ### [Prize Pools](prize-pool/)
 
 Prize Pools are the central building block of prize games. They pool user funds in a **yield source** and expose the yield to their **Prize Strategy**, which then disburses as desired.
