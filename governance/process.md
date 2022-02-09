@@ -10,18 +10,18 @@ The governance system is very new, so it might be difficult for some people to i
 * How to create a Uniswap-style grants program
 * Rewarding contributors with Sablier streams
 
-It's important to mention that a proposal is much more likely to be successful if it is first discussed in the [governance forum](https://gov.pooltogether.com/).  Ideally the outcome of a proposal will be known before it is created.
+It's important to mention that a proposal is much more likely to be successful if it is first discussed in the [governance forum](https://gov.pooltogether.com).  Ideally the outcome of a proposal will be known before it is created.
 
 ## Proposal: Create a Protocol Prize Pool
 
-As new assets become available and new types of prize pools are added to the [Builder](../protocol/prize-pool/prize-pool-builder.md), users may wish to create new governance owned & operated prize pools.  By having ownership only governance will be able to change parameters such as the exit fee and number of winners.  See [Controls](controls.md) for more info.
+As new assets become available and new types of prize pools are added to the [Builder](broken-reference), users may wish to create new governance owned & operated prize pools.  By having ownership only governance will be able to change parameters such as the exit fee and number of winners.  See [Controls](controls.md) for more info.
 
 If POOL holders decide to create a new prize pool after thorough discussion on the governance forums, then they would need to follow these steps:
 
-1. A user creates the appropriate prize pool using the [Prize Pool Builder app](https://builder.pooltogether.com/).
-2. Once created, the user transfers the ownership of the resulting prize pool and prize strategy contracts to the Timelock contract \(see the Governance section in [Networks](../resources/networks/)\).  The only interface for this right now is Etherscan.
+1. A user creates the appropriate prize pool using the [Prize Pool Builder app](https://builder.pooltogether.com).
+2. Once created, the user transfers the ownership of the resulting prize pool and prize strategy contracts to the Timelock contract (see the Governance section in [Networks](../resources/networks/)).  The only interface for this right now is Etherscan.
 3. Finally, the user creates a new governance proposal.  The proposal will include:
-   1. Adding the prize pool address to the official Protocol Prize Pool Registry \(coming soon!\)
+   1. Adding the prize pool address to the official Protocol Prize Pool Registry (coming soon!)
    2. Possible compensation for the gas spent by the user that created the pool
    3. Possible compensation for the gas costs of creating the proposal
 
@@ -49,7 +49,5 @@ If a community member wished to apply to work for the protocol and have a salary
 
 1. Approve Sablier spending X tokens
 2. Create a new stream in Sablier for X tokens for the given timeframe.
-3. Include token transfer as a signing bonus \(if applicable\)
-
-
+3. Include token transfer as a signing bonus (if applicable)
 
