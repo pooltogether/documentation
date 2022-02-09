@@ -24,10 +24,10 @@ Prize Pools are the central building block of prize games.  They pool user funds
 Prize Pools can be differentiated in four primary ways:
 
 * The yield source the prize pool uses to generate no loss return
-* The prize strategy used to determine frequency and distribution 
+* The prize strategy used to determine frequency and distribution&#x20;
 * The rewards offered by the prize pool
-* The asset type the prize pool accepts for deposits 
-* The fairness parameters 
+* The asset type the prize pool accepts for deposits&#x20;
+* The fairness parameters&#x20;
 
 ### [Prize Strategies](prize-strategy/)
 
@@ -37,9 +37,9 @@ Prize Strategies determine the prize distribution for the Prize Pool.  They can 
 * Award ERC20 tokens held by the Prize Pool
 * Award ERC721 tokens held by the Prize Pool
 
-### [Builders](builders/)
+### [Builders](broken-reference)
 
-Builders make it easy to create pre-configured prize games.  There are currently three Prize Pool types paired with the MultipleWinners, documentation available [here](builders/). 
+Builders make it easy to create pre-configured prize games.  There are currently three Prize Pool types paired with the MultipleWinners, documentation available [here](broken-reference).&#x20;
 
 ### [Random Number Generator](random-number-generator/)
 
@@ -50,6 +50,4 @@ There are many different ways to generate a random number, so we've abstracted t
 Fixed point math is used extensively in PoolTogether.  We used fixed point math with 18 decimal places for all fractional numbers.  You can think of this as being just like Ether and wei: a value of "1" Ether is represented as "1000000000000000000" wei.
 
 When a number is a fixed point 18 number we always suffix the number with _mantissa._  For example the credit rate is written as _creditRateMantissa_, because it is a fixed point number.
-
-
 

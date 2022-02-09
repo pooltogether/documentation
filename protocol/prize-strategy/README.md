@@ -6,7 +6,7 @@ description: Customize how a Prize Pool distributes prizes
 
 A Prize Strategy handles prize distribution for a [Prize Pool](../prize-pool/).  When a Prize Pool is constructed it is configured with a Prize Strategy.  The Prize Strategy has the privileged ability to award tokens from the Prize Pool.
 
-The most popular Prize Strategy offering is the [Multiple Winner](multiple-winners/) strategy. Earlier versions \(&lt; v3.1.0\) of the protocol used the Single Random Winner strategy, which is now a trivial subset of Multiple Winners \(with `numberofWinners = 1`\).
+The most popular Prize Strategy offering is the [Multiple Winner](https://app.gitbook.com/s/-M58QPye9-PujrSjSWqv-887967055/protocol/multiple-winners/) strategy. Earlier versions (< v3.1.0) of the protocol used the Single Random Winner strategy, which is now a trivial subset of Multiple Winners (with `numberofWinners = 1`).
 
 Prize Strategies must implement the [Token Listener](../tokens/token-listener.md) interface so that they can be aware of the full token lifecycle.
 
@@ -21,4 +21,3 @@ A [Prize Pool's](../prize-pool/) Prize Strategy is able to award tokens held by 
 ## Required Behaviour
 
 A Prize Strategy must implement the [Token Listener](../tokens/token-listener.md) interface so that it can listen to pool token mint, transfer and burn actions by the Prize Pool.
-

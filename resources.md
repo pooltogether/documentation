@@ -2,8 +2,8 @@
 
 ## Tools
 
-* [Prize Pool Builder](https://builder.pooltogether.com) \([Source Code](https://github.com/pooltogether/pooltogether-pool-builder-ui)\)
-* [Prize Pool Reference App](https://reference-app.pooltogether.com) \([Source Code](https://github.com/pooltogether/pooltogether-reference-pool-ui)\)
+* [Prize Pool Builder](https://builder.pooltogether.com) ([Source Code](https://github.com/pooltogether/pooltogether-pool-builder-ui))
+* [Prize Pool Reference App](https://reference-app.pooltogether.com) ([Source Code](https://github.com/pooltogether/pooltogether-reference-pool-ui))
 
 ## Code
 
@@ -16,11 +16,10 @@
 
 ## Subgraphs
 
-* [mainnet Subgraph](https://thegraph.com/explorer/subgraph/pooltogether/pooltogether-v3_1_0)
-* [mainnet LootBox Subgraph](https://thegraph.com/explorer/subgraph/pooltogether/lootbox-v1_0_0)
-* [rinkeby Subgraph](https://thegraph.com/explorer/subgraph/pooltogether/rinkeby-v3_1_0)
+* [mainnet Subgraph](https://thegraph.com/explorer/subgraph/pooltogether/pooltogether-v3\_1\_0)
+* [mainnet LootBox Subgraph](https://thegraph.com/explorer/subgraph/pooltogether/lootbox-v1\_0\_0)
+* [rinkeby Subgraph](https://thegraph.com/explorer/subgraph/pooltogether/rinkeby-v3\_1\_0)
 
 ## Workshops
 
-* [ETHOnline Hackathon Custom Prize Strategy](https://github.com/pooltogether/ethonline-workshop%20)
-
+* [ETHOnline Hackathon Custom Prize Strategy](https://github.com/pooltogether/ethonline-workshop)
