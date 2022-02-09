@@ -7,7 +7,6 @@ description: Official deployed PoolTogether contracts
 PoolTogether is currently deployed to:
 
 * [Ethereum](ethereum.md)
-* [xDai](xdai.md)
+* [xDai](broken-reference)
 * [Matic](matic.md)
-* [Binance](binance.md)
-
+* [Binance](broken-reference)

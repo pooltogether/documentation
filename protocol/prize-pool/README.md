@@ -8,7 +8,7 @@ description: Pool deposits and award accrued interest periodically as a prize
 
 Prize Pools allow funds to be pooled together into a no-loss yield source, such as Compound, and have the yield safely exposed to a separate Prize Strategy. They are the primary way through which users interact with PoolTogether prize games.
 
-Prize Pools provide controls to the owner so that participation can be made fair. See [Fairness](fairness.md) for more information.
+Prize Pools provide controls to the owner so that participation can be made fair. See [Fairness](https://app.gitbook.com/s/-M58QPye9-PujrSjSWqv-2367081437/protocol/fairness.md) for more information.
 
 There are two types of prize pools:
 
@@ -30,7 +30,7 @@ When a Prize Pool is created, the creator is set as the pool's "owner". The owne
 
 ## Limits
 
-When a Prize Pool is created it is initialized with some hard-coded limits to protect users. See [Fairness](fairness.md) for more details.
+When a Prize Pool is created it is initialized with some hard-coded limits to protect users. See [Fairness](https://app.gitbook.com/s/-M58QPye9-PujrSjSWqv-2367081437/protocol/fairness.md) for more details.
 
 ### **Maximum Credit Limit**
 
@@ -72,7 +72,7 @@ The Token Controller has the privileged ability to mint and burn tokens on user'
 
 The Prize Pool must be the Token Controller for the controlled tokens that it is initialized with at construction.
 
-The default [Compound Prize Pool Builder](../builders/) creates a Ticket controlled token and a [Sponsorship](../tokens/sponsorship.md) controlled token.
+The default [Compound Prize Pool Builder](https://app.gitbook.com/s/-M58QPye9-PujrSjSWqv-2367081437/builders/) creates a Ticket controlled token and a [Sponsorship](../tokens/sponsorship.md) controlled token.
 
 A Controlled Token can added by the PrizePool owner by calling:
 
@@ -102,12 +102,12 @@ function depositTo(
 ) external;
 ```
 
-| Parameter | Description |
-| :--- | :--- |
-| to | The address to whom the controlled tokens should be minted |
-| amount | The amount of the underlying asset the user wishes to deposit.  The Prize Pool contract should have been pre-approved by the caller to transfer the underlying ERC20 tokens. |
+| Parameter       | Description                                                                                                                                                                                                  |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| to              | The address to whom the controlled tokens should be minted                                                                                                                                                   |
+| amount          | The amount of the underlying asset the user wishes to deposit.  The Prize Pool contract should have been pre-approved by the caller to transfer the underlying ERC20 tokens.                                 |
 | controlledToken | The address of the token that they wish to mint.  For our default Prize Strategy this will either be the Ticket address or the Sponsorship address.  Those addresses can be looked up on the Prize Strategy. |
-| referrer | The address that should receive referral awards, if any. |
+| referrer        | The address that should receive referral awards, if any.                                                                                                                                                     |
 
 Depositing fires the event:
 
@@ -120,16 +120,16 @@ event Deposited(
 );
 ```
 
-| Event Data | Description |
-| :--- | :--- |
-| operator | The caller that made the deposit |
-| to | The address that received the minted tokens |
-| token | The address of the controlled token that was minted |
-| amount | The amount of both the underlying asset that was transferred and the tokens that were minted. |
+| Event Data | Description                                                                                   |
+| ---------- | --------------------------------------------------------------------------------------------- |
+| operator   | The caller that made the deposit                                                              |
+| to         | The address that received the minted tokens                                                   |
+| token      | The address of the controlled token that was minted                                           |
+| amount     | The amount of both the underlying asset that was transferred and the tokens that were minted. |
 
 ## Withdrawing
 
-When a user withdraws they may need to contribute to the prize according to the [fairness rules](fairness.md).  If a user would like their tickets right away, they may pay an early exit fee to the prize. The early exit fee is determined by the [Prize Strategy](../prize-strategy/).
+When a user withdraws they may need to contribute to the prize according to the [fairness rules](https://app.gitbook.com/s/-M58QPye9-PujrSjSWqv-2367081437/protocol/fairness.md).  If a user would like their tickets right away, they may pay an early exit fee to the prize. The early exit fee is determined by the [Prize Strategy](https://app.gitbook.com/s/-M58QPye9-PujrSjSWqv-2367081437/prize-strategy/).
 
 The instant withdrawal function returns the amount of the withdrawal that was retained as payment. This means you can call this function in a constant way to check to see what the exit fee will be. When it comes time to run the tx, that exit fee can be passed as the `maximumExitFee` to ensure it doesn't exceed the expected limit.
 
@@ -144,12 +144,12 @@ function withdrawInstantlyFrom(
     returns (uint256 exitFee);
 ```
 
-| Parameter Name | Parameter Description |
-| :--- | :--- |
-| from | The address to withdraw from.  This means you can withdraw on another user's behalf if you have an allowance for the controlled token. |
-| amount | The amount to withdraw |
-| controlledToken | The controlled token to withdraw from |
-| maximumExitFee | The maximum early exit fee the caller is willing to pay.  This prevents the Prize Strategy from changing the fee on-the-fly. |
+| Parameter Name  | Parameter Description                                                                                                                  |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| from            | The address to withdraw from.  This means you can withdraw on another user's behalf if you have an allowance for the controlled token. |
+| amount          | The amount to withdraw                                                                                                                 |
+| controlledToken | The controlled token to withdraw from                                                                                                  |
+| maximumExitFee  | The maximum early exit fee the caller is willing to pay.  This prevents the Prize Strategy from changing the fee on-the-fly.           |
 
 This early exit fee can also be calculated by calling:
 
@@ -158,13 +158,13 @@ function calculateEarlyExitFee(address from, address controlledToken, uint256 am
  external override returns (uint256 exitFee, uint256 burnedCredit)
 ```
 
-| Parameter Name | Parameter Description |
-| :--- | :--- |
-| from | The address to withdraw from |
+| Parameter Name  | Parameter Description                 |
+| --------------- | ------------------------------------- |
+| from            | The address to withdraw from          |
 | controlledToken | The controlled token to withdraw from |
-| amount | The amount to withdraw |
+| amount          | The amount to withdraw                |
 
-"calculateEarlyExitFee" returns the `exitFee` that would be paid along with the credit that would be burned \(`burnedCredit`\).
+"calculateEarlyExitFee" returns the `exitFee` that would be paid along with the credit that would be burned (`burnedCredit`).
 
 ### Estimating Credit Accrual Time
 
@@ -177,13 +177,13 @@ function estimateCreditAccrualTime(address _controlledToken,
  external override view returns (uint256 durationSeconds)
 ```
 
-| Parameter Name | Parameter Description |
-| :--- | :--- |
-| \_controlledToken | The type of controlled token. |
-| \_principal | The principal amount on which interest is accruing. |
-| \_interest | The amount of interest that must accrue. |
+| Parameter Name    | Parameter Description                               |
+| ----------------- | --------------------------------------------------- |
+| \_controlledToken | The type of controlled token.                       |
+| \_principal       | The principal amount on which interest is accruing. |
+| \_interest        | The amount of interest that must accrue.            |
 
-### 
+###
 
 ## Awarding
 
@@ -215,11 +215,11 @@ function award(
 ) external onlyPrizeStrategy;
 ```
 
-| Parameter Name | Parameter Description |
-| :--- | :--- |
-| to | The address to receive the newly minted tokens |
-| amount | The amount of tokens to mint |
-| controlledToken | The type of token to mint |
+| Parameter Name  | Parameter Description                          |
+| --------------- | ---------------------------------------------- |
+| to              | The address to receive the newly minted tokens |
+| amount          | The amount of tokens to mint                   |
+| controlledToken | The type of token to mint                      |
 
 ### Awarding ERC20s
 
@@ -233,15 +233,15 @@ function awardExternalERC20(
 ) external onlyPrizeStrategy;
 ```
 
-However, some tokens are be blacklisted if they need to be held to generate yield \(i.e. Compound cTokens\).
+However, some tokens are be blacklisted if they need to be held to generate yield (i.e. Compound cTokens).
 
-| Parameter Name | Parameter Description |
-| :--- | :--- |
-| to | The address to receive the transfer |
-| externalToken | The ERC20 to transfer |
-| amount | The amount of tokens to transfer |
+| Parameter Name | Parameter Description               |
+| -------------- | ----------------------------------- |
+| to             | The address to receive the transfer |
+| externalToken  | The ERC20 to transfer               |
+| amount         | The amount of tokens to transfer    |
 
-### Awarding ERC721s \(NFTs\)
+### Awarding ERC721s (NFTs)
 
 The Prize Strategy can award ERC721 tokens that are held by the Prize Pool.
 
@@ -255,11 +255,11 @@ function awardExternalERC721(
     onlyPrizeStrategy;
 ```
 
-| Parameter Name | Parameter Description |
-| :--- | :--- |
-| to | The address to receive the NFTs |
-| externalToken | The ERC721 contract address |
-| tokenIds | The NFT token ids to transfer. |
+| Parameter Name | Parameter Description           |
+| -------------- | ------------------------------- |
+| to             | The address to receive the NFTs |
+| externalToken  | The ERC721 contract address     |
+| tokenIds       | The NFT token ids to transfer.  |
 
 ## Credit
 
@@ -276,9 +276,9 @@ function balanceOfCredit(
 ) external returns (uint256);
 ```
 
-| Parameter Name | Parameter Description |
-| :--- | :--- |
-| user | The user whose credit balance should be returned |
+| Parameter Name  | Parameter Description                                   |
+| --------------- | ------------------------------------------------------- |
+| user            | The user whose credit balance should be returned        |
 | controlledToken | The token for which the credit balance should be pulled |
 
 ### Credit Rate
@@ -294,8 +294,8 @@ function creditRateOf(
 );
 ```
 
-| Parameter Name | Parameter Description |
-| :--- | :--- |
+| Parameter Name  | Parameter Description                                                |
+| --------------- | -------------------------------------------------------------------- |
 | controlledToken | The controlled token whose credit limit and rate should be returned. |
 
 Note that the returned values are "mantissas": i.e. fixed point numbers with 18 decimal places.
@@ -324,13 +324,13 @@ Note that this amount is just the currently accrued interest.  For prize pools w
 
 ### Total Balances
 
-The total of all controlled tokens \(including timelocked\) can be obtained by calling:
+The total of all controlled tokens (including timelocked) can be obtained by calling:
 
 ```javascript
 function accountedBalance() external override view returns (uint256)
 ```
 
-The total underlying balance of all assets \(including both principal and interest\) can be obtained by calling:
+The total underlying balance of all assets (including both principal and interest) can be obtained by calling:
 
 ```javascript
 function balance() external returns (uint256)
@@ -357,7 +357,7 @@ function addExternalErc721Award(
 
 ### Checking Tokens
 
-Checks with the Prize Pool if a specific token type \(`_externalToken`\) may be awarded as an external prize:
+Checks with the Prize Pool if a specific token type (`_externalToken`) may be awarded as an external prize:
 
 ```javascript
 function canAwardExternal(address _externalToken) external view returns (bool)
@@ -398,6 +398,4 @@ function setPrizeStrategy(TokenListenerInterface _prizeStrategy) external overri
 ```
 
 Only the Prize Pool owner can call this function.
-
-
 
