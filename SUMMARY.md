@@ -8,8 +8,6 @@
   * [Ethereum](resources/networks/ethereum.md)
   * [Celo](resources/networks/celo.md)
   * [Matic](resources/networks/matic.md)
-  * [xDai](resources/networks/xdai.md)
-  * [Binance](resources/networks/binance.md)
   * [Tokens](resources/networks/bridged-tokens.md)
 * [🕹️ Apps](resources/apps.md)
 * [📈 Subgraphs](resources/subgraphs.md)
