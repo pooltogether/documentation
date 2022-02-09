@@ -4,17 +4,6 @@
 * [📡 Networks](networks.md)
 * [🚰 Resources](resources.md)
 
-## Tutorials
-
-* [🧐 Why Prize Pools?](tutorials/why-prize-pools/README.md)
-  * [🎨 NFT Art Giveaway](tutorials/why-prize-pools/nft-art-giveaway.md)
-  * [🤑 Reward Liquidity Providers](tutorials/why-prize-pools/reward-liquidity-providers.md)
-  * [⚖️ Fair Launch](tutorials/why-prize-pools/fair-launch.md)
-* [🔨 Create a Prize Pool](tutorials/creating-a-prize-pool.md)
-* [🎛️ Operate a Prize Pool](tutorials/operate-a-prize-pool/README.md)
-  * [♠️ Add an ERC721 Prize](tutorials/operate-a-prize-pool/add-an-erc721-prize.md)
-  * [🏴‍☠️ Add a Loot Box](tutorials/operate-a-prize-pool/adding-a-loot-box-to-your-prize-pool.md)
-
 ## Protocol
 
 * [🌐 Overview](protocol/overview.md)
@@ -26,10 +15,6 @@
 * [💸 Prize Strategies](protocol/prize-strategy/README.md)
   * [Yield Sources](protocol/prize-strategy/yield-sources.md)
   * [🤑 Multiple Winners](protocol/prize-strategy/multiple-winners.md)
-* [🛠 Builders](protocol/builders/README.md)
-  * [Stake Prize Pool](protocol/builders/stake-prize-pool.md)
-  * [Compound Prize Pool Builder](protocol/builders/compound-prize-pool-builder.md)
-  * [yVault Prize Pool Builder](protocol/builders/yvault-prize-pool-builder.md)
 * [🎟️ Tokens](protocol/tokens/README.md)
   * [🎟️ Ticket](protocol/tokens/ticket.md)
   * [🎁 Sponsorship](protocol/tokens/sponsorship.md)
@@ -51,4 +36,3 @@
 * [Risks](security/risks.md)
 * [Audits & Testing](security/audits-and-testing.md)
 * [Bounties](security/bounties.md)
-

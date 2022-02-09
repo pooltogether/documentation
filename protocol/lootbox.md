@@ -32,15 +32,15 @@ A LootBox contract ephemerally exists within a transaction. The owner of an `ERC
 function mint(address to) external onlyAdmin returns (uint256)
 ```
 
-2. The LootBox address is calculated by calling: 
+2\. The LootBox address is calculated by calling:&#x20;
 
 ```javascript
 computeAddress(address erc721, uint256 tokenId)
 ```
 
-3. Tokens are transferred/minted to this address. In the case of PoolTogether, these are usually external ERC20, ERC721 and ERC1155 rewards for a Prize Period.
+3\. Tokens are transferred/minted to this address. In the case of PoolTogether, these are usually external ERC20, ERC721 and ERC1155 rewards for a Prize Period.
 
-4. Anyone can call `plunder()` on the LootBox controller which will transfer all the passed tokens to the LootBox owner.
+4\. Anyone can call `plunder()` on the LootBox controller which will transfer all the passed tokens to the LootBox owner.
 
 ```javascript
 function plunder(
@@ -73,4 +73,3 @@ struct WithdrawERC1155 {
   bytes data;
 }
 ```
-
