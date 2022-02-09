@@ -16,18 +16,18 @@ PoolTogether Governance broadly serves two mandates:
 Governance will guide the evolution of the protocol towards the goal of building products that create financial health. The primary functions of governance are to:
 
 * Set [rewards](untitled.md) for prize pool users
-* Approve & implement new yield sources for prize pools 
+* Approve & implement new yield sources for prize pools&#x20;
 * Implement new prize strategies
 
 In addition to these core functions governance may:
 
 * propose integrations with L2 systems
-* Add additional prizes or rewards 
+* Add additional prizes or rewards&#x20;
 * subsidized transactions
 * insurance coverage
-* Anything else! 
+* Anything else!&#x20;
 
-All Prize Pools created with [Builders](../protocol/builders/) contribute a small fee to the **protocol reserve**. The reserve is retained by the protocol as sponsorship in the Prize Pool in which it accrued.
+All Prize Pools created with [Builders](broken-reference) contribute a small fee to the **protocol reserve**. The reserve is retained by the protocol as sponsorship in the Prize Pool in which it accrued.
 
 ## Prize Pool Management
 
@@ -36,4 +36,3 @@ Governance also manages its own set of Prize Pools. These Prize Pools are displa
 ## Comptroller
 
 All Prize Pools link to a global protocol [Comptroller](untitled.md). The Comptroller is owned by governance, and determines the reserve rate and rewards Prize Pools.
-

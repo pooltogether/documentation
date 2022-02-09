@@ -17,9 +17,6 @@
   * [🤑 Single Random Winner](protocol/prize-strategy/single-random-winner/README.md)
     * [🎟️ Ticket](protocol/prize-strategy/single-random-winner/ticket.md)
     * [🎁 Sponsorship](protocol/prize-strategy/single-random-winner/sponsorship.md)
-* [🛠 Builders](protocol/builders/README.md)
-  * [Compound Prize Pool Builder](protocol/builders/compound-prize-pool-builder.md)
-  * [yVault Prize Pool Builder](protocol/builders/yvault-prize-pool-builder.md)
 * [🧞 Random Number Generator](protocol/random-number-generator/README.md)
   * [Blockhash](protocol/random-number-generator/blockhash.md)
   * [Chainlink VRF](protocol/random-number-generator/chainlink-vrf.md)
@@ -42,4 +39,3 @@
 * [Risks](security/risks.md)
 * [Audits & Testing](security/audits-and-testing.md)
 * [Bounties](security/bounties.md)
-

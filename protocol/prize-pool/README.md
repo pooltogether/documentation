@@ -25,7 +25,7 @@ When a Prize Pool is created, the creator is set as the pool's "owner".  The own
 * Transfer ownership
 * Renounce ownership
 
-**The prize pool is not upgradeable and therefore the owner can never seize the funds deposited into the prize pool** 
+**The prize pool is not upgradeable and therefore the owner can never seize the funds deposited into the prize pool**&#x20;
 
 ## Limits
 
@@ -55,7 +55,7 @@ The Token Controller has the privileged ability to mint and burn tokens on user'
 
 The Prize Pool must be the Token Controller for the controlled tokens that it is initialized with at construction.
 
-The default [Compound Prize Pool Builder](../builders/) creates a Ticket controlled token and a Sponsorship controlled token.  These tokens can be looked up on the corresponding [Prize Strategy](../prize-strategy/).
+The default [Compound Prize Pool Builder](broken-reference) creates a Ticket controlled token and a Sponsorship controlled token.  These tokens can be looked up on the corresponding [Prize Strategy](../prize-strategy/).
 
 ### Minting
 
@@ -78,12 +78,12 @@ function depositTo(
 ) external;
 ```
 
-| Parameter | Description |
-| :--- | :--- |
-| to | The address to whom the controlled tokens should be minted |
-| amount | The amount of the underlying asset the user wishes to deposit.  The Prize Pool contract should have been pre-approved by the caller to transfer the underlying ERC20 tokens. |
+| Parameter       | Description                                                                                                                                                                                                  |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| to              | The address to whom the controlled tokens should be minted                                                                                                                                                   |
+| amount          | The amount of the underlying asset the user wishes to deposit.  The Prize Pool contract should have been pre-approved by the caller to transfer the underlying ERC20 tokens.                                 |
 | controlledToken | The address of the token that they wish to mint.  For our default Prize Strategy this will either be the Ticket address or the Sponsorship address.  Those addresses can be looked up on the Prize Strategy. |
-| referrer | The address that should receive [referral awards](../../governance/untitled.md#referral-volume-drips), if any. |
+| referrer        | The address that should receive [referral awards](../../governance/untitled.md#referral-volume-drips), if any.                                                                                               |
 
 Depositing fires the event:
 
@@ -96,12 +96,12 @@ event Deposited(
 );
 ```
 
-| Event Data | Description |
-| :--- | :--- |
-| operator | The caller that made the deposit |
-| to | The address that received the minted tokens |
-| token | The address of the controlled token that was minted |
-| amount | The amount of both the underlying asset that was transferred and the tokens that were minted. |
+| Event Data | Description                                                                                   |
+| ---------- | --------------------------------------------------------------------------------------------- |
+| operator   | The caller that made the deposit                                                              |
+| to         | The address that received the minted tokens                                                   |
+| token      | The address of the controlled token that was minted                                           |
+| amount     | The amount of both the underlying asset that was transferred and the tokens that were minted. |
 
 ## Withdrawing
 
@@ -125,11 +125,11 @@ function withdrawWithTimelockFrom(
 ) external returns (uint256 unlockTimestamp);
 ```
 
-| Parameter Name | Parameter Description |
-| :--- | :--- |
-| from | The user from whom to withdraw.  This means you may withdraw on another user's behalf if they have given you an ERC20 allowance. |
-| amount | The amount of collateral to withdraw. |
-| controlledToken | The type of controlled token to withdraw. |
+| Parameter Name  | Parameter Description                                                                                                            |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| from            | The user from whom to withdraw.  This means you may withdraw on another user's behalf if they have given you an ERC20 allowance. |
+| amount          | The amount of collateral to withdraw.                                                                                            |
+| controlledToken | The type of controlled token to withdraw.                                                                                        |
 
 ### Checking Timelock Balances
 
@@ -170,10 +170,10 @@ function timelockDepositTo(
     external;
 ```
 
-| Parameter | Description |
-| :--- | :--- |
-| to | The address to whom the controlled tokens should be minted |
-| amount | The amount of the underlying asset the user wishes to deposit.  The Prize Pool contract should have been pre-approved by the caller to transfer the underlying ERC20 tokens. |
+| Parameter       | Description                                                                                                                                                                                                  |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| to              | The address to whom the controlled tokens should be minted                                                                                                                                                   |
+| amount          | The amount of the underlying asset the user wishes to deposit.  The Prize Pool contract should have been pre-approved by the caller to transfer the underlying ERC20 tokens.                                 |
 | controlledToken | The address of the token that they wish to mint.  For our default Prize Strategy this will either be the Ticket address or the Sponsorship address.  Those addresses can be looked up on the Prize Strategy. |
 
 ### Withdraw Instantly
@@ -193,12 +193,12 @@ function withdrawInstantlyFrom(
     returns (uint256 exitFee);
 ```
 
-| Parameter Name | Parameter Description |
-| :--- | :--- |
-| from | The address to withdraw from.  This means you can withdraw on another user's behalf if you have an allowance for the controlled token. |
-| amount | The amount to withdraw |
-| controlledToken | The controlled token to withdraw from |
-| maximumExitFee | The maximum early exit fee the caller is willing to pay.  This prevents the Prize Strategy from changing the fee on-the-fly. |
+| Parameter Name  | Parameter Description                                                                                                                  |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| from            | The address to withdraw from.  This means you can withdraw on another user's behalf if you have an allowance for the controlled token. |
+| amount          | The amount to withdraw                                                                                                                 |
+| controlledToken | The controlled token to withdraw from                                                                                                  |
+| maximumExitFee  | The maximum early exit fee the caller is willing to pay.  This prevents the Prize Strategy from changing the fee on-the-fly.           |
 
 ## Awarding
 
@@ -230,11 +230,11 @@ function award(
 ) external onlyPrizeStrategy;
 ```
 
-| Parameter Name | Parameter Description |
-| :--- | :--- |
-| to | The address to receive the newly minted tokens |
-| amount | The amount of tokens to mint |
-| controlledToken | The type of token to mint |
+| Parameter Name  | Parameter Description                          |
+| --------------- | ---------------------------------------------- |
+| to              | The address to receive the newly minted tokens |
+| amount          | The amount of tokens to mint                   |
+| controlledToken | The type of token to mint                      |
 
 ### Awarding ERC20s
 
@@ -248,15 +248,15 @@ function awardExternalERC20(
 ) external onlyPrizeStrategy;
 ```
 
-However, some tokens are be blacklisted if they need to be held to generate yield \(i.e. Compound cTokens\).
+However, some tokens are be blacklisted if they need to be held to generate yield (i.e. Compound cTokens).
 
-| Parameter Name | Parameter Description |
-| :--- | :--- |
-| to | The address to receive the transfer |
-| externalToken | The ERC20 to transfer |
-| amount | The amount of tokens to transfer |
+| Parameter Name | Parameter Description               |
+| -------------- | ----------------------------------- |
+| to             | The address to receive the transfer |
+| externalToken  | The ERC20 to transfer               |
+| amount         | The amount of tokens to transfer    |
 
-### Awarding ERC721s \(NFTs\)
+### Awarding ERC721s (NFTs)
 
 The Prize Strategy can award ERC721 tokens that are held by the Prize Pool.
 
@@ -270,11 +270,11 @@ function awardExternalERC721(
     onlyPrizeStrategy;
 ```
 
-| Parameter Name | Parameter Description |
-| :--- | :--- |
-| to | The address to receive the NFTs |
-| externalToken | The ERC721 contract address |
-| tokenIds | The NFT token ids to transfer. |
+| Parameter Name | Parameter Description           |
+| -------------- | ------------------------------- |
+| to             | The address to receive the NFTs |
+| externalToken  | The ERC721 contract address     |
+| tokenIds       | The NFT token ids to transfer.  |
 
 ## Credit
 
@@ -291,9 +291,9 @@ function balanceOfCredit(
 ) external returns (uint256);
 ```
 
-| Parameter Name | Parameter Description |
-| :--- | :--- |
-| user | The user whose credit balance should be returned |
+| Parameter Name  | Parameter Description                                   |
+| --------------- | ------------------------------------------------------- |
+| user            | The user whose credit balance should be returned        |
 | controlledToken | The token for which the credit balance should be pulled |
 
 ### Credit Rate
@@ -309,13 +309,11 @@ function creditRateOf(
 );
 ```
 
-| Parameter Name | Parameter Description |
-| :--- | :--- |
+| Parameter Name  | Parameter Description                                                |
+| --------------- | -------------------------------------------------------------------- |
 | controlledToken | The controlled token whose credit limit and rate should be returned. |
 
 Note that the returned values are "mantissas": i.e. fixed point numbers with 18 decimal places.
-
-
 
 
 

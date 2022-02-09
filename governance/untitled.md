@@ -14,17 +14,17 @@ Users accrue a claimable balance of drip tokens.  The Comptroller will hold a ba
 
 ## Balance Drips
 
-Balance Drips distribute **drip tokens** at a rate per second.  If a Balance Drip drips out 1 token per second, then after 100 seconds 100 tokens will have been dripped out.  ****Drip tokens are simply the ERC20s that are being distributed.
+Balance Drips distribute **drip tokens** at a rate per second.  If a Balance Drip drips out 1 token per second, then after 100 seconds 100 tokens will have been dripped out.  ****  Drip tokens are simply the ERC20s that are being distributed.
 
 The "Balance" portion of a Balance Drip refers to the fact that each user is dripped tokens at a rate proportional to their share of tokens of the total supply of **measure** tokens.  Measure tokens are the ERC20s that determine a user's share of the drip.
 
 For example, let's define a Balance Drip for a Compound Single Random Winner Prize Pool called Weekly Dai:
 
 * The measure token is the Ticket token
-* The drip token will be Dai \(users will accrue Dai by holding Tickets\)
-* Drip rate of 0.01 tokens per second \(about 40 Dai per hour\)
+* The drip token will be Dai (users will accrue Dai by holding Tickets)
+* Drip rate of 0.01 tokens per second (about 40 Dai per hour)
 
-If a user holds 50% of the total supply of Tickets for one hour, then they will accrue ~20 Dai as a claimable balance.
+If a user holds 50% of the total supply of Tickets for one hour, then they will accrue \~20 Dai as a claimable balance.
 
 The Comptroller will hold a balance of the drip tokens.  When a user claims their unclaimed balance, the Comptroller will transfer the unclaimed balance of tokens to the user.
 
@@ -47,9 +47,7 @@ If a user deposits 5000 USDC during that week and a total of 10,000 USDC was dep
 
 Referral Volume Drip work identically to volume drips, but they only apply to referrals.
 
-You may recall the [PrizePool\#depositTo](../protocol/prize-pool/#depositing) function: its last parameter is a referrer address.  This address is used to calculate referral volume in the system.
+You may recall the [PrizePool#depositTo](../protocol/prize-pool/#depositing) function: its last parameter is a referrer address.  This address is used to calculate referral volume in the system.
 
 Referral rewards allow Dapps to capture rewards and themselves benefit from the protocol.
-
-
 

@@ -2,8 +2,7 @@
 
 ## Tools
 
-* [Prize Pool Builder](https://builder.pooltogether.com) \([Source Code](https://github.com/pooltogether/pooltogether-pool-builder-ui)\)
-* [Prize Pool Reference App](https://reference-app.pooltogether.com) \([Source Code](https://github.com/pooltogether/pooltogether-reference-pool-ui)\)
+* [Prize Pool Reference App](https://reference-app.pooltogether.com) ([Source Code](https://github.com/pooltogether/pooltogether-reference-pool-ui))
 
 ## Code
 
@@ -16,5 +15,4 @@
 
 ## Workshops
 
-* [ETHOnline Hackathon Custom Prize Strategy](https://github.com/pooltogether/ethonline-workshop%20)
-
+* [ETHOnline Hackathon Custom Prize Strategy](https://github.com/pooltogether/ethonline-workshop)
